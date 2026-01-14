@@ -1,70 +1,39 @@
 ---
 title: "OLES en el Congreso Chileno de Sociología 2025"
-description: "Investigadores del Observatorio presentaron sus trabajos en el Congreso Chileno de Sociología."
+description: "Investigadores del Observatorio presentaron sus trabajos en el XII Congreso Chileno de Sociología."
 author: "Equipo OLES"
 date: "2025-10-05"
-categories: [Eventos, Congresos]
+categories: [Congresos, Presentaciones]
 image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&h=400&fit=crop"
-destacado: false
-title-block-banner: true
-title-block-banner-color: "#5D4E8C"
 ---
 
-```{=html}
-<div class="noticia-header">
-  <div class="noticia-meta">
-    <span class="noticia-categoria">Eventos</span>
-    <span class="noticia-fecha-header">5 octubre 2025</span>
-  </div>
-</div>
-```
+El equipo del Observatorio de Legitimidad participó activamente en el XII Congreso Chileno de Sociología, realizado en octubre de 2025.
 
-## Participación en el Congreso Chileno de Sociología
+## Presentaciones del equipo
 
-El equipo del Observatorio de Legitimidad tuvo una destacada participación en el Congreso Chileno de Sociología 2025, realizado en la ciudad de Valparaíso durante la primera semana de octubre.
+Los investigadores del OLES presentaron diversos trabajos relacionados con legitimidad institucional:
 
-### Presentaciones del equipo
+### Mónica Gerber
+**"Legitimidad policial y justicia procedimental en Chile post-estallido"**
 
-Los investigadores del Observatorio presentaron diversos trabajos en las distintas mesas temáticas del congreso:
+Análisis de los cambios en las percepciones de legitimidad policial después del estallido social de 2019.
 
-**Mesa: Violencia y Conflicto Social**
+### Cristóbal Moya
+**"Confianza institucional y redes sociales: un análisis multinivel"**
 
-- "Percepciones de legitimidad policial en contextos de protesta" - Mónica Gerber
-- "Justificación de la violencia intergrupal: evidencia longitudinal" - Ana Figueiredo
+Estudio sobre cómo las redes sociales de los individuos influyen en sus percepciones de confianza institucional.
 
-**Mesa: Metodologías de Investigación**
+### Luciano Sáez
+**"Metodologías longitudinales para el estudio de la legitimidad"**
 
-- "Validación de instrumentos para medir legitimidad institucional" - Joaquín Bahamondes
-- "Diseños experimentales en el estudio de la legitimidad" - Luciano Sáez
+Presentación de avances metodológicos del proyecto ESEP.
 
-**Mesa: Estado y Políticas Públicas**
+## Reconocimientos
 
-- "Confianza institucional en perspectiva comparada" - Cristóbal Moya
+El trabajo presentado por la Dra. Gerber fue destacado como una de las mejores ponencias de la mesa de Sociología Política.
 
-### Simposio especial
+> "Fue una excelente oportunidad para compartir nuestros avances con la comunidad sociológica chilena", comenta Cristóbal Moya.
 
-Además de las presentaciones individuales, el Observatorio organizó un simposio especial titulado "Legitimidad institucional en Chile: desafíos teóricos y metodológicos", que congregó a investigadores de diversas universidades del país.
+---
 
-### Networking y colaboraciones
-
-El congreso fue también una oportunidad para establecer nuevas colaboraciones con otros centros de investigación y para discutir futuras líneas de trabajo conjunto.
-
-> "La participación en estos espacios académicos es fundamental para compartir nuestros avances y recibir retroalimentación de la comunidad científica", destacó la directora del Observatorio.
-
-### Próximos eventos
-
-El equipo de OLES continuará participando en eventos académicos nacionales e internacionales durante 2026.
-
-```{=html}
-<div class="noticia-footer">
-  <div class="noticia-tags">
-    <span class="tag">Congresos</span>
-    <span class="tag">Sociología</span>
-    <span class="tag">Presentaciones</span>
-  </div>
-</div>
-
-<div class="noticia-navegacion">
-  <a href="index.html" class="btn-volver">← Volver a Noticias</a>
-</div>
-```
+[← Volver a Noticias](index.qmd)

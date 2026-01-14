@@ -1,78 +1,39 @@
 ---
 title: "Seminario: Legitimidad, redes personales y actitudes políticas"
-description: "El Observatorio de Legitimidad organizó un seminario sobre la relación entre redes personales y actitudes hacia las instituciones."
+description: "El Observatorio organiza un seminario sobre la relación entre legitimidad institucional, redes personales y actitudes políticas."
 author: "Equipo OLES"
 date: "2025-12-15"
 categories: [Eventos, Seminarios]
 image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=400&fit=crop"
-destacado: false
-title-block-banner: true
-title-block-banner-color: "#5D4E8C"
 ---
 
-```{=html}
-<div class="noticia-header">
-  <div class="noticia-meta">
-    <span class="noticia-categoria">Eventos</span>
-    <span class="noticia-fecha-header">15 diciembre 2025</span>
-  </div>
-</div>
-```
+El Observatorio de Legitimidad (OLES) invita a participar del seminario "Legitimidad, redes personales y actitudes políticas", que se realizará el próximo 20 de enero de 2026.
 
-## Seminario sobre legitimidad y redes sociales
+## Detalles del evento
 
-El pasado 15 de diciembre, el Observatorio de Legitimidad organizó el seminario "Legitimidad, redes personales y actitudes políticas", que contó con la participación de destacados investigadores nacionales e internacionales.
+- **Fecha**: 20 de enero de 2026
+- **Hora**: 10:00 - 13:00 hrs
+- **Lugar**: Sala Taller T202, Facultad de Ciencias Sociales, Universidad Diego Portales
+- **Modalidad**: Presencial con transmisión online
 
-### Programa del evento
+## Programa
 
-El seminario se desarrolló en tres bloques temáticos:
+El seminario contará con presentaciones de investigadores del OLES y académicos invitados, abordando temas como:
 
-**Bloque 1: Marco teórico**
+1. Legitimidad institucional en contextos de crisis
+2. El rol de las redes personales en la formación de actitudes políticas
+3. Metodologías para el estudio de la legitimidad
 
-- Introducción a los conceptos de legitimidad y redes sociales
-- Revisión de la literatura reciente sobre el tema
+## Expositores confirmados
 
-**Bloque 2: Evidencia empírica**
+- **Dra. Mónica Gerber** - Directora OLES
+- **Dr. Ismael Puga** - Investigador Principal
+- **Dra. Ana Figueiredo** - Subdirectora OLES
 
-- Presentación de resultados de investigaciones en curso
-- Análisis comparativo internacional
+## Inscripciones
 
-**Bloque 3: Discusión y perspectivas**
+El evento es gratuito pero requiere inscripción previa. Los cupos son limitados.
 
-- Mesa redonda con investigadores invitados
-- Preguntas del público
+---
 
-### Expositores
-
-El evento contó con la participación de:
-
-- **Mónica Gerber** (OLES/UC) - Conferencia inaugural
-- **Investigadores invitados** de universidades nacionales e internacionales
-
-### Conclusiones principales
-
-El seminario permitió identificar varios puntos de convergencia en la investigación actual:
-
-1. Las redes personales juegan un rol mediador en la formación de actitudes hacia las instituciones
-2. La diversidad de las redes puede influir en la evaluación crítica de las autoridades
-3. Se requiere mayor investigación longitudinal para comprender estos procesos
-
-> "Este tipo de espacios de discusión académica son fundamentales para avanzar en nuestra comprensión de los fenómenos de legitimidad", destacó la organizadora del evento.
-
-### Materiales disponibles
-
-Las presentaciones del seminario estarán disponibles próximamente en la sección de recursos del Observatorio.
-
-```{=html}
-<div class="noticia-footer">
-  <div class="noticia-tags">
-    <span class="tag">Seminarios</span>
-    <span class="tag">Redes sociales</span>
-    <span class="tag">Actitudes políticas</span>
-  </div>
-</div>
-
-<div class="noticia-navegacion">
-  <a href="index.html" class="btn-volver">← Volver a Noticias</a>
-</div>
-```
+[← Volver a Noticias](index.qmd)

@@ -9,23 +9,35 @@ const translations = {
       equipo: "Equipo",
       investigacion: "Investigación",
       estudios: "Estudios",
+      todosEstudios: "Todos los Estudios",
+      encuestas: "Encuestas",
+      cualitativos: "Cualitativos",
+      prensaRedes: "Prensa y Redes",
+      datosAdmin: "Datos Administrativos",
       publicaciones: "Publicaciones Académicas",
       eventos: "Eventos",
       noticias: "Noticias",
       contacto: "Contacto",
       volverEstudios: "← Volver a Estudios",
+      volverNoticias: "← Volver a Noticias",
       irInicio: "Ir al Inicio →",
       verEstudios: "Ver estudios →",
       verMas: "Ver más →",
-      verEquipo: "Ver perfiles completos →"
+      verEquipo: "Ver perfiles completos →",
+      masNoticias: "Más noticias →",
+      verTodas: "Ver todas →"
     },
     // Secciones
     secciones: {
       destacados: "Destacados",
       noticiasRecientes: "Noticias Recientes",
       estudios: "Nuestras Líneas de Investigación",
+      todosEstudios: "Todos los Estudios",
       agenda: "Agenda",
       equipo: "Nuestro Equipo",
+      direccion: "Dirección",
+      investigadores: "Investigadores",
+      asistentes: "Asistentes de Investigación",
       acerca: "Acerca del Observatorio",
       publicaciones: "Publicaciones Académicas"
     },
@@ -36,27 +48,41 @@ const translations = {
     },
     // Estudios
     estudios: {
-      intro: "Conoce las líneas de investigación del Observatorio de Legitimidad.",
+      titulo: "Nuestros Estudios de Investigación",
+      intro: "Listado completo de todas nuestras investigaciones activas y finalizadas, organizadas por línea de investigación.",
       encuestas: {
         titulo: "Estudios de Encuesta",
-        descripcion: "Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional.",
-        corta: "Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional."
+        descripcion: "Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional."
       },
       cualitativos: {
         titulo: "Estudios Cualitativos",
-        descripcion: "Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional.",
-        corta: "Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional."
+        descripcion: "Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional."
       },
       prensa: {
         titulo: "Estudios de Prensa y Redes Sociales",
-        descripcion: "Análisis de contenido de medios de comunicación y redes sociales sobre legitimidad y confianza institucional.",
-        corta: "Análisis de contenido de medios de comunicación y redes sociales sobre legitimidad y confianza institucional."
+        descripcion: "Análisis de contenido de medios de comunicación y redes sociales sobre legitimidad y confianza institucional."
       },
       datos: {
         titulo: "Estudios de Datos Administrativos",
-        descripcion: "Análisis de datos administrativos y estadísticos para comprender patrones de legitimidad institucional.",
-        corta: "Análisis de datos administrativos y estadísticos para comprender patrones de legitimidad institucional."
-      }
+        descripcion: "Análisis de datos administrativos y estadísticos para comprender patrones de legitimidad institucional."
+      },
+      estado: "Estado",
+      estudio: "Estudio",
+      periodo: "Período",
+      enCurso: "En curso",
+      finalizado: "Finalizado"
+    },
+    // Noticias
+    noticias: {
+      titulo: "Noticias",
+      descripcion: "Últimas noticias y novedades del Observatorio de Legitimidad.",
+      volver: "← Volver a Noticias"
+    },
+    // Equipo
+    equipo: {
+      titulo: "Nuestro Equipo",
+      descripcion: "Conoce a los investigadores del Observatorio de Legitimidad.",
+      verPerfil: "Ver perfil completo"
     },
     // Acerca
     acerca: {
@@ -66,7 +92,16 @@ const translations = {
     },
     // Footer
     footer: {
+      enlaces: "Enlaces",
+      investigacion: "Investigación",
       derechos: "© 2024 OLES - Observatorio de Legitimidad. Todos los derechos reservados."
+    },
+    // Común
+    comun: {
+      leerMas: "Leer más",
+      verDetalles: "Ver detalles",
+      descargar: "Descargar",
+      compartir: "Compartir"
     }
   },
   en: {
@@ -78,23 +113,35 @@ const translations = {
       equipo: "Team",
       investigacion: "Research",
       estudios: "Studies",
+      todosEstudios: "All Studies",
+      encuestas: "Surveys",
+      cualitativos: "Qualitative",
+      prensaRedes: "Press & Social Media",
+      datosAdmin: "Administrative Data",
       publicaciones: "Academic Publications",
       eventos: "Events",
       noticias: "News",
       contacto: "Contact",
       volverEstudios: "← Back to Studies",
+      volverNoticias: "← Back to News",
       irInicio: "Go to Home →",
       verEstudios: "View studies →",
       verMas: "View more →",
-      verEquipo: "View full profiles →"
+      verEquipo: "View full profiles →",
+      masNoticias: "More news →",
+      verTodas: "View all →"
     },
     // Sections
     secciones: {
       destacados: "Highlights",
       noticiasRecientes: "Recent News",
       estudios: "Our Research Lines",
-      agenda: "Events",
+      todosEstudios: "All Studies",
+      agenda: "Upcoming Events",
       equipo: "Our Team",
+      direccion: "Direction",
+      investigadores: "Researchers",
+      asistentes: "Research Assistants",
       acerca: "About the Observatory",
       publicaciones: "Academic Publications"
     },
@@ -105,27 +152,41 @@ const translations = {
     },
     // Studies
     estudios: {
-      intro: "Learn about the research lines of the Legitimacy Observatory.",
+      titulo: "Our Research Studies",
+      intro: "Complete list of all our active and completed research, organized by research line.",
       encuestas: {
         titulo: "Survey Studies",
-        descripcion: "Research based on representative surveys that analyze perceptions and attitudes about institutional legitimacy.",
-        corta: "Research based on representative surveys that analyze perceptions and attitudes about institutional legitimacy."
+        descripcion: "Research based on representative surveys that analyze perceptions and attitudes about institutional legitimacy."
       },
       cualitativos: {
         titulo: "Qualitative Studies",
-        descripcion: "Qualitative research that delves into experiences and narratives about institutional legitimacy.",
-        corta: "Qualitative research that delves into experiences and narratives about institutional legitimacy."
+        descripcion: "Qualitative research that delves into experiences and narratives about institutional legitimacy."
       },
       prensa: {
         titulo: "Press and Social Media Studies",
-        descripcion: "Content analysis of media and social networks on legitimacy and institutional trust.",
-        corta: "Content analysis of media and social networks on legitimacy and institutional trust."
+        descripcion: "Content analysis of media and social networks on legitimacy and institutional trust."
       },
       datos: {
         titulo: "Administrative Data Studies",
-        descripcion: "Analysis of administrative and statistical data to understand patterns of institutional legitimacy.",
-        corta: "Analysis of administrative and statistical data to understand patterns of institutional legitimacy."
-      }
+        descripcion: "Analysis of administrative and statistical data to understand patterns of institutional legitimacy."
+      },
+      estado: "Status",
+      estudio: "Study",
+      periodo: "Period",
+      enCurso: "Ongoing",
+      finalizado: "Completed"
+    },
+    // News
+    noticias: {
+      titulo: "News",
+      descripcion: "Latest news and updates from the Legitimacy Observatory.",
+      volver: "← Back to News"
+    },
+    // Team
+    equipo: {
+      titulo: "Our Team",
+      descripcion: "Meet the researchers of the Legitimacy Observatory.",
+      verPerfil: "View full profile"
     },
     // About
     acerca: {
@@ -135,7 +196,16 @@ const translations = {
     },
     // Footer
     footer: {
+      enlaces: "Links",
+      investigacion: "Research",
       derechos: "© 2024 OLES - Legitimacy Observatory. All rights reserved."
+    },
+    // Common
+    comun: {
+      leerMas: "Read more",
+      verDetalles: "View details",
+      descargar: "Download",
+      compartir: "Share"
     }
   }
 };
@@ -149,7 +219,7 @@ function t(key, lang = 'es') {
     if (value && typeof value === 'object' && k in value) {
       value = value[k];
     } else {
-      return key; // Retorna la clave si no encuentra traducción
+      return key;
     }
   }
   
@@ -161,10 +231,8 @@ function changeLanguage(lang) {
   currentLang = lang;
   localStorage.setItem('olesLanguage', lang);
   
-  // Actualizar atributo lang del HTML
   document.documentElement.lang = lang;
   
-  // Actualizar botones de idioma
   document.querySelectorAll('.language-btn').forEach(btn => {
     btn.classList.remove('active');
     if (btn.getAttribute('data-lang') === lang) {
@@ -172,7 +240,6 @@ function changeLanguage(lang) {
     }
   });
   
-  // Actualizar todos los elementos con data-i18n
   document.querySelectorAll('[data-i18n]').forEach(element => {
     const key = element.getAttribute('data-i18n');
     const translation = t(key, lang);
@@ -191,16 +258,12 @@ function changeLanguage(lang) {
   });
 }
 
-// Variable global para idioma actual
 let currentLang = 'es';
 
-// Inicializar idioma al cargar la página
 document.addEventListener('DOMContentLoaded', function() {
-  // Intentar obtener idioma guardado
   const savedLang = localStorage.getItem('olesLanguage') || 'es';
   changeLanguage(savedLang);
   
-  // Agregar event listeners a los botones de idioma
   document.querySelectorAll('.language-btn').forEach(btn => {
     btn.addEventListener('click', function() {
       const lang = this.getAttribute('data-lang');
