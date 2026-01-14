@@ -1,68 +1,44 @@
 ---
-# ============================================
-# PLANTILLA PARA AGREGAR UN ESTUDIO
-# ============================================
-# 
-# INSTRUCCIONES:
-# 1. Copia este bloque HTML y pégalo en estudios/index.qmd
-# 2. Busca la categoría correcta (encuestas, cualitativos, prensa-redes, datos-administrativos)
-# 3. Pega dentro del div "estudios-grid-completo" de esa categoría
-# 4. Modifica los valores según tu estudio
-#
-# ============================================
-
-# CÓDIGO A COPIAR:
-# ----------------
-
-# Para estudio EN CURSO:
+title: "Título del Estudio"
+description: "Descripción breve del estudio (1-2 líneas)."
+categoria: "encuestas"
+estado: "en-curso"
+fecha-inicio: "2024"
+fecha-fin: "Presente"
+investigadores:
+  - "Nombre Investigador 1"
+  - "Nombre Investigador 2"
+tags:
+  - "Tag1"
+  - "Tag2"
 ---
 
-```html
-<article class="estudio-mini-card">
-  <div class="estudio-mini-estado en-curso">En curso</div>
-  <h4>TÍTULO DEL ESTUDIO</h4>
-  <p>Descripción breve del estudio (1-2 líneas).</p>
-  <span class="estudio-mini-fecha">2024 - Presente</span>
-</article>
-```
+## Descripción
 
-# Para estudio FINALIZADO:
-# ------------------------
+Aquí va la descripción completa del estudio. Puedes usar todo el formato Markdown normal de Quarto.
 
-```html
-<article class="estudio-mini-card finalizado">
-  <div class="estudio-mini-estado finalizado">Finalizado</div>
-  <h4>TÍTULO DEL ESTUDIO</h4>
-  <p>Descripción breve del estudio (1-2 líneas).</p>
-  <span class="estudio-mini-fecha">2020 - 2023</span>
-</article>
-```
+## Objetivos
 
-# ============================================
-# CATEGORÍAS DISPONIBLES (buscar por id):
-# ============================================
-#
-# 📊 Encuestas:           id="encuestas"
-# 🎙️ Cualitativos:        id="cualitativos"  
-# 📰 Prensa y Redes:      id="prensa-redes"
-# 📈 Datos Administrativos: id="datos-administrativos"
-#
-# ============================================
-# EJEMPLO COMPLETO:
-# ============================================
-#
-# Quieres agregar un nuevo estudio de encuestas:
-# 1. Abre estudios/index.qmd
-# 2. Busca: <div id="encuestas" class="categoria-estudios">
-# 3. Dentro de <div class="estudios-grid-completo">, agrega:
-#
-#    <article class="estudio-mini-card">
-#      <div class="estudio-mini-estado en-curso">En curso</div>
-#      <h4>Mi Nuevo Estudio de Encuesta</h4>
-#      <p>Descripción de mi estudio.</p>
-#      <span class="estudio-mini-fecha">2025 - Presente</span>
-#    </article>
-#
-# 4. Guarda y renderiza con: quarto render
-#
-# ============================================
+- Objetivo 1
+- Objetivo 2
+- Objetivo 3
+
+## Metodología
+
+Describe la metodología del estudio aquí.
+
+## Resultados
+
+Si hay resultados, descríbelos aquí.
+
+## Publicaciones Relacionadas
+
+- Autor, A. (2024). "Título del artículo". *Revista*
+
+## Financiamiento
+
+Información sobre financiamiento (si aplica).
+
+---
+
+[← Volver a Estudios](index.qmd)

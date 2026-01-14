@@ -1,0 +1,33 @@
+---
+title: "Encuesta de Confianza Institucional"
+description: "Estudio sobre los niveles de confianza en diferentes instituciones del Estado."
+categoria: "encuestas"
+estado: "en-curso"
+fecha-inicio: "2023"
+fecha-fin: "Presente"
+investigadores:
+  - "Mónica Gerber"
+  - "Joaquín Bahamondes"
+tags:
+  - "Confianza"
+  - "Instituciones"
+  - "Estado"
+---
+
+## Descripción
+
+Este estudio analiza los niveles de confianza en diferentes instituciones del Estado y cómo estas percepciones varían según características sociodemográficas de la población chilena.
+
+## Objetivos
+
+- Medir niveles de confianza en instituciones públicas
+- Identificar factores que determinan la confianza institucional
+- Analizar variaciones territoriales y demográficas
+
+## Metodología
+
+Encuesta transversal con muestra representativa a nivel nacional, aplicada de forma periódica para monitorear cambios en la confianza institucional.
+
+---
+
+[← Volver a Estudios](index.qmd)

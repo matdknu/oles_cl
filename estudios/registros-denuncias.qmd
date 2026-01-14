@@ -1,0 +1,29 @@
+---
+title: "Análisis de Registros de Denuncias"
+description: "Estudio de registros administrativos de denuncias a la policía."
+categoria: "datos-administrativos"
+estado: "en-curso"
+fecha-inicio: "2023"
+fecha-fin: "Presente"
+investigadores:
+  - "Ismael Puga"
+  - "Luciano Sáez"
+tags:
+  - "Denuncias"
+  - "Registros"
+  - "Patrones"
+---
+
+## Descripción
+
+Este estudio analiza registros administrativos de denuncias a la policía para identificar patrones de interacción ciudadana con las instituciones de seguridad.
+
+## Objetivos
+
+- Analizar patrones de denuncias ciudadanas
+- Identificar factores territoriales y demográficos
+- Estudiar evolución temporal de denuncias
+
+---
+
+[← Volver a Estudios](index.qmd)

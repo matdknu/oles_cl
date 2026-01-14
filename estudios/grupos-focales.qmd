@@ -1,0 +1,28 @@
+---
+title: "Grupos Focales: Confianza Institucional"
+description: "Investigación con grupos focales que explora las dinámicas sociales que influyen en la confianza."
+categoria: "cualitativos"
+estado: "en-curso"
+fecha-inicio: "2024"
+fecha-fin: "Presente"
+investigadores:
+  - "Ana Figueiredo"
+tags:
+  - "Grupos Focales"
+  - "Dinámicas Sociales"
+  - "Confianza"
+---
+
+## Descripción
+
+Investigación que utiliza grupos focales para explorar las dinámicas sociales que influyen en la confianza hacia las instituciones públicas.
+
+## Objetivos
+
+- Explorar discursos colectivos sobre confianza institucional
+- Identificar dinámicas grupales en la formación de actitudes
+- Comprender procesos de socialización de percepciones
+
+---
+
+[← Volver a Estudios](index.qmd)

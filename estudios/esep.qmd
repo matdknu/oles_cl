@@ -1,0 +1,59 @@
+---
+title: "Encuesta sobre Seguridad y Experiencias Personales (ESEP)"
+description: "Encuesta longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile."
+categoria: "encuestas"
+estado: "en-curso"
+fecha-inicio: "2020"
+fecha-fin: "Presente"
+investigadores:
+  - "Mónica Gerber"
+  - "Ana Figueiredo"
+  - "Luciano Sáez"
+tags:
+  - "Encuesta"
+  - "Longitudinal"
+  - "Carabineros"
+  - "Seguridad"
+---
+
+## Descripción
+
+La Encuesta sobre Seguridad y Experiencias Personales (ESEP) es un estudio longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones.
+
+Este proyecto busca comprender cómo las experiencias directas e indirectas con las fuerzas de seguridad afectan las percepciones de legitimidad institucional a lo largo del tiempo.
+
+## Objetivos
+
+- Medir la evolución de las percepciones de legitimidad policial en Chile
+- Identificar factores que influyen en la confianza institucional
+- Analizar el impacto de las experiencias personales con Carabineros
+- Comparar resultados entre diferentes grupos sociodemográficos
+
+## Metodología
+
+El estudio utiliza un diseño longitudinal de panel, con encuestas aplicadas anualmente a una muestra representativa de la población chilena. Se recopilan datos sobre:
+
+- Experiencias de contacto con la policía
+- Percepciones de justicia procedimental
+- Niveles de confianza en instituciones
+- Actitudes hacia la obediencia a la ley
+
+## Resultados Preliminares
+
+Los resultados iniciales muestran variaciones significativas en las percepciones de legitimidad según:
+
+1. **Experiencias previas**: Quienes han tenido contacto negativo con la policía muestran menores niveles de legitimidad percibida
+2. **Factores territoriales**: Se observan diferencias entre zonas urbanas y rurales
+3. **Variables sociodemográficas**: La edad y nivel educacional influyen en las percepciones
+
+## Publicaciones Relacionadas
+
+- Gerber, M.M., et al. (2025). "How do individuals interact with the police?" *Peace and Conflict: Journal of Peace Psychology*
+
+## Financiamiento
+
+Este proyecto es financiado por ANID a través del proyecto FONDECYT Regular N° 1221805.
+
+---
+
+[← Volver a Estudios](index.qmd)

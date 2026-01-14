@@ -1,0 +1,34 @@
+---
+title: "Estudio Panel de Legitimidad Policial"
+description: "Investigación longitudinal sobre cambios en la legitimidad policial percibida."
+categoria: "encuestas"
+estado: "en-curso"
+fecha-inicio: "2022"
+fecha-fin: "Presente"
+investigadores:
+  - "Mónica Gerber"
+  - "Cristóbal Moya"
+tags:
+  - "Panel"
+  - "Policía"
+  - "Legitimidad"
+  - "Crisis"
+---
+
+## Descripción
+
+Investigación longitudinal que analiza los cambios en la legitimidad policial percibida a lo largo del tiempo, especialmente en contextos de crisis social.
+
+## Objetivos
+
+- Seguir la evolución de percepciones de legitimidad policial
+- Identificar eventos que afectan la confianza en la policía
+- Analizar mecanismos de cambio en actitudes hacia la autoridad
+
+## Metodología
+
+Estudio de panel con mediciones periódicas a los mismos participantes, permitiendo analizar cambios individuales en percepciones de legitimidad.
+
+---
+
+[← Volver a Estudios](index.qmd)

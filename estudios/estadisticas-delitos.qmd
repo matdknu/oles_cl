@@ -1,0 +1,28 @@
+---
+title: "Estadísticas de Delitos y Victimización"
+description: "Análisis de estadísticas oficiales de delitos y victimización."
+categoria: "datos-administrativos"
+estado: "en-curso"
+fecha-inicio: "2022"
+fecha-fin: "Presente"
+investigadores:
+  - "Ismael Puga"
+tags:
+  - "Delitos"
+  - "Victimización"
+  - "Estadísticas"
+---
+
+## Descripción
+
+Análisis de estadísticas oficiales de delitos y victimización para contextualizar las percepciones de legitimidad institucional.
+
+## Objetivos
+
+- Analizar tendencias de criminalidad
+- Estudiar patrones de victimización
+- Relacionar datos objetivos con percepciones subjetivas
+
+---
+
+[← Volver a Estudios](index.qmd)

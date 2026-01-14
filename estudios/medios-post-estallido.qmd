@@ -1,0 +1,26 @@
+---
+title: "Medios Digitales y Legitimidad Post-Estallido"
+description: "Análisis de cómo los medios digitales construyeron narrativas sobre legitimidad institucional."
+categoria: "prensa-redes"
+estado: "finalizado"
+fecha-inicio: "2020"
+fecha-fin: "2022"
+investigadores:
+  - "Cristóbal Moya"
+tags:
+  - "Estallido Social"
+  - "Narrativas"
+  - "Medios Digitales"
+---
+
+## Descripción
+
+Este estudio analizó cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019.
+
+## Principales Hallazgos
+
+El estudio identificó patrones significativos en la construcción mediática de narrativas sobre legitimidad y autoridad institucional.
+
+---
+
+[← Volver a Estudios](index.qmd)

@@ -1,0 +1,27 @@
+---
+title: "Indicadores de Desempeño Institucional"
+description: "Construcción y análisis de indicadores de desempeño para evaluar la legitimidad institucional."
+categoria: "datos-administrativos"
+estado: "finalizado"
+fecha-inicio: "2021"
+fecha-fin: "2023"
+investigadores:
+  - "Mónica Gerber"
+  - "Ismael Puga"
+tags:
+  - "Indicadores"
+  - "Desempeño"
+  - "Evaluación"
+---
+
+## Descripción
+
+Este proyecto desarrolló indicadores de desempeño para evaluar la legitimidad institucional de la policía en Chile.
+
+## Principales Resultados
+
+Se desarrolló un conjunto de indicadores validados para medir legitimidad institucional, que ahora son utilizados en otros estudios del observatorio.
+
+---
+
+[← Volver a Estudios](index.qmd)

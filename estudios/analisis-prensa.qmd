@@ -1,0 +1,28 @@
+---
+title: "Análisis de Prensa: Cobertura de Legitimidad Institucional"
+description: "Estudio del tratamiento mediático de temas relacionados con legitimidad institucional."
+categoria: "prensa-redes"
+estado: "en-curso"
+fecha-inicio: "2022"
+fecha-fin: "Presente"
+investigadores:
+  - "Cristóbal Moya"
+tags:
+  - "Prensa"
+  - "Framing"
+  - "Agenda Setting"
+---
+
+## Descripción
+
+Este estudio analiza el tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena, incluyendo análisis de framing y agenda setting.
+
+## Objetivos
+
+- Analizar cobertura mediática de temas de legitimidad
+- Identificar frames dominantes en la prensa
+- Estudiar efectos de agenda setting
+
+---
+
+[← Volver a Estudios](index.qmd)

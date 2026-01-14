@@ -1,0 +1,27 @@
+---
+title: "Narrativas del Estallido Social"
+description: "Análisis de narrativas sobre legitimidad institucional durante y después del estallido social."
+categoria: "cualitativos"
+estado: "finalizado"
+fecha-inicio: "2020"
+fecha-fin: "2022"
+investigadores:
+  - "Macarena Orchard"
+  - "Ana Figueiredo"
+tags:
+  - "Narrativas"
+  - "Estallido Social"
+  - "2019"
+---
+
+## Descripción
+
+Este estudio analizó las narrativas sobre legitimidad institucional que emergieron durante y después del estallido social de octubre de 2019 en Chile.
+
+## Principales Hallazgos
+
+El estudio identificó transformaciones significativas en las narrativas sobre autoridad y legitimidad institucional tras el estallido social.
+
+---
+
+[← Volver a Estudios](index.qmd)

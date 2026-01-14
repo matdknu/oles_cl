@@ -1,0 +1,29 @@
+---
+title: "Análisis Georreferenciado de Interacciones"
+description: "Mapeo georreferenciado de interacciones entre policía y ciudadanía."
+categoria: "datos-administrativos"
+estado: "en-curso"
+fecha-inicio: "2024"
+fecha-fin: "Presente"
+investigadores:
+  - "Luciano Sáez"
+  - "Bruno Rojas"
+tags:
+  - "Georreferenciado"
+  - "Mapeo"
+  - "Territorial"
+---
+
+## Descripción
+
+Mapeo georreferenciado de interacciones entre policía y ciudadanía para identificar patrones territoriales de legitimidad.
+
+## Objetivos
+
+- Mapear interacciones policía-ciudadanía
+- Identificar patrones territoriales
+- Analizar desigualdades espaciales
+
+---
+
+[← Volver a Estudios](index.qmd)

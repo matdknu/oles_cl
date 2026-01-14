@@ -1,0 +1,29 @@
+---
+title: "Análisis de Redes Sociales: Discursos sobre Instituciones"
+description: "Investigación sobre los discursos en Twitter/X respecto a la legitimidad de las instituciones."
+categoria: "prensa-redes"
+estado: "en-curso"
+fecha-inicio: "2023"
+fecha-fin: "Presente"
+investigadores:
+  - "Matías Deneken"
+  - "Nicolás Tobar"
+tags:
+  - "Twitter/X"
+  - "Redes Sociales"
+  - "Discursos"
+---
+
+## Descripción
+
+Investigación que analiza los discursos en Twitter/X y otras redes sociales respecto a la legitimidad de las instituciones públicas en Chile.
+
+## Objetivos
+
+- Mapear discursos sobre instituciones en redes sociales
+- Identificar tendencias y narrativas dominantes
+- Analizar polarización y formación de opinión
+
+---
+
+[← Volver a Estudios](index.qmd)

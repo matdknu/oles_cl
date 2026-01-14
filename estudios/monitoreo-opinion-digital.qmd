@@ -1,0 +1,29 @@
+---
+title: "Monitoreo de Opinión Pública Digital"
+description: "Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales."
+categoria: "prensa-redes"
+estado: "en-curso"
+fecha-inicio: "2024"
+fecha-fin: "Presente"
+investigadores:
+  - "Bruno Rojas"
+  - "Nicolás Tobar"
+tags:
+  - "Monitoreo"
+  - "Opinión Pública"
+  - "Digital"
+---
+
+## Descripción
+
+Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales.
+
+## Objetivos
+
+- Monitorear opinión pública en tiempo real
+- Identificar cambios en percepciones ciudadanas
+- Generar alertas sobre crisis de legitimidad
+
+---
+
+[← Volver a Estudios](index.qmd)

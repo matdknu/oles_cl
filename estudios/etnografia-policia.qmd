@@ -1,0 +1,28 @@
+---
+title: "Etnografía: Interacciones Policía-Ciudadanía"
+description: "Estudio etnográfico de las interacciones cotidianas entre la policía y la ciudadanía."
+categoria: "cualitativos"
+estado: "en-curso"
+fecha-inicio: "2023"
+fecha-fin: "Presente"
+investigadores:
+  - "Macarena Orchard"
+tags:
+  - "Etnografía"
+  - "Interacciones"
+  - "Urbano"
+---
+
+## Descripción
+
+Estudio etnográfico que observa y analiza las interacciones cotidianas entre la policía y la ciudadanía en diferentes contextos urbanos de Chile.
+
+## Objetivos
+
+- Documentar prácticas de interacción policial
+- Analizar contextos y dinámicas de encuentros
+- Comprender perspectivas de ambos actores
+
+---
+
+[← Volver a Estudios](index.qmd)

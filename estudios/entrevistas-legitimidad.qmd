@@ -1,0 +1,33 @@
+---
+title: "Entrevistas en Profundidad: Percepciones de Legitimidad"
+description: "Estudio basado en entrevistas a ciudadanos sobre sus experiencias con instituciones públicas."
+categoria: "cualitativos"
+estado: "en-curso"
+fecha-inicio: "2023"
+fecha-fin: "Presente"
+investigadores:
+  - "Ana Figueiredo"
+  - "Macarena Orchard"
+tags:
+  - "Entrevistas"
+  - "Experiencias"
+  - "Percepciones"
+---
+
+## Descripción
+
+Este estudio cualitativo se basa en entrevistas en profundidad a ciudadanos sobre sus experiencias con instituciones públicas y sus percepciones de legitimidad.
+
+## Objetivos
+
+- Comprender las experiencias subjetivas con instituciones
+- Identificar narrativas sobre legitimidad institucional
+- Explorar factores cualitativos que influyen en la confianza
+
+## Metodología
+
+Entrevistas semi-estructuradas con ciudadanos de diferentes contextos sociales y territoriales.
+
+---
+
+[← Volver a Estudios](index.qmd)

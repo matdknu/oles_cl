@@ -1,0 +1,33 @@
+---
+title: "Encuesta de Percepción de Carabineros"
+description: "Análisis de la percepción ciudadana sobre la legitimidad de Carabineros de Chile."
+categoria: "encuestas"
+estado: "finalizado"
+fecha-inicio: "2020"
+fecha-fin: "2023"
+investigadores:
+  - "Mónica Gerber"
+  - "Macarena Orchard"
+tags:
+  - "Carabineros"
+  - "Justicia Procedimental"
+  - "Efectividad"
+---
+
+## Descripción
+
+Este estudio analizó la percepción ciudadana sobre la legitimidad de Carabineros de Chile, incluyendo percepciones de justicia procedimental y efectividad institucional.
+
+## Objetivos
+
+- Evaluar percepciones de legitimidad de Carabineros
+- Medir justicia procedimental percibida
+- Analizar percepciones de efectividad policial
+
+## Principales Hallazgos
+
+El estudio reveló importantes diferencias en las percepciones según grupos demográficos y territorios, identificando factores clave para la legitimidad policial.
+
+---
+
+[← Volver a Estudios](index.qmd)
