@@ -1,0 +1,38 @@
+---
+title: "How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish"
+date: "2025-06-15"
+year: 2025
+authors:
+  - "Gerber, M.M."
+  - "Sáez-Fuentealba, L."
+  - "Bahamondes, J."
+  - "Figueiredo, A."
+  - "Moya, C."
+  - "Rojas, B."
+  - "Orchard, M."
+  - "Tobar Jorquera, N."
+revista: "Peace and Conflict: Journal of Peace Psychology"
+volume: "31"
+issue: "3"
+pages: "285-298"
+doi: "10.1037/pac0000797"
+type: "Artículo"
+categories:
+  - "Legitimidad"
+  - "Policía"
+  - "Metodología"
+image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=300&fit=crop"
+abstract: "Este artículo presenta la validación de una escala para medir las posturas motivacionales hacia la policía en contextos hispanoparlantes."
+---
+
+## Resumen
+
+Este artículo presenta la validación de una escala para medir las posturas motivacionales hacia la policía en contextos hispanoparlantes. La escala permite comprender cómo los ciudadanos se relacionan con las instituciones de seguridad, desde la compliance hasta la resistencia.
+
+## Cita
+
+> Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N. (2025). How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish. *Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.
+
+## Enlaces
+
+- [Acceso al artículo](https://doi.org/10.1037/pac0000797)

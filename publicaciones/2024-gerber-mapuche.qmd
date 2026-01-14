@@ -1,0 +1,27 @@
+---
+title: "Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche"
+date: "2024-08-01"
+year: 2024
+authors:
+  - "Gerber, M.M."
+revista: "Mapuche en el sur de Chile. Sociedad e Identidad"
+type: "Capítulo de libro"
+categories:
+  - "Violencia"
+  - "Conflicto"
+  - "Mapuche"
+image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=300&fit=crop"
+abstract: "Análisis de la justificación de la violencia en el contexto del conflicto entre el Estado chileno y el pueblo Mapuche."
+---
+
+## Resumen
+
+Este capítulo analiza cómo distintos actores justifican el uso de la violencia en el marco del conflicto entre el Estado chileno y el pueblo Mapuche. Se examinan los factores psicológicos y sociales que influyen en estas justificaciones.
+
+## Cita
+
+> Gerber, M. M. (2024). Justificación de la Violencia en el Conflicto entre el Estado Chileno y el Pueblo Mapuche. En A. Mascareño & C. Le Foulon (Eds.), *Mapuche en el sur de Chile. Sociedad e Identidad* (pp. 283–306). Editorial CEP.
+
+## Palabras clave
+
+Violencia, Justificación, Conflicto intergrupal, Mapuche, Chile

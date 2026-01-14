@@ -1,0 +1,41 @@
+---
+title: "Matías Deneken"
+cargo: "Asistente de Investigación"
+categoria: "Asistentes"
+orden: 12
+email: "matias.deneken@udp.cl"
+image: "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:matias.deneken@udp.cl
+areas-interes: 
+  - "Investigación cualitativa"
+  - "Análisis de datos"
+  - "Metodologías mixtas"
+---
+
+## Descripción
+
+Asistente de Investigación del Observatorio de Legitimidad. Colabora en proyectos de investigación sobre legitimidad institucional, apoyando en la recolección y análisis de datos.
+
+Ha desarrollado habilidades en metodologías de investigación social y contribuye activamente a los proyectos del Observatorio, especialmente en la recolección de datos cualitativos.
+
+## Líneas de Trabajo
+
+- Recolección de datos cualitativos
+- Análisis de entrevistas
+- Apoyo metodológico
+
+## Proyectos en los que Participa
+
+### Observatorio de Violencia y Legitimidad Social (OLES)
+
+**Rol**: Asistente de Investigación  
+**Período**: 2024 - Presente
+
+Participa en proyectos de recolección de datos cualitativos y análisis.

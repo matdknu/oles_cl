@@ -1,0 +1,61 @@
+---
+title: "Ismael Puga"
+cargo: "Investigador Principal"
+categoria: "Investigadores"
+orden: 6
+email: "ismael.puga@ucentral.cl"
+image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ismael.puga@ucentral.cl
+areas-interes: 
+  - "Acción Colectiva"
+  - "Legitimación de desigualdades"
+  - "Ideología"
+  - "Cambio social"
+---
+
+## Descripción
+
+Investigador Principal del Observatorio de Legitimidad. Profesor Asociado de la Universidad Central. Doctor en Sociología de la Universidad Humboldt de Berlín, Alemania. Sociólogo de la Universidad Alberto Hurtado.
+
+Su investigación se enfoca en acción colectiva, legitimación de desigualdades, ideología y cambio social. Ha desarrollado estudios sobre cómo las ideologías justifican las desigualdades y cómo esto afecta la acción colectiva y la legitimidad institucional.
+
+## Formación
+
+- **Doctorado**: Sociología, Universidad Humboldt de Berlín, Alemania
+- **Maestría**: Ciencias Sociales, FLACSO
+- **Pregrado**: Sociología, Universidad Alberto Hurtado
+
+## Líneas de Investigación
+
+- Acción colectiva
+- Legitimación de desigualdades
+- Ideología y cambio social
+- Movimientos sociales
+
+## Proyectos en Curso
+
+### Observatorio de Violencia y Legitimidad Social (OLES)
+
+**Rol**: Investigador Principal  
+**Período**: 2020 - Presente
+
+Análisis de instituciones y su legitimidad.
+
+## Publicaciones Recientes
+
+### Frei, R., Castillo, A., Gerber, M., Puga, I., & Moya, C. (2025).
+
+El Trabajo por Cuenta Propia como Repertorio de Acción: Recuperando el Tiempo Propio en Santiago de Chile.
+
+*Revista Austral de Ciencias Sociales,* (48), 179-199.
+
+## Otras Actividades
+
+- **Universidad Central**: Profesor Asociado

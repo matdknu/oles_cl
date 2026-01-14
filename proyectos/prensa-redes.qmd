@@ -1,0 +1,38 @@
+---
+title: "Análisis de Prensa y Redes Sociales"
+subtitle: "Monitoreo de medios sobre legitimidad institucional"
+date: "2024-01-01"
+fecha-inicio: "2024"
+fecha-fin: "2026"
+estado: "En curso"
+financiamiento: "OLES"
+investigador-principal: "Equipo OLES"
+image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop"
+categories:
+  - "Medios"
+  - "Redes Sociales"
+  - "NLP"
+---
+
+## Descripción
+
+Proyecto de análisis de contenido de medios de comunicación y redes sociales sobre legitimidad y confianza institucional, utilizando técnicas de procesamiento de lenguaje natural.
+
+## Metodología
+
+- Web scraping de medios de comunicación
+- Análisis de redes sociales (Twitter/X)
+- Procesamiento de lenguaje natural (NLP)
+- Análisis de sentimiento
+
+## Objetivos
+
+1. Monitorear cobertura mediática sobre policía e instituciones
+2. Identificar tendencias en el discurso público
+3. Analizar sentimiento y frames mediáticos
+
+## Herramientas
+
+- R y Python para análisis de datos
+- APIs de redes sociales
+- Modelos de NLP en español

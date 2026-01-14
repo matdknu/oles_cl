@@ -1,0 +1,66 @@
+---
+title: "Contacto"
+pagetitle: "Contacto - OLES"
+format:
+  html:
+    toc: false
+---
+
+```{=html}
+<div style="max-width: 800px; margin: 0 auto; padding: 3rem 2rem;">
+  
+  <h1 class="section-title" style="margin-top: 2rem;">Contacto</h1>
+  
+  <p style="text-align: center; color: var(--text-light); font-size: 1.1rem; margin-bottom: 3rem;">
+    ¿Tienes preguntas sobre nuestras investigaciones? ¿Te gustaría colaborar con nosotros? 
+    No dudes en contactarnos.
+  </p>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+    
+    <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow); text-align: center;">
+      <div style="font-size: 2.5rem; margin-bottom: 1rem;">📧</div>
+      <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Email</h3>
+      <p style="color: var(--text-light);">observatorio@universidad.cl</p>
+    </div>
+
+    <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow); text-align: center;">
+      <div style="font-size: 2.5rem; margin-bottom: 1rem;">📞</div>
+      <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Teléfono</h3>
+      <p style="color: var(--text-light);">+56 2 2676 8479</p>
+    </div>
+
+    <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow); text-align: center;">
+      <div style="font-size: 2.5rem; margin-bottom: 1rem;">📍</div>
+      <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">Dirección</h3>
+      <p style="color: var(--text-light);">Avenida Ejército #333<br>Santiago, Chile</p>
+    </div>
+
+  </div>
+
+  <section style="background: var(--bg-light); padding: 3rem; border-radius: 1rem; margin-top: 3rem;">
+    <h2 style="text-align: center; color: var(--primary-color); margin-bottom: 1.5rem;">Redes Institucionales</h2>
+    
+    <p style="text-align: center; color: var(--text-light); margin-bottom: 2rem;">
+      El Observatorio de Legitimidad es parte de una red de instituciones dedicadas 
+      a la investigación en ciencias sociales:
+    </p>
+
+    <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+      <div style="text-align: center;">
+        <p style="font-weight: 600; color: var(--text-color);">Universidad Diego Portales</p>
+        <p style="color: var(--text-light); font-size: 0.9rem;">Facultad de Psicología</p>
+      </div>
+      <div style="text-align: center;">
+        <p style="font-weight: 600; color: var(--text-color);">COES</p>
+        <p style="color: var(--text-light); font-size: 0.9rem;">Centro de Estudios de Conflicto y Cohesión Social</p>
+      </div>
+      <div style="text-align: center;">
+        <p style="font-weight: 600; color: var(--text-color);">Pontificia Universidad Católica</p>
+        <p style="color: var(--text-light); font-size: 0.9rem;">Escuela de Gobierno</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+```

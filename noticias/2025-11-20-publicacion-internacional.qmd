@@ -1,0 +1,66 @@
+---
+title: "Nueva publicación internacional del equipo OLES"
+description: "Investigadores del Observatorio publican artículo en revista internacional sobre legitimidad policial."
+author: "Equipo OLES"
+date: "2025-11-20"
+categories: [Publicaciones, Internacional]
+image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=400&fit=crop"
+destacado: true
+title-block-banner: true
+title-block-banner-color: "#5D4E8C"
+---
+
+```{=html}
+<div class="noticia-header">
+  <div class="noticia-meta">
+    <span class="noticia-categoria">Publicaciones</span>
+    <span class="noticia-fecha-header">20 noviembre 2025</span>
+  </div>
+</div>
+```
+
+## Nueva publicación en revista internacional
+
+El equipo del Observatorio de Legitimidad celebra la publicación de un nuevo artículo en la prestigiosa revista *Peace and Conflict: Journal of Peace Psychology*.
+
+### Sobre el artículo
+
+**Título**: "How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish"
+
+**Autores**: Gerber, M.M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N.
+
+**Revista**: Peace and Conflict: Journal of Peace Psychology, 31(3), 285–298
+
+### Resumen
+
+El artículo presenta la validación de una escala para medir las posturas motivacionales de los ciudadanos hacia la policía en el contexto hispanohablante. El instrumento permite identificar diferentes formas en que las personas se relacionan con la autoridad policial, desde la aceptación hasta la resistencia.
+
+### Principales contribuciones
+
+1. **Adaptación cultural**: Primera validación de la escala en español
+2. **Aplicabilidad regional**: Herramienta útil para investigaciones en América Latina
+3. **Comprensión teórica**: Avance en el entendimiento de las relaciones ciudadanía-policía
+
+### Implicancias
+
+Los resultados tienen importantes implicancias tanto para la investigación académica como para las políticas de seguridad:
+
+> "Contar con instrumentos validados en nuestro contexto nos permite avanzar en una comprensión más precisa de cómo los ciudadanos se relacionan con las instituciones de seguridad", señala la Dra. Mónica Gerber, autora principal del estudio.
+
+### Acceso al artículo
+
+El artículo está disponible en: [DOI: 10.1037/pac0000797](https://doi.org/10.1037/pac0000797)
+
+```{=html}
+<div class="noticia-footer">
+  <div class="noticia-tags">
+    <span class="tag">Publicaciones</span>
+    <span class="tag">Legitimidad policial</span>
+    <span class="tag">Metodología</span>
+  </div>
+</div>
+
+<div class="noticia-navegacion">
+  <a href="index.html" class="btn-volver">← Volver a Noticias</a>
+</div>
+```

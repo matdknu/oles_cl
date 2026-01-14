@@ -1,0 +1,16 @@
+---
+title: "Equipo"
+pagetitle: "Equipo - OLES"
+listing:
+  contents: "*.qmd"
+  type: grid
+  grid-columns: 3
+  sort: "orden"
+  fields: [image, title, cargo]
+  image-height: "200px"
+format:
+  html:
+    toc: false
+---
+
+Conoce a los investigadores e investigadoras que hacen posible el trabajo del Observatorio.

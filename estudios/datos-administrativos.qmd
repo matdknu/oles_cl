@@ -1,0 +1,53 @@
+---
+title: "Estudios de Datos Administrativos"
+pagetitle: "Estudios de Datos Administrativos - OLES"
+format:
+  html:
+    toc: false
+---
+
+Análisis de datos administrativos y estadísticos para comprender patrones de legitimidad institucional.
+
+```{=html}
+<div class="proyectos-lista">
+  <div class="proyecto-card-detalle">
+    <h3>Análisis de Denuncias y Quejas Ciudadanas</h3>
+    <p>Estudio de los patrones de denuncias y quejas ciudadanas hacia instituciones públicas utilizando datos administrativos oficiales.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado en-curso">En curso</span>
+      <span class="proyecto-fecha">2023 - Presente</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Datos de Victimización y Confianza Institucional</h3>
+    <p>Análisis de la relación entre datos de victimización criminal y niveles de confianza en instituciones de seguridad.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado en-curso">En curso</span>
+      <span class="proyecto-fecha">2024 - Presente</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Indicadores de Desempeño Institucional</h3>
+    <p>Construcción y análisis de indicadores de desempeño institucional basados en datos administrativos públicos.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado en-curso">En curso</span>
+      <span class="proyecto-fecha">2024 - Presente</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Georreferenciación de la Legitimidad</h3>
+    <p>Análisis espacial de patrones de legitimidad institucional utilizando datos georeferenciados de múltiples fuentes.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado finalizado">Finalizado</span>
+      <span class="proyecto-fecha">2021 - 2023</span>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 2rem;">
+  <a href="index.html" class="btn-volver">← Volver a Estudios</a>
+</div>
+```

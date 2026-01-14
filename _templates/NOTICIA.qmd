@@ -1,0 +1,65 @@
+---
+title: "Título de la Noticia"
+description: "Breve descripción de la noticia que aparecerá en los listados"
+author: "Equipo OLES"
+date: "2026-01-15"
+categories: [Noticias, Investigación]
+image: "https://images.unsplash.com/photo-xxx?w=800&h=400&fit=crop"
+# Para aparecer en destacados de la página principal
+destacado: false
+# Layout moderno
+title-block-banner: true
+title-block-banner-color: "#5D4E8C"
+---
+
+```{=html}
+<div class="noticia-header">
+  <div class="noticia-meta">
+    <span class="noticia-categoria">Noticias</span>
+    <span class="noticia-fecha-header">15 enero 2026</span>
+  </div>
+</div>
+```
+
+## Contenido Principal
+
+Aquí va el contenido principal de la noticia. Puedes usar todo el formato Markdown estándar:
+
+- Listas
+- **Texto en negrita**
+- *Texto en cursiva*
+- [Enlaces](https://ejemplo.com)
+
+### Subtítulo
+
+Más contenido...
+
+> Citas textuales se ven así.
+
+### Imágenes
+
+Para agregar imágenes dentro de la noticia:
+
+![Descripción de la imagen](ruta/a/imagen.jpg)
+
+### Más información
+
+Para contacto o más información, escribir a [observatorio@universidad.cl](mailto:observatorio@universidad.cl).
+
+```{=html}
+<div class="noticia-footer">
+  <div class="noticia-tags">
+    <span class="tag">Legitimidad</span>
+    <span class="tag">Investigación</span>
+  </div>
+  <div class="noticia-compartir">
+    <span>Compartir:</span>
+    <a href="#" class="share-btn">Twitter</a>
+    <a href="#" class="share-btn">LinkedIn</a>
+  </div>
+</div>
+
+<div class="noticia-navegacion">
+  <a href="../noticias/index.html" class="btn-volver">← Volver a Noticias</a>
+</div>
+```

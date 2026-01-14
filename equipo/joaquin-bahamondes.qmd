@@ -1,0 +1,67 @@
+---
+title: "Joaquín Bahamondes"
+cargo: "Subdirector"
+categoria: "Dirección"
+orden: 3
+email: "joaquin.bahamondes@udp.cl"
+image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:joaquin.bahamondes@udp.cl
+areas-interes: 
+  - "Metodologías cuantitativas"
+  - "Estudios de encuesta"
+  - "Legitimidad policial"
+---
+
+## Descripción
+
+Investigador asociado del Observatorio de Legitimidad y Subdirector de OLES. Su expertise se centra en metodologías cuantitativas y el estudio de la legitimidad de las instituciones de seguridad.
+
+Ha liderado el desarrollo metodológico de diversos estudios de encuesta del Observatorio, incluyendo la Encuesta sobre Seguridad y Experiencias Personales (ESEP).
+
+## Formación
+
+- **Doctorado**: Ciencias Sociales
+- **Magíster**: Metodologías de Investigación
+- **Pregrado**: Sociología
+
+## Líneas de Investigación
+
+- Legitimidad policial
+- Diseño y análisis de encuestas
+- Métodos cuantitativos avanzados
+- Confianza institucional
+
+## Proyectos en Curso
+
+### Encuesta sobre Seguridad y Experiencias Personales (ESEP)
+
+**Rol**: Coordinador Metodológico  
+**Período**: 2020 - Presente
+
+Lidera el componente cuantitativo de varios proyectos del Observatorio.
+
+### FONDECYT Regular N. 1221805
+
+**Rol**: Co-investigador  
+**Período**: 2022 - 2025
+
+## Publicaciones Recientes
+
+### Gerber, M. M., Bahamondes, J., et al. (2025).
+
+How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish.
+
+*Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.
+
+### Varela, M., Bahamondes, J., et al. (en publicación).
+
+Police Fairness, Anger, and Support for Violent and Non-Violent Disruptive Actions in Chile.
+
+*Journal of Community & Applied Social Psychology.*

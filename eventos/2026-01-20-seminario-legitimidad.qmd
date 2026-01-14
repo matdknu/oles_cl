@@ -1,0 +1,32 @@
+---
+title: "Seminario: Legitimidad institucional en tiempos de crisis"
+date: "2026-01-20"
+hora: "10:00 - 13:00 hrs"
+lugar: "Sala Taller T202, Facultad de Ciencias Sociales"
+image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=400&fit=crop"
+destacado: true
+categories:
+  - "Seminario"
+  - "Legitimidad"
+---
+
+## Sobre el Evento
+
+El Observatorio de Legitimidad invita al seminario "Legitimidad institucional en tiempos de crisis", donde investigadores del equipo presentarán los hallazgos más recientes de sus estudios.
+
+## Programa
+
+- **10:00 - 10:30**: Bienvenida y presentación
+- **10:30 - 11:30**: Presentaciones de investigación
+- **11:30 - 12:00**: Coffee break
+- **12:00 - 13:00**: Mesa de discusión
+
+## Expositores
+
+- Mónica Gerber (OLES)
+- Ana Figueiredo (OLES)
+- Invitados especiales
+
+## Inscripción
+
+Entrada liberada. Confirmar asistencia a observatorio@universidad.cl

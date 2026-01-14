@@ -1,0 +1,53 @@
+---
+title: "Estudios Cualitativos"
+pagetitle: "Estudios Cualitativos - OLES"
+format:
+  html:
+    toc: false
+---
+
+Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional.
+
+```{=html}
+<div class="proyectos-lista">
+  <div class="proyecto-card-detalle">
+    <h3>Grupos Focales sobre Legitimidad Institucional</h3>
+    <p>Análisis de discursos ciudadanos sobre la legitimidad de las instituciones públicas mediante grupos focales en distintas comunas de Santiago.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado en-curso">En curso</span>
+      <span class="proyecto-fecha">2024 - Presente</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Entrevistas en Profundidad: Experiencias con Instituciones</h3>
+    <p>Estudio cualitativo sobre las experiencias personales de ciudadanos con instituciones públicas, enfocado en interacciones con policías y tribunales.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado en-curso">En curso</span>
+      <span class="proyecto-fecha">2023 - Presente</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Narrativas de Justicia y Legitimidad</h3>
+    <p>Investigación sobre cómo las personas construyen narrativas de justicia en sus interacciones con el sistema institucional.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado en-curso">En curso</span>
+      <span class="proyecto-fecha">2024 - Presente</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Etnografía de la Legitimidad en Comunidades Locales</h3>
+    <p>Investigación etnográfica sobre cómo se construye y negocia la legitimidad institucional en contextos comunitarios específicos.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado finalizado">Finalizado</span>
+      <span class="proyecto-fecha">2021 - 2023</span>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 2rem;">
+  <a href="index.html" class="btn-volver">← Volver a Estudios</a>
+</div>
+```

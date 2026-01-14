@@ -1,0 +1,50 @@
+[
+  {
+    "listing": "/publicaciones/index.html",
+    "items": [
+      "/publicaciones/2025-gerber-police-postures.html",
+      "/publicaciones/2024-gerber-mapuche.html",
+      "/publicaciones/2023-legitimidad-justicia.html"
+    ]
+  },
+  {
+    "listing": "/eventos/index.html",
+    "items": [
+      "/eventos/2026-02-15-escuela-formacion.html",
+      "/eventos/2026-01-20-seminario-legitimidad.html"
+    ]
+  },
+  {
+    "listing": "/proyectos/index.html",
+    "items": [
+      "/proyectos/prensa-redes.html",
+      "/proyectos/estudios-cualitativos.html",
+      "/proyectos/esep.html",
+      "/proyectos/fondecyt-1221805.html"
+    ]
+  },
+  {
+    "listing": "/equipo/index.html",
+    "items": [
+      "/equipo/monica-gerber.html",
+      "/equipo/ana-figueiredo.html",
+      "/equipo/joaquin-bahamondes.html",
+      "/equipo/macarena-orchard.html",
+      "/equipo/cristobal-moya.html",
+      "/equipo/ismael-puga.html",
+      "/equipo/luciano-saez-fuentealba.html",
+      "/equipo/bruno-rojas.html",
+      "/equipo/nicolas-tobar-jorquera.html",
+      "/equipo/matias-deneken.html"
+    ]
+  },
+  {
+    "listing": "/noticias/index.html",
+    "items": [
+      "/noticias/2026-01-10-ejemplo-noticia.html",
+      "/noticias/2025-12-15-seminario-legitimidad.html",
+      "/noticias/2025-11-20-publicacion-internacional.html",
+      "/noticias/2025-10-05-congreso-sociologia.html"
+    ]
+  }
+]

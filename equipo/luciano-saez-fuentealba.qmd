@@ -1,0 +1,60 @@
+---
+title: "Luciano Sáez Fuentealba"
+cargo: "Investigador Doctoral"
+categoria: "Investigadores"
+orden: 7
+email: "luciano.saez@udp.cl"
+image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:luciano.saez@udp.cl
+areas-interes: 
+  - "Legitimidad institucional"
+  - "Metodologías de investigación"
+  - "Justicia procedimental"
+---
+
+## Descripción
+
+Investigador Doctoral del Observatorio de Legitimidad. Actualmente desarrolla su investigación doctoral sobre legitimidad institucional, contribuyendo activamente a los proyectos del Observatorio.
+
+Ha participado en investigaciones sobre legitimidad y justicia, desarrollando habilidades en metodologías cuantitativas y cualitativas. Su trabajo se enfoca en comprender los factores que influyen en las percepciones de legitimidad institucional.
+
+## Formación
+
+- **Doctorado**: En curso
+- **Magíster**: Universidad Diego Portales
+
+## Líneas de Investigación
+
+- Legitimidad institucional
+- Justicia procedimental
+- Metodologías de investigación cuantitativa
+
+## Proyectos en Curso
+
+### Observatorio de Violencia y Legitimidad Social (OLES)
+
+**Rol**: Investigador Doctoral  
+**Período**: 2023 - Presente
+
+Colabora en proyectos del Observatorio sobre legitimidad institucional y justicia procedimental.
+
+## Publicaciones Recientes
+
+### Gerber, M. M., Sáez-Fuentealba, L., et al. (2025).
+
+How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish.
+
+*Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.
+
+### Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023).
+
+Legitimidad, Justicia y la Justificación de la Violencia Intergrupal entre Carabineros y Manifestantes en Chile.
+
+*Revista Psykhe, 32*(1), 1-15.

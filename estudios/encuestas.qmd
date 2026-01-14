@@ -1,0 +1,53 @@
+---
+title: "Estudios de Encuesta"
+pagetitle: "Estudios de Encuesta - OLES"
+format:
+  html:
+    toc: false
+---
+
+Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional.
+
+```{=html}
+<div class="proyectos-lista">
+  <div class="proyecto-card-detalle">
+    <h3>Encuesta sobre Seguridad y Experiencias Personales (ESEP)</h3>
+    <p>Encuesta longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado en-curso">En curso</span>
+      <span class="proyecto-fecha">2020 - Presente</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Encuesta de Confianza Institucional</h3>
+    <p>Estudio sobre los niveles de confianza en diferentes instituciones del Estado y cómo estas percepciones varían según características sociodemográficas.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado en-curso">En curso</span>
+      <span class="proyecto-fecha">2023 - Presente</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Encuesta de Percepción de Carabineros</h3>
+    <p>Análisis de la percepción ciudadana sobre la legitimidad de Carabineros de Chile, incluyendo percepciones de justicia procedimental y efectividad.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado finalizado">Finalizado</span>
+      <span class="proyecto-fecha">2020 - 2023</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Estudio Panel de Legitimidad Policial</h3>
+    <p>Investigación longitudinal sobre cambios en la legitimidad policial percibida a lo largo del tiempo en contexto de crisis social.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado finalizado">Finalizado</span>
+      <span class="proyecto-fecha">2019 - 2022</span>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 2rem;">
+  <a href="index.html" class="btn-volver">← Volver a Estudios</a>
+</div>
+```

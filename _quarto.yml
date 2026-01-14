@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "images/**"
+
+website:
+  title: "OLES - Observatorio de Legitimidad"
+  favicon: "images/logos/favicon.png"
+  navbar:
+    background: white
+    foreground: "#453958"
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Noticias"
+        href: noticias/index.qmd
+      - text: "Investigación"
+        menu:
+          - text: "Estudios"
+            href: estudios/index.qmd
+          - text: "---"
+          - text: "Encuestas"
+            href: estudios/encuestas.qmd
+          - text: "Cualitativos"
+            href: estudios/cualitativos.qmd
+          - text: "Prensa y Redes"
+            href: estudios/prensa-redes.qmd
+          - text: "Datos Administrativos"
+            href: estudios/datos-administrativos.qmd
+          - text: "---"
+          - text: "Publicaciones Académicas"
+            href: publicaciones/index.qmd
+      - text: "Eventos"
+        href: eventos/index.qmd
+      - text: "Equipo"
+        href: equipo/index.qmd
+      - text: "Contacto"
+        href: contacto.qmd
+
+format:
+  html:
+    theme:
+      light: flatly
+    css: styles.css
+    toc: false
+    page-layout: full
+
+execute:
+  echo: false
+  warning: false
+  message: false

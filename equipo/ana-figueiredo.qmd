@@ -1,0 +1,61 @@
+---
+title: "Ana Figueiredo"
+cargo: "Subdirectora"
+categoria: "Dirección"
+orden: 2
+email: "ana.figueiredo@udp.cl"
+image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ana.figueiredo@udp.cl
+areas-interes: 
+  - "Psicología social"
+  - "Relaciones intergrupales"
+  - "Legitimidad institucional"
+---
+
+## Descripción
+
+Investigadora asociada del Observatorio de Legitimidad y Subdirectora de OLES. Su trabajo se centra en el estudio de las relaciones intergrupales y la legitimidad de las instituciones desde una perspectiva psicológica.
+
+Ha desarrollado investigaciones sobre las percepciones ciudadanas hacia las fuerzas de orden y la justicia procedimental, contribuyendo significativamente al entendimiento de las dinámicas entre ciudadanía e instituciones.
+
+## Formación
+
+- **Doctorado**: Psicología Social
+- **Pregrado**: Psicología
+
+## Líneas de Investigación
+
+- Relaciones entre ciudadanía y fuerzas de orden
+- Percepción de justicia procedimental
+- Actitudes hacia la autoridad
+- Psicología de las relaciones intergrupales
+
+## Proyectos en Curso
+
+### Observatorio de Violencia y Legitimidad Social (OLES)
+
+**Rol**: Subdirectora  
+**Período**: 2023 - Presente
+
+Participa activamente en diversos proyectos de investigación del Observatorio, contribuyendo especialmente en el diseño metodológico y análisis de datos.
+
+## Publicaciones Recientes
+
+### Gerber, M. M., Figueiredo, A., et al. (2025).
+
+How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish.
+
+*Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.
+
+### Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023).
+
+Legitimidad, Justicia y la Justificación de la Violencia Intergrupal entre Carabineros y Manifestantes en Chile.
+
+*Revista Psykhe, 32*(1), 1-15.

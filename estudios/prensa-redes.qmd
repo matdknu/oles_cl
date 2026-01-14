@@ -1,0 +1,53 @@
+---
+title: "Estudios de Prensa y Redes Sociales"
+pagetitle: "Estudios de Prensa y Redes Sociales - OLES"
+format:
+  html:
+    toc: false
+---
+
+Análisis de contenido de medios de comunicación y redes sociales sobre legitimidad y confianza institucional.
+
+```{=html}
+<div class="proyectos-lista">
+  <div class="proyecto-card-detalle">
+    <h3>Análisis de Prensa: Cobertura de Legitimidad Institucional</h3>
+    <p>Estudio del tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena, incluyendo análisis de framing y agenda setting.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado en-curso">En curso</span>
+      <span class="proyecto-fecha">2022 - Presente</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Análisis de Redes Sociales: Discursos sobre Instituciones</h3>
+    <p>Investigación sobre los discursos en Twitter/X y otras redes sociales respecto a la legitimidad de las instituciones públicas.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado en-curso">En curso</span>
+      <span class="proyecto-fecha">2023 - Presente</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Monitoreo de Opinión Pública Digital</h3>
+    <p>Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado en-curso">En curso</span>
+      <span class="proyecto-fecha">2024 - Presente</span>
+    </div>
+  </div>
+  
+  <div class="proyecto-card-detalle">
+    <h3>Medios Digitales y Legitimidad Post-Estallido</h3>
+    <p>Análisis de cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019.</p>
+    <div class="proyecto-meta">
+      <span class="proyecto-estado finalizado">Finalizado</span>
+      <span class="proyecto-fecha">2020 - 2022</span>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 2rem;">
+  <a href="index.html" class="btn-volver">← Volver a Estudios</a>
+</div>
+```

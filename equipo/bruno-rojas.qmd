@@ -1,0 +1,49 @@
+---
+title: "Bruno Rojas"
+cargo: "Asistente de Investigación"
+categoria: "Asistentes"
+orden: 10
+email: "bruno.rojas@udp.cl"
+image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:bruno.rojas@udp.cl
+areas-interes: 
+  - "Análisis de datos"
+  - "Metodologías cuantitativas"
+  - "Visualización de datos"
+---
+
+## Descripción
+
+Asistente de Investigación en el Observatorio de Legitimidad. Colabora activamente en proyectos de investigación, apoyando en el análisis de datos y procesamiento de información sobre legitimidad institucional.
+
+Ha desarrollado habilidades en análisis estadístico y contribuye a la preparación de reportes y visualizaciones de datos para los proyectos del Observatorio.
+
+## Líneas de Trabajo
+
+- Análisis de datos cuantitativos
+- Visualización de datos
+- Procesamiento de encuestas
+
+## Proyectos en los que Participa
+
+### Observatorio de Violencia y Legitimidad Social (OLES)
+
+**Rol**: Asistente de Investigación  
+**Período**: 2024 - Presente
+
+Colabora en proyectos de análisis de datos y visualización.
+
+## Publicaciones
+
+### Gerber, M. M., Rojas, B., et al. (2025).
+
+How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish.
+
+*Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.

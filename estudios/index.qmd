@@ -1,0 +1,57 @@
+---
+title: "Estudios"
+pagetitle: "Estudios - OLES"
+format:
+  html:
+    toc: false
+---
+
+Conoce las líneas de investigación del Observatorio de Legitimidad.
+
+```{=html}
+<div class="estudios-grid">
+  <a href="encuestas.html" class="estudio-card">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop" alt="Encuestas">
+    </div>
+    <div class="estudio-content">
+      <h3>Estudios de Encuesta</h3>
+      <p>Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional.</p>
+      <span class="ver-mas">Ver estudios →</span>
+    </div>
+  </a>
+  
+  <a href="cualitativos.html" class="estudio-card">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop" alt="Cualitativos">
+    </div>
+    <div class="estudio-content">
+      <h3>Estudios Cualitativos</h3>
+      <p>Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional.</p>
+      <span class="ver-mas">Ver estudios →</span>
+    </div>
+  </a>
+  
+  <a href="prensa-redes.html" class="estudio-card">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop" alt="Prensa">
+    </div>
+    <div class="estudio-content">
+      <h3>Estudios de Prensa y Redes Sociales</h3>
+      <p>Análisis de contenido de medios de comunicación y redes sociales sobre legitimidad y confianza institucional.</p>
+      <span class="ver-mas">Ver estudios →</span>
+    </div>
+  </a>
+  
+  <a href="datos-administrativos.html" class="estudio-card">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Datos">
+    </div>
+    <div class="estudio-content">
+      <h3>Estudios de Datos Administrativos</h3>
+      <p>Análisis de datos administrativos y estadísticos para comprender patrones de legitimidad institucional.</p>
+      <span class="ver-mas">Ver estudios →</span>
+    </div>
+  </a>
+</div>
+```

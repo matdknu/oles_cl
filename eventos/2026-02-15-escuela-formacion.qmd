@@ -1,0 +1,31 @@
+---
+title: "Escuela de Formación: Crisis climática y legitimidad institucional"
+date: "2026-02-15"
+hora: "9:00 hrs"
+lugar: "Universidad Diego Portales"
+image: "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?w=800&h=400&fit=crop"
+destacado: false
+categories:
+  - "Escuela"
+  - "Formación"
+---
+
+## Descripción
+
+Escuela de formación dirigida a estudiantes de pregrado y postgrado interesados en la investigación sobre legitimidad institucional y su relación con la crisis climática.
+
+## Contenidos
+
+1. Introducción a la legitimidad institucional
+2. Crisis climática y confianza pública
+3. Metodologías de investigación
+4. Taller práctico
+
+## Requisitos
+
+- Estudiantes de ciencias sociales
+- Interés en investigación empírica
+
+## Inscripción
+
+Cupos limitados. Postular en observatorio@universidad.cl

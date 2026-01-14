@@ -1,0 +1,64 @@
+---
+title: "Nueva investigación sobre legitimidad institucional"
+description: "El Observatorio de Legitimidad presenta los resultados de su última investigación sobre percepciones ciudadanas de las instituciones públicas."
+author: "Equipo OLES"
+date: "2026-01-10"
+categories: [Investigación, Publicaciones]
+image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop"
+destacado: true
+title-block-banner: true
+title-block-banner-color: "#5D4E8C"
+---
+
+```{=html}
+<div class="noticia-header">
+  <div class="noticia-meta">
+    <span class="noticia-categoria">Investigación</span>
+    <span class="noticia-fecha-header">10 enero 2026</span>
+  </div>
+</div>
+```
+
+## Nuevos hallazgos sobre legitimidad institucional
+
+El Observatorio de Legitimidad (OLES) presenta los resultados preliminares de su última investigación sobre las percepciones ciudadanas hacia las instituciones públicas en Chile.
+
+El estudio, realizado durante el segundo semestre de 2025, incluyó una muestra representativa de más de 2.000 personas a nivel nacional y reveló patrones significativos en cómo los ciudadanos evalúan la legitimidad de diferentes instituciones.
+
+### Principales hallazgos
+
+Entre los resultados más destacados se encuentran:
+
+- **Variación regional**: Se observan diferencias significativas en los niveles de confianza institucional entre regiones
+- **Factores demográficos**: La edad y el nivel educacional emergen como predictores importantes de las percepciones de legitimidad
+- **Experiencias personales**: Las interacciones previas con instituciones tienen un impacto duradero en las evaluaciones de legitimidad
+
+### Implicancias para las políticas públicas
+
+Los resultados tienen importantes implicancias para el diseño de políticas públicas orientadas a fortalecer la legitimidad institucional. En particular, sugieren la necesidad de:
+
+1. Desarrollar estrategias diferenciadas según contextos regionales
+2. Mejorar la calidad de las interacciones entre ciudadanos e instituciones
+3. Fortalecer los mecanismos de transparencia y rendición de cuentas
+
+> "Estos resultados nos permiten comprender mejor los factores que influyen en cómo los ciudadanos perciben y evalúan a las instituciones públicas", señala la directora del Observatorio, Mónica Gerber.
+
+### Próximos pasos
+
+El equipo de investigación continuará profundizando en estos hallazgos durante 2026, con un enfoque particular en las dinámicas de cambio en las percepciones de legitimidad a lo largo del tiempo.
+
+Los resultados completos serán publicados en un informe técnico disponible en el sitio web del Observatorio.
+
+```{=html}
+<div class="noticia-footer">
+  <div class="noticia-tags">
+    <span class="tag">Legitimidad</span>
+    <span class="tag">Encuestas</span>
+    <span class="tag">Confianza institucional</span>
+  </div>
+</div>
+
+<div class="noticia-navegacion">
+  <a href="index.html" class="btn-volver">← Volver a Noticias</a>
+</div>
+```

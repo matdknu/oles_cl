@@ -1,0 +1,16 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Quarto
+/.quarto/
+_freeze/
+
+# macOS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~

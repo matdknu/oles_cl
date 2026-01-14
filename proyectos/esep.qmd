@@ -1,0 +1,42 @@
+---
+title: "ESEP - Encuesta sobre Seguridad y Experiencias Personales"
+subtitle: "Estudio longitudinal de panel sobre legitimidad policial"
+date: "2023-01-01"
+fecha-inicio: "2023"
+fecha-fin: "2026"
+estado: "En curso"
+financiamiento: "FONDECYT + COES"
+investigador-principal: "Mónica Gerber"
+image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop"
+categories:
+  - "Encuestas"
+  - "Longitudinal"
+  - "Panel"
+---
+
+## Descripción
+
+La Encuesta sobre Seguridad y Experiencias Personales (ESEP) es un estudio longitudinal de panel que busca comprender la evolución de las percepciones ciudadanas sobre seguridad, policía y legitimidad institucional en Chile.
+
+## Características
+
+- **Tipo**: Estudio longitudinal de panel
+- **Muestra**: Representativa a nivel nacional
+- **Olas**: Múltiples mediciones en el tiempo
+- **Temas**: Seguridad, victimización, confianza institucional, legitimidad policial
+
+## Objetivos
+
+1. Monitorear cambios en percepciones de seguridad
+2. Estudiar la evolución de la legitimidad policial
+3. Analizar efectos causales de experiencias con la policía
+
+## Datos
+
+Los datos estarán disponibles públicamente una vez finalizado el proyecto.
+
+## Equipo
+
+- Investigadores principales del OLES
+- Asistentes de investigación
+- Colaboradores de COES

@@ -1,0 +1,49 @@
+---
+title: "Nicolás Tobar Jorquera"
+cargo: "Asistente de Investigación"
+categoria: "Asistentes"
+orden: 11
+email: "nicolas.tobar@udp.cl"
+image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:nicolas.tobar@udp.cl
+areas-interes: 
+  - "Legitimidad institucional"
+  - "Metodologías de investigación"
+  - "Gestión de proyectos"
+---
+
+## Descripción
+
+Asistente de Investigación del Observatorio de Legitimidad. Colabora activamente en proyectos de investigación sobre legitimidad institucional, apoyando en la recolección de datos, análisis y procesamiento de información.
+
+Ha participado en investigaciones sobre legitimidad y justicia procedimental, contribuyendo al trabajo del Observatorio en múltiples proyectos.
+
+## Líneas de Trabajo
+
+- Revisión bibliográfica
+- Gestión documental
+- Apoyo en recolección de datos
+
+## Proyectos en los que Participa
+
+### Observatorio de Violencia y Legitimidad Social (OLES)
+
+**Rol**: Asistente de Investigación  
+**Período**: 2024 - Presente
+
+Colabora en proyectos de revisión bibliográfica y gestión documental.
+
+## Publicaciones
+
+### Gerber, M. M., Tobar Jorquera, N., et al. (2025).
+
+How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish.
+
+*Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.
