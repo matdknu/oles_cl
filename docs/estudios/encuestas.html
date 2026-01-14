@@ -67,6 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../translations.js" defer=""></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -177,19 +178,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="estudios-hero">
+  <div class="estudios-hero-img">
+    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&amp;h=400&amp;fit=crop" alt="Encuestas">
+  </div>
   <div class="estudios-hero-content">
     <div class="estudios-icon">📊</div>
-    <p class="estudios-descripcion">Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional.</p>
+    <h2 data-i18n="estudios.encuestas.titulo" class="anchored">Estudios de Encuesta</h2>
+    <p class="estudios-descripcion" data-i18n="estudios.encuestas.descripcion">Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional.</p>
   </div>
 </div>
 
 <div class="estudios-lista">
   
-  <article class="estudio-item">
-    <div class="estudio-estado-badge en-curso">En curso</div>
+  <article class="estudio-item-img">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1606857521015-7f9fcf423571?w=400&amp;h=250&amp;fit=crop" alt="ESEP">
+      <div class="estudio-estado-badge en-curso">En curso</div>
+    </div>
     <div class="estudio-body">
-      <h3 class="anchored">Encuesta sobre Seguridad y Experiencias Personales (ESEP)</h3>
-      <p>Encuesta longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones.</p>
+      <h3 data-i18n="estudios.encuestas.esep.titulo" class="anchored">Encuesta sobre Seguridad y Experiencias Personales (ESEP)</h3>
+      <p data-i18n="estudios.encuestas.esep.descripcion">Encuesta longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones.</p>
       <div class="estudio-detalles">
         <div class="estudio-periodo">
           <span class="icono">📅</span>
@@ -204,11 +212,14 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </article>
 
-  <article class="estudio-item">
-    <div class="estudio-estado-badge en-curso">En curso</div>
+  <article class="estudio-item-img">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&amp;h=250&amp;fit=crop" alt="Confianza">
+      <div class="estudio-estado-badge en-curso">En curso</div>
+    </div>
     <div class="estudio-body">
-      <h3 class="anchored">Encuesta de Confianza Institucional</h3>
-      <p>Estudio sobre los niveles de confianza en diferentes instituciones del Estado y cómo estas percepciones varían según características sociodemográficas.</p>
+      <h3 data-i18n="estudios.encuestas.confianza.titulo" class="anchored">Encuesta de Confianza Institucional</h3>
+      <p data-i18n="estudios.encuestas.confianza.descripcion">Estudio sobre los niveles de confianza en diferentes instituciones del Estado y cómo estas percepciones varían según características sociodemográficas.</p>
       <div class="estudio-detalles">
         <div class="estudio-periodo">
           <span class="icono">📅</span>
@@ -216,18 +227,43 @@ ul.task-list li input[type="checkbox"] {
         </div>
         <div class="estudio-tags">
           <span class="tag">Confianza</span>
+          <span class="tag">Instituciones</span>
           <span class="tag">Estado</span>
-          <span class="tag">Sociodemográfico</span>
         </div>
       </div>
     </div>
   </article>
 
-  <article class="estudio-item finalizado">
-    <div class="estudio-estado-badge finalizado">Finalizado</div>
+  <article class="estudio-item-img">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&amp;h=250&amp;fit=crop" alt="Panel Policial">
+      <div class="estudio-estado-badge en-curso">En curso</div>
+    </div>
     <div class="estudio-body">
-      <h3 class="anchored">Encuesta de Percepción de Carabineros</h3>
-      <p>Análisis de la percepción ciudadana sobre la legitimidad de Carabineros de Chile, incluyendo percepciones de justicia procedimental y efectividad.</p>
+      <h3 data-i18n="estudios.encuestas.panel.titulo" class="anchored">Estudio Panel de Legitimidad Policial</h3>
+      <p data-i18n="estudios.encuestas.panel.descripcion">Investigación longitudinal sobre cambios en la legitimidad policial percibida a lo largo del tiempo en contextos de crisis social.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2022 - Presente</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Panel</span>
+          <span class="tag">Policía</span>
+          <span class="tag">Crisis</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="estudio-item-img finalizado">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1551836022-8b2858c9c69b?w=400&amp;h=250&amp;fit=crop" alt="Percepción Carabineros">
+      <div class="estudio-estado-badge finalizado">Finalizado</div>
+    </div>
+    <div class="estudio-body">
+      <h3 data-i18n="estudios.encuestas.carabineros.titulo" class="anchored">Encuesta de Percepción de Carabineros</h3>
+      <p data-i18n="estudios.encuestas.carabineros.descripcion">Análisis de la percepción ciudadana sobre la legitimidad de Carabineros de Chile, incluyendo percepciones de justicia procedimental y efectividad.</p>
       <div class="estudio-detalles">
         <div class="estudio-periodo">
           <span class="icono">📅</span>
@@ -235,26 +271,8 @@ ul.task-list li input[type="checkbox"] {
         </div>
         <div class="estudio-tags">
           <span class="tag">Carabineros</span>
-          <span class="tag">Justicia Procedimental</span>
-        </div>
-      </div>
-    </div>
-  </article>
-
-  <article class="estudio-item finalizado">
-    <div class="estudio-estado-badge finalizado">Finalizado</div>
-    <div class="estudio-body">
-      <h3 class="anchored">Estudio Panel de Legitimidad Policial</h3>
-      <p>Investigación longitudinal sobre cambios en la legitimidad policial percibida a lo largo del tiempo en contexto de crisis social.</p>
-      <div class="estudio-detalles">
-        <div class="estudio-periodo">
-          <span class="icono">📅</span>
-          <span>2019 - 2022</span>
-        </div>
-        <div class="estudio-tags">
-          <span class="tag">Panel</span>
-          <span class="tag">Crisis Social</span>
-          <span class="tag">Policía</span>
+          <span class="tag">Justicia</span>
+          <span class="tag">Efectividad</span>
         </div>
       </div>
     </div>
@@ -263,8 +281,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <div class="estudios-navegacion">
-  <a href="index.html" class="btn-nav">← Volver a Estudios</a>
-  <a href="../index.html" class="btn-nav-primary">Ir al Inicio →</a>
+  <a href="index.html" class="btn-nav" data-i18n="nav.volverEstudios">← Volver a Estudios</a>
+  <a href="../index.html" class="btn-nav-primary" data-i18n="nav.irInicio">Ir al Inicio →</a>
 </div>
 
 
@@ -691,6 +709,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<div class="language-selector" id="lang-selector">
+  <button class="language-btn active" data-lang="es">
+    <span class="flag">🇨🇱</span>
+    <span class="lang-code">ESP</span>
+  </button>
+  <button class="language-btn" data-lang="en">
+    <span class="flag">🇬🇧</span>
+    <span class="lang-code">ENG</span>
+  </button>
+</div>
+<script>
+  // Mover selector de idioma al navbar
+  document.addEventListener('DOMContentLoaded', function() {
+    const langSelector = document.getElementById('lang-selector');
+    const navbar = document.querySelector('.navbar-nav');
+    if (langSelector && navbar) {
+      navbar.parentNode.insertBefore(langSelector, navbar.nextSibling);
+    }
+  });
+</script>
 
 
 

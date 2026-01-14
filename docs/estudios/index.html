@@ -67,6 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../translations.js" defer=""></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -176,51 +177,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Conoce las líneas de investigación del Observatorio de Legitimidad.</p>
-<div class="estudios-grid">
-  <a href="encuestas.html" class="estudio-card">
-    <div class="estudio-imagen">
-      <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&amp;h=400&amp;fit=crop" alt="Encuestas">
-    </div>
-    <div class="estudio-content">
-      <h3 class="anchored">Estudios de Encuesta</h3>
-      <p>Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional.</p>
-      <span class="ver-mas">Ver estudios →</span>
-    </div>
-  </a>
+<div class="estudios-intro">
+  <h2 class="section-title anchored" data-i18n="secciones.estudios">Nuestras Líneas de Investigación</h2>
+  <p class="section-subtitle" data-i18n="estudios.intro">Conoce las líneas de investigación del Observatorio de Legitimidad.</p>
+</div>
+
+<div class="estudios-grid-home">
   
-  <a href="cualitativos.html" class="estudio-card">
-    <div class="estudio-imagen">
-      <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&amp;h=400&amp;fit=crop" alt="Cualitativos">
+  <a href="encuestas.html" class="estudio-card-home">
+    <div class="estudio-card-img">
+      <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&amp;h=350&amp;fit=crop" alt="Encuestas">
+      <div class="estudio-card-overlay"></div>
     </div>
-    <div class="estudio-content">
-      <h3 class="anchored">Estudios Cualitativos</h3>
-      <p>Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional.</p>
-      <span class="ver-mas">Ver estudios →</span>
-    </div>
-  </a>
-  
-  <a href="prensa-redes.html" class="estudio-card">
-    <div class="estudio-imagen">
-      <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&amp;h=400&amp;fit=crop" alt="Prensa">
-    </div>
-    <div class="estudio-content">
-      <h3 class="anchored">Estudios de Prensa y Redes Sociales</h3>
-      <p>Análisis de contenido de medios de comunicación y redes sociales sobre legitimidad y confianza institucional.</p>
-      <span class="ver-mas">Ver estudios →</span>
+    <div class="estudio-card-content">
+      <div class="estudio-card-icon">📊</div>
+      <h3 data-i18n="estudios.encuestas.titulo" class="anchored">Estudios de Encuesta</h3>
+      <p data-i18n="estudios.encuestas.corta">Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional.</p>
+      <span class="estudio-card-link" data-i18n="nav.verEstudios">Ver estudios →</span>
     </div>
   </a>
-  
-  <a href="datos-administrativos.html" class="estudio-card">
-    <div class="estudio-imagen">
-      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&amp;h=400&amp;fit=crop" alt="Datos">
+
+  <a href="cualitativos.html" class="estudio-card-home">
+    <div class="estudio-card-img">
+      <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&amp;h=350&amp;fit=crop" alt="Cualitativos">
+      <div class="estudio-card-overlay"></div>
     </div>
-    <div class="estudio-content">
-      <h3 class="anchored">Estudios de Datos Administrativos</h3>
-      <p>Análisis de datos administrativos y estadísticos para comprender patrones de legitimidad institucional.</p>
-      <span class="ver-mas">Ver estudios →</span>
+    <div class="estudio-card-content">
+      <div class="estudio-card-icon">🎙️</div>
+      <h3 data-i18n="estudios.cualitativos.titulo" class="anchored">Estudios Cualitativos</h3>
+      <p data-i18n="estudios.cualitativos.corta">Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional.</p>
+      <span class="estudio-card-link" data-i18n="nav.verEstudios">Ver estudios →</span>
     </div>
   </a>
+
+  <a href="prensa-redes.html" class="estudio-card-home">
+    <div class="estudio-card-img">
+      <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&amp;h=350&amp;fit=crop" alt="Prensa y Redes">
+      <div class="estudio-card-overlay"></div>
+    </div>
+    <div class="estudio-card-content">
+      <div class="estudio-card-icon">📰</div>
+      <h3 data-i18n="estudios.prensa.titulo" class="anchored">Estudios de Prensa y Redes Sociales</h3>
+      <p data-i18n="estudios.prensa.corta">Análisis de contenido de medios de comunicación y redes sociales sobre legitimidad y confianza institucional.</p>
+      <span class="estudio-card-link" data-i18n="nav.verEstudios">Ver estudios →</span>
+    </div>
+  </a>
+
+  <a href="datos-administrativos.html" class="estudio-card-home">
+    <div class="estudio-card-img">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&amp;h=350&amp;fit=crop" alt="Datos Administrativos">
+      <div class="estudio-card-overlay"></div>
+    </div>
+    <div class="estudio-card-content">
+      <div class="estudio-card-icon">📈</div>
+      <h3 data-i18n="estudios.datos.titulo" class="anchored">Estudios de Datos Administrativos</h3>
+      <p data-i18n="estudios.datos.corta">Análisis de datos administrativos y estadísticos para comprender patrones de legitimidad institucional.</p>
+      <span class="estudio-card-link" data-i18n="nav.verEstudios">Ver estudios →</span>
+    </div>
+  </a>
+
 </div>
 
 
@@ -647,6 +662,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<div class="language-selector" id="lang-selector">
+  <button class="language-btn active" data-lang="es">
+    <span class="flag">🇨🇱</span>
+    <span class="lang-code">ESP</span>
+  </button>
+  <button class="language-btn" data-lang="en">
+    <span class="flag">🇬🇧</span>
+    <span class="lang-code">ENG</span>
+  </button>
+</div>
+<script>
+  // Mover selector de idioma al navbar
+  document.addEventListener('DOMContentLoaded', function() {
+    const langSelector = document.getElementById('lang-selector');
+    const navbar = document.querySelector('.navbar-nav');
+    if (langSelector && navbar) {
+      navbar.parentNode.insertBefore(langSelector, navbar.nextSibling);
+    }
+  });
+</script>
 
 
 

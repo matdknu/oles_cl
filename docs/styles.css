@@ -1057,21 +1057,60 @@ article.page-columns li {
 
 /* Hero de estudios */
 .estudios-hero {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  position: relative;
   border-radius: var(--border-radius);
-  padding: 3rem;
+  overflow: hidden;
   margin-bottom: 3rem;
+  min-height: 280px;
+}
+
+.estudios-hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.estudios-hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.estudios-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(93, 78, 140, 0.9) 0%, rgba(26, 26, 46, 0.95) 100%);
+  z-index: 1;
+}
+
+.estudios-hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 3rem;
   text-align: center;
   color: var(--white);
 }
 
+.estudios-hero-content h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 0.5rem 0 1rem;
+  color: var(--white);
+}
+
 .estudios-icon {
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .estudios-descripcion {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   line-height: 1.7;
   max-width: 700px;
   margin: 0 auto;
@@ -1080,9 +1119,154 @@ article.page-columns li {
 
 /* Lista de estudios */
 .estudios-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* Tarjetas de estudio con imagen */
+.estudio-item-img {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.estudio-item-img:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.estudio-item-img.finalizado {
+  opacity: 0.85;
+}
+
+.estudio-imagen {
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+}
+
+.estudio-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.estudio-item-img:hover .estudio-imagen img {
+  transform: scale(1.05);
+}
+
+.estudio-estado-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.estudio-estado-badge.en-curso {
+  background: rgba(16, 185, 129, 0.95);
+  color: white;
+}
+
+.estudio-estado-badge.finalizado {
+  background: rgba(107, 114, 128, 0.95);
+  color: white;
+}
+
+.estudio-body {
+  padding: 1.5rem;
+}
+
+.estudio-body h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin: 0 0 0.75rem;
+  line-height: 1.4;
+}
+
+.estudio-body p {
+  color: var(--text-muted);
+  font-size: 0.925rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.estudio-detalles {
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
+}
+
+.estudio-periodo {
   display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}
+
+.estudio-periodo .icono {
+  font-size: 1rem;
+}
+
+.estudio-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.estudio-tags .tag {
+  background: var(--bg-light);
+  color: var(--primary-color);
+  padding: 0.25rem 0.65rem;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.estudios-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.btn-nav, .btn-nav-primary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-nav {
+  color: var(--primary-color);
+  background: var(--bg-light);
+}
+
+.btn-nav:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-nav-primary {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.btn-nav-primary:hover {
+  background: var(--primary-dark);
 }
 
 .estudio-item {
@@ -1240,6 +1424,67 @@ article.page-columns li {
   transform: translateX(5px);
 }
 
+/* =====================================================
+   SELECTOR DE IDIOMA
+   ===================================================== */
+.language-selector {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+  padding-left: 1rem;
+}
+
+.language-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  background: var(--bg-light);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.language-btn:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.language-btn.active {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-dark);
+}
+
+.language-btn .flag {
+  font-size: 1.1rem;
+}
+
+.language-btn .lang-code {
+  font-weight: 600;
+}
+
+/* Posicionamiento en navbar de Quarto */
+#lang-selector {
+  position: fixed;
+  top: 12px;
+  right: 20px;
+  z-index: 1100;
+  display: flex;
+  gap: 0.5rem;
+}
+
+@media (max-width: 991px) {
+  #lang-selector {
+    top: 10px;
+    right: 60px;
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .estudios-hero {
@@ -1292,6 +1537,118 @@ article.page-columns li {
 .btn-volver:hover {
   background: var(--primary-color);
   color: var(--white);
+}
+
+/* =====================================================
+   ESTUDIOS INDEX - GRID CON IMÁGENES
+   ===================================================== */
+.estudios-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.estudios-grid-home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .estudios-grid-home {
+    grid-template-columns: 1fr;
+  }
+}
+
+.estudio-card-home {
+  position: relative;
+  display: block;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  min-height: 320px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.estudio-card-home:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.estudio-card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.estudio-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.estudio-card-home:hover .estudio-card-img img {
+  transform: scale(1.08);
+}
+
+.estudio-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(26, 26, 46, 0.95) 0%, rgba(93, 78, 140, 0.7) 50%, rgba(93, 78, 140, 0.4) 100%);
+  transition: background 0.3s ease;
+}
+
+.estudio-card-home:hover .estudio-card-overlay {
+  background: linear-gradient(to top, rgba(26, 26, 46, 0.98) 0%, rgba(93, 78, 140, 0.8) 50%, rgba(93, 78, 140, 0.5) 100%);
+}
+
+.estudio-card-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 1.75rem;
+  color: white;
+}
+
+.estudio-card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.estudio-card-content h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  color: white;
+}
+
+.estudio-card-content p {
+  font-size: 0.925rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin: 0 0 1rem;
+}
+
+.estudio-card-link {
+  display: inline-block;
+  color: var(--accent-light);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: transform 0.3s ease;
+}
+
+.estudio-card-home:hover .estudio-card-link {
+  transform: translateX(5px);
 }
 
 /* =====================================================

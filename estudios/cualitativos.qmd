@@ -8,38 +8,26 @@ format:
 
 ```{=html}
 <div class="estudios-hero">
+  <div class="estudios-hero-img">
+    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&h=400&fit=crop" alt="Estudios Cualitativos">
+  </div>
   <div class="estudios-hero-content">
     <div class="estudios-icon">🎙️</div>
-    <p class="estudios-descripcion">Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional.</p>
+    <h2 data-i18n="estudios.cualitativos.titulo">Estudios Cualitativos</h2>
+    <p class="estudios-descripcion" data-i18n="estudios.cualitativos.descripcion">Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional.</p>
   </div>
 </div>
 
 <div class="estudios-lista">
   
-  <article class="estudio-item">
-    <div class="estudio-estado-badge en-curso">En curso</div>
-    <div class="estudio-body">
-      <h3>Grupos Focales sobre Legitimidad Institucional</h3>
-      <p>Análisis de discursos ciudadanos sobre la legitimidad de las instituciones públicas mediante grupos focales en distintas comunas de Santiago.</p>
-      <div class="estudio-detalles">
-        <div class="estudio-periodo">
-          <span class="icono">📅</span>
-          <span>2024 - Presente</span>
-        </div>
-        <div class="estudio-tags">
-          <span class="tag">Grupos Focales</span>
-          <span class="tag">Discursos</span>
-          <span class="tag">Santiago</span>
-        </div>
-      </div>
+  <article class="estudio-item-img">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1573497161079-f3fd25cc6b90?w=400&h=250&fit=crop" alt="Entrevistas">
+      <div class="estudio-estado-badge en-curso">En curso</div>
     </div>
-  </article>
-
-  <article class="estudio-item">
-    <div class="estudio-estado-badge en-curso">En curso</div>
     <div class="estudio-body">
-      <h3>Entrevistas en Profundidad: Experiencias con Instituciones</h3>
-      <p>Estudio cualitativo sobre las experiencias personales de ciudadanos con instituciones públicas, enfocado en interacciones con policías y tribunales.</p>
+      <h3 data-i18n="estudios.cualitativos.entrevistas.titulo">Entrevistas en Profundidad: Percepciones de Legitimidad</h3>
+      <p data-i18n="estudios.cualitativos.entrevistas.descripcion">Estudio basado en entrevistas a ciudadanos sobre sus experiencias con instituciones públicas y sus percepciones de legitimidad.</p>
       <div class="estudio-detalles">
         <div class="estudio-periodo">
           <span class="icono">📅</span>
@@ -47,45 +35,74 @@ format:
         </div>
         <div class="estudio-tags">
           <span class="tag">Entrevistas</span>
-          <span class="tag">Policía</span>
-          <span class="tag">Tribunales</span>
+          <span class="tag">Experiencias</span>
+          <span class="tag">Percepciones</span>
         </div>
       </div>
     </div>
   </article>
 
-  <article class="estudio-item">
-    <div class="estudio-estado-badge en-curso">En curso</div>
+  <article class="estudio-item-img">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=250&fit=crop" alt="Grupos Focales">
+      <div class="estudio-estado-badge en-curso">En curso</div>
+    </div>
     <div class="estudio-body">
-      <h3>Narrativas de Justicia y Legitimidad</h3>
-      <p>Investigación sobre cómo las personas construyen narrativas de justicia en sus interacciones con el sistema institucional.</p>
+      <h3 data-i18n="estudios.cualitativos.grupos.titulo">Grupos Focales: Confianza Institucional</h3>
+      <p data-i18n="estudios.cualitativos.grupos.descripcion">Investigación con grupos focales que explora las dinámicas sociales que influyen en la confianza hacia las instituciones.</p>
       <div class="estudio-detalles">
         <div class="estudio-periodo">
           <span class="icono">📅</span>
           <span>2024 - Presente</span>
         </div>
         <div class="estudio-tags">
-          <span class="tag">Narrativas</span>
-          <span class="tag">Justicia</span>
+          <span class="tag">Grupos Focales</span>
+          <span class="tag">Dinámicas</span>
+          <span class="tag">Confianza</span>
         </div>
       </div>
     </div>
   </article>
 
-  <article class="estudio-item finalizado">
-    <div class="estudio-estado-badge finalizado">Finalizado</div>
+  <article class="estudio-item-img">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=250&fit=crop" alt="Etnografía">
+      <div class="estudio-estado-badge en-curso">En curso</div>
+    </div>
     <div class="estudio-body">
-      <h3>Etnografía de la Legitimidad en Comunidades Locales</h3>
-      <p>Investigación etnográfica sobre cómo se construye y negocia la legitimidad institucional en contextos comunitarios específicos.</p>
+      <h3 data-i18n="estudios.cualitativos.etnografia.titulo">Etnografía: Interacciones Policía-Ciudadanía</h3>
+      <p data-i18n="estudios.cualitativos.etnografia.descripcion">Estudio etnográfico de las interacciones cotidianas entre la policía y la ciudadanía en diferentes contextos urbanos.</p>
       <div class="estudio-detalles">
         <div class="estudio-periodo">
           <span class="icono">📅</span>
-          <span>2021 - 2023</span>
+          <span>2023 - Presente</span>
         </div>
         <div class="estudio-tags">
           <span class="tag">Etnografía</span>
-          <span class="tag">Comunidades</span>
-          <span class="tag">Local</span>
+          <span class="tag">Interacciones</span>
+          <span class="tag">Urbano</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="estudio-item-img finalizado">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1509909756405-be0199881695?w=400&h=250&fit=crop" alt="Narrativas">
+      <div class="estudio-estado-badge finalizado">Finalizado</div>
+    </div>
+    <div class="estudio-body">
+      <h3 data-i18n="estudios.cualitativos.narrativas.titulo">Narrativas del Estallido Social</h3>
+      <p data-i18n="estudios.cualitativos.narrativas.descripcion">Análisis de narrativas sobre legitimidad institucional durante y después del estallido social de octubre de 2019.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2020 - 2022</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Narrativas</span>
+          <span class="tag">Estallido</span>
+          <span class="tag">2019</span>
         </div>
       </div>
     </div>
@@ -94,7 +111,7 @@ format:
 </div>
 
 <div class="estudios-navegacion">
-  <a href="index.html" class="btn-nav">← Volver a Estudios</a>
-  <a href="../index.html" class="btn-nav-primary">Ir al Inicio →</a>
+  <a href="index.html" class="btn-nav" data-i18n="nav.volverEstudios">← Volver a Estudios</a>
+  <a href="../index.html" class="btn-nav-primary" data-i18n="nav.irInicio">Ir al Inicio →</a>
 </div>
 ```

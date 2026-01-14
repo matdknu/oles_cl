@@ -86,6 +86,7 @@ ul.task-list li input[type="checkbox"] {
         color: #5D4E8C;
       }
 </style>
+<script src="../translations.js" defer=""></script>
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -696,6 +697,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<div class="language-selector" id="lang-selector">
+  <button class="language-btn active" data-lang="es">
+    <span class="flag">🇨🇱</span>
+    <span class="lang-code">ESP</span>
+  </button>
+  <button class="language-btn" data-lang="en">
+    <span class="flag">🇬🇧</span>
+    <span class="lang-code">ENG</span>
+  </button>
+</div>
+<script>
+  // Mover selector de idioma al navbar
+  document.addEventListener('DOMContentLoaded', function() {
+    const langSelector = document.getElementById('lang-selector');
+    const navbar = document.querySelector('.navbar-nav');
+    if (langSelector && navbar) {
+      navbar.parentNode.insertBefore(langSelector, navbar.nextSibling);
+    }
+  });
+</script>
 
 
 

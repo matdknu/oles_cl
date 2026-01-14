@@ -8,19 +8,26 @@ format:
 
 ```{=html}
 <div class="estudios-hero">
+  <div class="estudios-hero-img">
+    <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=400&fit=crop" alt="Prensa y Redes">
+  </div>
   <div class="estudios-hero-content">
     <div class="estudios-icon">📰</div>
-    <p class="estudios-descripcion">Análisis de contenido de medios de comunicación y redes sociales sobre legitimidad y confianza institucional.</p>
+    <h2 data-i18n="estudios.prensa.titulo">Estudios de Prensa y Redes Sociales</h2>
+    <p class="estudios-descripcion" data-i18n="estudios.prensa.descripcion">Análisis de contenido de medios de comunicación y redes sociales sobre legitimidad y confianza institucional.</p>
   </div>
 </div>
 
 <div class="estudios-lista">
   
-  <article class="estudio-item">
-    <div class="estudio-estado-badge en-curso">En curso</div>
+  <article class="estudio-item-img">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=250&fit=crop" alt="Análisis de Prensa">
+      <div class="estudio-estado-badge en-curso">En curso</div>
+    </div>
     <div class="estudio-body">
-      <h3>Análisis de Prensa: Cobertura de Legitimidad Institucional</h3>
-      <p>Estudio del tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena, incluyendo análisis de framing y agenda setting.</p>
+      <h3 data-i18n="estudios.prensa.estudio1.titulo">Análisis de Prensa: Cobertura de Legitimidad Institucional</h3>
+      <p data-i18n="estudios.prensa.estudio1.descripcion">Estudio del tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena, incluyendo análisis de framing y agenda setting.</p>
       <div class="estudio-detalles">
         <div class="estudio-periodo">
           <span class="icono">📅</span>
@@ -35,11 +42,14 @@ format:
     </div>
   </article>
 
-  <article class="estudio-item">
-    <div class="estudio-estado-badge en-curso">En curso</div>
+  <article class="estudio-item-img">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=400&h=250&fit=crop" alt="Redes Sociales">
+      <div class="estudio-estado-badge en-curso">En curso</div>
+    </div>
     <div class="estudio-body">
-      <h3>Análisis de Redes Sociales: Discursos sobre Instituciones</h3>
-      <p>Investigación sobre los discursos en Twitter/X y otras redes sociales respecto a la legitimidad de las instituciones públicas.</p>
+      <h3 data-i18n="estudios.prensa.estudio2.titulo">Análisis de Redes Sociales: Discursos sobre Instituciones</h3>
+      <p data-i18n="estudios.prensa.estudio2.descripcion">Investigación sobre los discursos en Twitter/X y otras redes sociales respecto a la legitimidad de las instituciones públicas.</p>
       <div class="estudio-detalles">
         <div class="estudio-periodo">
           <span class="icono">📅</span>
@@ -54,11 +64,14 @@ format:
     </div>
   </article>
 
-  <article class="estudio-item">
-    <div class="estudio-estado-badge en-curso">En curso</div>
+  <article class="estudio-item-img">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop" alt="Monitoreo Digital">
+      <div class="estudio-estado-badge en-curso">En curso</div>
+    </div>
     <div class="estudio-body">
-      <h3>Monitoreo de Opinión Pública Digital</h3>
-      <p>Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales.</p>
+      <h3 data-i18n="estudios.prensa.estudio3.titulo">Monitoreo de Opinión Pública Digital</h3>
+      <p data-i18n="estudios.prensa.estudio3.descripcion">Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales.</p>
       <div class="estudio-detalles">
         <div class="estudio-periodo">
           <span class="icono">📅</span>
@@ -73,11 +86,14 @@ format:
     </div>
   </article>
 
-  <article class="estudio-item finalizado">
-    <div class="estudio-estado-badge finalizado">Finalizado</div>
+  <article class="estudio-item-img finalizado">
+    <div class="estudio-imagen">
+      <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=400&h=250&fit=crop" alt="Medios Digitales">
+      <div class="estudio-estado-badge finalizado">Finalizado</div>
+    </div>
     <div class="estudio-body">
-      <h3>Medios Digitales y Legitimidad Post-Estallido</h3>
-      <p>Análisis de cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019.</p>
+      <h3 data-i18n="estudios.prensa.estudio4.titulo">Medios Digitales y Legitimidad Post-Estallido</h3>
+      <p data-i18n="estudios.prensa.estudio4.descripcion">Análisis de cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019.</p>
       <div class="estudio-detalles">
         <div class="estudio-periodo">
           <span class="icono">📅</span>
@@ -95,7 +111,7 @@ format:
 </div>
 
 <div class="estudios-navegacion">
-  <a href="index.html" class="btn-nav">← Volver a Estudios</a>
-  <a href="../index.html" class="btn-nav-primary">Ir al Inicio →</a>
+  <a href="index.html" class="btn-nav" data-i18n="nav.volverEstudios">← Volver a Estudios</a>
+  <a href="../index.html" class="btn-nav-primary" data-i18n="nav.irInicio">Ir al Inicio →</a>
 </div>
 ```
