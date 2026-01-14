@@ -1652,6 +1652,129 @@ article.page-columns li {
 }
 
 /* =====================================================
+   TODOS LOS ESTUDIOS - LISTADO COMPLETO
+   ===================================================== */
+.todos-estudios-section {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 2px solid var(--border-color);
+}
+
+.todos-estudios-section .section-title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.todos-estudios-section .section-subtitle {
+  text-align: center;
+  color: var(--text-muted);
+  margin-bottom: 3rem;
+}
+
+.categoria-estudios {
+  margin-bottom: 3rem;
+}
+
+.categoria-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.categoria-icon {
+  font-size: 1.75rem;
+}
+
+.categoria-header h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.estudios-grid-completo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.estudio-mini-card {
+  background: var(--white);
+  border-radius: var(--border-radius);
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid var(--primary-color);
+}
+
+.estudio-mini-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.estudio-mini-card.finalizado {
+  opacity: 0.8;
+  border-left-color: var(--text-muted);
+}
+
+.estudio-mini-estado {
+  display: inline-block;
+  padding: 0.25rem 0.65rem;
+  border-radius: 15px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.75rem;
+}
+
+.estudio-mini-estado.en-curso {
+  background: rgba(16, 185, 129, 0.15);
+  color: #059669;
+}
+
+.estudio-mini-estado.finalizado {
+  background: rgba(107, 114, 128, 0.15);
+  color: #6b7280;
+}
+
+.estudio-mini-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
+}
+
+.estudio-mini-card p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0 0 0.75rem;
+}
+
+.estudio-mini-fecha {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .estudios-grid-completo {
+    grid-template-columns: 1fr;
+  }
+  
+  .categoria-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* =====================================================
    PRINT STYLES
    ===================================================== */
 @media print {
