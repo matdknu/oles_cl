@@ -6,48 +6,96 @@ format:
     toc: false
 ---
 
-Análisis de datos administrativos y estadísticos para comprender patrones de legitimidad institucional.
-
 ```{=html}
-<div class="proyectos-lista">
-  <div class="proyecto-card-detalle">
-    <h3>Análisis de Denuncias y Quejas Ciudadanas</h3>
-    <p>Estudio de los patrones de denuncias y quejas ciudadanas hacia instituciones públicas utilizando datos administrativos oficiales.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado en-curso">En curso</span>
-      <span class="proyecto-fecha">2023 - Presente</span>
-    </div>
-  </div>
-  
-  <div class="proyecto-card-detalle">
-    <h3>Datos de Victimización y Confianza Institucional</h3>
-    <p>Análisis de la relación entre datos de victimización criminal y niveles de confianza en instituciones de seguridad.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado en-curso">En curso</span>
-      <span class="proyecto-fecha">2024 - Presente</span>
-    </div>
-  </div>
-  
-  <div class="proyecto-card-detalle">
-    <h3>Indicadores de Desempeño Institucional</h3>
-    <p>Construcción y análisis de indicadores de desempeño institucional basados en datos administrativos públicos.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado en-curso">En curso</span>
-      <span class="proyecto-fecha">2024 - Presente</span>
-    </div>
-  </div>
-  
-  <div class="proyecto-card-detalle">
-    <h3>Georreferenciación de la Legitimidad</h3>
-    <p>Análisis espacial de patrones de legitimidad institucional utilizando datos georeferenciados de múltiples fuentes.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado finalizado">Finalizado</span>
-      <span class="proyecto-fecha">2021 - 2023</span>
-    </div>
+<div class="estudios-hero">
+  <div class="estudios-hero-content">
+    <div class="estudios-icon">🗃️</div>
+    <p class="estudios-descripcion">Análisis de datos administrativos y estadísticos para comprender patrones de legitimidad institucional.</p>
   </div>
 </div>
 
-<div style="margin-top: 2rem;">
-  <a href="index.html" class="btn-volver">← Volver a Estudios</a>
+<div class="estudios-lista">
+  
+  <article class="estudio-item">
+    <div class="estudio-estado-badge en-curso">En curso</div>
+    <div class="estudio-body">
+      <h3>Análisis de Denuncias y Quejas Ciudadanas</h3>
+      <p>Estudio de los patrones de denuncias y quejas ciudadanas hacia instituciones públicas utilizando datos administrativos oficiales.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2023 - Presente</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Denuncias</span>
+          <span class="tag">Quejas</span>
+          <span class="tag">Datos Oficiales</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="estudio-item">
+    <div class="estudio-estado-badge en-curso">En curso</div>
+    <div class="estudio-body">
+      <h3>Datos de Victimización y Confianza Institucional</h3>
+      <p>Análisis de la relación entre datos de victimización criminal y niveles de confianza en instituciones de seguridad.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2024 - Presente</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Victimización</span>
+          <span class="tag">Seguridad</span>
+          <span class="tag">Confianza</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="estudio-item">
+    <div class="estudio-estado-badge en-curso">En curso</div>
+    <div class="estudio-body">
+      <h3>Indicadores de Desempeño Institucional</h3>
+      <p>Construcción y análisis de indicadores de desempeño institucional basados en datos administrativos públicos.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2024 - Presente</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Indicadores</span>
+          <span class="tag">Desempeño</span>
+          <span class="tag">Datos Públicos</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="estudio-item finalizado">
+    <div class="estudio-estado-badge finalizado">Finalizado</div>
+    <div class="estudio-body">
+      <h3>Georreferenciación de la Legitimidad</h3>
+      <p>Análisis espacial de patrones de legitimidad institucional utilizando datos georeferenciados de múltiples fuentes.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2021 - 2023</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">GIS</span>
+          <span class="tag">Espacial</span>
+          <span class="tag">Georreferenciación</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+</div>
+
+<div class="estudios-navegacion">
+  <a href="index.html" class="btn-nav">← Volver a Estudios</a>
+  <a href="../index.html" class="btn-nav-primary">Ir al Inicio →</a>
 </div>
 ```

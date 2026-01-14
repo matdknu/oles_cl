@@ -6,48 +6,95 @@ format:
     toc: false
 ---
 
-Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional.
-
 ```{=html}
-<div class="proyectos-lista">
-  <div class="proyecto-card-detalle">
-    <h3>Grupos Focales sobre Legitimidad Institucional</h3>
-    <p>Análisis de discursos ciudadanos sobre la legitimidad de las instituciones públicas mediante grupos focales en distintas comunas de Santiago.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado en-curso">En curso</span>
-      <span class="proyecto-fecha">2024 - Presente</span>
-    </div>
-  </div>
-  
-  <div class="proyecto-card-detalle">
-    <h3>Entrevistas en Profundidad: Experiencias con Instituciones</h3>
-    <p>Estudio cualitativo sobre las experiencias personales de ciudadanos con instituciones públicas, enfocado en interacciones con policías y tribunales.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado en-curso">En curso</span>
-      <span class="proyecto-fecha">2023 - Presente</span>
-    </div>
-  </div>
-  
-  <div class="proyecto-card-detalle">
-    <h3>Narrativas de Justicia y Legitimidad</h3>
-    <p>Investigación sobre cómo las personas construyen narrativas de justicia en sus interacciones con el sistema institucional.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado en-curso">En curso</span>
-      <span class="proyecto-fecha">2024 - Presente</span>
-    </div>
-  </div>
-  
-  <div class="proyecto-card-detalle">
-    <h3>Etnografía de la Legitimidad en Comunidades Locales</h3>
-    <p>Investigación etnográfica sobre cómo se construye y negocia la legitimidad institucional en contextos comunitarios específicos.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado finalizado">Finalizado</span>
-      <span class="proyecto-fecha">2021 - 2023</span>
-    </div>
+<div class="estudios-hero">
+  <div class="estudios-hero-content">
+    <div class="estudios-icon">🎙️</div>
+    <p class="estudios-descripcion">Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional.</p>
   </div>
 </div>
 
-<div style="margin-top: 2rem;">
-  <a href="index.html" class="btn-volver">← Volver a Estudios</a>
+<div class="estudios-lista">
+  
+  <article class="estudio-item">
+    <div class="estudio-estado-badge en-curso">En curso</div>
+    <div class="estudio-body">
+      <h3>Grupos Focales sobre Legitimidad Institucional</h3>
+      <p>Análisis de discursos ciudadanos sobre la legitimidad de las instituciones públicas mediante grupos focales en distintas comunas de Santiago.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2024 - Presente</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Grupos Focales</span>
+          <span class="tag">Discursos</span>
+          <span class="tag">Santiago</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="estudio-item">
+    <div class="estudio-estado-badge en-curso">En curso</div>
+    <div class="estudio-body">
+      <h3>Entrevistas en Profundidad: Experiencias con Instituciones</h3>
+      <p>Estudio cualitativo sobre las experiencias personales de ciudadanos con instituciones públicas, enfocado en interacciones con policías y tribunales.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2023 - Presente</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Entrevistas</span>
+          <span class="tag">Policía</span>
+          <span class="tag">Tribunales</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="estudio-item">
+    <div class="estudio-estado-badge en-curso">En curso</div>
+    <div class="estudio-body">
+      <h3>Narrativas de Justicia y Legitimidad</h3>
+      <p>Investigación sobre cómo las personas construyen narrativas de justicia en sus interacciones con el sistema institucional.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2024 - Presente</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Narrativas</span>
+          <span class="tag">Justicia</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="estudio-item finalizado">
+    <div class="estudio-estado-badge finalizado">Finalizado</div>
+    <div class="estudio-body">
+      <h3>Etnografía de la Legitimidad en Comunidades Locales</h3>
+      <p>Investigación etnográfica sobre cómo se construye y negocia la legitimidad institucional en contextos comunitarios específicos.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2021 - 2023</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Etnografía</span>
+          <span class="tag">Comunidades</span>
+          <span class="tag">Local</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+</div>
+
+<div class="estudios-navegacion">
+  <a href="index.html" class="btn-nav">← Volver a Estudios</a>
+  <a href="../index.html" class="btn-nav-primary">Ir al Inicio →</a>
 </div>
 ```

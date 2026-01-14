@@ -1051,72 +1051,233 @@ article.page-columns li {
   opacity: 1;
 }
 
-/* Lista de proyectos en páginas de estudios */
-.proyectos-lista {
+/* =====================================================
+   ESTUDIOS DETALLE - Layout Moderno
+   ===================================================== */
+
+/* Hero de estudios */
+.estudios-hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  border-radius: var(--border-radius);
+  padding: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.estudios-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.estudios-descripcion {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.95;
+}
+
+/* Lista de estudios */
+.estudios-lista {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  margin-top: 2rem;
 }
 
-.proyecto-card-detalle {
+.estudio-item {
   background: var(--white);
   border-radius: var(--border-radius);
-  padding: 2rem;
+  padding: 0;
   box-shadow: var(--shadow-soft);
-  border-left: 4px solid var(--primary-color);
+  overflow: hidden;
   transition: var(--transition);
+  position: relative;
+  border: 1px solid rgba(0,0,0,0.05);
 }
 
-.proyecto-card-detalle:hover {
-  transform: translateX(8px);
-  box-shadow: var(--shadow-medium);
+.estudio-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
 }
 
-.proyecto-card-detalle h3 {
-  font-size: 1.25rem;
-  font-weight: 600;
+.estudio-item.finalizado {
+  opacity: 0.85;
+}
+
+.estudio-item.finalizado:hover {
+  opacity: 1;
+}
+
+.estudio-estado-badge {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.estudio-estado-badge.en-curso {
+  background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+  color: var(--white);
+}
+
+.estudio-estado-badge.finalizado {
+  background: linear-gradient(135deg, #78909C 0%, #546E7A 100%);
+  color: var(--white);
+}
+
+.estudio-body {
+  padding: 2rem;
+  padding-right: 8rem;
+}
+
+.estudio-body h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
   margin: 0 0 0.75rem 0;
   color: var(--text-color);
+  line-height: 1.4;
 }
 
-.proyecto-card-detalle p {
+.estudio-body p {
   font-size: 1rem;
   color: var(--text-light);
-  margin: 0 0 1rem 0;
-  line-height: 1.6;
+  margin: 0 0 1.25rem 0;
+  line-height: 1.7;
 }
 
-.proyecto-meta {
+.estudio-detalles {
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--bg-light);
+}
+
+.estudio-periodo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+.estudio-periodo .icono {
+  font-size: 1rem;
+}
+
+.estudio-tags {
+  display: flex;
+  gap: 0.5rem;
   flex-wrap: wrap;
 }
 
-.proyecto-estado {
-  display: inline-block;
-  padding: 0.35rem 0.85rem;
+.estudio-tags .tag {
+  padding: 0.3rem 0.75rem;
+  background: var(--bg-light);
+  color: var(--primary-color);
   border-radius: 50px;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 600;
+  transition: var(--transition);
 }
 
-.proyecto-estado.en-curso {
-  background: #E8F5E9;
-  color: #2E7D32;
+.estudio-tags .tag:hover {
+  background: var(--primary-color);
+  color: var(--white);
 }
 
-.proyecto-estado.finalizado {
-  background: #E3F2FD;
-  color: #1565C0;
+/* Navegación de estudios */
+.estudios-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--bg-light);
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-.proyecto-fecha {
-  font-size: 0.9rem;
-  color: var(--text-light);
+.btn-nav {
+  display: inline-block;
+  padding: 0.85rem 1.75rem;
+  background: var(--bg-light);
+  color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: var(--transition);
 }
 
+.btn-nav:hover {
+  background: var(--primary-color);
+  color: var(--white);
+  transform: translateX(-5px);
+}
+
+.btn-nav-primary {
+  display: inline-block;
+  padding: 0.85rem 1.75rem;
+  background: var(--primary-color);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.btn-nav-primary:hover {
+  background: var(--primary-dark);
+  transform: translateX(5px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .estudios-hero {
+    padding: 2rem;
+  }
+  
+  .estudios-icon {
+    font-size: 3rem;
+  }
+  
+  .estudios-descripcion {
+    font-size: 1.1rem;
+  }
+  
+  .estudio-body {
+    padding-right: 2rem;
+  }
+  
+  .estudio-estado-badge {
+    position: relative;
+    top: auto;
+    right: auto;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .estudio-detalles {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .estudios-navegacion {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Legacy support */
 .btn-volver {
   display: inline-block;
   padding: 0.75rem 1.5rem;

@@ -1,0 +1,77 @@
+---
+title: "Nombre de la Categoría de Estudios"
+pagetitle: "Nombre - OLES"
+format:
+  html:
+    toc: false
+---
+
+```{=html}
+<div class="estudios-hero">
+  <div class="estudios-hero-content">
+    <div class="estudios-icon">📊</div>
+    <p class="estudios-descripcion">Descripción general de esta categoría de estudios.</p>
+  </div>
+</div>
+
+<div class="estudios-lista">
+  
+  <!-- ESTUDIO EN CURSO -->
+  <article class="estudio-item">
+    <div class="estudio-estado-badge en-curso">En curso</div>
+    <div class="estudio-body">
+      <h3>Nombre del Estudio</h3>
+      <p>Descripción del estudio. Qué investiga, metodología, objetivos principales.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2024 - Presente</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Tag1</span>
+          <span class="tag">Tag2</span>
+          <span class="tag">Tag3</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ESTUDIO FINALIZADO -->
+  <article class="estudio-item finalizado">
+    <div class="estudio-estado-badge finalizado">Finalizado</div>
+    <div class="estudio-body">
+      <h3>Nombre del Estudio Finalizado</h3>
+      <p>Descripción del estudio finalizado.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2020 - 2023</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Tag1</span>
+          <span class="tag">Tag2</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+</div>
+
+<div class="estudios-navegacion">
+  <a href="index.html" class="btn-nav">← Volver a Estudios</a>
+  <a href="../index.html" class="btn-nav-primary">Ir al Inicio →</a>
+</div>
+```
+
+<!--
+INSTRUCCIONES:
+1. Cambia el título y descripción en el YAML y en estudios-hero
+2. Para cada estudio, copia un bloque <article class="estudio-item">
+3. Para estudios en curso: class="estudio-item" y badge "en-curso"
+4. Para estudios finalizados: class="estudio-item finalizado" y badge "finalizado"
+5. Cambia el icono del hero según la categoría:
+   - 📊 Encuestas
+   - 🎙️ Cualitativos
+   - 📰 Prensa y Redes
+   - 🗃️ Datos Administrativos
+-->

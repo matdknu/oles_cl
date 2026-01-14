@@ -6,48 +6,95 @@ format:
     toc: false
 ---
 
-Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional.
-
 ```{=html}
-<div class="proyectos-lista">
-  <div class="proyecto-card-detalle">
-    <h3>Encuesta sobre Seguridad y Experiencias Personales (ESEP)</h3>
-    <p>Encuesta longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado en-curso">En curso</span>
-      <span class="proyecto-fecha">2020 - Presente</span>
-    </div>
-  </div>
-  
-  <div class="proyecto-card-detalle">
-    <h3>Encuesta de Confianza Institucional</h3>
-    <p>Estudio sobre los niveles de confianza en diferentes instituciones del Estado y cómo estas percepciones varían según características sociodemográficas.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado en-curso">En curso</span>
-      <span class="proyecto-fecha">2023 - Presente</span>
-    </div>
-  </div>
-  
-  <div class="proyecto-card-detalle">
-    <h3>Encuesta de Percepción de Carabineros</h3>
-    <p>Análisis de la percepción ciudadana sobre la legitimidad de Carabineros de Chile, incluyendo percepciones de justicia procedimental y efectividad.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado finalizado">Finalizado</span>
-      <span class="proyecto-fecha">2020 - 2023</span>
-    </div>
-  </div>
-  
-  <div class="proyecto-card-detalle">
-    <h3>Estudio Panel de Legitimidad Policial</h3>
-    <p>Investigación longitudinal sobre cambios en la legitimidad policial percibida a lo largo del tiempo en contexto de crisis social.</p>
-    <div class="proyecto-meta">
-      <span class="proyecto-estado finalizado">Finalizado</span>
-      <span class="proyecto-fecha">2019 - 2022</span>
-    </div>
+<div class="estudios-hero">
+  <div class="estudios-hero-content">
+    <div class="estudios-icon">📊</div>
+    <p class="estudios-descripcion">Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional.</p>
   </div>
 </div>
 
-<div style="margin-top: 2rem;">
-  <a href="index.html" class="btn-volver">← Volver a Estudios</a>
+<div class="estudios-lista">
+  
+  <article class="estudio-item">
+    <div class="estudio-estado-badge en-curso">En curso</div>
+    <div class="estudio-body">
+      <h3>Encuesta sobre Seguridad y Experiencias Personales (ESEP)</h3>
+      <p>Encuesta longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2020 - Presente</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Longitudinal</span>
+          <span class="tag">Carabineros</span>
+          <span class="tag">Seguridad</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="estudio-item">
+    <div class="estudio-estado-badge en-curso">En curso</div>
+    <div class="estudio-body">
+      <h3>Encuesta de Confianza Institucional</h3>
+      <p>Estudio sobre los niveles de confianza en diferentes instituciones del Estado y cómo estas percepciones varían según características sociodemográficas.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2023 - Presente</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Confianza</span>
+          <span class="tag">Estado</span>
+          <span class="tag">Sociodemográfico</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="estudio-item finalizado">
+    <div class="estudio-estado-badge finalizado">Finalizado</div>
+    <div class="estudio-body">
+      <h3>Encuesta de Percepción de Carabineros</h3>
+      <p>Análisis de la percepción ciudadana sobre la legitimidad de Carabineros de Chile, incluyendo percepciones de justicia procedimental y efectividad.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2020 - 2023</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Carabineros</span>
+          <span class="tag">Justicia Procedimental</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="estudio-item finalizado">
+    <div class="estudio-estado-badge finalizado">Finalizado</div>
+    <div class="estudio-body">
+      <h3>Estudio Panel de Legitimidad Policial</h3>
+      <p>Investigación longitudinal sobre cambios en la legitimidad policial percibida a lo largo del tiempo en contexto de crisis social.</p>
+      <div class="estudio-detalles">
+        <div class="estudio-periodo">
+          <span class="icono">📅</span>
+          <span>2019 - 2022</span>
+        </div>
+        <div class="estudio-tags">
+          <span class="tag">Panel</span>
+          <span class="tag">Crisis Social</span>
+          <span class="tag">Policía</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+</div>
+
+<div class="estudios-navegacion">
+  <a href="index.html" class="btn-nav">← Volver a Estudios</a>
+  <a href="../index.html" class="btn-nav-primary">Ir al Inicio →</a>
 </div>
 ```
