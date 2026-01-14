@@ -1,0 +1,69 @@
+---
+title: "Tesistas y Pasantes"
+pagetitle: "Tesistas y Pasantes - OLES"
+format:
+  html:
+    toc: false
+---
+
+```{=html}
+<div class="volver-container">
+  <a href="../index.html" class="btn-volver">← Volver al Equipo</a>
+</div>
+
+<!-- Tesistas -->
+<section class="equipo-categoria">
+  <h2 class="equipo-categoria-titulo">Tesistas</h2>
+  <div class="equipo-grid">
+    <a href="laura-fernandez.html" class="equipo-card">
+      <div class="equipo-avatar">
+        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop" alt="Laura Fernández">
+      </div>
+      <h4>Laura Fernández</h4>
+      <p>Magíster en Ciencias Sociales</p>
+    </a>
+    <a href="ricardo-munoz.html" class="equipo-card">
+      <div class="equipo-avatar">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop" alt="Ricardo Muñoz">
+      </div>
+      <h4>Ricardo Muñoz</h4>
+      <p>Doctorado en Sociología</p>
+    </a>
+    <a href="daniela-torres.html" class="equipo-card">
+      <div class="equipo-avatar">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop" alt="Daniela Torres">
+      </div>
+      <h4>Daniela Torres</h4>
+      <p>Magíster en Políticas Públicas</p>
+    </a>
+  </div>
+</section>
+
+<!-- Pasantes -->
+<section class="equipo-categoria">
+  <h2 class="equipo-categoria-titulo">Pasantes</h2>
+  <div class="equipo-grid">
+    <a href="nicolas-soto.html" class="equipo-card">
+      <div class="equipo-avatar">
+        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=400&fit=crop" alt="Nicolás Soto">
+      </div>
+      <h4>Nicolás Soto</h4>
+      <p>Pregrado Sociología</p>
+    </a>
+    <a href="francisca-diaz.html" class="equipo-card">
+      <div class="equipo-avatar">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop" alt="Francisca Díaz">
+      </div>
+      <h4>Francisca Díaz</h4>
+      <p>Pregrado Psicología</p>
+    </a>
+    <a href="sebastian-gutierrez.html" class="equipo-card">
+      <div class="equipo-avatar">
+        <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&h=400&fit=crop" alt="Sebastián Gutiérrez">
+      </div>
+      <h4>Sebastián Gutiérrez</h4>
+      <p>Pregrado Ciencia Política</p>
+    </a>
+  </div>
+</section>
+```
