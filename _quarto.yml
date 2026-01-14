@@ -18,19 +18,19 @@ website:
         href: noticias/index.qmd
       - text: "Investigación"
         menu:
-          - text: "Estudios"
+          - text: "📋 Todos los Estudios"
             href: estudios/index.qmd
           - text: "---"
-          - text: "Encuestas"
-            href: estudios/encuestas.qmd
-          - text: "Cualitativos"
-            href: estudios/cualitativos.qmd
-          - text: "Prensa y Redes"
-            href: estudios/prensa-redes.qmd
-          - text: "Datos Administrativos"
-            href: estudios/datos-administrativos.qmd
+          - text: "📊 Encuestas"
+            href: estudios/index.qmd#encuestas
+          - text: "🎙️ Cualitativos"
+            href: estudios/index.qmd#cualitativos
+          - text: "📰 Prensa y Redes"
+            href: estudios/index.qmd#prensa-redes
+          - text: "📈 Datos Administrativos"
+            href: estudios/index.qmd#datos-administrativos
           - text: "---"
-          - text: "Publicaciones Académicas"
+          - text: "📚 Publicaciones Académicas"
             href: publicaciones/index.qmd
       - text: "Eventos"
         href: eventos/index.qmd
