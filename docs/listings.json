@@ -15,6 +15,27 @@
     ]
   },
   {
+    "listing": "/estudios/index.html",
+    "items": [
+      "/estudios/analisis-georreferenciado.html",
+      "/estudios/grupos-focales.html",
+      "/estudios/monitoreo-opinion-digital.html",
+      "/estudios/analisis-redes-sociales.html",
+      "/estudios/confianza-institucional.html",
+      "/estudios/entrevistas-legitimidad.html",
+      "/estudios/etnografia-policia.html",
+      "/estudios/registros-denuncias.html",
+      "/estudios/analisis-prensa.html",
+      "/estudios/estadisticas-delitos.html",
+      "/estudios/panel-legitimidad-policial.html",
+      "/estudios/esep.html",
+      "/estudios/indicadores-desempeno.html",
+      "/estudios/medios-post-estallido.html",
+      "/estudios/narrativas-estallido.html",
+      "/estudios/percepcion-carabineros.html"
+    ]
+  },
+  {
     "listing": "/proyectos/index.html",
     "items": [
       "/proyectos/prensa-redes.html",

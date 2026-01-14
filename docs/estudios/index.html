@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/logos/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,13 +69,71 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-estado','listing-fecha-inicio',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script src="../translations.js" defer=""></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -153,34 +213,19 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Categorías</h2>
-   
-  <ul>
-  <li><a href="#nuestros-estudios-de-investigación" id="toc-nuestros-estudios-de-investigación" class="nav-link active" data-scroll-target="#nuestros-estudios-de-investigación">Nuestros Estudios de Investigación</a></li>
-  <li><a href="#encuestas" id="toc-encuestas" class="nav-link" data-scroll-target="#encuestas">📊 Estudios de Encuesta</a></li>
-  <li><a href="#cualitativos" id="toc-cualitativos" class="nav-link" data-scroll-target="#cualitativos">🎙️ Estudios Cualitativos</a></li>
-  <li><a href="#prensa-redes" id="toc-prensa-redes" class="nav-link" data-scroll-target="#prensa-redes">📰 Estudios de Prensa y Redes Sociales</a></li>
-  <li><a href="#datos-administrativos" id="toc-datos-administrativos" class="nav-link" data-scroll-target="#datos-administrativos">📈 Estudios de Datos Administrativos</a></li>
-  </ul>
-</nav>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
+    
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Todos los Estudios</h1>
+<h1 class="title">Estudios</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -192,154 +237,578 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="nuestros-estudios-de-investigación" class="level2">
-<h2 class="anchored" data-anchor-id="nuestros-estudios-de-investigación">Nuestros Estudios de Investigación</h2>
-<p>Listado completo de todas nuestras investigaciones activas y finalizadas, organizadas por línea de investigación. Haz clic en cada estudio para ver más detalles.</p>
-<hr>
-</section>
-<section id="encuestas" class="level2">
-<h2 class="anchored" data-anchor-id="encuestas">📊 Estudios de Encuesta</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Estado</th>
-<th>Estudio</th>
-<th>Período</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>🟢 En curso</td>
-<td><a href="../estudios/esep.html">Encuesta sobre Seguridad y Experiencias Personales (ESEP)</a></td>
-<td>2020 - Presente</td>
-</tr>
-<tr class="even">
-<td>🟢 En curso</td>
-<td><a href="../estudios/confianza-institucional.html">Encuesta de Confianza Institucional</a></td>
-<td>2023 - Presente</td>
-</tr>
-<tr class="odd">
-<td>🟢 En curso</td>
-<td><a href="../estudios/panel-legitimidad-policial.html">Estudio Panel de Legitimidad Policial</a></td>
-<td>2022 - Presente</td>
-</tr>
-<tr class="even">
-<td>⚪ Finalizado</td>
-<td><a href="../estudios/percepcion-carabineros.html">Encuesta de Percepción de Carabineros</a></td>
-<td>2020 - 2023</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="cualitativos" class="level2">
-<h2 class="anchored" data-anchor-id="cualitativos">🎙️ Estudios Cualitativos</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Estado</th>
-<th>Estudio</th>
-<th>Período</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>🟢 En curso</td>
-<td><a href="../estudios/entrevistas-legitimidad.html">Entrevistas en Profundidad: Percepciones de Legitimidad</a></td>
-<td>2023 - Presente</td>
-</tr>
-<tr class="even">
-<td>🟢 En curso</td>
-<td><a href="../estudios/grupos-focales.html">Grupos Focales: Confianza Institucional</a></td>
-<td>2024 - Presente</td>
-</tr>
-<tr class="odd">
-<td>🟢 En curso</td>
-<td><a href="../estudios/etnografia-policia.html">Etnografía: Interacciones Policía-Ciudadanía</a></td>
-<td>2023 - Presente</td>
-</tr>
-<tr class="even">
-<td>⚪ Finalizado</td>
-<td><a href="../estudios/narrativas-estallido.html">Narrativas del Estallido Social</a></td>
-<td>2020 - 2022</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="prensa-redes" class="level2">
-<h2 class="anchored" data-anchor-id="prensa-redes">📰 Estudios de Prensa y Redes Sociales</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Estado</th>
-<th>Estudio</th>
-<th>Período</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>🟢 En curso</td>
-<td><a href="../estudios/analisis-prensa.html">Análisis de Prensa: Cobertura de Legitimidad Institucional</a></td>
-<td>2022 - Presente</td>
-</tr>
-<tr class="even">
-<td>🟢 En curso</td>
-<td><a href="../estudios/analisis-redes-sociales.html">Análisis de Redes Sociales: Discursos sobre Instituciones</a></td>
-<td>2023 - Presente</td>
-</tr>
-<tr class="odd">
-<td>🟢 En curso</td>
-<td><a href="../estudios/monitoreo-opinion-digital.html">Monitoreo de Opinión Pública Digital</a></td>
-<td>2024 - Presente</td>
-</tr>
-<tr class="even">
-<td>⚪ Finalizado</td>
-<td><a href="../estudios/medios-post-estallido.html">Medios Digitales y Legitimidad Post-Estallido</a></td>
-<td>2020 - 2022</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="datos-administrativos" class="level2">
-<h2 class="anchored" data-anchor-id="datos-administrativos">📈 Estudios de Datos Administrativos</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Estado</th>
-<th>Estudio</th>
-<th>Período</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>🟢 En curso</td>
-<td><a href="../estudios/registros-denuncias.html">Análisis de Registros de Denuncias</a></td>
-<td>2023 - Presente</td>
-</tr>
-<tr class="even">
-<td>🟢 En curso</td>
-<td><a href="../estudios/estadisticas-delitos.html">Estadísticas de Delitos y Victimización</a></td>
-<td>2022 - Presente</td>
-</tr>
-<tr class="odd">
-<td>🟢 En curso</td>
-<td><a href="../estudios/analisis-georreferenciado.html">Análisis Georreferenciado de Interacciones</a></td>
-<td>2024 - Presente</td>
-</tr>
-<tr class="even">
-<td>⚪ Finalizado</td>
-<td><a href="../estudios/indicadores-desempeno.html">Indicadores de Desempeño Institucional</a></td>
-<td>2021 - 2023</td>
-</tr>
-</tbody>
-</table>
+<p>Explora nuestras líneas de investigación sobre legitimidad institucional en Chile.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1768434151288" data-listing-reading-time-sort="2" data-listing-word-count-sort="381">
+<a href="../estudios/analisis-georreferenciado.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Análisis Georreferenciado de Interacciones Policía-Ciudadanía
+</h5>
+<div class="card-text listing-description">
+Mapeo georreferenciado de interacciones entre policía y ciudadanía para identificar patrones territoriales.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2024
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1768434151288" data-listing-reading-time-sort="3" data-listing-word-count-sort="469">
+<a href="../estudios/grupos-focales.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Grupos Focales: Confianza Institucional
+</h5>
+<div class="card-text listing-description">
+Investigación con grupos focales que explora las dinámicas sociales que influyen en la confianza y desconfianza institucional.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2024
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1768434151262" data-listing-reading-time-sort="3" data-listing-word-count-sort="585">
+<a href="../estudios/monitoreo-opinion-digital.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Monitoreo de Opinión Pública Digital
+</h5>
+<div class="card-text listing-description">
+Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2024
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1768433680286" data-listing-reading-time-sort="3" data-listing-word-count-sort="449">
+<a href="../estudios/analisis-redes-sociales.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Análisis de Redes Sociales: Discursos sobre Instituciones
+</h5>
+<div class="card-text listing-description">
+Investigación sobre los discursos en Twitter/X y otras plataformas respecto a la legitimidad de las instituciones públicas.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2023
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1768434151262" data-listing-reading-time-sort="2" data-listing-word-count-sort="328">
+<a href="../estudios/confianza-institucional.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Encuesta de Confianza Institucional
+</h5>
+<div class="card-text listing-description">
+Estudio sobre los niveles de confianza en diferentes instituciones del Estado chileno.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2023
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1768434151277" data-listing-reading-time-sort="3" data-listing-word-count-sort="534">
+<a href="../estudios/entrevistas-legitimidad.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Entrevistas en Profundidad: Percepciones de Legitimidad
+</h5>
+<div class="card-text listing-description">
+Estudio cualitativo basado en entrevistas a ciudadanos sobre sus experiencias y percepciones de legitimidad institucional.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2023
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1768434151283" data-listing-reading-time-sort="3" data-listing-word-count-sort="512">
+<a href="../estudios/etnografia-policia.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Etnografía: Interacciones Policía-Ciudadanía
+</h5>
+<div class="card-text listing-description">
+Estudio etnográfico de las interacciones cotidianas entre la policía y la ciudadanía en contextos urbanos.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2023
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1768434151288" data-listing-reading-time-sort="3" data-listing-word-count-sort="421">
+<a href="../estudios/registros-denuncias.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Análisis de Registros de Denuncias
+</h5>
+<div class="card-text listing-description">
+Estudio de registros administrativos de denuncias ciudadanas a instituciones policiales.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2023
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1768433680286" data-listing-reading-time-sort="3" data-listing-word-count-sort="411">
+<a href="../estudios/analisis-prensa.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Análisis de Prensa: Cobertura de Legitimidad Institucional
+</h5>
+<div class="card-text listing-description">
+Estudio del tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2022
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-listing-file-modified-sort="1768434151288" data-listing-reading-time-sort="3" data-listing-word-count-sort="477">
+<a href="../estudios/estadisticas-delitos.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Estadísticas de Delitos y Victimización
+</h5>
+<div class="card-text listing-description">
+Análisis de estadísticas oficiales de delitos y victimización para comprender patrones de criminalidad y respuesta ciudadana.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2022
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-listing-file-modified-sort="1768434151262" data-listing-reading-time-sort="2" data-listing-word-count-sort="394">
+<a href="../estudios/panel-legitimidad-policial.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Estudio Panel de Legitimidad Policial
+</h5>
+<div class="card-text listing-description">
+Investigación longitudinal sobre cambios en la legitimidad policial percibida a nivel individual.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2022
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-listing-file-modified-sort="1768434151262" data-listing-reading-time-sort="3" data-listing-word-count-sort="537">
+<a href="../estudios/esep.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Encuesta sobre Seguridad y Experiencias Personales (ESEP)
+</h5>
+<div class="card-text listing-description">
+Encuesta longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+en-curso
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2020
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-listing-file-modified-sort="1768434151304" data-listing-reading-time-sort="4" data-listing-word-count-sort="650">
+<a href="../estudios/indicadores-desempeno.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Indicadores de Desempeño Institucional
+</h5>
+<div class="card-text listing-description">
+Construcción y análisis de indicadores de desempeño para evaluar la legitimidad y efectividad institucional.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+finalizado
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2021
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-listing-file-modified-sort="1768434151262" data-listing-reading-time-sort="4" data-listing-word-count-sort="603">
+<a href="../estudios/medios-post-estallido.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Medios Digitales y Legitimidad Post-Estallido
+</h5>
+<div class="card-text listing-description">
+Análisis de cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+finalizado
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2020
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14" data-listing-file-modified-sort="1768434151288" data-listing-reading-time-sort="4" data-listing-word-count-sort="657">
+<a href="../estudios/narrativas-estallido.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Narrativas del Estallido Social
+</h5>
+<div class="card-text listing-description">
+Análisis de narrativas ciudadanas sobre legitimidad institucional durante y después del estallido social de 2019.
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+finalizado
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2020
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="15" data-listing-file-modified-sort="1768434151268" data-listing-reading-time-sort="3" data-listing-word-count-sort="473">
+<a href="../estudios/percepcion-carabineros.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1589578527966-fdac0f44566c?w=800&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 180px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Encuesta de Percepción de Carabineros
+</h5>
+<div class="card-text listing-description">
+Análisis de la percepción ciudadana sobre la legitimidad de Carabineros de Chile (2020-2023).
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+estado
+</td>
+<td class="estado">
+finalizado
+</td>
+</tr>
+<tr>
+<td>
+fecha-inicio
+</td>
+<td class="fecha-inicio">
+2020
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

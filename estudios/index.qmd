@@ -1,57 +1,22 @@
 ---
-title: "Todos los Estudios"
+title: "Estudios"
 pagetitle: "Estudios - OLES"
+listing:
+  contents: 
+    - "*.qmd"
+    - "!index.qmd"
+  type: grid
+  grid-columns: 3
+  sort: 
+    - "estado"
+    - "fecha-inicio desc"
+  fields: [image, title, description, estado, fecha-inicio]
+  image-height: "180px"
+  categories: false
 format:
   html:
-    toc: true
-    toc-title: "Categorías"
-    toc-location: left
+    toc: false
 ---
 
-## Nuestros Estudios de Investigación
+Explora nuestras líneas de investigación sobre legitimidad institucional en Chile.
 
-Listado completo de todas nuestras investigaciones activas y finalizadas, organizadas por línea de investigación. Haz clic en cada estudio para ver más detalles.
-
----
-
-## 📊 Estudios de Encuesta {#encuestas}
-
-| Estado | Estudio | Período |
-|--------|---------|---------|
-| 🟢 En curso | [Encuesta sobre Seguridad y Experiencias Personales (ESEP)](esep.qmd) | 2020 - Presente |
-| 🟢 En curso | [Encuesta de Confianza Institucional](confianza-institucional.qmd) | 2023 - Presente |
-| 🟢 En curso | [Estudio Panel de Legitimidad Policial](panel-legitimidad-policial.qmd) | 2022 - Presente |
-| ⚪ Finalizado | [Encuesta de Percepción de Carabineros](percepcion-carabineros.qmd) | 2020 - 2023 |
-
----
-
-## 🎙️ Estudios Cualitativos {#cualitativos}
-
-| Estado | Estudio | Período |
-|--------|---------|---------|
-| 🟢 En curso | [Entrevistas en Profundidad: Percepciones de Legitimidad](entrevistas-legitimidad.qmd) | 2023 - Presente |
-| 🟢 En curso | [Grupos Focales: Confianza Institucional](grupos-focales.qmd) | 2024 - Presente |
-| 🟢 En curso | [Etnografía: Interacciones Policía-Ciudadanía](etnografia-policia.qmd) | 2023 - Presente |
-| ⚪ Finalizado | [Narrativas del Estallido Social](narrativas-estallido.qmd) | 2020 - 2022 |
-
----
-
-## 📰 Estudios de Prensa y Redes Sociales {#prensa-redes}
-
-| Estado | Estudio | Período |
-|--------|---------|---------|
-| 🟢 En curso | [Análisis de Prensa: Cobertura de Legitimidad Institucional](analisis-prensa.qmd) | 2022 - Presente |
-| 🟢 En curso | [Análisis de Redes Sociales: Discursos sobre Instituciones](analisis-redes-sociales.qmd) | 2023 - Presente |
-| 🟢 En curso | [Monitoreo de Opinión Pública Digital](monitoreo-opinion-digital.qmd) | 2024 - Presente |
-| ⚪ Finalizado | [Medios Digitales y Legitimidad Post-Estallido](medios-post-estallido.qmd) | 2020 - 2022 |
-
----
-
-## 📈 Estudios de Datos Administrativos {#datos-administrativos}
-
-| Estado | Estudio | Período |
-|--------|---------|---------|
-| 🟢 En curso | [Análisis de Registros de Denuncias](registros-denuncias.qmd) | 2023 - Presente |
-| 🟢 En curso | [Estadísticas de Delitos y Victimización](estadisticas-delitos.qmd) | 2022 - Presente |
-| 🟢 En curso | [Análisis Georreferenciado de Interacciones](analisis-georreferenciado.qmd) | 2024 - Presente |
-| ⚪ Finalizado | [Indicadores de Desempeño Institucional](indicadores-desempeno.qmd) | 2021 - 2023 |
