@@ -1775,6 +1775,108 @@ article.page-columns li {
 }
 
 /* =====================================================
+   EQUIPO PAGE - TABLA CON FOTOS
+   ===================================================== */
+   
+/* Fotos redondeadas en tablas */
+.rounded {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 3px solid var(--primary-light);
+  transition: var(--transition);
+}
+
+.rounded:hover {
+  border-color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+/* Estilos de tabla para equipo */
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+article table thead {
+  display: none;
+}
+
+article table tbody tr {
+  border-bottom: 1px solid var(--bg-light);
+  transition: var(--transition);
+}
+
+article table tbody tr:hover {
+  background: var(--bg-light);
+}
+
+article table td {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+article table td:first-child {
+  width: 80px;
+  text-align: center;
+}
+
+article table td a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+article table td a:hover {
+  color: var(--primary-dark);
+}
+
+/* Categorías del equipo */
+article h2 {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.75rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+article h2:first-of-type {
+  margin-top: 2rem;
+}
+
+/* TOC para equipo */
+#TOC {
+  background: var(--bg-light);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+}
+
+#TOC ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#TOC li {
+  margin-bottom: 0.5rem;
+}
+
+#TOC a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+#TOC a:hover {
+  color: var(--primary-dark);
+}
+
+/* =====================================================
    PRINT STYLES
    ===================================================== */
 @media print {

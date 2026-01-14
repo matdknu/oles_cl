@@ -1,0 +1,41 @@
+---
+title: "Sebastián Gutiérrez"
+cargo: "Pasante"
+categoria: "Pasantes"
+orden: 202
+email: "sgutierrez@estudiante.edu"
+image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:sgutierrez@estudiante.edu
+---
+
+## Sobre mí
+
+Estudiante de pregrado en Ciencia Política. Colaboro como pasante en el Observatorio, apoyando en la revisión bibliográfica y organización de eventos académicos.
+
+## Formación
+
+- **Ciencia Política** (en curso)
+  Pontificia Universidad Católica de Chile
+
+## Actividades en OLES
+
+- Revisión sistemática de literatura
+- Apoyo en organización de seminarios
+- Gestión de redes sociales académicas
+- Elaboración de minutas
+
+## Áreas de Interés
+
+- Instituciones políticas
+- Opinión pública
+- Comunicación política
+- Gestión de eventos académicos
+
+[← Volver al Equipo](../index.qmd)

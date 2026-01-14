@@ -1,0 +1,43 @@
+---
+title: "Laura Fernández"
+cargo: "Tesista"
+categoria: "Tesistas"
+orden: 100
+email: "lfernandez@estudiante.edu"
+image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:lfernandez@estudiante.edu
+---
+
+## Sobre mí
+
+Estudiante de Magíster en Ciencias Sociales. Realizo mi tesis sobre legitimidad policial y confianza ciudadana en contextos urbanos. Colaboro en proyectos de investigación del Observatorio desde 2024.
+
+## Formación
+
+- **Magíster en Ciencias Sociales** (en curso)
+  Universidad de Chile
+
+- **Sociología**
+  Universidad de Chile, 2022
+
+## Tema de Tesis
+
+**Legitimidad policial y confianza ciudadana en contextos urbanos**
+
+Mi investigación explora cómo las experiencias de contacto con la policía influyen en las percepciones de legitimidad institucional en diferentes barrios de Santiago.
+
+## Áreas de Interés
+
+- Legitimidad policial
+- Confianza ciudadana
+- Sociología urbana
+- Métodos cuantitativos
+
+[← Volver al Equipo](../index.qmd)

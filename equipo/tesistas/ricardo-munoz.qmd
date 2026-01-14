@@ -1,0 +1,46 @@
+---
+title: "Ricardo Muñoz"
+cargo: "Tesista Doctoral"
+categoria: "Tesistas"
+orden: 101
+email: "rmunoz@estudiante.edu"
+image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:rmunoz@estudiante.edu
+---
+
+## Sobre mí
+
+Estudiante de Doctorado en Sociología. Desarrollo mi tesis doctoral sobre justicia procedimental y legitimidad institucional en Chile. Participo activamente en el análisis de datos del Observatorio.
+
+## Formación
+
+- **Doctorado en Sociología** (en curso)
+  Pontificia Universidad Católica de Chile
+
+- **Magíster en Sociología**
+  Universidad de Chile, 2021
+
+- **Sociología**
+  Universidad de Concepción, 2018
+
+## Tema de Tesis
+
+**Justicia procedimental y legitimidad institucional en Chile**
+
+Mi investigación doctoral examina cómo las percepciones de justicia procedimental en los procedimientos policiales afectan la legitimidad percibida de las instituciones de seguridad.
+
+## Áreas de Interés
+
+- Justicia procedimental
+- Legitimidad institucional
+- Metodología cuantitativa
+- Análisis multinivel
+
+[← Volver al Equipo](../index.qmd)

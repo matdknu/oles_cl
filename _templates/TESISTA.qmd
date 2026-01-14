@@ -1,0 +1,48 @@
+---
+title: "Nombre Apellido"
+cargo: "Tesista"  # Puede ser: "Tesista", "Tesista Doctoral", "Pasante"
+categoria: "Tesistas"  # Puede ser: "Tesistas" o "Pasantes"
+orden: 100  # 100-199 para tesistas, 200-299 para pasantes
+email: "email@estudiante.edu"
+image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:email@estudiante.edu
+---
+
+## Sobre mí
+
+Breve descripción del tesista o pasante. Incluir información sobre el programa de estudios y la colaboración con OLES.
+
+## Formación
+
+- **Programa actual** (en curso)
+  Universidad
+
+- **Título previo** (si aplica)
+  Universidad, Año
+
+## Tema de Tesis (solo para tesistas)
+
+**Título de la tesis**
+
+Breve descripción del tema de investigación y su relevancia para el trabajo del Observatorio.
+
+## Actividades en OLES (solo para pasantes)
+
+- Actividad 1
+- Actividad 2
+- Actividad 3
+
+## Áreas de Interés
+
+- Área 1
+- Área 2
+- Área 3
+
+[← Volver al Equipo](../index.qmd)

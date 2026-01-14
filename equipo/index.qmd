@@ -1,16 +1,62 @@
 ---
-title: "Equipo"
+title: "Nuestro Equipo"
 pagetitle: "Equipo - OLES"
-listing:
-  contents: "*.qmd"
-  type: grid
-  grid-columns: 3
-  sort: "orden"
-  fields: [image, title, cargo]
-  image-height: "200px"
 format:
   html:
-    toc: false
+    toc: true
+    toc-title: "Categorías"
+    toc-location: left
 ---
 
 Conoce a los investigadores e investigadoras que hacen posible el trabajo del Observatorio.
+
+---
+
+## Dirección {#direccion}
+
+| | Nombre | Cargo |
+|---|--------|-------|
+| ![](https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop){.rounded} | [Mónica Gerber](monica-gerber.qmd) | Directora |
+| ![](https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=80&h=80&fit=crop){.rounded} | [Ana Figueiredo](ana-figueiredo.qmd) | Subdirectora |
+| ![](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop){.rounded} | [Joaquín Bahamondes](joaquin-bahamondes.qmd) | Subdirector |
+| ![](https://images.unsplash.com/photo-1580489944761-15a19d654956?w=80&h=80&fit=crop){.rounded} | [Macarena Orchard](macarena-orchard.qmd) | Subdirectora |
+
+---
+
+## Investigadores {#investigadores}
+
+| | Nombre | Cargo |
+|---|--------|-------|
+| ![](https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop){.rounded} | [Cristóbal Moya](cristobal-moya.qmd) | Investigador Principal |
+| ![](https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop){.rounded} | [Ismael Puga](ismael-puga.qmd) | Investigador Principal |
+| ![](https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=80&h=80&fit=crop){.rounded} | [Luciano Sáez](luciano-saez-fuentealba.qmd) | Investigador Doctoral |
+
+---
+
+## Asistentes de Investigación {#asistentes}
+
+| | Nombre | Cargo |
+|---|--------|-------|
+| ![](https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=80&h=80&fit=crop){.rounded} | [Bruno Rojas](bruno-rojas.qmd) | Asistente |
+| ![](https://images.unsplash.com/photo-1463453091185-61582044d556?w=80&h=80&fit=crop){.rounded} | [Nicolás Tobar](nicolas-tobar-jorquera.qmd) | Asistente |
+| ![](https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=80&h=80&fit=crop){.rounded} | [Matías Deneken](matias-deneken.qmd) | Asistente |
+
+---
+
+## Tesistas {#tesistas}
+
+| | Nombre | Descripción |
+|---|--------|-------------|
+| ![](https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop){.rounded} | [Laura Fernández](tesistas/laura-fernandez.qmd) | Magíster en Ciencias Sociales - Tesis sobre legitimidad policial |
+| ![](https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop){.rounded} | [Ricardo Muñoz](tesistas/ricardo-munoz.qmd) | Doctorado en Sociología - Justicia procedimental |
+| ![](https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=80&h=80&fit=crop){.rounded} | [Daniela Torres](tesistas/daniela-torres.qmd) | Magíster en Políticas Públicas - Desigualdades y legitimidad |
+
+---
+
+## Pasantes {#pasantes}
+
+| | Nombre | Descripción |
+|---|--------|-------------|
+| ![](https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=80&h=80&fit=crop){.rounded} | [Nicolás Soto](tesistas/nicolas-soto.qmd) | Pregrado Sociología - Práctica profesional |
+| ![](https://images.unsplash.com/photo-1517841905240-472988babdf9?w=80&h=80&fit=crop){.rounded} | [Francisca Díaz](tesistas/francisca-diaz.qmd) | Pregrado Psicología - Investigación cualitativa |
+| ![](https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=80&h=80&fit=crop){.rounded} | [Sebastián Gutiérrez](tesistas/sebastian-gutierrez.qmd) | Pregrado Ciencia Política - Apoyo académico |
