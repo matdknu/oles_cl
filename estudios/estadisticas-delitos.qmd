@@ -1,27 +1,155 @@
 ---
 title: "Estadísticas de Delitos y Victimización"
-description: "Análisis de estadísticas oficiales de delitos y victimización."
+description: "Análisis de estadísticas oficiales de delitos y victimización para comprender patrones de criminalidad y respuesta ciudadana."
 categoria: "datos-administrativos"
 estado: "en-curso"
 fecha-inicio: "2022"
 fecha-fin: "Presente"
+image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop"
 investigadores:
   - "Ismael Puga"
+  - "Cristóbal Moya"
 tags:
+  - "Estadísticas"
   - "Delitos"
   - "Victimización"
-  - "Estadísticas"
+  - "Análisis Territorial"
 ---
 
 ## Descripción
 
-Análisis de estadísticas oficiales de delitos y victimización para contextualizar las percepciones de legitimidad institucional.
+Este estudio analiza las estadísticas oficiales de delitos y victimización en Chile, integrando múltiples fuentes de datos para construir un panorama comprehensivo de la criminalidad y su relación con las percepciones de legitimidad institucional. El proyecto busca superar las limitaciones de cada fuente individual mediante la triangulación de registros policiales, fiscales y encuestas de victimización.
 
 ## Objetivos
 
-- Analizar tendencias de criminalidad
-- Estudiar patrones de victimización
-- Relacionar datos objetivos con percepciones subjetivas
+### Objetivo General
+Analizar patrones de criminalidad y victimización en Chile y su relación con la legitimidad institucional.
+
+### Objetivos Específicos
+- Integrar múltiples fuentes de datos sobre delincuencia
+- Construir indicadores robustos de criminalidad territorial
+- Analizar relación entre victimización y percepciones de legitimidad
+- Estudiar efectividad percibida de instituciones de seguridad
+- Identificar zonas de alta vulnerabilidad
+
+## Fuentes de Datos
+
+### 1. Encuesta Nacional Urbana de Seguridad Ciudadana (ENUSC)
+- **Institución**: INE / Subsecretaría Prevención del Delito
+- **Periodicidad**: Anual
+- **Muestra**: ~25.000 hogares urbanos
+- **Variables**: Victimización, percepción de inseguridad, denuncia
+
+### 2. Estadísticas Policiales (SAIT)
+- **Institución**: Carabineros de Chile
+- **Periodicidad**: Continua
+- **Cobertura**: Nacional
+- **Variables**: Denuncias por tipo de delito, comuna, fecha
+
+### 3. Estadísticas Fiscalía
+- **Institución**: Fiscalía Nacional
+- **Periodicidad**: Mensual
+- **Variables**: Causas ingresadas, términos, condenas
+
+### 4. Datos de Gendarmería
+- **Variables**: Población penal, reincidencia
+
+## Metodología
+
+### Construcción de Base Integrada
+
+```
+ENUSC + SAIT + Fiscalía + ESEP → Base Integrada Comunal
+        ↓
+    Indicadores:
+    - Tasa de victimización
+    - Tasa de denuncia
+    - "Cifra negra" estimada
+    - Índice de efectividad policial
+    - Índice de legitimidad territorial
+```
+
+### Análisis
+
+**Nivel Individual (ENUSC + ESEP)**
+- Modelos de regresión logística para victimización
+- Análisis de mediación legitimidad-cooperación
+
+**Nivel Territorial (Comunal)**
+- Análisis espacial de criminalidad
+- Correlación legitimidad-criminalidad
+- Identificación de clusters territoriales
+
+## Resultados Principales
+
+### Victimización en Chile (2023)
+
+| Indicador | Nacional | RM | Regiones |
+|-----------|----------|-----|----------|
+| Hogares victimizados | 24.3% | 27.1% | 22.8% |
+| Tasa de denuncia | 38% | 35% | 40% |
+| Percepción inseguridad | 42% | 48% | 38% |
+
+### Relación Victimización-Legitimidad
+
+- Víctimas de delitos tienen 15% menos legitimidad percibida
+- Efecto mediado por percepción de efectividad policial
+- Mayor impacto en delitos con violencia
+- Efecto duradero (persiste 2+ años post-victimización)
+
+### Mapeo Territorial
+
+El estudio identifica clusters de comunas según perfil:
+
+**Cluster 1: Alta criminalidad, baja legitimidad**
+- Comunas periféricas de grandes ciudades
+- Alta victimización, baja denuncia
+- Desconfianza generalizada en instituciones
+
+**Cluster 2: Baja criminalidad, alta legitimidad**
+- Comunas de clase media-alta
+- Baja victimización, alta denuncia
+- Confianza moderada en instituciones
+
+**Cluster 3: Alta criminalidad, legitimidad moderada**
+- Comunas con alta presencia policial
+- Victimización alta pero denuncia también alta
+- Evaluaciones mixtas de policía
+
+### Tendencias Temporales
+
+```
+Victimización (hogares):
+2015: ████████████████████ 26%
+2018: ██████████████████░░ 25%
+2020: ███████████████░░░░░ 21% (pandemia)
+2022: ████████████████░░░░ 23%
+2023: █████████████████░░░ 24%
+
+Percepción de inseguridad:
+2015: ████████████████████ 38%
+2023: ███████████████████████████ 42%
+```
+
+## Productos
+
+### Dashboards
+- Panel de indicadores de seguridad (actualización mensual)
+- Mapas interactivos de criminalidad comunal
+
+### Publicaciones
+- Informes anuales de seguridad ciudadana
+- Artículos sobre legitimidad y victimización
+
+## Equipo
+
+- **Investigador Principal**: Ismael Puga
+- **Co-investigador**: Cristóbal Moya
+- **Asistentes**: Bruno Rojas, Nicolás Tobar
+
+## Financiamiento
+
+FONDECYT Regular N° 1221805 y convenio con Subsecretaría de Prevención del Delito.
 
 ---
 

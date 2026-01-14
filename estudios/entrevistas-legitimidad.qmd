@@ -1,32 +1,127 @@
 ---
 title: "Entrevistas en Profundidad: Percepciones de Legitimidad"
-description: "Estudio basado en entrevistas a ciudadanos sobre sus experiencias con instituciones públicas."
+description: "Estudio cualitativo basado en entrevistas a ciudadanos sobre sus experiencias y percepciones de legitimidad institucional."
 categoria: "cualitativos"
 estado: "en-curso"
 fecha-inicio: "2023"
 fecha-fin: "Presente"
+image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&h=400&fit=crop"
 investigadores:
-  - "Ana Figueiredo"
   - "Macarena Orchard"
+  - "Luciano Sáez"
 tags:
   - "Entrevistas"
+  - "Cualitativo"
   - "Experiencias"
-  - "Percepciones"
+  - "Narrativas"
 ---
 
 ## Descripción
 
-Este estudio cualitativo se basa en entrevistas en profundidad a ciudadanos sobre sus experiencias con instituciones públicas y sus percepciones de legitimidad.
+Este estudio cualitativo explora en profundidad las percepciones, experiencias y significados que los ciudadanos chilenos construyen en torno a la legitimidad de las instituciones públicas. A través de entrevistas en profundidad semi-estructuradas, buscamos comprender los procesos subjetivos mediante los cuales las personas evalúan, confían o desconfían de las instituciones.
+
+El estudio complementa los hallazgos cuantitativos de las encuestas del OLES, proporcionando contexto, matices y narrativas que permiten una comprensión más profunda de los fenómenos estudiados.
 
 ## Objetivos
 
-- Comprender las experiencias subjetivas con instituciones
-- Identificar narrativas sobre legitimidad institucional
-- Explorar factores cualitativos que influyen en la confianza
+### Objetivo General
+Explorar las percepciones, experiencias y significados asociados a la legitimidad institucional desde la perspectiva de los ciudadanos.
+
+### Objetivos Específicos
+- Comprender cómo los ciudadanos definen y entienden la legitimidad
+- Explorar experiencias de contacto con instituciones y sus efectos
+- Identificar narrativas sobre autoridad y obediencia
+- Analizar procesos de formación de actitudes hacia instituciones
+- Examinar diferencias según contextos territoriales y sociales
 
 ## Metodología
 
-Entrevistas semi-estructuradas con ciudadanos de diferentes contextos sociales y territoriales.
+### Enfoque
+Investigación cualitativa con enfoque fenomenológico-interpretativo.
+
+### Técnica
+Entrevistas en profundidad semi-estructuradas.
+
+### Participantes
+- **N total proyectado**: 60 entrevistas
+- **N realizado**: 42 entrevistas (a la fecha)
+- **Criterios de selección**: Muestreo teórico por edad, género, NSE y territorio
+
+### Perfiles de Entrevistados
+
+| Perfil | N | Características |
+|--------|---|-----------------|
+| Jóvenes urbanos | 12 | 18-29 años, Santiago |
+| Adultos clase media | 10 | 30-50 años, diversos sectores |
+| Adultos mayores | 8 | 60+ años, diverso NSE |
+| Residentes periféricos | 8 | Comunas con alta conflictividad |
+| Residentes regionales | 4 | Valparaíso, Concepción |
+
+### Procedimiento
+1. Contacto y reclutamiento mediante bola de nieve y redes
+2. Entrevista presencial o virtual (60-90 minutos)
+3. Grabación con consentimiento informado
+4. Transcripción verbatim
+5. Análisis temático con Atlas.ti
+
+### Guía de Entrevista (Temas Principales)
+1. Trayectoria biográfica y contexto
+2. Definiciones de legitimidad y autoridad
+3. Experiencias con instituciones (policía, justicia, gobierno)
+4. Eventos críticos y cambios de percepción
+5. Expectativas y demandas hacia las instituciones
+6. Visiones de futuro
+
+## Avances y Hallazgos Preliminares
+
+### Narrativas Identificadas
+
+**1. "La policía de antes vs. la de ahora"**
+Narrativa nostálgica que contrasta una imagen idealizada del pasado con percepciones negativas actuales. Predominante en adultos mayores.
+
+> "Antes uno veía al carabinero y sentía respeto, ahora uno los ve y siente desconfianza" (Mujer, 65 años)
+
+**2. "Ellos y nosotros"**
+Narrativa de distancia social que construye a las instituciones como ajenas a la realidad ciudadana. Predominante en sectores populares.
+
+> "La policía cuida a los ricos, a nosotros nos miran con sospecha" (Hombre, 34 años)
+
+**3. "El sistema está mal"**
+Narrativa estructural que atribuye problemas a fallas sistémicas más que a individuos. Predominante en jóvenes.
+
+> "No es que sean malas personas, es que el sistema los forma así" (Mujer, 24 años)
+
+**4. "Hay que mejorar, no destruir"**
+Narrativa reformista que reconoce problemas pero defiende la necesidad de instituciones. Transversal.
+
+> "Yo critico mucho a Carabineros, pero no quiero que desaparezcan, quiero que mejoren" (Hombre, 45 años)
+
+### Temas Emergentes
+- Importancia del trato respetuoso en interacciones
+- Rol de los medios y redes sociales en formación de opiniones
+- Experiencias vicarias a través de familiares y amigos
+- Demandas de accountability y transparencia
+
+## Consideraciones Éticas
+
+- Aprobación de Comité de Ética institucional
+- Consentimiento informado escrito
+- Anonimización de datos
+- Resguardo de información sensible
+- Derivación a apoyo psicológico si necesario
+
+## Equipo
+
+- **Investigadora Principal**: Macarena Orchard
+- **Co-investigador**: Luciano Sáez
+- **Transcripción**: Equipo de asistentes OLES
+
+## Productos Esperados
+
+- Artículo en revista indexada de sociología
+- Capítulo de libro sobre legitimidad en América Latina
+- Informe para difusión pública
+- Material audiovisual con testimonios (con consentimiento)
 
 ---
 

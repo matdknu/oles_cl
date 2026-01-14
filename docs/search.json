@@ -81,63 +81,196 @@
     "href": "estudios/analisis-redes-sociales.html",
     "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
     "section": "",
-    "text": "Investigación que analiza los discursos en Twitter/X y otras redes sociales respecto a la legitimidad de las instituciones públicas en Chile."
+    "text": "Este estudio analiza los discursos sobre legitimidad institucional en redes sociales, con foco en Twitter/X, Instagram y TikTok. Utilizamos técnicas de minería de datos y análisis computacional para comprender cómo los ciudadanos discuten, evalúan y construyen opiniones sobre las instituciones públicas chilenas en el espacio digital.\nLa investigación busca capturar la “voz ciudadana” en su expresión más espontánea, identificando narrativas, hashtags virales, influencers de opinión y patrones de polarización en las discusiones sobre seguridad, policía y justicia."
   },
   {
     "objectID": "estudios/analisis-redes-sociales.html#descripción",
     "href": "estudios/analisis-redes-sociales.html#descripción",
     "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
     "section": "",
-    "text": "Investigación que analiza los discursos en Twitter/X y otras redes sociales respecto a la legitimidad de las instituciones públicas en Chile."
+    "text": "Este estudio analiza los discursos sobre legitimidad institucional en redes sociales, con foco en Twitter/X, Instagram y TikTok. Utilizamos técnicas de minería de datos y análisis computacional para comprender cómo los ciudadanos discuten, evalúan y construyen opiniones sobre las instituciones públicas chilenas en el espacio digital.\nLa investigación busca capturar la “voz ciudadana” en su expresión más espontánea, identificando narrativas, hashtags virales, influencers de opinión y patrones de polarización en las discusiones sobre seguridad, policía y justicia."
   },
   {
     "objectID": "estudios/analisis-redes-sociales.html#objetivos",
     "href": "estudios/analisis-redes-sociales.html#objetivos",
     "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
     "section": "Objetivos",
-    "text": "Objetivos\n\nMapear discursos sobre instituciones en redes sociales\nIdentificar tendencias y narrativas dominantes\nAnalizar polarización y formación de opinión\n\n\n← Volver a Estudios"
+    "text": "Objetivos\n\nObjetivo General\nMapear y analizar los discursos ciudadanos sobre legitimidad institucional en redes sociales chilenas.\n\n\nObjetivos Específicos\n\nIdentificar narrativas predominantes sobre instituciones de seguridad\nDetectar comunidades de opinión y sus características\nAnalizar eventos virales y su impacto en la opinión pública\nEstudiar la polarización discursiva en temas de seguridad\nComparar discursos en distintas plataformas (Twitter, Instagram, TikTok)"
+  },
+  {
+    "objectID": "estudios/analisis-redes-sociales.html#metodología",
+    "href": "estudios/analisis-redes-sociales.html#metodología",
+    "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
+    "section": "Metodología",
+    "text": "Metodología\n\nFuentes de Datos\n\nTwitter/X: API académica para recolección de tweets\nInstagram: Análisis de publicaciones y comentarios en cuentas relevantes\nTikTok: Estudio de videos virales sobre policía y seguridad\nPeríodo: Enero 2023 - actualidad\n\n\n\nVolumen de Datos\n\nMás de 2 millones de tweets recolectados\n50.000+ publicaciones de Instagram analizadas\n10.000+ videos de TikTok categorizados\n\n\n\nTécnicas de Análisis\n\nAnálisis de redes: Identificación de comunidades y líderes de opinión\nTopic modeling: Detección automática de temas discutidos\nSentiment analysis: Clasificación de polaridad de los mensajes\nAnálisis de hashtags: Mapeo de campañas y tendencias\nDetección de bots: Identificación de cuentas automatizadas\n\n\n\nHerramientas Utilizadas\n\nPython (Tweepy, PRAW, selenium)\nGephi para visualización de redes\nBERT para clasificación de sentimiento\nLDA para topic modeling"
+  },
+  {
+    "objectID": "estudios/analisis-redes-sociales.html#resultados-preliminares",
+    "href": "estudios/analisis-redes-sociales.html#resultados-preliminares",
+    "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
+    "section": "Resultados Preliminares",
+    "text": "Resultados Preliminares\n\nNarrativas Identificadas\n1. Narrativa de Desconfianza Institucional - Alta frecuencia de críticas a Carabineros - Asociación con violaciones de DDHH - Demandas de reforma estructural\n2. Narrativa de Seguridad Ciudadana - Preocupación por aumento de delincuencia - Llamados a mayor presencia policial - Críticas a “puerta giratoria”\n3. Narrativa de Defensa Institucional - Apoyo a las fuerzas de orden - Críticas a movimientos sociales - Énfasis en condiciones laborales de policías\n\n\nPatrones de Polarización\n\nClara división entre comunidades pro y anti-institucionales\nEscasa interacción entre grupos opuestos\nEventos críticos amplifican la polarización\n\n\n\nInfluencers de Opinión\n\nPeriodistas y comunicadores como nodos centrales\nPolíticos con alto engagement en temas de seguridad\nCuentas activistas con gran alcance"
+  },
+  {
+    "objectID": "estudios/analisis-redes-sociales.html#visualizaciones",
+    "href": "estudios/analisis-redes-sociales.html#visualizaciones",
+    "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
+    "section": "Visualizaciones",
+    "text": "Visualizaciones\nEl estudio incluye dashboards interactivos que muestran: - Evolución temporal de menciones a instituciones - Mapas de comunidades en redes sociales - Wordclouds de términos más frecuentes - Análisis de sentimiento por período"
+  },
+  {
+    "objectID": "estudios/analisis-redes-sociales.html#publicaciones-y-presentaciones",
+    "href": "estudios/analisis-redes-sociales.html#publicaciones-y-presentaciones",
+    "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
+    "section": "Publicaciones y Presentaciones",
+    "text": "Publicaciones y Presentaciones\n\n2024: Presentación en LASA 2024 (Latin American Studies Association)\n2024: Seminario interno OLES “Opinión pública digital en Chile”\nEn preparación: Artículo “Polarización digital y legitimidad policial”"
+  },
+  {
+    "objectID": "estudios/analisis-redes-sociales.html#equipo-de-investigación",
+    "href": "estudios/analisis-redes-sociales.html#equipo-de-investigación",
+    "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
+    "section": "Equipo de Investigación",
+    "text": "Equipo de Investigación\n\nInvestigador Principal: Matías Deneken\nCo-investigadores: Nicolás Tobar, Bruno Rojas\nSupervisión académica: Mónica Gerber"
+  },
+  {
+    "objectID": "estudios/analisis-redes-sociales.html#consideraciones-éticas",
+    "href": "estudios/analisis-redes-sociales.html#consideraciones-éticas",
+    "title": "Análisis de Redes Sociales: Discursos sobre Instituciones",
+    "section": "Consideraciones Éticas",
+    "text": "Consideraciones Éticas\n\nAnonimización de datos personales\nCumplimiento de términos de servicio de plataformas\nAprobación de comité de ética institucional\n\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/analisis-prensa.html",
     "href": "estudios/analisis-prensa.html",
     "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
     "section": "",
-    "text": "Este estudio analiza el tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena, incluyendo análisis de framing y agenda setting."
+    "text": "Este estudio analiza sistemáticamente el tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena. A través del análisis de contenido de los principales medios de comunicación escritos y digitales, buscamos comprender cómo se construyen y difunden las narrativas sobre las instituciones públicas, con especial énfasis en las fuerzas de seguridad.\nLa investigación examina periódicamente las noticias publicadas en medios como El Mercurio, La Tercera, Biobío Chile, Cooperativa, entre otros, aplicando técnicas de análisis de framing y agenda setting para identificar patrones en la cobertura noticiosa."
   },
   {
     "objectID": "estudios/analisis-prensa.html#descripción",
     "href": "estudios/analisis-prensa.html#descripción",
     "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
     "section": "",
-    "text": "Este estudio analiza el tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena, incluyendo análisis de framing y agenda setting."
+    "text": "Este estudio analiza sistemáticamente el tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena. A través del análisis de contenido de los principales medios de comunicación escritos y digitales, buscamos comprender cómo se construyen y difunden las narrativas sobre las instituciones públicas, con especial énfasis en las fuerzas de seguridad.\nLa investigación examina periódicamente las noticias publicadas en medios como El Mercurio, La Tercera, Biobío Chile, Cooperativa, entre otros, aplicando técnicas de análisis de framing y agenda setting para identificar patrones en la cobertura noticiosa."
   },
   {
     "objectID": "estudios/analisis-prensa.html#objetivos",
     "href": "estudios/analisis-prensa.html#objetivos",
     "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
     "section": "Objetivos",
-    "text": "Objetivos\n\nAnalizar cobertura mediática de temas de legitimidad\nIdentificar frames dominantes en la prensa\nEstudiar efectos de agenda setting\n\n\n← Volver a Estudios"
+    "text": "Objetivos\n\nObjetivo General\nAnalizar la cobertura mediática de temas relacionados con legitimidad institucional en Chile, identificando frames dominantes y su evolución temporal.\n\n\nObjetivos Específicos\n\nMapear la cobertura mediática de Carabineros, PDI y otras instituciones de seguridad\nIdentificar los frames o encuadres predominantes en las noticias\nAnalizar la agenda setting y los temas priorizados por los medios\nExaminar diferencias en el tratamiento entre distintos tipos de medios\nEstudiar la evolución de la cobertura a lo largo del tiempo"
+  },
+  {
+    "objectID": "estudios/analisis-prensa.html#metodología",
+    "href": "estudios/analisis-prensa.html#metodología",
+    "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
+    "section": "Metodología",
+    "text": "Metodología\n\nCorpus de Análisis\n\nMedios nacionales: El Mercurio, La Tercera, La Segunda\nMedios digitales: Biobío Chile, Cooperativa, T13, CNN Chile\nPeríodo: 2022 hasta la actualidad\nMuestra: Más de 5.000 noticias analizadas\n\n\n\nTécnicas de Análisis\n\nAnálisis de contenido cuantitativo: Frecuencia de temas, actores mencionados, tono de la cobertura\nAnálisis de framing: Identificación de encuadres narrativos predominantes\nAnálisis de agenda setting: Correlación entre agenda mediática y opinión pública\nAnálisis de sentimiento: Clasificación del tono de las noticias\n\n\n\nHerramientas\n\nScraping automatizado de noticias\nCodificación manual y supervisada\nProcesamiento de lenguaje natural (NLP)\nSoftware de análisis cualitativo (Atlas.ti)"
+  },
+  {
+    "objectID": "estudios/analisis-prensa.html#resultados-preliminares",
+    "href": "estudios/analisis-prensa.html#resultados-preliminares",
+    "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
+    "section": "Resultados Preliminares",
+    "text": "Resultados Preliminares\n\nTendencias Identificadas\n1. Frames Predominantes - Frame de crisis institucional: Énfasis en problemas internos de las instituciones - Frame de seguridad ciudadana: Foco en la eficacia policial frente al crimen - Frame de derechos humanos: Atención a casos de abuso policial - Frame de reforma: Discusión sobre cambios necesarios en las instituciones\n2. Evolución Temporal - Aumento de cobertura crítica post-estallido social (2019) - Variación según ciclos noticiosos y eventos críticos - Diferencias significativas entre medios tradicionales y digitales\n3. Actores Mencionados - Predominancia de fuentes oficiales (voceros institucionales) - Menor presencia de voces ciudadanas - Rol de expertos y académicos como fuentes secundarias"
+  },
+  {
+    "objectID": "estudios/analisis-prensa.html#publicaciones-y-presentaciones",
+    "href": "estudios/analisis-prensa.html#publicaciones-y-presentaciones",
+    "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
+    "section": "Publicaciones y Presentaciones",
+    "text": "Publicaciones y Presentaciones\n\n2024: Presentación en Congreso Chileno de Sociología\n2023: Working paper “Frames de legitimidad policial en la prensa chilena”\nEn preparación: Artículo para revista indexada"
+  },
+  {
+    "objectID": "estudios/analisis-prensa.html#equipo-de-investigación",
+    "href": "estudios/analisis-prensa.html#equipo-de-investigación",
+    "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
+    "section": "Equipo de Investigación",
+    "text": "Equipo de Investigación\n\nInvestigador Principal: Cristóbal Moya\nAsistente de Investigación: Matías Deneken\nColaboradores: Bruno Rojas, Nicolás Tobar"
+  },
+  {
+    "objectID": "estudios/analisis-prensa.html#financiamiento",
+    "href": "estudios/analisis-prensa.html#financiamiento",
+    "title": "Análisis de Prensa: Cobertura de Legitimidad Institucional",
+    "section": "Financiamiento",
+    "text": "Financiamiento\nEste estudio forma parte del proyecto FONDECYT Regular N° 1221805 “Legitimidad institucional en Chile”.\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/narrativas-estallido.html",
     "href": "estudios/narrativas-estallido.html",
     "title": "Narrativas del Estallido Social",
     "section": "",
-    "text": "Este estudio analizó las narrativas sobre legitimidad institucional que emergieron durante y después del estallido social de octubre de 2019 en Chile."
+    "text": "Este estudio cualitativo documentó y analizó las narrativas ciudadanas sobre legitimidad institucional que emergieron durante y después del estallido social de octubre de 2019 en Chile. Mediante entrevistas en profundidad y análisis de testimonios, el proyecto exploró cómo los ciudadanos construyeron sentido sobre los eventos, las instituciones involucradas y las transformaciones en sus percepciones de autoridad y legitimidad.\nEl estudio representa un registro histórico-cualitativo de un momento crítico en la historia reciente de Chile."
   },
   {
     "objectID": "estudios/narrativas-estallido.html#descripción",
     "href": "estudios/narrativas-estallido.html#descripción",
     "title": "Narrativas del Estallido Social",
     "section": "",
-    "text": "Este estudio analizó las narrativas sobre legitimidad institucional que emergieron durante y después del estallido social de octubre de 2019 en Chile."
+    "text": "Este estudio cualitativo documentó y analizó las narrativas ciudadanas sobre legitimidad institucional que emergieron durante y después del estallido social de octubre de 2019 en Chile. Mediante entrevistas en profundidad y análisis de testimonios, el proyecto exploró cómo los ciudadanos construyeron sentido sobre los eventos, las instituciones involucradas y las transformaciones en sus percepciones de autoridad y legitimidad.\nEl estudio representa un registro histórico-cualitativo de un momento crítico en la historia reciente de Chile."
   },
   {
-    "objectID": "estudios/narrativas-estallido.html#principales-hallazgos",
-    "href": "estudios/narrativas-estallido.html#principales-hallazgos",
+    "objectID": "estudios/narrativas-estallido.html#contexto-histórico",
+    "href": "estudios/narrativas-estallido.html#contexto-histórico",
     "title": "Narrativas del Estallido Social",
-    "section": "Principales Hallazgos",
-    "text": "Principales Hallazgos\nEl estudio identificó transformaciones significativas en las narrativas sobre autoridad y legitimidad institucional tras el estallido social.\n\n← Volver a Estudios"
+    "section": "Contexto Histórico",
+    "text": "Contexto Histórico\nEl 18 de octubre de 2019, Chile vivió el inicio de un proceso de movilización social masiva que cuestionó profundamente las bases del modelo socioeconómico y político. Las protestas, que se extendieron por meses, incluyeron graves episodios de violencia tanto de manifestantes como de agentes del Estado, dejando un saldo de víctimas fatales, mutilaciones oculares y miles de detenidos."
+  },
+  {
+    "objectID": "estudios/narrativas-estallido.html#objetivos",
+    "href": "estudios/narrativas-estallido.html#objetivos",
+    "title": "Narrativas del Estallido Social",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nObjetivo General\nDocumentar y analizar las narrativas ciudadanas sobre legitimidad institucional en el contexto del estallido social.\n\n\nObjetivos Específicos\n\nRecoger testimonios de participantes y observadores del estallido\nIdentificar narrativas sobre autoridad, violencia y legitimidad\nAnalizar cambios en percepciones institucionales\nDocumentar experiencias de contacto con fuerzas de seguridad\nPreservar memoria histórica del período"
+  },
+  {
+    "objectID": "estudios/narrativas-estallido.html#metodología",
+    "href": "estudios/narrativas-estallido.html#metodología",
+    "title": "Narrativas del Estallido Social",
+    "section": "Metodología",
+    "text": "Metodología\n\nEnfoque\nInvestigación cualitativa con enfoque narrativo-biográfico.\n\n\nTécnica Principal\nEntrevistas narrativas en profundidad.\n\n\nParticipantes\n\nN total: 45 entrevistas\nPeríodo de recolección: Enero 2020 - Diciembre 2021\n\n\n\nPerfiles Entrevistados\n\n\n\n\n\n\n\n\nPerfil\nN\nDescripción\n\n\n\n\nManifestantes activos\n15\nParticipación frecuente en protestas\n\n\nObservadores/testigos\n12\nPresenciaron eventos sin participar activamente\n\n\nVíctimas de violencia\n8\nSufrieron violencia policial directa\n\n\nFamiliares de víctimas\n5\nFamiliares de heridos o detenidos\n\n\nNo participantes críticos\n5\nCríticos del movimiento\n\n\n\n\n\nProcedimiento\n\nReclutamiento mediante redes y organizaciones\nEntrevista narrativa (90-150 minutos)\nSegunda entrevista de profundización (opcional)\nTranscripción y análisis temático\nValidación con participantes"
+  },
+  {
+    "objectID": "estudios/narrativas-estallido.html#resultados",
+    "href": "estudios/narrativas-estallido.html#resultados",
+    "title": "Narrativas del Estallido Social",
+    "section": "Resultados",
+    "text": "Resultados\n\nNarrativas Identificadas\n1. Narrativa del “Despertar” El estallido como momento de toma de conciencia colectiva. &gt; “Fue como si todos despertáramos al mismo tiempo, como si nos diéramos cuenta de que esto no podía seguir así” (Mujer, 28 años, manifestante)\n2. Narrativa de la “Traición Institucional” Las instituciones fallaron en su rol de protección. &gt; “Se supone que Carabineros está para protegernos, pero nos dispararon como si fuéramos enemigos” (Hombre, 35 años, testigo)\n3. Narrativa de la “Violencia Necesaria” Justificación de la violencia como respuesta a la opresión. &gt; “Yo nunca había sido violento, pero cuando vi lo que hacían sentí que no quedaba otra opción” (Hombre, 24 años, manifestante)\n4. Narrativa del “Caos y Destrucción” El estallido como pérdida de orden social. &gt; “Esto no era protesta, era destrucción pura, perdimos el país” (Mujer, 55 años, no participante)\n5. Narrativa de la “Herida Abierta” Trauma persistente y demanda de justicia. &gt; “Perdí un ojo, pero lo que más me duele es que nadie pagó por esto” (Hombre, 30 años, víctima)\n\n\nTransformaciones en Percepciones de Legitimidad\nAntes del Estallido - Confianza moderada en instituciones - Aceptación del orden establecido - Distancia con la política\nDurante el Estallido - Cuestionamiento radical de instituciones - Politización acelerada - Solidaridad comunitaria\nDespués del Estallido - Desconfianza persistente - Demandas de cambio estructural - Fatiga y desesperanza (en algunos casos)\n\n\nExperiencias con Fuerzas de Seguridad\nEl estudio documentó numerosas experiencias de contacto con Carabineros durante el estallido: - Detenciones arbitrarias - Uso desproporcionado de la fuerza - Agresiones verbales y físicas - Falta de identificación de funcionarios - Algunas excepciones de trato respetuoso"
+  },
+  {
+    "objectID": "estudios/narrativas-estallido.html#publicaciones",
+    "href": "estudios/narrativas-estallido.html#publicaciones",
+    "title": "Narrativas del Estallido Social",
+    "section": "Publicaciones",
+    "text": "Publicaciones\n\nArtículos\n\nOrchard, M. & Gerber, M. (2022). “Narratives of institutional legitimacy after social unrest”. Qualitative Sociology, 45(2), 234-258.\nOrchard, M. (2021). “Voces del estallido: Testimonios de octubre”. Revista Chilena de Sociología.\n\n\n\nLibro\n\nOrchard, M. (Ed.) (2023). Octubre: Narrativas de un despertar. Santiago: Editorial Universidad.\n\n\n\nPresentaciones\n\nLASA 2021: “Narratives of awakening in Chile”\nASA 2022: “Institutional legitimacy after the uprising”"
+  },
+  {
+    "objectID": "estudios/narrativas-estallido.html#archivo-de-testimonios",
+    "href": "estudios/narrativas-estallido.html#archivo-de-testimonios",
+    "title": "Narrativas del Estallido Social",
+    "section": "Archivo de Testimonios",
+    "text": "Archivo de Testimonios\nLos testimonios recopilados (con consentimiento) forman parte del Archivo de Memoria del Estallido Social, disponible para investigadores y con fines educativos."
+  },
+  {
+    "objectID": "estudios/narrativas-estallido.html#impacto",
+    "href": "estudios/narrativas-estallido.html#impacto",
+    "title": "Narrativas del Estallido Social",
+    "section": "Impacto",
+    "text": "Impacto\n\nCitado en informes de derechos humanos\nUtilizado en procesos judiciales\nMaterial educativo en universidades\nReferencia para periodismo de investigación"
+  },
+  {
+    "objectID": "estudios/narrativas-estallido.html#equipo",
+    "href": "estudios/narrativas-estallido.html#equipo",
+    "title": "Narrativas del Estallido Social",
+    "section": "Equipo",
+    "text": "Equipo\n\nInvestigadora Principal: Macarena Orchard\nCo-investigadora: Mónica Gerber\nAsistentes: Equipo OLES (2020-2022)"
+  },
+  {
+    "objectID": "estudios/narrativas-estallido.html#financiamiento",
+    "href": "estudios/narrativas-estallido.html#financiamiento",
+    "title": "Narrativas del Estallido Social",
+    "section": "Financiamiento",
+    "text": "Financiamiento\nFONDECYT Regular N° 1221805 y Proyecto Interno Universidad Diego Portales.\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/index.html",
@@ -186,91 +319,266 @@
     "href": "estudios/monitoreo-opinion-digital.html",
     "title": "Monitoreo de Opinión Pública Digital",
     "section": "",
-    "text": "Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales."
+    "text": "El Sistema de Monitoreo de Opinión Pública Digital es una iniciativa del OLES que permite el seguimiento en tiempo real de las percepciones ciudadanas sobre instituciones públicas en el espacio digital. Mediante herramientas automatizadas de recolección y análisis de datos, generamos indicadores continuos sobre legitimidad institucional basados en lo que los ciudadanos expresan en redes sociales y medios digitales.\nEste sistema representa un complemento innovador a las encuestas tradicionales, permitiendo capturar cambios en la opinión pública de manera más ágil y con mayor granularidad temporal."
   },
   {
     "objectID": "estudios/monitoreo-opinion-digital.html#descripción",
     "href": "estudios/monitoreo-opinion-digital.html#descripción",
     "title": "Monitoreo de Opinión Pública Digital",
     "section": "",
-    "text": "Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales."
+    "text": "El Sistema de Monitoreo de Opinión Pública Digital es una iniciativa del OLES que permite el seguimiento en tiempo real de las percepciones ciudadanas sobre instituciones públicas en el espacio digital. Mediante herramientas automatizadas de recolección y análisis de datos, generamos indicadores continuos sobre legitimidad institucional basados en lo que los ciudadanos expresan en redes sociales y medios digitales.\nEste sistema representa un complemento innovador a las encuestas tradicionales, permitiendo capturar cambios en la opinión pública de manera más ágil y con mayor granularidad temporal."
   },
   {
     "objectID": "estudios/monitoreo-opinion-digital.html#objetivos",
     "href": "estudios/monitoreo-opinion-digital.html#objetivos",
     "title": "Monitoreo de Opinión Pública Digital",
     "section": "Objetivos",
-    "text": "Objetivos\n\nMonitorear opinión pública en tiempo real\nIdentificar cambios en percepciones ciudadanas\nGenerar alertas sobre crisis de legitimidad\n\n\n← Volver a Estudios"
+    "text": "Objetivos\n\nObjetivo General\nDesarrollar y mantener un sistema de monitoreo continuo de la opinión pública digital sobre instituciones en Chile.\n\n\nObjetivos Específicos\n\nCrear indicadores en tiempo real de percepción institucional\nDetectar tempranamente crisis de legitimidad\nIdentificar temas emergentes en la discusión pública\nGenerar reportes periódicos para tomadores de decisiones\nValidar indicadores digitales con datos de encuestas tradicionales"
+  },
+  {
+    "objectID": "estudios/monitoreo-opinion-digital.html#componentes-del-sistema",
+    "href": "estudios/monitoreo-opinion-digital.html#componentes-del-sistema",
+    "title": "Monitoreo de Opinión Pública Digital",
+    "section": "Componentes del Sistema",
+    "text": "Componentes del Sistema\n\n1. Recolección Automatizada\n\nFuentes monitoreadas: Twitter/X, Facebook, Instagram, medios digitales\nFrecuencia: Actualización diaria\nVolumen: ~50.000 menciones diarias procesadas\nInstituciones: Carabineros, PDI, Fiscalía, Poder Judicial, Gobierno\n\n\n\n2. Procesamiento de Datos\n\nLimpieza y preprocesamiento de textos\nClasificación automática por tema e institución\nAnálisis de sentimiento (positivo, negativo, neutral)\nDetección de anomalías y picos de actividad\n\n\n\n3. Indicadores Generados\n\nÍndice de Sentimiento Institucional (ISI): Promedio ponderado de sentimiento\nVolumen de Menciones: Cantidad de referencias por institución\nÍndice de Polarización: Dispersión de opiniones\nAlertas de Crisis: Detección de eventos críticos\n\n\n\n4. Visualización y Reportes\n\nDashboard interactivo en tiempo real\nReportes semanales automáticos\nAlertas por correo ante eventos significativos\nAPI para integración con otros sistemas"
+  },
+  {
+    "objectID": "estudios/monitoreo-opinion-digital.html#metodología",
+    "href": "estudios/monitoreo-opinion-digital.html#metodología",
+    "title": "Monitoreo de Opinión Pública Digital",
+    "section": "Metodología",
+    "text": "Metodología\n\nArquitectura Técnica\nFuentes → Recolección → Procesamiento → Análisis → Visualización\n   ↓           ↓              ↓            ↓            ↓\nTwitter    Scrapers      NLP/ML      Indicadores   Dashboard\nFacebook   APIs          Sentiment    Alertas       Reportes\nMedios     Crawlers      Topics       Series        API\n\n\nStack Tecnológico\n\nBackend: Python, FastAPI, PostgreSQL\nML/NLP: Transformers, spaCy, scikit-learn\nVisualización: Plotly, Dash\nInfraestructura: Docker, AWS\n\n\n\nValidación\n\nCorrelación con encuestas CEP y CADEM\nValidación manual de clasificaciones\nTesteo continuo de modelos de ML"
+  },
+  {
+    "objectID": "estudios/monitoreo-opinion-digital.html#resultados-y-productos",
+    "href": "estudios/monitoreo-opinion-digital.html#resultados-y-productos",
+    "title": "Monitoreo de Opinión Pública Digital",
+    "section": "Resultados y Productos",
+    "text": "Resultados y Productos\n\nDashboard de Monitoreo\nEl sistema genera un dashboard actualizado diariamente que incluye: - Gráficos de tendencia de sentimiento - Mapas de calor de actividad por región - Wordclouds de términos frecuentes - Rankings de temas más discutidos\n\n\nReportes Periódicos\n\nReporte semanal: Resumen de tendencias y eventos destacados\nReporte mensual: Análisis profundo con contexto histórico\nAlertas especiales: Notificaciones ante eventos críticos\n\n\n\nCasos de Uso\n\nSeguimiento de reacciones a operativos policiales\nMonitoreo de cobertura mediática de casos judiciales\nDetección de campañas de desinformación\nAnálisis de impacto de declaraciones públicas"
+  },
+  {
+    "objectID": "estudios/monitoreo-opinion-digital.html#limitaciones-y-consideraciones",
+    "href": "estudios/monitoreo-opinion-digital.html#limitaciones-y-consideraciones",
+    "title": "Monitoreo de Opinión Pública Digital",
+    "section": "Limitaciones y Consideraciones",
+    "text": "Limitaciones y Consideraciones\n\nLos datos de redes sociales no son representativos de toda la población\nSesgo hacia usuarios más activos y conectados\nDificultad para detectar ironía y sarcasmo\nPresencia de bots puede distorsionar resultados"
+  },
+  {
+    "objectID": "estudios/monitoreo-opinion-digital.html#equipo-de-investigación",
+    "href": "estudios/monitoreo-opinion-digital.html#equipo-de-investigación",
+    "title": "Monitoreo de Opinión Pública Digital",
+    "section": "Equipo de Investigación",
+    "text": "Equipo de Investigación\n\nCoordinador técnico: Bruno Rojas\nDesarrollo de software: Nicolás Tobar\nAnálisis de datos: Matías Deneken\nSupervisión académica: Cristóbal Moya"
+  },
+  {
+    "objectID": "estudios/monitoreo-opinion-digital.html#próximos-pasos",
+    "href": "estudios/monitoreo-opinion-digital.html#próximos-pasos",
+    "title": "Monitoreo de Opinión Pública Digital",
+    "section": "Próximos Pasos",
+    "text": "Próximos Pasos\n\nIncorporar análisis de TikTok y YouTube\nMejorar modelos de detección de ironía\nDesarrollar versión pública del dashboard\nPublicar metodología en revista especializada\n\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/indicadores-desempeno.html",
     "href": "estudios/indicadores-desempeno.html",
     "title": "Indicadores de Desempeño Institucional",
     "section": "",
-    "text": "Este proyecto desarrolló indicadores de desempeño para evaluar la legitimidad institucional de la policía en Chile."
+    "text": "Este proyecto desarrolló un sistema de indicadores para evaluar el desempeño de las instituciones de seguridad y justicia en Chile, integrando medidas de efectividad, eficiencia, legitimidad y equidad. El objetivo fue crear herramientas que permitan a tomadores de decisiones y ciudadanos evaluar el funcionamiento de las instituciones más allá de las métricas tradicionales centradas exclusivamente en criminalidad."
   },
   {
     "objectID": "estudios/indicadores-desempeno.html#descripción",
     "href": "estudios/indicadores-desempeno.html#descripción",
     "title": "Indicadores de Desempeño Institucional",
     "section": "",
-    "text": "Este proyecto desarrolló indicadores de desempeño para evaluar la legitimidad institucional de la policía en Chile."
+    "text": "Este proyecto desarrolló un sistema de indicadores para evaluar el desempeño de las instituciones de seguridad y justicia en Chile, integrando medidas de efectividad, eficiencia, legitimidad y equidad. El objetivo fue crear herramientas que permitan a tomadores de decisiones y ciudadanos evaluar el funcionamiento de las instituciones más allá de las métricas tradicionales centradas exclusivamente en criminalidad."
   },
   {
-    "objectID": "estudios/indicadores-desempeno.html#principales-resultados",
-    "href": "estudios/indicadores-desempeno.html#principales-resultados",
+    "objectID": "estudios/indicadores-desempeno.html#contexto",
+    "href": "estudios/indicadores-desempeno.html#contexto",
     "title": "Indicadores de Desempeño Institucional",
-    "section": "Principales Resultados",
-    "text": "Principales Resultados\nSe desarrolló un conjunto de indicadores validados para medir legitimidad institucional, que ahora son utilizados en otros estudios del observatorio.\n\n← Volver a Estudios"
+    "section": "Contexto",
+    "text": "Contexto\nLas evaluaciones tradicionales de instituciones policiales se centran en indicadores de criminalidad (delitos, detenciones, etc.), ignorando dimensiones críticas como la legitimidad percibida, la equidad en el trato, y la satisfacción ciudadana. Este proyecto buscó desarrollar indicadores comprehensivos que capturen múltiples dimensiones del desempeño institucional."
+  },
+  {
+    "objectID": "estudios/indicadores-desempeno.html#objetivos",
+    "href": "estudios/indicadores-desempeno.html#objetivos",
+    "title": "Indicadores de Desempeño Institucional",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nObjetivo General\nDesarrollar un sistema de indicadores de desempeño institucional que integre efectividad, legitimidad y equidad.\n\n\nObjetivos Específicos\n\nRevisar literatura sobre evaluación de instituciones de seguridad\nIdentificar dimensiones relevantes de desempeño\nConstruir indicadores válidos y confiables\nAplicar indicadores a datos chilenos\nProponer estándares de referencia"
+  },
+  {
+    "objectID": "estudios/indicadores-desempeno.html#metodología",
+    "href": "estudios/indicadores-desempeno.html#metodología",
+    "title": "Indicadores de Desempeño Institucional",
+    "section": "Metodología",
+    "text": "Metodología\n\nFase 1: Revisión Conceptual\n\nRevisión sistemática de literatura\nAnálisis de experiencias internacionales (UK, EE.UU., Europa)\nConsulta con expertos nacionales e internacionales\n\n\n\nFase 2: Diseño de Indicadores\n\nDefinición de dimensiones\nOperacionalización de indicadores\nValidación con panel de expertos\n\n\n\nFase 3: Aplicación Piloto\n\nRecolección de datos\nCálculo de indicadores\nValidación estadística\n\n\n\nFase 4: Refinamiento\n\nAjuste de indicadores\nDesarrollo de herramientas de medición\nDocumentación metodológica"
+  },
+  {
+    "objectID": "estudios/indicadores-desempeno.html#sistema-de-indicadores",
+    "href": "estudios/indicadores-desempeno.html#sistema-de-indicadores",
+    "title": "Indicadores de Desempeño Institucional",
+    "section": "Sistema de Indicadores",
+    "text": "Sistema de Indicadores\n\nDimensión 1: Efectividad\n\n\n\n\n\n\n\n\nIndicador\nDescripción\nFuente\n\n\n\n\nTasa de esclarecimiento\n% de delitos con autor identificado\nFiscalía\n\n\nTiempo de respuesta\nMinutos promedio a llamados de emergencia\nCarabineros\n\n\nTasa de condenas\n% de causas que terminan en condena\nFiscalía\n\n\nReducción de victimización\nCambio anual en tasa de victimización\nENUSC\n\n\n\n\n\nDimensión 2: Legitimidad\n\n\n\nIndicador\nDescripción\nFuente\n\n\n\n\nConfianza ciudadana\n% que confía mucho/bastante\nESEP/ENUSC\n\n\nJusticia procedimental\nÍndice de trato justo percibido\nESEP\n\n\nDisposición a cooperar\n% dispuesto a denunciar\nESEP\n\n\nDeber de obedecer\nÍndice de obligación percibida\nESEP\n\n\n\n\n\nDimensión 3: Equidad\n\n\n\n\n\n\n\n\nIndicador\nDescripción\nFuente\n\n\n\n\nBrecha NSE\nDiferencia en trato por nivel socioeconómico\nESEP\n\n\nBrecha territorial\nDiferencia en cobertura por comuna\nSAIT\n\n\nBrecha étnica\nDiferencia en percepciones por etnicidad\nESEP\n\n\nUso diferencial de fuerza\nVariación en uso de fuerza por contexto\nRegistros\n\n\n\n\n\nDimensión 4: Eficiencia\n\n\n\n\n\n\n\n\nIndicador\nDescripción\nFuente\n\n\n\n\nCosto por intervención\nGasto/número de intervenciones\nPresupuesto\n\n\nProductividad\nProcedimientos per cápita policial\nSAIT\n\n\nRendimiento judicial\nCausas terminadas/causas ingresadas\nFiscalía"
+  },
+  {
+    "objectID": "estudios/indicadores-desempeno.html#resultados",
+    "href": "estudios/indicadores-desempeno.html#resultados",
+    "title": "Indicadores de Desempeño Institucional",
+    "section": "Resultados",
+    "text": "Resultados\n\nÍndice Compuesto de Desempeño (ICD)\nSe construyó un índice que integra las cuatro dimensiones:\nICD Nacional 2023: 5.2/10\n\n\n\nDimensión\nPuntaje\nPeso\n\n\n\n\nEfectividad\n4.8/10\n25%\n\n\nLegitimidad\n5.1/10\n30%\n\n\nEquidad\n4.5/10\n25%\n\n\nEficiencia\n6.2/10\n20%\n\n\n\n\n\nComparación Internacional\n\n\n\nPaís\nICD\nRanking\n\n\n\n\nDinamarca\n8.1\n1\n\n\nAlemania\n7.4\n2\n\n\nEspaña\n6.2\n3\n\n\nChile\n5.2\n4\n\n\nMéxico\n4.1\n5\n\n\nBrasil\n3.8\n6\n\n\n\n\n\nEvolución en Chile\n2019: █████░░░░░ 4.9\n2020: ████░░░░░░ 4.5 (crisis)\n2021: █████░░░░░ 4.8\n2022: █████░░░░░ 5.0\n2023: █████░░░░░ 5.2"
+  },
+  {
+    "objectID": "estudios/indicadores-desempeno.html#productos",
+    "href": "estudios/indicadores-desempeno.html#productos",
+    "title": "Indicadores de Desempeño Institucional",
+    "section": "Productos",
+    "text": "Productos\n\nManual de Indicadores\nDocumento técnico con definiciones, fórmulas y protocolos de medición.\n\n\nHerramienta de Cálculo\nPlanilla Excel y script R para cálculo automatizado de indicadores.\n\n\nInformes Anuales\n\nInforme de Desempeño Institucional 2022\nInforme de Desempeño Institucional 2023"
+  },
+  {
+    "objectID": "estudios/indicadores-desempeno.html#publicaciones",
+    "href": "estudios/indicadores-desempeno.html#publicaciones",
+    "title": "Indicadores de Desempeño Institucional",
+    "section": "Publicaciones",
+    "text": "Publicaciones\n\nPuga, I. & Figueiredo, A. (2023). “Measuring police performance beyond crime”. Policing: An International Journal, 46(3), 445-462.\nFigueiredo, A. et al. (2022). “Indicadores de legitimidad policial para América Latina”. Revista CIDOB d’Afers Internacionals."
+  },
+  {
+    "objectID": "estudios/indicadores-desempeno.html#impacto",
+    "href": "estudios/indicadores-desempeno.html#impacto",
+    "title": "Indicadores de Desempeño Institucional",
+    "section": "Impacto",
+    "text": "Impacto\n\nAdoptado por Subsecretaría de Prevención del Delito para monitoreo\nCitado en debates sobre reforma policial\nUtilizado en evaluaciones de programas de seguridad\nReferencia para diseño de políticas públicas"
+  },
+  {
+    "objectID": "estudios/indicadores-desempeno.html#equipo",
+    "href": "estudios/indicadores-desempeno.html#equipo",
+    "title": "Indicadores de Desempeño Institucional",
+    "section": "Equipo",
+    "text": "Equipo\n\nInvestigador Principal: Ismael Puga\nCo-investigadora: Ana Figueiredo\nConsultor internacional: Dr. Jonathan Jackson (LSE)"
+  },
+  {
+    "objectID": "estudios/indicadores-desempeno.html#financiamiento",
+    "href": "estudios/indicadores-desempeno.html#financiamiento",
+    "title": "Indicadores de Desempeño Institucional",
+    "section": "Financiamiento",
+    "text": "Financiamiento\nFONDECYT Regular N° 1221805 y Fundación Konrad Adenauer.\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/entrevistas-legitimidad.html",
     "href": "estudios/entrevistas-legitimidad.html",
     "title": "Entrevistas en Profundidad: Percepciones de Legitimidad",
     "section": "",
-    "text": "Este estudio cualitativo se basa en entrevistas en profundidad a ciudadanos sobre sus experiencias con instituciones públicas y sus percepciones de legitimidad."
+    "text": "Este estudio cualitativo explora en profundidad las percepciones, experiencias y significados que los ciudadanos chilenos construyen en torno a la legitimidad de las instituciones públicas. A través de entrevistas en profundidad semi-estructuradas, buscamos comprender los procesos subjetivos mediante los cuales las personas evalúan, confían o desconfían de las instituciones.\nEl estudio complementa los hallazgos cuantitativos de las encuestas del OLES, proporcionando contexto, matices y narrativas que permiten una comprensión más profunda de los fenómenos estudiados."
   },
   {
     "objectID": "estudios/entrevistas-legitimidad.html#descripción",
     "href": "estudios/entrevistas-legitimidad.html#descripción",
     "title": "Entrevistas en Profundidad: Percepciones de Legitimidad",
     "section": "",
-    "text": "Este estudio cualitativo se basa en entrevistas en profundidad a ciudadanos sobre sus experiencias con instituciones públicas y sus percepciones de legitimidad."
+    "text": "Este estudio cualitativo explora en profundidad las percepciones, experiencias y significados que los ciudadanos chilenos construyen en torno a la legitimidad de las instituciones públicas. A través de entrevistas en profundidad semi-estructuradas, buscamos comprender los procesos subjetivos mediante los cuales las personas evalúan, confían o desconfían de las instituciones.\nEl estudio complementa los hallazgos cuantitativos de las encuestas del OLES, proporcionando contexto, matices y narrativas que permiten una comprensión más profunda de los fenómenos estudiados."
   },
   {
     "objectID": "estudios/entrevistas-legitimidad.html#objetivos",
     "href": "estudios/entrevistas-legitimidad.html#objetivos",
     "title": "Entrevistas en Profundidad: Percepciones de Legitimidad",
     "section": "Objetivos",
-    "text": "Objetivos\n\nComprender las experiencias subjetivas con instituciones\nIdentificar narrativas sobre legitimidad institucional\nExplorar factores cualitativos que influyen en la confianza"
+    "text": "Objetivos\n\nObjetivo General\nExplorar las percepciones, experiencias y significados asociados a la legitimidad institucional desde la perspectiva de los ciudadanos.\n\n\nObjetivos Específicos\n\nComprender cómo los ciudadanos definen y entienden la legitimidad\nExplorar experiencias de contacto con instituciones y sus efectos\nIdentificar narrativas sobre autoridad y obediencia\nAnalizar procesos de formación de actitudes hacia instituciones\nExaminar diferencias según contextos territoriales y sociales"
   },
   {
     "objectID": "estudios/entrevistas-legitimidad.html#metodología",
     "href": "estudios/entrevistas-legitimidad.html#metodología",
     "title": "Entrevistas en Profundidad: Percepciones de Legitimidad",
     "section": "Metodología",
-    "text": "Metodología\nEntrevistas semi-estructuradas con ciudadanos de diferentes contextos sociales y territoriales.\n\n← Volver a Estudios"
+    "text": "Metodología\n\nEnfoque\nInvestigación cualitativa con enfoque fenomenológico-interpretativo.\n\n\nTécnica\nEntrevistas en profundidad semi-estructuradas.\n\n\nParticipantes\n\nN total proyectado: 60 entrevistas\nN realizado: 42 entrevistas (a la fecha)\nCriterios de selección: Muestreo teórico por edad, género, NSE y territorio\n\n\n\nPerfiles de Entrevistados\n\n\n\nPerfil\nN\nCaracterísticas\n\n\n\n\nJóvenes urbanos\n12\n18-29 años, Santiago\n\n\nAdultos clase media\n10\n30-50 años, diversos sectores\n\n\nAdultos mayores\n8\n60+ años, diverso NSE\n\n\nResidentes periféricos\n8\nComunas con alta conflictividad\n\n\nResidentes regionales\n4\nValparaíso, Concepción\n\n\n\n\n\nProcedimiento\n\nContacto y reclutamiento mediante bola de nieve y redes\nEntrevista presencial o virtual (60-90 minutos)\nGrabación con consentimiento informado\nTranscripción verbatim\nAnálisis temático con Atlas.ti\n\n\n\nGuía de Entrevista (Temas Principales)\n\nTrayectoria biográfica y contexto\nDefiniciones de legitimidad y autoridad\nExperiencias con instituciones (policía, justicia, gobierno)\nEventos críticos y cambios de percepción\nExpectativas y demandas hacia las instituciones\nVisiones de futuro"
+  },
+  {
+    "objectID": "estudios/entrevistas-legitimidad.html#avances-y-hallazgos-preliminares",
+    "href": "estudios/entrevistas-legitimidad.html#avances-y-hallazgos-preliminares",
+    "title": "Entrevistas en Profundidad: Percepciones de Legitimidad",
+    "section": "Avances y Hallazgos Preliminares",
+    "text": "Avances y Hallazgos Preliminares\n\nNarrativas Identificadas\n1. “La policía de antes vs. la de ahora” Narrativa nostálgica que contrasta una imagen idealizada del pasado con percepciones negativas actuales. Predominante en adultos mayores.\n\n“Antes uno veía al carabinero y sentía respeto, ahora uno los ve y siente desconfianza” (Mujer, 65 años)\n\n2. “Ellos y nosotros” Narrativa de distancia social que construye a las instituciones como ajenas a la realidad ciudadana. Predominante en sectores populares.\n\n“La policía cuida a los ricos, a nosotros nos miran con sospecha” (Hombre, 34 años)\n\n3. “El sistema está mal” Narrativa estructural que atribuye problemas a fallas sistémicas más que a individuos. Predominante en jóvenes.\n\n“No es que sean malas personas, es que el sistema los forma así” (Mujer, 24 años)\n\n4. “Hay que mejorar, no destruir” Narrativa reformista que reconoce problemas pero defiende la necesidad de instituciones. Transversal.\n\n“Yo critico mucho a Carabineros, pero no quiero que desaparezcan, quiero que mejoren” (Hombre, 45 años)\n\n\n\nTemas Emergentes\n\nImportancia del trato respetuoso en interacciones\nRol de los medios y redes sociales en formación de opiniones\nExperiencias vicarias a través de familiares y amigos\nDemandas de accountability y transparencia"
+  },
+  {
+    "objectID": "estudios/entrevistas-legitimidad.html#consideraciones-éticas",
+    "href": "estudios/entrevistas-legitimidad.html#consideraciones-éticas",
+    "title": "Entrevistas en Profundidad: Percepciones de Legitimidad",
+    "section": "Consideraciones Éticas",
+    "text": "Consideraciones Éticas\n\nAprobación de Comité de Ética institucional\nConsentimiento informado escrito\nAnonimización de datos\nResguardo de información sensible\nDerivación a apoyo psicológico si necesario"
+  },
+  {
+    "objectID": "estudios/entrevistas-legitimidad.html#equipo",
+    "href": "estudios/entrevistas-legitimidad.html#equipo",
+    "title": "Entrevistas en Profundidad: Percepciones de Legitimidad",
+    "section": "Equipo",
+    "text": "Equipo\n\nInvestigadora Principal: Macarena Orchard\nCo-investigador: Luciano Sáez\nTranscripción: Equipo de asistentes OLES"
+  },
+  {
+    "objectID": "estudios/entrevistas-legitimidad.html#productos-esperados",
+    "href": "estudios/entrevistas-legitimidad.html#productos-esperados",
+    "title": "Entrevistas en Profundidad: Percepciones de Legitimidad",
+    "section": "Productos Esperados",
+    "text": "Productos Esperados\n\nArtículo en revista indexada de sociología\nCapítulo de libro sobre legitimidad en América Latina\nInforme para difusión pública\nMaterial audiovisual con testimonios (con consentimiento)\n\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/estadisticas-delitos.html",
     "href": "estudios/estadisticas-delitos.html",
     "title": "Estadísticas de Delitos y Victimización",
     "section": "",
-    "text": "Análisis de estadísticas oficiales de delitos y victimización para contextualizar las percepciones de legitimidad institucional."
+    "text": "Este estudio analiza las estadísticas oficiales de delitos y victimización en Chile, integrando múltiples fuentes de datos para construir un panorama comprehensivo de la criminalidad y su relación con las percepciones de legitimidad institucional. El proyecto busca superar las limitaciones de cada fuente individual mediante la triangulación de registros policiales, fiscales y encuestas de victimización."
   },
   {
     "objectID": "estudios/estadisticas-delitos.html#descripción",
     "href": "estudios/estadisticas-delitos.html#descripción",
     "title": "Estadísticas de Delitos y Victimización",
     "section": "",
-    "text": "Análisis de estadísticas oficiales de delitos y victimización para contextualizar las percepciones de legitimidad institucional."
+    "text": "Este estudio analiza las estadísticas oficiales de delitos y victimización en Chile, integrando múltiples fuentes de datos para construir un panorama comprehensivo de la criminalidad y su relación con las percepciones de legitimidad institucional. El proyecto busca superar las limitaciones de cada fuente individual mediante la triangulación de registros policiales, fiscales y encuestas de victimización."
   },
   {
     "objectID": "estudios/estadisticas-delitos.html#objetivos",
     "href": "estudios/estadisticas-delitos.html#objetivos",
     "title": "Estadísticas de Delitos y Victimización",
     "section": "Objetivos",
-    "text": "Objetivos\n\nAnalizar tendencias de criminalidad\nEstudiar patrones de victimización\nRelacionar datos objetivos con percepciones subjetivas\n\n\n← Volver a Estudios"
+    "text": "Objetivos\n\nObjetivo General\nAnalizar patrones de criminalidad y victimización en Chile y su relación con la legitimidad institucional.\n\n\nObjetivos Específicos\n\nIntegrar múltiples fuentes de datos sobre delincuencia\nConstruir indicadores robustos de criminalidad territorial\nAnalizar relación entre victimización y percepciones de legitimidad\nEstudiar efectividad percibida de instituciones de seguridad\nIdentificar zonas de alta vulnerabilidad"
+  },
+  {
+    "objectID": "estudios/estadisticas-delitos.html#fuentes-de-datos",
+    "href": "estudios/estadisticas-delitos.html#fuentes-de-datos",
+    "title": "Estadísticas de Delitos y Victimización",
+    "section": "Fuentes de Datos",
+    "text": "Fuentes de Datos\n\n1. Encuesta Nacional Urbana de Seguridad Ciudadana (ENUSC)\n\nInstitución: INE / Subsecretaría Prevención del Delito\nPeriodicidad: Anual\nMuestra: ~25.000 hogares urbanos\nVariables: Victimización, percepción de inseguridad, denuncia\n\n\n\n2. Estadísticas Policiales (SAIT)\n\nInstitución: Carabineros de Chile\nPeriodicidad: Continua\nCobertura: Nacional\nVariables: Denuncias por tipo de delito, comuna, fecha\n\n\n\n3. Estadísticas Fiscalía\n\nInstitución: Fiscalía Nacional\nPeriodicidad: Mensual\nVariables: Causas ingresadas, términos, condenas\n\n\n\n4. Datos de Gendarmería\n\nVariables: Población penal, reincidencia"
+  },
+  {
+    "objectID": "estudios/estadisticas-delitos.html#metodología",
+    "href": "estudios/estadisticas-delitos.html#metodología",
+    "title": "Estadísticas de Delitos y Victimización",
+    "section": "Metodología",
+    "text": "Metodología\n\nConstrucción de Base Integrada\nENUSC + SAIT + Fiscalía + ESEP → Base Integrada Comunal\n        ↓\n    Indicadores:\n    - Tasa de victimización\n    - Tasa de denuncia\n    - \"Cifra negra\" estimada\n    - Índice de efectividad policial\n    - Índice de legitimidad territorial\n\n\nAnálisis\nNivel Individual (ENUSC + ESEP) - Modelos de regresión logística para victimización - Análisis de mediación legitimidad-cooperación\nNivel Territorial (Comunal) - Análisis espacial de criminalidad - Correlación legitimidad-criminalidad - Identificación de clusters territoriales"
+  },
+  {
+    "objectID": "estudios/estadisticas-delitos.html#resultados-principales",
+    "href": "estudios/estadisticas-delitos.html#resultados-principales",
+    "title": "Estadísticas de Delitos y Victimización",
+    "section": "Resultados Principales",
+    "text": "Resultados Principales\n\nVictimización en Chile (2023)\n\n\n\nIndicador\nNacional\nRM\nRegiones\n\n\n\n\nHogares victimizados\n24.3%\n27.1%\n22.8%\n\n\nTasa de denuncia\n38%\n35%\n40%\n\n\nPercepción inseguridad\n42%\n48%\n38%\n\n\n\n\n\nRelación Victimización-Legitimidad\n\nVíctimas de delitos tienen 15% menos legitimidad percibida\nEfecto mediado por percepción de efectividad policial\nMayor impacto en delitos con violencia\nEfecto duradero (persiste 2+ años post-victimización)\n\n\n\nMapeo Territorial\nEl estudio identifica clusters de comunas según perfil:\nCluster 1: Alta criminalidad, baja legitimidad - Comunas periféricas de grandes ciudades - Alta victimización, baja denuncia - Desconfianza generalizada en instituciones\nCluster 2: Baja criminalidad, alta legitimidad - Comunas de clase media-alta - Baja victimización, alta denuncia - Confianza moderada en instituciones\nCluster 3: Alta criminalidad, legitimidad moderada - Comunas con alta presencia policial - Victimización alta pero denuncia también alta - Evaluaciones mixtas de policía\n\n\nTendencias Temporales\nVictimización (hogares):\n2015: ████████████████████ 26%\n2018: ██████████████████░░ 25%\n2020: ███████████████░░░░░ 21% (pandemia)\n2022: ████████████████░░░░ 23%\n2023: █████████████████░░░ 24%\n\nPercepción de inseguridad:\n2015: ████████████████████ 38%\n2023: ███████████████████████████ 42%"
+  },
+  {
+    "objectID": "estudios/estadisticas-delitos.html#productos",
+    "href": "estudios/estadisticas-delitos.html#productos",
+    "title": "Estadísticas de Delitos y Victimización",
+    "section": "Productos",
+    "text": "Productos\n\nDashboards\n\nPanel de indicadores de seguridad (actualización mensual)\nMapas interactivos de criminalidad comunal\n\n\n\nPublicaciones\n\nInformes anuales de seguridad ciudadana\nArtículos sobre legitimidad y victimización"
+  },
+  {
+    "objectID": "estudios/estadisticas-delitos.html#equipo",
+    "href": "estudios/estadisticas-delitos.html#equipo",
+    "title": "Estadísticas de Delitos y Victimización",
+    "section": "Equipo",
+    "text": "Equipo\n\nInvestigador Principal: Ismael Puga\nCo-investigador: Cristóbal Moya\nAsistentes: Bruno Rojas, Nicolás Tobar"
+  },
+  {
+    "objectID": "estudios/estadisticas-delitos.html#financiamiento",
+    "href": "estudios/estadisticas-delitos.html#financiamiento",
+    "title": "Estadísticas de Delitos y Victimización",
+    "section": "Financiamiento",
+    "text": "Financiamiento\nFONDECYT Regular N° 1221805 y convenio con Subsecretaría de Prevención del Delito.\n\n← Volver a Estudios"
   },
   {
     "objectID": "noticias/2025-11-20-publicacion-internacional.html",
@@ -1194,238 +1502,567 @@
     "href": "estudios/etnografia-policia.html",
     "title": "Etnografía: Interacciones Policía-Ciudadanía",
     "section": "",
-    "text": "Estudio etnográfico que observa y analiza las interacciones cotidianas entre la policía y la ciudadanía en diferentes contextos urbanos de Chile."
+    "text": "Este estudio etnográfico busca comprender las interacciones cotidianas entre policías y ciudadanos en contextos urbanos chilenos. Mediante observación participante y no participante, el estudio documenta las prácticas, rituales y dinámicas de encuentro entre la institución policial y la ciudadanía, poniendo especial atención a cómo se construye (o destruye) la legitimidad en estas interacciones cara a cara.\nEl estudio se inspira en la tradición de etnografías policiales desarrolladas en Estados Unidos y Europa, adaptándolas al contexto latinoamericano."
   },
   {
     "objectID": "estudios/etnografia-policia.html#descripción",
     "href": "estudios/etnografia-policia.html#descripción",
     "title": "Etnografía: Interacciones Policía-Ciudadanía",
     "section": "",
-    "text": "Estudio etnográfico que observa y analiza las interacciones cotidianas entre la policía y la ciudadanía en diferentes contextos urbanos de Chile."
+    "text": "Este estudio etnográfico busca comprender las interacciones cotidianas entre policías y ciudadanos en contextos urbanos chilenos. Mediante observación participante y no participante, el estudio documenta las prácticas, rituales y dinámicas de encuentro entre la institución policial y la ciudadanía, poniendo especial atención a cómo se construye (o destruye) la legitimidad en estas interacciones cara a cara.\nEl estudio se inspira en la tradición de etnografías policiales desarrolladas en Estados Unidos y Europa, adaptándolas al contexto latinoamericano."
   },
   {
     "objectID": "estudios/etnografia-policia.html#objetivos",
     "href": "estudios/etnografia-policia.html#objetivos",
     "title": "Etnografía: Interacciones Policía-Ciudadanía",
     "section": "Objetivos",
-    "text": "Objetivos\n\nDocumentar prácticas de interacción policial\nAnalizar contextos y dinámicas de encuentros\nComprender perspectivas de ambos actores\n\n\n← Volver a Estudios"
+    "text": "Objetivos\n\nObjetivo General\nComprender las dinámicas de interacción policía-ciudadanía en contextos urbanos chilenos y su relación con la legitimidad.\n\n\nObjetivos Específicos\n\nDocumentar tipos de interacciones policía-ciudadanía\nAnalizar prácticas de justicia procedimental en terreno\nIdentificar factores que generan interacciones positivas/negativas\nExaminar perspectivas de policías y ciudadanos\nEstudiar variaciones según contexto territorial"
+  },
+  {
+    "objectID": "estudios/etnografia-policia.html#metodología",
+    "href": "estudios/etnografia-policia.html#metodología",
+    "title": "Etnografía: Interacciones Policía-Ciudadanía",
+    "section": "Metodología",
+    "text": "Metodología\n\nEnfoque\nEtnografía urbana multi-situada.\n\n\nTécnicas\n\nObservación no participante en espacios públicos\nObservación de procedimientos policiales\nEntrevistas informales con policías y ciudadanos\nAnálisis de documentos institucionales\nRegistro fotográfico y audiovisual\n\n\n\nSitios de Observación\nZona 1: Centro de Santiago - Estación de metro - Plaza pública - Sector comercial\nZona 2: Comuna periférica (La Pintana) - Feria libre - Paraderos de transporte - Espacios recreativos\nZona 3: Sector residencial (Providencia) - Parques - Zonas comerciales - Eventos públicos\n\n\nPeríodo de Campo\n\nInicio: Marzo 2023\nDuración proyectada: 18 meses\nHoras de observación: 200+ horas completadas\n\n\n\nRegistro de Datos\n\nNotas de campo detalladas\nRegistro de incidentes críticos\nMapeo de espacios y flujos\nEntrevistas grabadas (con consentimiento)"
+  },
+  {
+    "objectID": "estudios/etnografia-policia.html#hallazgos-preliminares",
+    "href": "estudios/etnografia-policia.html#hallazgos-preliminares",
+    "title": "Etnografía: Interacciones Policía-Ciudadanía",
+    "section": "Hallazgos Preliminares",
+    "text": "Hallazgos Preliminares\n\nTipos de Interacciones Observadas\n1. Interacciones Rutinarias - Control de identidad - Consultas de orientación - Presencia disuasiva\n2. Interacciones de Conflicto - Detenciones - Control de protestas - Respuesta a delitos\n3. Interacciones Comunitarias - Patrullaje preventivo - Reuniones con juntas de vecinos - Actividades educativas\n\n\nPatrones Identificados\nJusticia Procedimental en Acción - Variabilidad significativa en trato según contexto - Mayor formalidad en zonas de clase media - Lenguaje más informal/tenso en sectores populares - Importancia del saludo y la explicación\nFactores de Tensión - Falta de información sobre motivos del control - Demoras sin explicación - Tono de voz imperativo - Ausencia de despedida cordial\nFactores de Distensión - Explicación clara del procedimiento - Trato respetuoso independiente del resultado - Reconocimiento de la persona - Disculpa por las molestias\n\n\nViñeta Etnográfica\n\nPlaza de Armas, mediodía. Dos carabineros se acercan a un grupo de jóvenes sentados en una banca. Uno de ellos dice “buenos días, control de rutina, ¿pueden mostrar sus documentos?”. Los jóvenes entregan sus cédulas. Mientras el carabinero revisa, el otro conversa: “¿estudiantes? ¿de qué carrera?”. Tras verificar, devuelven los documentos y dicen “todo en orden, gracias por su colaboración, que tengan buen día”. Los jóvenes asienten y los carabineros se retiran. Uno de los jóvenes comenta: “Por lo menos fueron amables”. [Nota de campo, 15/06/2023]"
+  },
+  {
+    "objectID": "estudios/etnografia-policia.html#consideraciones-éticas",
+    "href": "estudios/etnografia-policia.html#consideraciones-éticas",
+    "title": "Etnografía: Interacciones Policía-Ciudadanía",
+    "section": "Consideraciones Éticas",
+    "text": "Consideraciones Éticas\n\nAcceso y Permisos\n\nObservación en espacios públicos (no requiere permiso)\nEntrevistas con consentimiento informado\nNo se interfiere en procedimientos policiales\n\n\n\nProtección de Participantes\n\nAnonimización de personas observadas\nNo registro de información sensible\nResguardo de identidad de policías\n\n\n\nPosicionalidad del Investigador\n\nReflexividad sobre rol del observador\nRegistro de reacciones personales\nDiscusión de sesgos en equipo"
+  },
+  {
+    "objectID": "estudios/etnografia-policia.html#equipo",
+    "href": "estudios/etnografia-policia.html#equipo",
+    "title": "Etnografía: Interacciones Policía-Ciudadanía",
+    "section": "Equipo",
+    "text": "Equipo\n\nInvestigador Principal: Luciano Sáez\nCo-investigadora: Macarena Orchard\nSupervisión: Mónica Gerber"
+  },
+  {
+    "objectID": "estudios/etnografia-policia.html#productos-esperados",
+    "href": "estudios/etnografia-policia.html#productos-esperados",
+    "title": "Etnografía: Interacciones Policía-Ciudadanía",
+    "section": "Productos Esperados",
+    "text": "Productos Esperados\n\nArtículo en revista de sociología urbana\nCapítulo en libro sobre policía en América Latina\nDocumental etnográfico (en desarrollo)\nMaterial para formación policial\n\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/analisis-georreferenciado.html",
     "href": "estudios/analisis-georreferenciado.html",
-    "title": "Análisis Georreferenciado de Interacciones",
+    "title": "Análisis Georreferenciado de Interacciones Policía-Ciudadanía",
     "section": "",
-    "text": "Mapeo georreferenciado de interacciones entre policía y ciudadanía para identificar patrones territoriales de legitimidad."
+    "text": "Este estudio utiliza técnicas de análisis espacial y sistemas de información geográfica (SIG) para mapear las interacciones entre policía y ciudadanía en el territorio. Mediante la georreferenciación de datos administrativos, el proyecto busca identificar patrones territoriales de contacto policial, concentración de intervenciones, y su relación con características sociodemográficas del territorio."
   },
   {
     "objectID": "estudios/analisis-georreferenciado.html#descripción",
     "href": "estudios/analisis-georreferenciado.html#descripción",
-    "title": "Análisis Georreferenciado de Interacciones",
+    "title": "Análisis Georreferenciado de Interacciones Policía-Ciudadanía",
     "section": "",
-    "text": "Mapeo georreferenciado de interacciones entre policía y ciudadanía para identificar patrones territoriales de legitimidad."
+    "text": "Este estudio utiliza técnicas de análisis espacial y sistemas de información geográfica (SIG) para mapear las interacciones entre policía y ciudadanía en el territorio. Mediante la georreferenciación de datos administrativos, el proyecto busca identificar patrones territoriales de contacto policial, concentración de intervenciones, y su relación con características sociodemográficas del territorio."
   },
   {
     "objectID": "estudios/analisis-georreferenciado.html#objetivos",
     "href": "estudios/analisis-georreferenciado.html#objetivos",
-    "title": "Análisis Georreferenciado de Interacciones",
+    "title": "Análisis Georreferenciado de Interacciones Policía-Ciudadanía",
     "section": "Objetivos",
-    "text": "Objetivos\n\nMapear interacciones policía-ciudadanía\nIdentificar patrones territoriales\nAnalizar desigualdades espaciales\n\n\n← Volver a Estudios"
+    "text": "Objetivos\n\nObjetivo General\nDesarrollar un sistema de análisis georreferenciado de interacciones policía-ciudadanía en Chile.\n\n\nObjetivos Específicos\n\nGeorreferenciar bases de datos de intervenciones policiales\nIdentificar hotspots de intervención policial\nAnalizar correlatos territoriales de la actividad policial\nDesarrollar visualizaciones interactivas\nRelacionar patrones espaciales con indicadores de legitimidad"
+  },
+  {
+    "objectID": "estudios/analisis-georreferenciado.html#metodología",
+    "href": "estudios/analisis-georreferenciado.html#metodología",
+    "title": "Análisis Georreferenciado de Interacciones Policía-Ciudadanía",
+    "section": "Metodología",
+    "text": "Metodología\n\nDatos Georreferenciados\n1. Intervenciones Policiales (SAIT) - Coordenadas de denuncias - Ubicación de procedimientos - Puntos de control\n2. Infraestructura Policial - Comisarías y retenes - Rutas de patrullaje - Cobertura territorial\n3. Datos Censales - Características sociodemográficas - Nivel socioeconómico - Densidad poblacional\n4. Datos ESEP (Agregados) - Índice de legitimidad por comuna - Percepción de presencia policial\n\n\nHerramientas\n\nSoftware SIG: QGIS, ArcGIS\nAnálisis espacial: GeoDa, R (sf, spdep)\nVisualización: Leaflet, Mapbox\nBase de datos: PostgreSQL + PostGIS\n\n\n\nTécnicas de Análisis\n\nAnálisis de densidad de Kernel: Identificación de hotspots\nAutocorrelación espacial: Índice de Moran\nRegresión geográficamente ponderada (GWR)\nAnálisis de clusters espaciales (LISA)"
+  },
+  {
+    "objectID": "estudios/analisis-georreferenciado.html#productos",
+    "href": "estudios/analisis-georreferenciado.html#productos",
+    "title": "Análisis Georreferenciado de Interacciones Policía-Ciudadanía",
+    "section": "Productos",
+    "text": "Productos\n\nMapas Desarrollados\n1. Mapa de Densidad de Intervenciones Visualiza concentración de procedimientos policiales por área.\n2. Mapa de Cobertura Policial Distancia promedio a comisaría más cercana.\n3. Mapa de Legitimidad Territorial Índice de legitimidad agregado por comuna.\n4. Mapa de Vulnerabilidad Cruza criminalidad, legitimidad y factores socioeconómicos.\n\n\nDashboard Interactivo\nEn desarrollo: Plataforma web con: - Mapas interactivos - Filtros por período y tipo de intervención - Estadísticas por territorio - Exportación de datos"
+  },
+  {
+    "objectID": "estudios/analisis-georreferenciado.html#hallazgos-preliminares",
+    "href": "estudios/analisis-georreferenciado.html#hallazgos-preliminares",
+    "title": "Análisis Georreferenciado de Interacciones Policía-Ciudadanía",
+    "section": "Hallazgos Preliminares",
+    "text": "Hallazgos Preliminares\n\nPatrones Espaciales\nConcentración de Intervenciones - 20% del territorio concentra 60% de las intervenciones - Correlación fuerte con densidad poblacional (r=0.72) - Correlación moderada con índice de pobreza (r=0.45)\nDesigualdad Territorial - Comunas de altos ingresos: 1.2 intervenciones/1000 hab. - Comunas de bajos ingresos: 3.8 intervenciones/1000 hab.\nClusters Identificados - Cluster central: Alta actividad, alta legitimidad - Cluster periférico: Alta actividad, baja legitimidad - Cluster residencial: Baja actividad, alta legitimidad\n\n\nAutocorrelación Espacial\nÍndice de Moran global = 0.42 (p&lt;0.001) → Existe clustering espacial significativo de legitimidad policial"
+  },
+  {
+    "objectID": "estudios/analisis-georreferenciado.html#consideraciones-éticas",
+    "href": "estudios/analisis-georreferenciado.html#consideraciones-éticas",
+    "title": "Análisis Georreferenciado de Interacciones Policía-Ciudadanía",
+    "section": "Consideraciones Éticas",
+    "text": "Consideraciones Éticas\n\nDatos agregados a nivel de manzana o comuna\nNo se identifican individuos\nAcuerdos de confidencialidad con proveedores de datos\nRevisión por comité de ética"
+  },
+  {
+    "objectID": "estudios/analisis-georreferenciado.html#equipo",
+    "href": "estudios/analisis-georreferenciado.html#equipo",
+    "title": "Análisis Georreferenciado de Interacciones Policía-Ciudadanía",
+    "section": "Equipo",
+    "text": "Equipo\n\nInvestigador Principal: Bruno Rojas\nCo-investigador: Nicolás Tobar\nSupervisión: Cristóbal Moya"
+  },
+  {
+    "objectID": "estudios/analisis-georreferenciado.html#próximos-pasos",
+    "href": "estudios/analisis-georreferenciado.html#próximos-pasos",
+    "title": "Análisis Georreferenciado de Interacciones Policía-Ciudadanía",
+    "section": "Próximos Pasos",
+    "text": "Próximos Pasos\n\nIncorporar datos de 2024\nDesarrollar API de acceso a datos\nPublicar visualizaciones públicas\nAnálisis de series temporales espaciales\n\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/esep.html",
     "href": "estudios/esep.html",
     "title": "Encuesta sobre Seguridad y Experiencias Personales (ESEP)",
     "section": "",
-    "text": "La Encuesta sobre Seguridad y Experiencias Personales (ESEP) es un estudio longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones.\nEste proyecto busca comprender cómo las experiencias directas e indirectas con las fuerzas de seguridad afectan las percepciones de legitimidad institucional a lo largo del tiempo."
+    "text": "La Encuesta sobre Seguridad y Experiencias Personales (ESEP) es el estudio insignia del Observatorio de Legitimidad. Se trata de una encuesta longitudinal de panel que mide las percepciones ciudadanas sobre legitimidad institucional, con especial énfasis en las instituciones de seguridad como Carabineros de Chile y la Policía de Investigaciones.\nEl estudio permite analizar cómo evolucionan las percepciones de legitimidad a lo largo del tiempo, y cómo las experiencias personales con las instituciones afectan estas percepciones."
   },
   {
     "objectID": "estudios/esep.html#descripción",
     "href": "estudios/esep.html#descripción",
     "title": "Encuesta sobre Seguridad y Experiencias Personales (ESEP)",
     "section": "",
-    "text": "La Encuesta sobre Seguridad y Experiencias Personales (ESEP) es un estudio longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones.\nEste proyecto busca comprender cómo las experiencias directas e indirectas con las fuerzas de seguridad afectan las percepciones de legitimidad institucional a lo largo del tiempo."
+    "text": "La Encuesta sobre Seguridad y Experiencias Personales (ESEP) es el estudio insignia del Observatorio de Legitimidad. Se trata de una encuesta longitudinal de panel que mide las percepciones ciudadanas sobre legitimidad institucional, con especial énfasis en las instituciones de seguridad como Carabineros de Chile y la Policía de Investigaciones.\nEl estudio permite analizar cómo evolucionan las percepciones de legitimidad a lo largo del tiempo, y cómo las experiencias personales con las instituciones afectan estas percepciones."
   },
   {
     "objectID": "estudios/esep.html#objetivos",
     "href": "estudios/esep.html#objetivos",
     "title": "Encuesta sobre Seguridad y Experiencias Personales (ESEP)",
     "section": "Objetivos",
-    "text": "Objetivos\n\nMedir la evolución de las percepciones de legitimidad policial en Chile\nIdentificar factores que influyen en la confianza institucional\nAnalizar el impacto de las experiencias personales con Carabineros\nComparar resultados entre diferentes grupos sociodemográficos"
+    "text": "Objetivos\n\nObjetivo General\nMedir y analizar la evolución de las percepciones de legitimidad institucional en Chile mediante un estudio longitudinal de panel.\n\n\nObjetivos Específicos\n\nEvaluar niveles de confianza en instituciones de seguridad\nMedir percepciones de justicia procedimental\nAnalizar efectos de experiencias de contacto con la policía\nEstudiar determinantes de la disposición a cooperar con la policía\nComparar legitimidad percibida entre diferentes grupos sociales"
   },
   {
-    "objectID": "estudios/esep.html#metodología",
-    "href": "estudios/esep.html#metodología",
+    "objectID": "estudios/esep.html#diseño-metodológico",
+    "href": "estudios/esep.html#diseño-metodológico",
     "title": "Encuesta sobre Seguridad y Experiencias Personales (ESEP)",
-    "section": "Metodología",
-    "text": "Metodología\nEl estudio utiliza un diseño longitudinal de panel, con encuestas aplicadas anualmente a una muestra representativa de la población chilena. Se recopilan datos sobre:\n\nExperiencias de contacto con la policía\nPercepciones de justicia procedimental\nNiveles de confianza en instituciones\nActitudes hacia la obediencia a la ley"
+    "section": "Diseño Metodológico",
+    "text": "Diseño Metodológico\n\nTipo de Estudio\nEncuesta de panel longitudinal con tres olas de medición.\n\n\nPoblación y Muestra\n\nPoblación objetivo: Adultos mayores de 18 años residentes en Chile\nTamaño muestral: 2.500 personas por ola\nMuestreo: Probabilístico estratificado por región y zona (urbano/rural)\nModo de aplicación: CAPI (Computer Assisted Personal Interview)\n\n\n\nOlas de Medición\n\n\n\nOla\nPeríodo\nN efectivo\nRetención\n\n\n\n\nOla 1\n2020\n2.543\n-\n\n\nOla 2\n2022\n2.187\n86%\n\n\nOla 3\n2024\nEn curso\n-\n\n\n\n\n\nInstrumentos\nLa encuesta incluye módulos sobre: 1. Legitimidad policial: Confianza, deber de obedecer, alineamiento moral 2. Justicia procedimental: Trato justo, respeto, imparcialidad 3. Experiencias de contacto: Frecuencia, tipo, calidad del contacto 4. Efectividad percibida: Capacidad de la policía para combatir el crimen 5. Cooperación: Disposición a denunciar delitos y ayudar a la policía 6. Victimización: Experiencias como víctima de delitos 7. Sociodemográficos: Edad, género, educación, ingresos, territorio"
   },
   {
-    "objectID": "estudios/esep.html#resultados-preliminares",
-    "href": "estudios/esep.html#resultados-preliminares",
+    "objectID": "estudios/esep.html#resultados-principales",
+    "href": "estudios/esep.html#resultados-principales",
     "title": "Encuesta sobre Seguridad y Experiencias Personales (ESEP)",
-    "section": "Resultados Preliminares",
-    "text": "Resultados Preliminares\nLos resultados iniciales muestran variaciones significativas en las percepciones de legitimidad según:\n\nExperiencias previas: Quienes han tenido contacto negativo con la policía muestran menores niveles de legitimidad percibida\nFactores territoriales: Se observan diferencias entre zonas urbanas y rurales\nVariables sociodemográficas: La edad y nivel educacional influyen en las percepciones"
+    "section": "Resultados Principales",
+    "text": "Resultados Principales\n\nOla 1 (2020)\n\n42% de los encuestados confía “mucho” o “bastante” en Carabineros\nDiferencias significativas por nivel socioeconómico\nExperiencias negativas de contacto reducen legitimidad percibida\nAlta correlación entre justicia procedimental y disposición a cooperar\n\n\n\nOla 2 (2022)\n\nRecuperación parcial de niveles de confianza post-estallido\nPersistencia de diferencias por NSE y territorio\nExperiencias previas predicen percepciones actuales\nJóvenes mantienen menores niveles de legitimidad percibida\n\n\n\nAnálisis Longitudinal\n\nCambios individuales significativos entre olas\nEfecto duradero de experiencias de contacto\nVariabilidad territorial en evolución de percepciones"
   },
   {
-    "objectID": "estudios/esep.html#publicaciones-relacionadas",
-    "href": "estudios/esep.html#publicaciones-relacionadas",
+    "objectID": "estudios/esep.html#publicaciones-asociadas",
+    "href": "estudios/esep.html#publicaciones-asociadas",
     "title": "Encuesta sobre Seguridad y Experiencias Personales (ESEP)",
-    "section": "Publicaciones Relacionadas",
-    "text": "Publicaciones Relacionadas\n\nGerber, M.M., et al. (2025). “How do individuals interact with the police?” Peace and Conflict: Journal of Peace Psychology"
+    "section": "Publicaciones Asociadas",
+    "text": "Publicaciones Asociadas\n\nArtículos en Revistas Indexadas\n\nGerber, M. et al. (2024). “Police legitimacy in Chile: A panel study”. Journal of Research in Crime and Delinquency.\nFigueiredo, A. et al. (2023). “Procedural justice and cooperation with the police”. Policing and Society.\n\n\n\nLibros y Capítulos\n\nGerber, M. & Bahamondes, J. (2023). “Legitimidad policial en América Latina”. En: Handbook of Police Research.\n\n\n\nPresentaciones\n\nAmerican Society of Criminology Annual Meeting 2023\nEuropean Society of Criminology Conference 2022\nISPP Annual Meeting 2024"
+  },
+  {
+    "objectID": "estudios/esep.html#acceso-a-datos",
+    "href": "estudios/esep.html#acceso-a-datos",
+    "title": "Encuesta sobre Seguridad y Experiencias Personales (ESEP)",
+    "section": "Acceso a Datos",
+    "text": "Acceso a Datos\nLos datos de la ESEP estarán disponibles para la comunidad científica a través del repositorio de datos del OLES, una vez concluidas las publicaciones principales del equipo investigador."
+  },
+  {
+    "objectID": "estudios/esep.html#equipo-de-investigación",
+    "href": "estudios/esep.html#equipo-de-investigación",
+    "title": "Encuesta sobre Seguridad y Experiencias Personales (ESEP)",
+    "section": "Equipo de Investigación",
+    "text": "Equipo de Investigación\n\nDirectora del estudio: Mónica Gerber\nCo-investigadores: Ana Figueiredo, Joaquín Bahamondes, Macarena Orchard\nInvestigadores asociados: Cristóbal Moya, Ismael Puga\nCoordinación de campo: Luciano Sáez\nAsistentes: Bruno Rojas, Nicolás Tobar, Matías Deneken"
   },
   {
     "objectID": "estudios/esep.html#financiamiento",
     "href": "estudios/esep.html#financiamiento",
     "title": "Encuesta sobre Seguridad y Experiencias Personales (ESEP)",
     "section": "Financiamiento",
-    "text": "Financiamiento\nEste proyecto es financiado por ANID a través del proyecto FONDECYT Regular N° 1221805.\n\n← Volver a Estudios"
+    "text": "Financiamiento\nEste proyecto es financiado por ANID a través del proyecto FONDECYT Regular N° 1221805 “Legitimidad de las instituciones de seguridad en Chile: Un estudio longitudinal de panel”.\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/registros-denuncias.html",
     "href": "estudios/registros-denuncias.html",
     "title": "Análisis de Registros de Denuncias",
     "section": "",
-    "text": "Este estudio analiza registros administrativos de denuncias a la policía para identificar patrones de interacción ciudadana con las instituciones de seguridad."
+    "text": "Este estudio analiza los registros administrativos de denuncias ciudadanas realizadas a instituciones policiales en Chile. Mediante convenios de acceso a datos con instituciones públicas, el proyecto examina patrones de denuncia, características de los denunciantes, y la respuesta institucional a las denuncias, buscando identificar factores que influyen en la disposición ciudadana a reportar delitos y conductas indebidas."
   },
   {
     "objectID": "estudios/registros-denuncias.html#descripción",
     "href": "estudios/registros-denuncias.html#descripción",
     "title": "Análisis de Registros de Denuncias",
     "section": "",
-    "text": "Este estudio analiza registros administrativos de denuncias a la policía para identificar patrones de interacción ciudadana con las instituciones de seguridad."
+    "text": "Este estudio analiza los registros administrativos de denuncias ciudadanas realizadas a instituciones policiales en Chile. Mediante convenios de acceso a datos con instituciones públicas, el proyecto examina patrones de denuncia, características de los denunciantes, y la respuesta institucional a las denuncias, buscando identificar factores que influyen en la disposición ciudadana a reportar delitos y conductas indebidas."
   },
   {
     "objectID": "estudios/registros-denuncias.html#objetivos",
     "href": "estudios/registros-denuncias.html#objetivos",
     "title": "Análisis de Registros de Denuncias",
     "section": "Objetivos",
-    "text": "Objetivos\n\nAnalizar patrones de denuncias ciudadanas\nIdentificar factores territoriales y demográficos\nEstudiar evolución temporal de denuncias\n\n\n← Volver a Estudios"
+    "text": "Objetivos\n\nObjetivo General\nAnalizar patrones de denuncia ciudadana a instituciones policiales y su relación con percepciones de legitimidad.\n\n\nObjetivos Específicos\n\nCaracterizar el volumen y tipos de denuncias a nivel nacional\nIdentificar patrones territoriales y temporales\nAnalizar factores asociados a la subdenuncia\nExaminar respuesta institucional a las denuncias\nRelacionar tasas de denuncia con indicadores de legitimidad"
+  },
+  {
+    "objectID": "estudios/registros-denuncias.html#fuentes-de-datos",
+    "href": "estudios/registros-denuncias.html#fuentes-de-datos",
+    "title": "Análisis de Registros de Denuncias",
+    "section": "Fuentes de Datos",
+    "text": "Fuentes de Datos\n\nBases de Datos Utilizadas\n1. Sistema de Análisis de Información Territorial (SAIT) - Denuncias por delitos ingresadas a Carabineros - Período: 2018-2024 - Cobertura: Nacional - Variables: Tipo de delito, comuna, fecha, resultado\n2. Fiscalía Nacional - Causas ingresadas al sistema de justicia - Período: 2018-2024 - Variables: Tipo de delito, estado de la causa, tiempos de resolución\n3. Contraloría General - Denuncias administrativas contra funcionarios policiales - Período: 2019-2024 - Variables: Tipo de denuncia, institución, resolución\n\n\nConvenios de Acceso\n\nSubsecretaría de Prevención del Delito\nFiscalía Nacional\nContraloría General de la República"
+  },
+  {
+    "objectID": "estudios/registros-denuncias.html#metodología",
+    "href": "estudios/registros-denuncias.html#metodología",
+    "title": "Análisis de Registros de Denuncias",
+    "section": "Metodología",
+    "text": "Metodología\n\nAnálisis Descriptivo\n\nSeries de tiempo de denuncias\nDistribución geográfica\nTipología de delitos denunciados\n\n\n\nAnálisis Inferencial\n\nModelos de regresión para determinantes de denuncia\nAnálisis multinivel (comunal, regional)\nCorrelación con encuestas de victimización\n\n\n\nVariables de Interés\nVariables Dependientes - Tasa de denuncia por cada 100.000 habitantes - Proporción de delitos denunciados (vs. victimización) - Denuncias contra funcionarios policiales\nVariables Independientes - Características sociodemográficas del territorio - Indicadores de legitimidad policial (ESEP) - Presencia policial - Niveles de victimización"
+  },
+  {
+    "objectID": "estudios/registros-denuncias.html#resultados-preliminares",
+    "href": "estudios/registros-denuncias.html#resultados-preliminares",
+    "title": "Análisis de Registros de Denuncias",
+    "section": "Resultados Preliminares",
+    "text": "Resultados Preliminares\n\nPatrones de Denuncia\nEvolución Temporal\n2018: ████████████████ 1.2M denuncias\n2019: ███████████████░ 1.1M (oct: caída abrupta)\n2020: ███████████░░░░░ 0.9M (pandemia)\n2021: ████████████░░░░ 1.0M (recuperación)\n2022: █████████████░░░ 1.1M (estabilización)\n2023: █████████████░░░ 1.1M\nDistribución por Tipo de Delito (2023) | Tipo | % del Total | |——|————-| | Hurtos | 28% | | Robos | 22% | | Lesiones | 15% | | Amenazas | 12% | | Otros | 23% |\n\n\nSubdenuncia\nComparando con Encuesta Nacional de Victimización: - Tasa de denuncia general: 38% - Robos con violencia: 52% - Hurtos: 25% - Delitos sexuales: 15%\nRazones de no denuncia (según ENV) 1. “No sirve de nada” (42%) 2. “Delito menor” (28%) 3. “Desconfianza en la policía” (15%) 4. “Miedo a represalias” (8%) 5. “Otros” (7%)\n\n\nRelación Legitimidad-Denuncia\nAnálisis preliminar muestra correlación positiva (r=0.34) entre índice de legitimidad policial (ESEP) y tasa de denuncia a nivel comunal."
+  },
+  {
+    "objectID": "estudios/registros-denuncias.html#publicaciones-en-preparación",
+    "href": "estudios/registros-denuncias.html#publicaciones-en-preparación",
+    "title": "Análisis de Registros de Denuncias",
+    "section": "Publicaciones en Preparación",
+    "text": "Publicaciones en Preparación\n\n“Crime reporting and police legitimacy in Chile: A territorial analysis”\n“Underreporting of crime: Evidence from administrative data”"
+  },
+  {
+    "objectID": "estudios/registros-denuncias.html#equipo",
+    "href": "estudios/registros-denuncias.html#equipo",
+    "title": "Análisis de Registros de Denuncias",
+    "section": "Equipo",
+    "text": "Equipo\n\nInvestigador Principal: Cristóbal Moya\nAsistente de Investigación: Bruno Rojas\nApoyo estadístico: Nicolás Tobar"
+  },
+  {
+    "objectID": "estudios/registros-denuncias.html#financiamiento",
+    "href": "estudios/registros-denuncias.html#financiamiento",
+    "title": "Análisis de Registros de Denuncias",
+    "section": "Financiamiento",
+    "text": "Financiamiento\nFONDECYT Regular N° 1221805.\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/panel-legitimidad-policial.html",
     "href": "estudios/panel-legitimidad-policial.html",
     "title": "Estudio Panel de Legitimidad Policial",
     "section": "",
-    "text": "Investigación longitudinal que analiza los cambios en la legitimidad policial percibida a lo largo del tiempo, especialmente en contextos de crisis social."
+    "text": "El Estudio Panel de Legitimidad Policial es una investigación longitudinal intensiva que sigue a un grupo de ciudadanos durante un período de tres años, midiendo sus percepciones de legitimidad policial en múltiples puntos temporales. A diferencia de encuestas transversales, este diseño permite identificar cambios a nivel individual y analizar cómo eventos específicos (experiencias de contacto, noticias, eventos sociales) afectan las percepciones."
   },
   {
     "objectID": "estudios/panel-legitimidad-policial.html#descripción",
     "href": "estudios/panel-legitimidad-policial.html#descripción",
     "title": "Estudio Panel de Legitimidad Policial",
     "section": "",
-    "text": "Investigación longitudinal que analiza los cambios en la legitimidad policial percibida a lo largo del tiempo, especialmente en contextos de crisis social."
+    "text": "El Estudio Panel de Legitimidad Policial es una investigación longitudinal intensiva que sigue a un grupo de ciudadanos durante un período de tres años, midiendo sus percepciones de legitimidad policial en múltiples puntos temporales. A diferencia de encuestas transversales, este diseño permite identificar cambios a nivel individual y analizar cómo eventos específicos (experiencias de contacto, noticias, eventos sociales) afectan las percepciones."
   },
   {
     "objectID": "estudios/panel-legitimidad-policial.html#objetivos",
     "href": "estudios/panel-legitimidad-policial.html#objetivos",
     "title": "Estudio Panel de Legitimidad Policial",
     "section": "Objetivos",
-    "text": "Objetivos\n\nSeguir la evolución de percepciones de legitimidad policial\nIdentificar eventos que afectan la confianza en la policía\nAnalizar mecanismos de cambio en actitudes hacia la autoridad"
+    "text": "Objetivos\n\nObjetivo General\nAnalizar la dinámica temporal de las percepciones de legitimidad policial a nivel individual.\n\n\nObjetivos Específicos\n\nMedir estabilidad y cambio en percepciones de legitimidad\nIdentificar eventos que generan cambios significativos\nAnalizar efectos de experiencias directas e indirectas\nEstudiar procesos de socialización de actitudes hacia la policía\nExaminar el rol de las redes sociales personales"
   },
   {
-    "objectID": "estudios/panel-legitimidad-policial.html#metodología",
-    "href": "estudios/panel-legitimidad-policial.html#metodología",
+    "objectID": "estudios/panel-legitimidad-policial.html#diseño-del-estudio",
+    "href": "estudios/panel-legitimidad-policial.html#diseño-del-estudio",
     "title": "Estudio Panel de Legitimidad Policial",
-    "section": "Metodología",
-    "text": "Metodología\nEstudio de panel con mediciones periódicas a los mismos participantes, permitiendo analizar cambios individuales en percepciones de legitimidad.\n\n← Volver a Estudios"
+    "section": "Diseño del Estudio",
+    "text": "Diseño del Estudio\n\nPanel Design\n\nTipo: Panel longitudinal intensivo\nN inicial: 800 participantes\nFrecuencia: Mediciones trimestrales\nDuración: 3 años (12 olas de medición)\nRetención objetivo: &gt;70%\n\n\n\nSelección de Participantes\n\nResidentes de Santiago, Valparaíso y Concepción\nEstratificación por edad, género y NSE\nSobremuestreo de jóvenes (18-29) por mayor variabilidad esperada\n\n\n\nInstrumentos\nMediciones trimestrales (breves) - Confianza en policía - Legitimidad percibida - Experiencias de contacto recientes - Exposición a noticias sobre policía\nMediciones anuales (extensas) - Batería completa de legitimidad - Justicia procedimental - Actitudes hacia autoridad - Variables sociodemográficas\n\n\nIncentivos\n\nCompensación monetaria por participación\nBonos por retención a largo plazo\nSorteos entre participantes activos"
+  },
+  {
+    "objectID": "estudios/panel-legitimidad-policial.html#estado-actual",
+    "href": "estudios/panel-legitimidad-policial.html#estado-actual",
+    "title": "Estudio Panel de Legitimidad Policial",
+    "section": "Estado Actual",
+    "text": "Estado Actual\n\nProgreso del Estudio\n\nOla 1-4 (2022): Completadas ✓\nOla 5-8 (2023): Completadas ✓\nOla 9-12 (2024): En curso\n\n\n\nRetención\n\nOla 4: 89% de la muestra original\nOla 8: 76% de la muestra original\nMeta final: &gt;70%"
+  },
+  {
+    "objectID": "estudios/panel-legitimidad-policial.html#resultados-preliminares",
+    "href": "estudios/panel-legitimidad-policial.html#resultados-preliminares",
+    "title": "Estudio Panel de Legitimidad Policial",
+    "section": "Resultados Preliminares",
+    "text": "Resultados Preliminares\n\nEstabilidad de Actitudes\n\nCoeficiente de estabilidad (r) = 0.72 entre olas consecutivas\nMayor estabilidad en adultos mayores que en jóvenes\nExperiencias de contacto generan cambios significativos\n\n\n\nEfectos de Eventos\n\nContacto directo positivo: +0.8 puntos en legitimidad (efecto duradero)\nContacto directo negativo: -1.2 puntos (efecto persistente)\nExposición a noticias negativas: -0.3 puntos (efecto temporal)\nEventos sociales (protestas): Efectos variables según posición política\n\n\n\nTrayectorias Identificadas\n\nEstables altos: 35% de la muestra\nEstables bajos: 25% de la muestra\nDeclinantes: 20% de la muestra\nRecuperadores: 12% de la muestra\nVolátiles: 8% de la muestra"
+  },
+  {
+    "objectID": "estudios/panel-legitimidad-policial.html#publicaciones-en-preparación",
+    "href": "estudios/panel-legitimidad-policial.html#publicaciones-en-preparación",
+    "title": "Estudio Panel de Legitimidad Policial",
+    "section": "Publicaciones en Preparación",
+    "text": "Publicaciones en Preparación\n\n“Within-person changes in police legitimacy: A panel study”\n“The effect of police contact on legitimacy perceptions”\n“Socialización política y actitudes hacia la policía”"
+  },
+  {
+    "objectID": "estudios/panel-legitimidad-policial.html#equipo",
+    "href": "estudios/panel-legitimidad-policial.html#equipo",
+    "title": "Estudio Panel de Legitimidad Policial",
+    "section": "Equipo",
+    "text": "Equipo\n\nInvestigador Principal: Joaquín Bahamondes\nCo-investigadora: Mónica Gerber\nCoordinación de campo: Luciano Sáez\nAnálisis de datos: Cristóbal Moya"
+  },
+  {
+    "objectID": "estudios/panel-legitimidad-policial.html#financiamiento",
+    "href": "estudios/panel-legitimidad-policial.html#financiamiento",
+    "title": "Estudio Panel de Legitimidad Policial",
+    "section": "Financiamiento",
+    "text": "Financiamiento\nProyecto financiado por FONDECYT Regular N° 1221805.\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/percepcion-carabineros.html",
     "href": "estudios/percepcion-carabineros.html",
     "title": "Encuesta de Percepción de Carabineros",
     "section": "",
-    "text": "Este estudio analizó la percepción ciudadana sobre la legitimidad de Carabineros de Chile, incluyendo percepciones de justicia procedimental y efectividad institucional."
+    "text": "La Encuesta de Percepción de Carabineros fue un estudio desarrollado entre 2020 y 2023 que buscó medir y comprender la evolución de las percepciones ciudadanas sobre Carabineros de Chile en el período posterior al estallido social de 2019. El estudio documentó los niveles de confianza, las percepciones de legitimidad y los factores asociados a estas evaluaciones."
   },
   {
     "objectID": "estudios/percepcion-carabineros.html#descripción",
     "href": "estudios/percepcion-carabineros.html#descripción",
     "title": "Encuesta de Percepción de Carabineros",
     "section": "",
-    "text": "Este estudio analizó la percepción ciudadana sobre la legitimidad de Carabineros de Chile, incluyendo percepciones de justicia procedimental y efectividad institucional."
+    "text": "La Encuesta de Percepción de Carabineros fue un estudio desarrollado entre 2020 y 2023 que buscó medir y comprender la evolución de las percepciones ciudadanas sobre Carabineros de Chile en el período posterior al estallido social de 2019. El estudio documentó los niveles de confianza, las percepciones de legitimidad y los factores asociados a estas evaluaciones."
+  },
+  {
+    "objectID": "estudios/percepcion-carabineros.html#contexto-del-estudio",
+    "href": "estudios/percepcion-carabineros.html#contexto-del-estudio",
+    "title": "Encuesta de Percepción de Carabineros",
+    "section": "Contexto del Estudio",
+    "text": "Contexto del Estudio\nEl estallido social de octubre 2019 generó una crisis de legitimidad sin precedentes para Carabineros de Chile. Las denuncias de violaciones a los derechos humanos, documentadas por organismos nacionales e internacionales, impactaron significativamente las percepciones ciudadanas sobre la institución. Este estudio buscó documentar empíricamente esta transformación."
   },
   {
     "objectID": "estudios/percepcion-carabineros.html#objetivos",
     "href": "estudios/percepcion-carabineros.html#objetivos",
     "title": "Encuesta de Percepción de Carabineros",
     "section": "Objetivos",
-    "text": "Objetivos\n\nEvaluar percepciones de legitimidad de Carabineros\nMedir justicia procedimental percibida\nAnalizar percepciones de efectividad policial"
+    "text": "Objetivos\n\nObjetivo General\nMedir y analizar la evolución de las percepciones ciudadanas sobre Carabineros en el período 2020-2023.\n\n\nObjetivos Específicos\n\nDocumentar niveles de confianza en Carabineros post-estallido\nIdentificar factores asociados a percepciones positivas/negativas\nAnalizar diferencias por grupos sociodemográficos\nComparar con percepciones de otras instituciones\nEvaluar impacto de reformas anunciadas"
   },
   {
-    "objectID": "estudios/percepcion-carabineros.html#principales-hallazgos",
-    "href": "estudios/percepcion-carabineros.html#principales-hallazgos",
+    "objectID": "estudios/percepcion-carabineros.html#metodología",
+    "href": "estudios/percepcion-carabineros.html#metodología",
     "title": "Encuesta de Percepción de Carabineros",
-    "section": "Principales Hallazgos",
-    "text": "Principales Hallazgos\nEl estudio reveló importantes diferencias en las percepciones según grupos demográficos y territorios, identificando factores clave para la legitimidad policial.\n\n← Volver a Estudios"
+    "section": "Metodología",
+    "text": "Metodología\n\nDiseño\nSerie de encuestas transversales anuales (2020, 2021, 2022, 2023).\n\n\nMuestras\n\n\n\nAño\nN\nCobertura\n\n\n\n\n2020\n1.200\nNacional urbana\n\n\n2021\n1.500\nNacional\n\n\n2022\n1.500\nNacional\n\n\n2023\n1.200\nNacional urbana\n\n\n\n\n\nVariables Principales\n\nConfianza en Carabineros (escala 1-7)\nLegitimidad percibida (batería de 8 ítems)\nPercepciones de justicia procedimental\nPercepciones de efectividad\nDisposición a cooperar\nExperiencias de contacto\nExposición a información sobre Carabineros"
+  },
+  {
+    "objectID": "estudios/percepcion-carabineros.html#resultados-principales",
+    "href": "estudios/percepcion-carabineros.html#resultados-principales",
+    "title": "Encuesta de Percepción de Carabineros",
+    "section": "Resultados Principales",
+    "text": "Resultados Principales\n\nEvolución de la Confianza\n2020: ████████░░░░░░░░ 3.2/7 (post-estallido)\n2021: ████████░░░░░░░░ 3.4/7 (recuperación leve)\n2022: █████████░░░░░░░ 3.8/7 (recuperación)\n2023: █████████░░░░░░░ 4.0/7 (estabilización)\n\n\nHallazgos Clave\n1. Caída y Recuperación - Mínimo histórico de confianza en 2020 (3.2/7) - Recuperación gradual 2021-2023 - No se alcanzaron niveles pre-estallido\n2. Brechas Sociodemográficas - Jóvenes (18-29): Menor confianza (-1.2 puntos vs. mayores de 60) - NSE bajo: Menor confianza (-0.8 puntos vs. NSE alto) - Región Metropolitana: Menor confianza que regiones\n3. Factores Asociados - Experiencias de contacto negativo: Principal predictor de baja confianza - Posición política: Izquierda con menor confianza - Victimización: Relación ambivalente (demanda de protección vs. crítica)\n4. Comparación Institucional - Carabineros: 4.0/7 - PDI: 4.5/7 - Fiscalía: 3.8/7 - Gobierno: 3.2/7"
+  },
+  {
+    "objectID": "estudios/percepcion-carabineros.html#publicaciones",
+    "href": "estudios/percepcion-carabineros.html#publicaciones",
+    "title": "Encuesta de Percepción de Carabineros",
+    "section": "Publicaciones",
+    "text": "Publicaciones\n\nArtículos\n\nGerber, M. & Figueiredo, A. (2023). “Police legitimacy after social unrest: The Chilean case”. Policing and Society, 33(4), 412-430.\nFigueiredo, A. et al. (2022). “Trust in police after the 2019 protests”. Journal of Latin American Studies.\n\n\n\nInformes\n\n“Informe de Percepción de Carabineros 2020” - OLES\n“Informe de Percepción de Carabineros 2022” - OLES\n\n\n\nPresentaciones\n\nCongreso ALAS 2022\nSeminario COES 2023\nEuropean Society of Criminology 2023"
+  },
+  {
+    "objectID": "estudios/percepcion-carabineros.html#impacto",
+    "href": "estudios/percepcion-carabineros.html#impacto",
+    "title": "Encuesta de Percepción de Carabineros",
+    "section": "Impacto",
+    "text": "Impacto\n\nCitado en debates parlamentarios sobre reforma policial\nReferenciado en informes de INDH\nUtilizado por organizaciones de sociedad civil\nBase para proyectos de investigación posteriores"
+  },
+  {
+    "objectID": "estudios/percepcion-carabineros.html#equipo",
+    "href": "estudios/percepcion-carabineros.html#equipo",
+    "title": "Encuesta de Percepción de Carabineros",
+    "section": "Equipo",
+    "text": "Equipo\n\nInvestigadora Principal: Mónica Gerber\nCo-investigadora: Ana Figueiredo\nAsistentes de investigación: Equipo OLES (2020-2023)"
+  },
+  {
+    "objectID": "estudios/percepcion-carabineros.html#financiamiento",
+    "href": "estudios/percepcion-carabineros.html#financiamiento",
+    "title": "Encuesta de Percepción de Carabineros",
+    "section": "Financiamiento",
+    "text": "Financiamiento\nProyecto financiado por FONDECYT Regular N° 1221805 y Centro de Estudios de Conflicto y Cohesión Social (COES)."
+  },
+  {
+    "objectID": "estudios/percepcion-carabineros.html#acceso-a-datos",
+    "href": "estudios/percepcion-carabineros.html#acceso-a-datos",
+    "title": "Encuesta de Percepción de Carabineros",
+    "section": "Acceso a Datos",
+    "text": "Acceso a Datos\nLos datos de las cuatro olas están disponibles en el repositorio de datos del OLES para investigadores acreditados.\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/confianza-institucional.html",
     "href": "estudios/confianza-institucional.html",
     "title": "Encuesta de Confianza Institucional",
     "section": "",
-    "text": "Este estudio analiza los niveles de confianza en diferentes instituciones del Estado y cómo estas percepciones varían según características sociodemográficas de la población chilena."
+    "text": "La Encuesta de Confianza Institucional es un estudio que mide los niveles de confianza de la ciudadanía en diversas instituciones del Estado chileno. A diferencia de la ESEP que se focaliza en instituciones de seguridad, este estudio abarca un espectro más amplio de instituciones, incluyendo el Poder Judicial, el Congreso, el Gobierno, instituciones de salud y educación.\nEl estudio busca comprender los determinantes de la confianza institucional y su relación con la legitimidad democrática en Chile."
   },
   {
     "objectID": "estudios/confianza-institucional.html#descripción",
     "href": "estudios/confianza-institucional.html#descripción",
     "title": "Encuesta de Confianza Institucional",
     "section": "",
-    "text": "Este estudio analiza los niveles de confianza en diferentes instituciones del Estado y cómo estas percepciones varían según características sociodemográficas de la población chilena."
+    "text": "La Encuesta de Confianza Institucional es un estudio que mide los niveles de confianza de la ciudadanía en diversas instituciones del Estado chileno. A diferencia de la ESEP que se focaliza en instituciones de seguridad, este estudio abarca un espectro más amplio de instituciones, incluyendo el Poder Judicial, el Congreso, el Gobierno, instituciones de salud y educación.\nEl estudio busca comprender los determinantes de la confianza institucional y su relación con la legitimidad democrática en Chile."
   },
   {
     "objectID": "estudios/confianza-institucional.html#objetivos",
     "href": "estudios/confianza-institucional.html#objetivos",
     "title": "Encuesta de Confianza Institucional",
     "section": "Objetivos",
-    "text": "Objetivos\n\nMedir niveles de confianza en instituciones públicas\nIdentificar factores que determinan la confianza institucional\nAnalizar variaciones territoriales y demográficas"
+    "text": "Objetivos\n\nObjetivo General\nMedir y analizar los niveles de confianza ciudadana en instituciones del Estado chileno.\n\n\nObjetivos Específicos\n\nEvaluar confianza en distintos tipos de instituciones\nIdentificar factores que influyen en la confianza institucional\nComparar confianza entre sectores (seguridad, justicia, político, servicios)\nAnalizar diferencias por grupos sociodemográficos\nEstudiar relación entre confianza y participación ciudadana"
   },
   {
     "objectID": "estudios/confianza-institucional.html#metodología",
     "href": "estudios/confianza-institucional.html#metodología",
     "title": "Encuesta de Confianza Institucional",
     "section": "Metodología",
-    "text": "Metodología\nEncuesta transversal con muestra representativa a nivel nacional, aplicada de forma periódica para monitorear cambios en la confianza institucional.\n\n← Volver a Estudios"
+    "text": "Metodología\n\nDiseño\nEncuesta transversal anual con módulo de seguimiento longitudinal.\n\n\nMuestra\n\nN: 1.500 casos por aplicación\nCobertura: Nacional urbana\nMuestreo: Probabilístico multietápico\n\n\n\nInstituciones Evaluadas\nSector Seguridad y Justicia - Carabineros de Chile - Policía de Investigaciones - Fiscalía Nacional - Poder Judicial - Defensoría Penal Pública\nSector Político - Gobierno (Ejecutivo) - Congreso Nacional - Partidos políticos - Municipalidades\nSector Servicios - Hospitales públicos - Consultorios de salud - Establecimientos educacionales - Registro Civil\nOtras Instituciones - Contraloría General - Banco Central - Fuerzas Armadas - Iglesias\n\n\nVariables Medidas\n\nConfianza general en cada institución (escala 1-7)\nPercepciones de eficiencia\nPercepciones de integridad/corrupción\nPercepciones de equidad en el trato\nExperiencias personales con la institución"
+  },
+  {
+    "objectID": "estudios/confianza-institucional.html#resultados-preliminares-2023",
+    "href": "estudios/confianza-institucional.html#resultados-preliminares-2023",
+    "title": "Encuesta de Confianza Institucional",
+    "section": "Resultados Preliminares (2023)",
+    "text": "Resultados Preliminares (2023)\n\nRanking de Confianza Institucional\n\n\n\nInstitución\nConfianza (1-7)\n\n\n\n\nBomberos\n6.2\n\n\nUniversidades\n5.1\n\n\nCarabineros\n4.3\n\n\nHospitales\n4.1\n\n\nFiscalía\n3.8\n\n\nGobierno\n3.2\n\n\nCongreso\n2.4\n\n\nPartidos políticos\n1.9\n\n\n\n\n\nPrincipales Hallazgos\n\nBrecha significativa entre instituciones técnicas y políticas\nConfianza en policía mayor que en instituciones políticas\nExperiencias personales son mejor predictor que factores sociodemográficos\nPercepción de corrupción como principal factor de desconfianza"
+  },
+  {
+    "objectID": "estudios/confianza-institucional.html#equipo",
+    "href": "estudios/confianza-institucional.html#equipo",
+    "title": "Encuesta de Confianza Institucional",
+    "section": "Equipo",
+    "text": "Equipo\n\nInvestigadora Principal: Ana Figueiredo\nCo-investigador: Ismael Puga\nAsistentes: Equipo OLES"
+  },
+  {
+    "objectID": "estudios/confianza-institucional.html#financiamiento",
+    "href": "estudios/confianza-institucional.html#financiamiento",
+    "title": "Encuesta de Confianza Institucional",
+    "section": "Financiamiento",
+    "text": "Financiamiento\nProyecto interno del Observatorio de Legitimidad con apoyo del Centro de Estudios de Conflicto y Cohesión Social (COES).\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/grupos-focales.html",
     "href": "estudios/grupos-focales.html",
     "title": "Grupos Focales: Confianza Institucional",
     "section": "",
-    "text": "Investigación que utiliza grupos focales para explorar las dinámicas sociales que influyen en la confianza hacia las instituciones públicas."
+    "text": "Este estudio utiliza la técnica de grupos focales para explorar cómo se construye colectivamente la confianza y desconfianza en las instituciones públicas. A diferencia de las entrevistas individuales, los grupos focales permiten observar las dinámicas de interacción, negociación y construcción compartida de significados sobre legitimidad institucional.\nEl estudio busca comprender cómo las personas discuten, argumentan y eventualmente forman opiniones sobre las instituciones en contextos de interacción social."
   },
   {
     "objectID": "estudios/grupos-focales.html#descripción",
     "href": "estudios/grupos-focales.html#descripción",
     "title": "Grupos Focales: Confianza Institucional",
     "section": "",
-    "text": "Investigación que utiliza grupos focales para explorar las dinámicas sociales que influyen en la confianza hacia las instituciones públicas."
+    "text": "Este estudio utiliza la técnica de grupos focales para explorar cómo se construye colectivamente la confianza y desconfianza en las instituciones públicas. A diferencia de las entrevistas individuales, los grupos focales permiten observar las dinámicas de interacción, negociación y construcción compartida de significados sobre legitimidad institucional.\nEl estudio busca comprender cómo las personas discuten, argumentan y eventualmente forman opiniones sobre las instituciones en contextos de interacción social."
   },
   {
     "objectID": "estudios/grupos-focales.html#objetivos",
     "href": "estudios/grupos-focales.html#objetivos",
     "title": "Grupos Focales: Confianza Institucional",
     "section": "Objetivos",
-    "text": "Objetivos\n\nExplorar discursos colectivos sobre confianza institucional\nIdentificar dinámicas grupales en la formación de actitudes\nComprender procesos de socialización de percepciones\n\n\n← Volver a Estudios"
+    "text": "Objetivos\n\nObjetivo General\nExplorar las dinámicas sociales de construcción de confianza y desconfianza institucional mediante grupos focales.\n\n\nObjetivos Específicos\n\nObservar procesos de deliberación sobre instituciones\nIdentificar argumentos y contra-argumentos utilizados\nAnalizar rol de experiencias compartidas en formación de opiniones\nEstudiar dinámicas de consenso y disenso grupal\nExaminar influencia del contexto social en las percepciones"
+  },
+  {
+    "objectID": "estudios/grupos-focales.html#metodología",
+    "href": "estudios/grupos-focales.html#metodología",
+    "title": "Grupos Focales: Confianza Institucional",
+    "section": "Metodología",
+    "text": "Metodología\n\nDiseño\nEstudio cualitativo con grupos focales temáticos.\n\n\nGrupos Realizados y Proyectados\n\n\n\nGrupo\nPerfil\nEstado\n\n\n\n\nG1\nJóvenes universitarios\nCompletado ✓\n\n\nG2\nTrabajadores sindicalizados\nCompletado ✓\n\n\nG3\nMadres de sectores populares\nCompletado ✓\n\n\nG4\nProfesionales clase media\nEn planificación\n\n\nG5\nAdultos mayores\nEn planificación\n\n\nG6\nResidentes rurales\nEn planificación\n\n\n\n\n\nCaracterísticas de los Grupos\n\nParticipantes por grupo: 6-8 personas\nDuración: 90-120 minutos\nModalidad: Presencial\nModeración: Investigador principal + observador\n\n\n\nGuía de Discusión\nBloque 1: Apertura (15 min) - Presentaciones - Asociaciones libres con “instituciones”\nBloque 2: Experiencias (30 min) - Experiencias personales con instituciones - Historias de familiares/conocidos - Discusión de casos hipotéticos\nBloque 3: Evaluaciones (30 min) - ¿En qué instituciones confían? ¿Por qué? - ¿Cuáles generan desconfianza? - Comparación entre instituciones\nBloque 4: Proyecciones (20 min) - ¿Qué debería cambiar? - ¿Es posible recuperar la confianza? - Propuestas y expectativas\nBloque 5: Cierre (15 min) - Reflexiones finales - Síntesis de la discusión"
+  },
+  {
+    "objectID": "estudios/grupos-focales.html#avances-preliminares",
+    "href": "estudios/grupos-focales.html#avances-preliminares",
+    "title": "Grupos Focales: Confianza Institucional",
+    "section": "Avances Preliminares",
+    "text": "Avances Preliminares\n\nDinámicas Observadas\n1. Efecto Cascada Cuando un participante comparte una experiencia negativa, otros tienden a recordar y compartir experiencias similares, generando una escalada de relatos críticos.\n2. Moderación Interna En algunos grupos, participantes con visiones más positivas moderan las críticas extremas, generando debates internos productivos.\n3. Diferenciación Institucional Los grupos distinguen claramente entre tipos de instituciones, siendo más críticos con políticas que con técnicas (ej. más críticos de Congreso que de hospitales).\n4. Apelación a Experiencias Los argumentos basados en experiencias personales tienen mayor peso persuasivo que los basados en información mediática.\n\n\nTemas Recurrentes\n\nCorrupción como factor central de desconfianza\nDemandas de trato igualitario\nNostalgia por instituciones “de antes”\nEscepticismo sobre posibilidad de cambio"
+  },
+  {
+    "objectID": "estudios/grupos-focales.html#consideraciones-metodológicas",
+    "href": "estudios/grupos-focales.html#consideraciones-metodológicas",
+    "title": "Grupos Focales: Confianza Institucional",
+    "section": "Consideraciones Metodológicas",
+    "text": "Consideraciones Metodológicas\n\nVentajas de la Técnica\n\nObservación de dinámicas grupales\nEmergencia de temas no previstos\nRiqueza de la interacción\n\n\n\nLimitaciones\n\nPosible inhibición de opiniones minoritarias\nDificultad de generalización\nInfluencia del moderador\n\n\n\nEstrategias de Validez\n\nTriangulación con entrevistas individuales\nMúltiples grupos por perfil\nAnálisis por dos investigadores independientes"
+  },
+  {
+    "objectID": "estudios/grupos-focales.html#equipo",
+    "href": "estudios/grupos-focales.html#equipo",
+    "title": "Grupos Focales: Confianza Institucional",
+    "section": "Equipo",
+    "text": "Equipo\n\nInvestigador Principal: Luciano Sáez\nCo-investigadora: Macarena Orchard\nObservadora: Amparo Feller\nLogística: Equipo OLES"
+  },
+  {
+    "objectID": "estudios/grupos-focales.html#productos-esperados",
+    "href": "estudios/grupos-focales.html#productos-esperados",
+    "title": "Grupos Focales: Confianza Institucional",
+    "section": "Productos Esperados",
+    "text": "Productos Esperados\n\nArtículo sobre dinámicas de construcción de confianza\nInforme metodológico sobre grupos focales en temas sensibles\nMaterial para docencia en metodología cualitativa\n\n\n← Volver a Estudios"
   },
   {
     "objectID": "estudios/medios-post-estallido.html",
     "href": "estudios/medios-post-estallido.html",
     "title": "Medios Digitales y Legitimidad Post-Estallido",
     "section": "",
-    "text": "Este estudio analizó cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019."
+    "text": "Este estudio analizó cómo los medios digitales construyeron narrativas sobre legitimidad institucional en el período posterior al estallido social de octubre de 2019 en Chile. El proyecto examinó la cobertura mediática de las instituciones de seguridad, particularmente Carabineros de Chile, durante un período de intensa crisis de legitimidad.\nLa investigación documentó los cambios en el tratamiento mediático de las instituciones, la emergencia de nuevas narrativas críticas, y el rol de los medios digitales en la construcción de significados sobre la autoridad estatal."
   },
   {
     "objectID": "estudios/medios-post-estallido.html#descripción",
     "href": "estudios/medios-post-estallido.html#descripción",
     "title": "Medios Digitales y Legitimidad Post-Estallido",
     "section": "",
-    "text": "Este estudio analizó cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019."
+    "text": "Este estudio analizó cómo los medios digitales construyeron narrativas sobre legitimidad institucional en el período posterior al estallido social de octubre de 2019 en Chile. El proyecto examinó la cobertura mediática de las instituciones de seguridad, particularmente Carabineros de Chile, durante un período de intensa crisis de legitimidad.\nLa investigación documentó los cambios en el tratamiento mediático de las instituciones, la emergencia de nuevas narrativas críticas, y el rol de los medios digitales en la construcción de significados sobre la autoridad estatal."
+  },
+  {
+    "objectID": "estudios/medios-post-estallido.html#contexto",
+    "href": "estudios/medios-post-estallido.html#contexto",
+    "title": "Medios Digitales y Legitimidad Post-Estallido",
+    "section": "Contexto",
+    "text": "Contexto\nEl estallido social de octubre 2019 representó un punto de inflexión en la relación entre ciudadanía e instituciones en Chile. Las denuncias de violaciones a los derechos humanos por parte de Carabineros durante las protestas generaron una crisis de legitimidad sin precedentes, ampliamente documentada y discutida en medios digitales."
+  },
+  {
+    "objectID": "estudios/medios-post-estallido.html#objetivos",
+    "href": "estudios/medios-post-estallido.html#objetivos",
+    "title": "Medios Digitales y Legitimidad Post-Estallido",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nObjetivo General\nAnalizar la construcción de narrativas sobre legitimidad institucional en medios digitales chilenos durante el período post-estallido (2019-2022).\n\n\nObjetivos Específicos\n\nDocumentar la evolución de la cobertura mediática de Carabineros\nIdentificar las narrativas predominantes sobre legitimidad policial\nAnalizar el rol de las redes sociales en la difusión de información\nExaminar las estrategias comunicacionales de las instituciones\nComparar la cobertura entre medios tradicionales y alternativos"
+  },
+  {
+    "objectID": "estudios/medios-post-estallido.html#metodología",
+    "href": "estudios/medios-post-estallido.html#metodología",
+    "title": "Medios Digitales y Legitimidad Post-Estallido",
+    "section": "Metodología",
+    "text": "Metodología\n\nDiseño de Investigación\nEstudio longitudinal de análisis de contenido mediático, combinando técnicas cuantitativas y cualitativas.\n\n\nCorpus de Análisis\n\nPeríodo: Octubre 2019 - Diciembre 2022\nMedios analizados:\n\nTradicionales: El Mercurio, La Tercera, Biobío\nAlternativos: El Desconcierto, CIPER, Interferencia\nRedes sociales: Twitter, Instagram\n\nMuestra: 8.500 noticias y 150.000 publicaciones en RRSS\n\n\n\nTécnicas Aplicadas\n\nAnálisis de contenido cuantitativo\nAnálisis crítico del discurso\nAnálisis de framing\nEtnografía digital"
   },
   {
     "objectID": "estudios/medios-post-estallido.html#principales-hallazgos",
     "href": "estudios/medios-post-estallido.html#principales-hallazgos",
     "title": "Medios Digitales y Legitimidad Post-Estallido",
     "section": "Principales Hallazgos",
-    "text": "Principales Hallazgos\nEl estudio identificó patrones significativos en la construcción mediática de narrativas sobre legitimidad y autoridad institucional.\n\n← Volver a Estudios"
+    "text": "Principales Hallazgos\n\n1. Transformación de las Narrativas Mediáticas\nPre-estallido (antes Oct 2019) - Frame predominante: “policía como garante del orden” - Tono general: neutral a positivo - Fuentes principales: voceros institucionales\nDurante el estallido (Oct-Dic 2019) - Emergencia del frame de “violencia institucional” - Cobertura intensa de denuncias de DDHH - Proliferación de contenido ciudadano en RRSS - Cuestionamiento de narrativas oficiales\nPost-estallido (2020-2022) - Consolidación de narrativas críticas - Demandas de reforma institucional - Debates sobre control civil de la policía - Mayor pluralidad de voces en medios\n\n\n2. Rol de las Redes Sociales\n\nTwitter como espacio de denuncia ciudadana\nViralización de videos de violencia policial\nHashtags como #ChileDespertó y #RenunciaGobiernoAsesino\nContranarrativas institucionales en redes oficiales\n\n\n\n3. Diferencias entre Medios\n\n\n\nAspecto\nMedios Tradicionales\nMedios Alternativos\n\n\n\n\nTono\nMás equilibrado\nMás crítico\n\n\nFuentes\nOficiales predominan\nVoces ciudadanas\n\n\nFrame\nOrden público\nDerechos humanos\n\n\nProfundidad\nCobertura superficial\nInvestigación\n\n\n\n\n\n4. Estrategias Comunicacionales Institucionales\n\nIntentos de control de narrativa por parte de Carabineros\nUso limitado y reactivo de redes sociales\nComunicados oficiales con baja credibilidad\nDificultad para contrarrestar narrativas críticas"
+  },
+  {
+    "objectID": "estudios/medios-post-estallido.html#publicaciones",
+    "href": "estudios/medios-post-estallido.html#publicaciones",
+    "title": "Medios Digitales y Legitimidad Post-Estallido",
+    "section": "Publicaciones",
+    "text": "Publicaciones\n\nArtículos Publicados\n\nMoya, C. & Gerber, M. (2022). “Narrativas mediáticas de legitimidad policial post-estallido”. Revista Chilena de Comunicación, 15(2), 45-68.\nGerber, M. et al. (2021). “Crisis de legitimidad y medios digitales en Chile”. Comunicación y Medios, 44, 112-130.\n\n\n\nPresentaciones\n\nLASA 2021: “Digital media and police legitimacy in Chile”\nCongreso ALAIC 2022: “Narrativas de crisis institucional”\nSeminario COES 2022: “Medios y estallido social”\n\n\n\nWorking Papers\n\n“Framing policial en la prensa chilena 2019-2021”\n“El rol de Twitter en la crisis de legitimidad de Carabineros”"
+  },
+  {
+    "objectID": "estudios/medios-post-estallido.html#impacto-del-estudio",
+    "href": "estudios/medios-post-estallido.html#impacto-del-estudio",
+    "title": "Medios Digitales y Legitimidad Post-Estallido",
+    "section": "Impacto del Estudio",
+    "text": "Impacto del Estudio\n\nCitado en informes de INDH sobre violencia policial\nReferenciado en debates parlamentarios sobre reforma policial\nUtilizado en cursos universitarios de comunicación política\nBase para proyectos de investigación posteriores"
+  },
+  {
+    "objectID": "estudios/medios-post-estallido.html#equipo-de-investigación",
+    "href": "estudios/medios-post-estallido.html#equipo-de-investigación",
+    "title": "Medios Digitales y Legitimidad Post-Estallido",
+    "section": "Equipo de Investigación",
+    "text": "Equipo de Investigación\n\nInvestigador Principal: Cristóbal Moya\nCo-investigadora: Mónica Gerber\nAsistentes: Equipo OLES (2020-2022)"
+  },
+  {
+    "objectID": "estudios/medios-post-estallido.html#financiamiento",
+    "href": "estudios/medios-post-estallido.html#financiamiento",
+    "title": "Medios Digitales y Legitimidad Post-Estallido",
+    "section": "Financiamiento",
+    "text": "Financiamiento\nProyecto desarrollado en el marco del FONDECYT Regular N° 1221805."
+  },
+  {
+    "objectID": "estudios/medios-post-estallido.html#acceso-a-datos",
+    "href": "estudios/medios-post-estallido.html#acceso-a-datos",
+    "title": "Medios Digitales y Legitimidad Post-Estallido",
+    "section": "Acceso a Datos",
+    "text": "Acceso a Datos\nLos datos de este estudio están disponibles para investigadores previa solicitud, respetando protocolos de anonimización y ética de investigación.\n\n← Volver a Estudios"
   },
   {
     "objectID": "eventos/2026-01-20-seminario-legitimidad.html",

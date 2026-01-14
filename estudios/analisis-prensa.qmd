@@ -1,27 +1,94 @@
 ---
 title: "Análisis de Prensa: Cobertura de Legitimidad Institucional"
-description: "Estudio del tratamiento mediático de temas relacionados con legitimidad institucional."
+description: "Estudio del tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena."
 categoria: "prensa-redes"
 estado: "en-curso"
 fecha-inicio: "2022"
 fecha-fin: "Presente"
+image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&h=400&fit=crop"
 investigadores:
   - "Cristóbal Moya"
+  - "Matías Deneken"
 tags:
   - "Prensa"
   - "Framing"
   - "Agenda Setting"
+  - "Análisis de Contenido"
 ---
 
 ## Descripción
 
-Este estudio analiza el tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena, incluyendo análisis de framing y agenda setting.
+Este estudio analiza sistemáticamente el tratamiento mediático de temas relacionados con legitimidad institucional en la prensa chilena. A través del análisis de contenido de los principales medios de comunicación escritos y digitales, buscamos comprender cómo se construyen y difunden las narrativas sobre las instituciones públicas, con especial énfasis en las fuerzas de seguridad.
+
+La investigación examina periódicamente las noticias publicadas en medios como El Mercurio, La Tercera, Biobío Chile, Cooperativa, entre otros, aplicando técnicas de análisis de framing y agenda setting para identificar patrones en la cobertura noticiosa.
 
 ## Objetivos
 
-- Analizar cobertura mediática de temas de legitimidad
-- Identificar frames dominantes en la prensa
-- Estudiar efectos de agenda setting
+### Objetivo General
+Analizar la cobertura mediática de temas relacionados con legitimidad institucional en Chile, identificando frames dominantes y su evolución temporal.
+
+### Objetivos Específicos
+- Mapear la cobertura mediática de Carabineros, PDI y otras instituciones de seguridad
+- Identificar los frames o encuadres predominantes en las noticias
+- Analizar la agenda setting y los temas priorizados por los medios
+- Examinar diferencias en el tratamiento entre distintos tipos de medios
+- Estudiar la evolución de la cobertura a lo largo del tiempo
+
+## Metodología
+
+### Corpus de Análisis
+- **Medios nacionales**: El Mercurio, La Tercera, La Segunda
+- **Medios digitales**: Biobío Chile, Cooperativa, T13, CNN Chile
+- **Período**: 2022 hasta la actualidad
+- **Muestra**: Más de 5.000 noticias analizadas
+
+### Técnicas de Análisis
+1. **Análisis de contenido cuantitativo**: Frecuencia de temas, actores mencionados, tono de la cobertura
+2. **Análisis de framing**: Identificación de encuadres narrativos predominantes
+3. **Análisis de agenda setting**: Correlación entre agenda mediática y opinión pública
+4. **Análisis de sentimiento**: Clasificación del tono de las noticias
+
+### Herramientas
+- Scraping automatizado de noticias
+- Codificación manual y supervisada
+- Procesamiento de lenguaje natural (NLP)
+- Software de análisis cualitativo (Atlas.ti)
+
+## Resultados Preliminares
+
+### Tendencias Identificadas
+
+**1. Frames Predominantes**
+- *Frame de crisis institucional*: Énfasis en problemas internos de las instituciones
+- *Frame de seguridad ciudadana*: Foco en la eficacia policial frente al crimen
+- *Frame de derechos humanos*: Atención a casos de abuso policial
+- *Frame de reforma*: Discusión sobre cambios necesarios en las instituciones
+
+**2. Evolución Temporal**
+- Aumento de cobertura crítica post-estallido social (2019)
+- Variación según ciclos noticiosos y eventos críticos
+- Diferencias significativas entre medios tradicionales y digitales
+
+**3. Actores Mencionados**
+- Predominancia de fuentes oficiales (voceros institucionales)
+- Menor presencia de voces ciudadanas
+- Rol de expertos y académicos como fuentes secundarias
+
+## Publicaciones y Presentaciones
+
+- **2024**: Presentación en Congreso Chileno de Sociología
+- **2023**: Working paper "Frames de legitimidad policial en la prensa chilena"
+- **En preparación**: Artículo para revista indexada
+
+## Equipo de Investigación
+
+- **Investigador Principal**: Cristóbal Moya
+- **Asistente de Investigación**: Matías Deneken
+- **Colaboradores**: Bruno Rojas, Nicolás Tobar
+
+## Financiamiento
+
+Este estudio forma parte del proyecto FONDECYT Regular N° 1221805 "Legitimidad institucional en Chile".
 
 ---
 

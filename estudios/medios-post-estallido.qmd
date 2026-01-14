@@ -1,25 +1,141 @@
 ---
 title: "Medios Digitales y Legitimidad Post-Estallido"
-description: "Análisis de cómo los medios digitales construyeron narrativas sobre legitimidad institucional."
+description: "Análisis de cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019."
 categoria: "prensa-redes"
 estado: "finalizado"
 fecha-inicio: "2020"
 fecha-fin: "2022"
+image: "https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=800&h=400&fit=crop"
 investigadores:
   - "Cristóbal Moya"
+  - "Mónica Gerber"
 tags:
   - "Estallido Social"
   - "Narrativas"
   - "Medios Digitales"
+  - "Crisis Institucional"
 ---
 
 ## Descripción
 
-Este estudio analizó cómo los medios digitales construyeron narrativas sobre legitimidad institucional después del estallido social de 2019.
+Este estudio analizó cómo los medios digitales construyeron narrativas sobre legitimidad institucional en el período posterior al estallido social de octubre de 2019 en Chile. El proyecto examinó la cobertura mediática de las instituciones de seguridad, particularmente Carabineros de Chile, durante un período de intensa crisis de legitimidad.
+
+La investigación documentó los cambios en el tratamiento mediático de las instituciones, la emergencia de nuevas narrativas críticas, y el rol de los medios digitales en la construcción de significados sobre la autoridad estatal.
+
+## Contexto
+
+El estallido social de octubre 2019 representó un punto de inflexión en la relación entre ciudadanía e instituciones en Chile. Las denuncias de violaciones a los derechos humanos por parte de Carabineros durante las protestas generaron una crisis de legitimidad sin precedentes, ampliamente documentada y discutida en medios digitales.
+
+## Objetivos
+
+### Objetivo General
+Analizar la construcción de narrativas sobre legitimidad institucional en medios digitales chilenos durante el período post-estallido (2019-2022).
+
+### Objetivos Específicos
+- Documentar la evolución de la cobertura mediática de Carabineros
+- Identificar las narrativas predominantes sobre legitimidad policial
+- Analizar el rol de las redes sociales en la difusión de información
+- Examinar las estrategias comunicacionales de las instituciones
+- Comparar la cobertura entre medios tradicionales y alternativos
+
+## Metodología
+
+### Diseño de Investigación
+Estudio longitudinal de análisis de contenido mediático, combinando técnicas cuantitativas y cualitativas.
+
+### Corpus de Análisis
+- **Período**: Octubre 2019 - Diciembre 2022
+- **Medios analizados**: 
+  - Tradicionales: El Mercurio, La Tercera, Biobío
+  - Alternativos: El Desconcierto, CIPER, Interferencia
+  - Redes sociales: Twitter, Instagram
+- **Muestra**: 8.500 noticias y 150.000 publicaciones en RRSS
+
+### Técnicas Aplicadas
+1. Análisis de contenido cuantitativo
+2. Análisis crítico del discurso
+3. Análisis de framing
+4. Etnografía digital
 
 ## Principales Hallazgos
 
-El estudio identificó patrones significativos en la construcción mediática de narrativas sobre legitimidad y autoridad institucional.
+### 1. Transformación de las Narrativas Mediáticas
+
+**Pre-estallido (antes Oct 2019)**
+- Frame predominante: "policía como garante del orden"
+- Tono general: neutral a positivo
+- Fuentes principales: voceros institucionales
+
+**Durante el estallido (Oct-Dic 2019)**
+- Emergencia del frame de "violencia institucional"
+- Cobertura intensa de denuncias de DDHH
+- Proliferación de contenido ciudadano en RRSS
+- Cuestionamiento de narrativas oficiales
+
+**Post-estallido (2020-2022)**
+- Consolidación de narrativas críticas
+- Demandas de reforma institucional
+- Debates sobre control civil de la policía
+- Mayor pluralidad de voces en medios
+
+### 2. Rol de las Redes Sociales
+
+- Twitter como espacio de denuncia ciudadana
+- Viralización de videos de violencia policial
+- Hashtags como #ChileDespertó y #RenunciaGobiernoAsesino
+- Contranarrativas institucionales en redes oficiales
+
+### 3. Diferencias entre Medios
+
+| Aspecto | Medios Tradicionales | Medios Alternativos |
+|---------|---------------------|---------------------|
+| Tono | Más equilibrado | Más crítico |
+| Fuentes | Oficiales predominan | Voces ciudadanas |
+| Frame | Orden público | Derechos humanos |
+| Profundidad | Cobertura superficial | Investigación |
+
+### 4. Estrategias Comunicacionales Institucionales
+
+- Intentos de control de narrativa por parte de Carabineros
+- Uso limitado y reactivo de redes sociales
+- Comunicados oficiales con baja credibilidad
+- Dificultad para contrarrestar narrativas críticas
+
+## Publicaciones
+
+### Artículos Publicados
+- Moya, C. & Gerber, M. (2022). "Narrativas mediáticas de legitimidad policial post-estallido". *Revista Chilena de Comunicación*, 15(2), 45-68.
+- Gerber, M. et al. (2021). "Crisis de legitimidad y medios digitales en Chile". *Comunicación y Medios*, 44, 112-130.
+
+### Presentaciones
+- LASA 2021: "Digital media and police legitimacy in Chile"
+- Congreso ALAIC 2022: "Narrativas de crisis institucional"
+- Seminario COES 2022: "Medios y estallido social"
+
+### Working Papers
+- "Framing policial en la prensa chilena 2019-2021"
+- "El rol de Twitter en la crisis de legitimidad de Carabineros"
+
+## Impacto del Estudio
+
+- Citado en informes de INDH sobre violencia policial
+- Referenciado en debates parlamentarios sobre reforma policial
+- Utilizado en cursos universitarios de comunicación política
+- Base para proyectos de investigación posteriores
+
+## Equipo de Investigación
+
+- **Investigador Principal**: Cristóbal Moya
+- **Co-investigadora**: Mónica Gerber
+- **Asistentes**: Equipo OLES (2020-2022)
+
+## Financiamiento
+
+Proyecto desarrollado en el marco del FONDECYT Regular N° 1221805.
+
+## Acceso a Datos
+
+Los datos de este estudio están disponibles para investigadores previa solicitud, respetando protocolos de anonimización y ética de investigación.
 
 ---
 

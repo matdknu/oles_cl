@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Estudio de registros administrativos de denuncias a la policía.">
+<meta name="description" content="Estudio de registros administrativos de denuncias ciudadanas a instituciones policiales.">
 
 <title>Análisis de Registros de Denuncias – OLES - Observatorio de Legitimidad</title>
 <style>
@@ -166,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Estudio de registros administrativos de denuncias a la policía.
+    Estudio de registros administrativos de denuncias ciudadanas a instituciones policiales.
   </div>
 </div>
 
@@ -185,15 +185,107 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="descripción" class="level2">
 <h2 class="anchored" data-anchor-id="descripción">Descripción</h2>
-<p>Este estudio analiza registros administrativos de denuncias a la policía para identificar patrones de interacción ciudadana con las instituciones de seguridad.</p>
+<p>Este estudio analiza los registros administrativos de denuncias ciudadanas realizadas a instituciones policiales en Chile. Mediante convenios de acceso a datos con instituciones públicas, el proyecto examina patrones de denuncia, características de los denunciantes, y la respuesta institucional a las denuncias, buscando identificar factores que influyen en la disposición ciudadana a reportar delitos y conductas indebidas.</p>
 </section>
 <section id="objetivos" class="level2">
 <h2 class="anchored" data-anchor-id="objetivos">Objetivos</h2>
+<section id="objetivo-general" class="level3">
+<h3 class="anchored" data-anchor-id="objetivo-general">Objetivo General</h3>
+<p>Analizar patrones de denuncia ciudadana a instituciones policiales y su relación con percepciones de legitimidad.</p>
+</section>
+<section id="objetivos-específicos" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-específicos">Objetivos Específicos</h3>
 <ul>
-<li>Analizar patrones de denuncias ciudadanas</li>
-<li>Identificar factores territoriales y demográficos</li>
-<li>Estudiar evolución temporal de denuncias</li>
+<li>Caracterizar el volumen y tipos de denuncias a nivel nacional</li>
+<li>Identificar patrones territoriales y temporales</li>
+<li>Analizar factores asociados a la subdenuncia</li>
+<li>Examinar respuesta institucional a las denuncias</li>
+<li>Relacionar tasas de denuncia con indicadores de legitimidad</li>
 </ul>
+</section>
+</section>
+<section id="fuentes-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="fuentes-de-datos">Fuentes de Datos</h2>
+<section id="bases-de-datos-utilizadas" class="level3">
+<h3 class="anchored" data-anchor-id="bases-de-datos-utilizadas">Bases de Datos Utilizadas</h3>
+<p><strong>1. Sistema de Análisis de Información Territorial (SAIT)</strong> - Denuncias por delitos ingresadas a Carabineros - Período: 2018-2024 - Cobertura: Nacional - Variables: Tipo de delito, comuna, fecha, resultado</p>
+<p><strong>2. Fiscalía Nacional</strong> - Causas ingresadas al sistema de justicia - Período: 2018-2024 - Variables: Tipo de delito, estado de la causa, tiempos de resolución</p>
+<p><strong>3. Contraloría General</strong> - Denuncias administrativas contra funcionarios policiales - Período: 2019-2024 - Variables: Tipo de denuncia, institución, resolución</p>
+</section>
+<section id="convenios-de-acceso" class="level3">
+<h3 class="anchored" data-anchor-id="convenios-de-acceso">Convenios de Acceso</h3>
+<ul>
+<li>Subsecretaría de Prevención del Delito</li>
+<li>Fiscalía Nacional</li>
+<li>Contraloría General de la República</li>
+</ul>
+</section>
+</section>
+<section id="metodología" class="level2">
+<h2 class="anchored" data-anchor-id="metodología">Metodología</h2>
+<section id="análisis-descriptivo" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-descriptivo">Análisis Descriptivo</h3>
+<ul>
+<li>Series de tiempo de denuncias</li>
+<li>Distribución geográfica</li>
+<li>Tipología de delitos denunciados</li>
+</ul>
+</section>
+<section id="análisis-inferencial" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-inferencial">Análisis Inferencial</h3>
+<ul>
+<li>Modelos de regresión para determinantes de denuncia</li>
+<li>Análisis multinivel (comunal, regional)</li>
+<li>Correlación con encuestas de victimización</li>
+</ul>
+</section>
+<section id="variables-de-interés" class="level3">
+<h3 class="anchored" data-anchor-id="variables-de-interés">Variables de Interés</h3>
+<p><strong>Variables Dependientes</strong> - Tasa de denuncia por cada 100.000 habitantes - Proporción de delitos denunciados (vs.&nbsp;victimización) - Denuncias contra funcionarios policiales</p>
+<p><strong>Variables Independientes</strong> - Características sociodemográficas del territorio - Indicadores de legitimidad policial (ESEP) - Presencia policial - Niveles de victimización</p>
+</section>
+</section>
+<section id="resultados-preliminares" class="level2">
+<h2 class="anchored" data-anchor-id="resultados-preliminares">Resultados Preliminares</h2>
+<section id="patrones-de-denuncia" class="level3">
+<h3 class="anchored" data-anchor-id="patrones-de-denuncia">Patrones de Denuncia</h3>
+<p><strong>Evolución Temporal</strong></p>
+<pre><code>2018: ████████████████ 1.2M denuncias
+2019: ███████████████░ 1.1M (oct: caída abrupta)
+2020: ███████████░░░░░ 0.9M (pandemia)
+2021: ████████████░░░░ 1.0M (recuperación)
+2022: █████████████░░░ 1.1M (estabilización)
+2023: █████████████░░░ 1.1M</code></pre>
+<p><strong>Distribución por Tipo de Delito (2023)</strong> | Tipo | % del Total | |——|————-| | Hurtos | 28% | | Robos | 22% | | Lesiones | 15% | | Amenazas | 12% | | Otros | 23% |</p>
+</section>
+<section id="subdenuncia" class="level3">
+<h3 class="anchored" data-anchor-id="subdenuncia">Subdenuncia</h3>
+<p>Comparando con Encuesta Nacional de Victimización: - Tasa de denuncia general: 38% - Robos con violencia: 52% - Hurtos: 25% - Delitos sexuales: 15%</p>
+<p><strong>Razones de no denuncia (según ENV)</strong> 1. “No sirve de nada” (42%) 2. “Delito menor” (28%) 3. “Desconfianza en la policía” (15%) 4. “Miedo a represalias” (8%) 5. “Otros” (7%)</p>
+</section>
+<section id="relación-legitimidad-denuncia" class="level3">
+<h3 class="anchored" data-anchor-id="relación-legitimidad-denuncia">Relación Legitimidad-Denuncia</h3>
+<p>Análisis preliminar muestra correlación positiva (r=0.34) entre índice de legitimidad policial (ESEP) y tasa de denuncia a nivel comunal.</p>
+</section>
+</section>
+<section id="publicaciones-en-preparación" class="level2">
+<h2 class="anchored" data-anchor-id="publicaciones-en-preparación">Publicaciones en Preparación</h2>
+<ul>
+<li>“Crime reporting and police legitimacy in Chile: A territorial analysis”</li>
+<li>“Underreporting of crime: Evidence from administrative data”</li>
+</ul>
+</section>
+<section id="equipo" class="level2">
+<h2 class="anchored" data-anchor-id="equipo">Equipo</h2>
+<ul>
+<li><strong>Investigador Principal</strong>: Cristóbal Moya</li>
+<li><strong>Asistente de Investigación</strong>: Bruno Rojas</li>
+<li><strong>Apoyo estadístico</strong>: Nicolás Tobar</li>
+</ul>
+</section>
+<section id="financiamiento" class="level2">
+<h2 class="anchored" data-anchor-id="financiamiento">Financiamiento</h2>
+<p>FONDECYT Regular N° 1221805.</p>
 <hr>
 <p><a href="../estudios/index.html">← Volver a Estudios</a></p>
 

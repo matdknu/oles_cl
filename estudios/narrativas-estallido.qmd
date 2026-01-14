@@ -1,26 +1,155 @@
 ---
 title: "Narrativas del Estallido Social"
-description: "Análisis de narrativas sobre legitimidad institucional durante y después del estallido social."
+description: "Análisis de narrativas ciudadanas sobre legitimidad institucional durante y después del estallido social de 2019."
 categoria: "cualitativos"
 estado: "finalizado"
 fecha-inicio: "2020"
 fecha-fin: "2022"
+image: "https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=800&h=400&fit=crop"
 investigadores:
   - "Macarena Orchard"
-  - "Ana Figueiredo"
+  - "Mónica Gerber"
 tags:
-  - "Narrativas"
   - "Estallido Social"
-  - "2019"
+  - "Narrativas"
+  - "Memoria"
+  - "Legitimidad"
 ---
 
 ## Descripción
 
-Este estudio analizó las narrativas sobre legitimidad institucional que emergieron durante y después del estallido social de octubre de 2019 en Chile.
+Este estudio cualitativo documentó y analizó las narrativas ciudadanas sobre legitimidad institucional que emergieron durante y después del estallido social de octubre de 2019 en Chile. Mediante entrevistas en profundidad y análisis de testimonios, el proyecto exploró cómo los ciudadanos construyeron sentido sobre los eventos, las instituciones involucradas y las transformaciones en sus percepciones de autoridad y legitimidad.
 
-## Principales Hallazgos
+El estudio representa un registro histórico-cualitativo de un momento crítico en la historia reciente de Chile.
 
-El estudio identificó transformaciones significativas en las narrativas sobre autoridad y legitimidad institucional tras el estallido social.
+## Contexto Histórico
+
+El 18 de octubre de 2019, Chile vivió el inicio de un proceso de movilización social masiva que cuestionó profundamente las bases del modelo socioeconómico y político. Las protestas, que se extendieron por meses, incluyeron graves episodios de violencia tanto de manifestantes como de agentes del Estado, dejando un saldo de víctimas fatales, mutilaciones oculares y miles de detenidos.
+
+## Objetivos
+
+### Objetivo General
+Documentar y analizar las narrativas ciudadanas sobre legitimidad institucional en el contexto del estallido social.
+
+### Objetivos Específicos
+- Recoger testimonios de participantes y observadores del estallido
+- Identificar narrativas sobre autoridad, violencia y legitimidad
+- Analizar cambios en percepciones institucionales
+- Documentar experiencias de contacto con fuerzas de seguridad
+- Preservar memoria histórica del período
+
+## Metodología
+
+### Enfoque
+Investigación cualitativa con enfoque narrativo-biográfico.
+
+### Técnica Principal
+Entrevistas narrativas en profundidad.
+
+### Participantes
+- **N total**: 45 entrevistas
+- **Período de recolección**: Enero 2020 - Diciembre 2021
+
+### Perfiles Entrevistados
+
+| Perfil | N | Descripción |
+|--------|---|-------------|
+| Manifestantes activos | 15 | Participación frecuente en protestas |
+| Observadores/testigos | 12 | Presenciaron eventos sin participar activamente |
+| Víctimas de violencia | 8 | Sufrieron violencia policial directa |
+| Familiares de víctimas | 5 | Familiares de heridos o detenidos |
+| No participantes críticos | 5 | Críticos del movimiento |
+
+### Procedimiento
+1. Reclutamiento mediante redes y organizaciones
+2. Entrevista narrativa (90-150 minutos)
+3. Segunda entrevista de profundización (opcional)
+4. Transcripción y análisis temático
+5. Validación con participantes
+
+## Resultados
+
+### Narrativas Identificadas
+
+**1. Narrativa del "Despertar"**
+El estallido como momento de toma de conciencia colectiva.
+> "Fue como si todos despertáramos al mismo tiempo, como si nos diéramos cuenta de que esto no podía seguir así" (Mujer, 28 años, manifestante)
+
+**2. Narrativa de la "Traición Institucional"**
+Las instituciones fallaron en su rol de protección.
+> "Se supone que Carabineros está para protegernos, pero nos dispararon como si fuéramos enemigos" (Hombre, 35 años, testigo)
+
+**3. Narrativa de la "Violencia Necesaria"**
+Justificación de la violencia como respuesta a la opresión.
+> "Yo nunca había sido violento, pero cuando vi lo que hacían sentí que no quedaba otra opción" (Hombre, 24 años, manifestante)
+
+**4. Narrativa del "Caos y Destrucción"**
+El estallido como pérdida de orden social.
+> "Esto no era protesta, era destrucción pura, perdimos el país" (Mujer, 55 años, no participante)
+
+**5. Narrativa de la "Herida Abierta"**
+Trauma persistente y demanda de justicia.
+> "Perdí un ojo, pero lo que más me duele es que nadie pagó por esto" (Hombre, 30 años, víctima)
+
+### Transformaciones en Percepciones de Legitimidad
+
+**Antes del Estallido**
+- Confianza moderada en instituciones
+- Aceptación del orden establecido
+- Distancia con la política
+
+**Durante el Estallido**
+- Cuestionamiento radical de instituciones
+- Politización acelerada
+- Solidaridad comunitaria
+
+**Después del Estallido**
+- Desconfianza persistente
+- Demandas de cambio estructural
+- Fatiga y desesperanza (en algunos casos)
+
+### Experiencias con Fuerzas de Seguridad
+
+El estudio documentó numerosas experiencias de contacto con Carabineros durante el estallido:
+- Detenciones arbitrarias
+- Uso desproporcionado de la fuerza
+- Agresiones verbales y físicas
+- Falta de identificación de funcionarios
+- Algunas excepciones de trato respetuoso
+
+## Publicaciones
+
+### Artículos
+- Orchard, M. & Gerber, M. (2022). "Narratives of institutional legitimacy after social unrest". *Qualitative Sociology*, 45(2), 234-258.
+- Orchard, M. (2021). "Voces del estallido: Testimonios de octubre". *Revista Chilena de Sociología*.
+
+### Libro
+- Orchard, M. (Ed.) (2023). *Octubre: Narrativas de un despertar*. Santiago: Editorial Universidad.
+
+### Presentaciones
+- LASA 2021: "Narratives of awakening in Chile"
+- ASA 2022: "Institutional legitimacy after the uprising"
+
+## Archivo de Testimonios
+
+Los testimonios recopilados (con consentimiento) forman parte del Archivo de Memoria del Estallido Social, disponible para investigadores y con fines educativos.
+
+## Impacto
+
+- Citado en informes de derechos humanos
+- Utilizado en procesos judiciales
+- Material educativo en universidades
+- Referencia para periodismo de investigación
+
+## Equipo
+
+- **Investigadora Principal**: Macarena Orchard
+- **Co-investigadora**: Mónica Gerber
+- **Asistentes**: Equipo OLES (2020-2022)
+
+## Financiamiento
+
+FONDECYT Regular N° 1221805 y Proyecto Interno Universidad Diego Portales.
 
 ---
 

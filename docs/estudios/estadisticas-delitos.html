@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Análisis de estadísticas oficiales de delitos y victimización.">
+<meta name="description" content="Análisis de estadísticas oficiales de delitos y victimización para comprender patrones de criminalidad y respuesta ciudadana.">
 
 <title>Estadísticas de Delitos y Victimización – OLES - Observatorio de Legitimidad</title>
 <style>
@@ -166,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Análisis de estadísticas oficiales de delitos y victimización.
+    Análisis de estadísticas oficiales de delitos y victimización para comprender patrones de criminalidad y respuesta ciudadana.
   </div>
 </div>
 
@@ -185,15 +185,172 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="descripción" class="level2">
 <h2 class="anchored" data-anchor-id="descripción">Descripción</h2>
-<p>Análisis de estadísticas oficiales de delitos y victimización para contextualizar las percepciones de legitimidad institucional.</p>
+<p>Este estudio analiza las estadísticas oficiales de delitos y victimización en Chile, integrando múltiples fuentes de datos para construir un panorama comprehensivo de la criminalidad y su relación con las percepciones de legitimidad institucional. El proyecto busca superar las limitaciones de cada fuente individual mediante la triangulación de registros policiales, fiscales y encuestas de victimización.</p>
 </section>
 <section id="objetivos" class="level2">
 <h2 class="anchored" data-anchor-id="objetivos">Objetivos</h2>
+<section id="objetivo-general" class="level3">
+<h3 class="anchored" data-anchor-id="objetivo-general">Objetivo General</h3>
+<p>Analizar patrones de criminalidad y victimización en Chile y su relación con la legitimidad institucional.</p>
+</section>
+<section id="objetivos-específicos" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-específicos">Objetivos Específicos</h3>
 <ul>
-<li>Analizar tendencias de criminalidad</li>
-<li>Estudiar patrones de victimización</li>
-<li>Relacionar datos objetivos con percepciones subjetivas</li>
+<li>Integrar múltiples fuentes de datos sobre delincuencia</li>
+<li>Construir indicadores robustos de criminalidad territorial</li>
+<li>Analizar relación entre victimización y percepciones de legitimidad</li>
+<li>Estudiar efectividad percibida de instituciones de seguridad</li>
+<li>Identificar zonas de alta vulnerabilidad</li>
 </ul>
+</section>
+</section>
+<section id="fuentes-de-datos" class="level2">
+<h2 class="anchored" data-anchor-id="fuentes-de-datos">Fuentes de Datos</h2>
+<section id="encuesta-nacional-urbana-de-seguridad-ciudadana-enusc" class="level3">
+<h3 class="anchored" data-anchor-id="encuesta-nacional-urbana-de-seguridad-ciudadana-enusc">1. Encuesta Nacional Urbana de Seguridad Ciudadana (ENUSC)</h3>
+<ul>
+<li><strong>Institución</strong>: INE / Subsecretaría Prevención del Delito</li>
+<li><strong>Periodicidad</strong>: Anual</li>
+<li><strong>Muestra</strong>: ~25.000 hogares urbanos</li>
+<li><strong>Variables</strong>: Victimización, percepción de inseguridad, denuncia</li>
+</ul>
+</section>
+<section id="estadísticas-policiales-sait" class="level3">
+<h3 class="anchored" data-anchor-id="estadísticas-policiales-sait">2. Estadísticas Policiales (SAIT)</h3>
+<ul>
+<li><strong>Institución</strong>: Carabineros de Chile</li>
+<li><strong>Periodicidad</strong>: Continua</li>
+<li><strong>Cobertura</strong>: Nacional</li>
+<li><strong>Variables</strong>: Denuncias por tipo de delito, comuna, fecha</li>
+</ul>
+</section>
+<section id="estadísticas-fiscalía" class="level3">
+<h3 class="anchored" data-anchor-id="estadísticas-fiscalía">3. Estadísticas Fiscalía</h3>
+<ul>
+<li><strong>Institución</strong>: Fiscalía Nacional</li>
+<li><strong>Periodicidad</strong>: Mensual</li>
+<li><strong>Variables</strong>: Causas ingresadas, términos, condenas</li>
+</ul>
+</section>
+<section id="datos-de-gendarmería" class="level3">
+<h3 class="anchored" data-anchor-id="datos-de-gendarmería">4. Datos de Gendarmería</h3>
+<ul>
+<li><strong>Variables</strong>: Población penal, reincidencia</li>
+</ul>
+</section>
+</section>
+<section id="metodología" class="level2">
+<h2 class="anchored" data-anchor-id="metodología">Metodología</h2>
+<section id="construcción-de-base-integrada" class="level3">
+<h3 class="anchored" data-anchor-id="construcción-de-base-integrada">Construcción de Base Integrada</h3>
+<pre><code>ENUSC + SAIT + Fiscalía + ESEP → Base Integrada Comunal
+        ↓
+    Indicadores:
+    - Tasa de victimización
+    - Tasa de denuncia
+    - "Cifra negra" estimada
+    - Índice de efectividad policial
+    - Índice de legitimidad territorial</code></pre>
+</section>
+<section id="análisis" class="level3">
+<h3 class="anchored" data-anchor-id="análisis">Análisis</h3>
+<p><strong>Nivel Individual (ENUSC + ESEP)</strong> - Modelos de regresión logística para victimización - Análisis de mediación legitimidad-cooperación</p>
+<p><strong>Nivel Territorial (Comunal)</strong> - Análisis espacial de criminalidad - Correlación legitimidad-criminalidad - Identificación de clusters territoriales</p>
+</section>
+</section>
+<section id="resultados-principales" class="level2">
+<h2 class="anchored" data-anchor-id="resultados-principales">Resultados Principales</h2>
+<section id="victimización-en-chile-2023" class="level3">
+<h3 class="anchored" data-anchor-id="victimización-en-chile-2023">Victimización en Chile (2023)</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Indicador</th>
+<th>Nacional</th>
+<th>RM</th>
+<th>Regiones</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hogares victimizados</td>
+<td>24.3%</td>
+<td>27.1%</td>
+<td>22.8%</td>
+</tr>
+<tr class="even">
+<td>Tasa de denuncia</td>
+<td>38%</td>
+<td>35%</td>
+<td>40%</td>
+</tr>
+<tr class="odd">
+<td>Percepción inseguridad</td>
+<td>42%</td>
+<td>48%</td>
+<td>38%</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="relación-victimización-legitimidad" class="level3">
+<h3 class="anchored" data-anchor-id="relación-victimización-legitimidad">Relación Victimización-Legitimidad</h3>
+<ul>
+<li>Víctimas de delitos tienen 15% menos legitimidad percibida</li>
+<li>Efecto mediado por percepción de efectividad policial</li>
+<li>Mayor impacto en delitos con violencia</li>
+<li>Efecto duradero (persiste 2+ años post-victimización)</li>
+</ul>
+</section>
+<section id="mapeo-territorial" class="level3">
+<h3 class="anchored" data-anchor-id="mapeo-territorial">Mapeo Territorial</h3>
+<p>El estudio identifica clusters de comunas según perfil:</p>
+<p><strong>Cluster 1: Alta criminalidad, baja legitimidad</strong> - Comunas periféricas de grandes ciudades - Alta victimización, baja denuncia - Desconfianza generalizada en instituciones</p>
+<p><strong>Cluster 2: Baja criminalidad, alta legitimidad</strong> - Comunas de clase media-alta - Baja victimización, alta denuncia - Confianza moderada en instituciones</p>
+<p><strong>Cluster 3: Alta criminalidad, legitimidad moderada</strong> - Comunas con alta presencia policial - Victimización alta pero denuncia también alta - Evaluaciones mixtas de policía</p>
+</section>
+<section id="tendencias-temporales" class="level3">
+<h3 class="anchored" data-anchor-id="tendencias-temporales">Tendencias Temporales</h3>
+<pre><code>Victimización (hogares):
+2015: ████████████████████ 26%
+2018: ██████████████████░░ 25%
+2020: ███████████████░░░░░ 21% (pandemia)
+2022: ████████████████░░░░ 23%
+2023: █████████████████░░░ 24%
+
+Percepción de inseguridad:
+2015: ████████████████████ 38%
+2023: ███████████████████████████ 42%</code></pre>
+</section>
+</section>
+<section id="productos" class="level2">
+<h2 class="anchored" data-anchor-id="productos">Productos</h2>
+<section id="dashboards" class="level3">
+<h3 class="anchored" data-anchor-id="dashboards">Dashboards</h3>
+<ul>
+<li>Panel de indicadores de seguridad (actualización mensual)</li>
+<li>Mapas interactivos de criminalidad comunal</li>
+</ul>
+</section>
+<section id="publicaciones" class="level3">
+<h3 class="anchored" data-anchor-id="publicaciones">Publicaciones</h3>
+<ul>
+<li>Informes anuales de seguridad ciudadana</li>
+<li>Artículos sobre legitimidad y victimización</li>
+</ul>
+</section>
+</section>
+<section id="equipo" class="level2">
+<h2 class="anchored" data-anchor-id="equipo">Equipo</h2>
+<ul>
+<li><strong>Investigador Principal</strong>: Ismael Puga</li>
+<li><strong>Co-investigador</strong>: Cristóbal Moya</li>
+<li><strong>Asistentes</strong>: Bruno Rojas, Nicolás Tobar</li>
+</ul>
+</section>
+<section id="financiamiento" class="level2">
+<h2 class="anchored" data-anchor-id="financiamiento">Financiamiento</h2>
+<p>FONDECYT Regular N° 1221805 y convenio con Subsecretaría de Prevención del Delito.</p>
 <hr>
 <p><a href="../estudios/index.html">← Volver a Estudios</a></p>
 

@@ -1,33 +1,117 @@
 ---
 title: "Estudio Panel de Legitimidad Policial"
-description: "Investigación longitudinal sobre cambios en la legitimidad policial percibida."
+description: "Investigación longitudinal sobre cambios en la legitimidad policial percibida a nivel individual."
 categoria: "encuestas"
 estado: "en-curso"
 fecha-inicio: "2022"
 fecha-fin: "Presente"
+image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&h=400&fit=crop"
 investigadores:
+  - "Joaquín Bahamondes"
   - "Mónica Gerber"
-  - "Cristóbal Moya"
 tags:
   - "Panel"
-  - "Policía"
   - "Legitimidad"
-  - "Crisis"
+  - "Longitudinal"
+  - "Carabineros"
 ---
 
 ## Descripción
 
-Investigación longitudinal que analiza los cambios en la legitimidad policial percibida a lo largo del tiempo, especialmente en contextos de crisis social.
+El Estudio Panel de Legitimidad Policial es una investigación longitudinal intensiva que sigue a un grupo de ciudadanos durante un período de tres años, midiendo sus percepciones de legitimidad policial en múltiples puntos temporales. A diferencia de encuestas transversales, este diseño permite identificar cambios a nivel individual y analizar cómo eventos específicos (experiencias de contacto, noticias, eventos sociales) afectan las percepciones.
 
 ## Objetivos
 
-- Seguir la evolución de percepciones de legitimidad policial
-- Identificar eventos que afectan la confianza en la policía
-- Analizar mecanismos de cambio en actitudes hacia la autoridad
+### Objetivo General
+Analizar la dinámica temporal de las percepciones de legitimidad policial a nivel individual.
 
-## Metodología
+### Objetivos Específicos
+- Medir estabilidad y cambio en percepciones de legitimidad
+- Identificar eventos que generan cambios significativos
+- Analizar efectos de experiencias directas e indirectas
+- Estudiar procesos de socialización de actitudes hacia la policía
+- Examinar el rol de las redes sociales personales
 
-Estudio de panel con mediciones periódicas a los mismos participantes, permitiendo analizar cambios individuales en percepciones de legitimidad.
+## Diseño del Estudio
+
+### Panel Design
+- **Tipo**: Panel longitudinal intensivo
+- **N inicial**: 800 participantes
+- **Frecuencia**: Mediciones trimestrales
+- **Duración**: 3 años (12 olas de medición)
+- **Retención objetivo**: >70%
+
+### Selección de Participantes
+- Residentes de Santiago, Valparaíso y Concepción
+- Estratificación por edad, género y NSE
+- Sobremuestreo de jóvenes (18-29) por mayor variabilidad esperada
+
+### Instrumentos
+**Mediciones trimestrales (breves)**
+- Confianza en policía
+- Legitimidad percibida
+- Experiencias de contacto recientes
+- Exposición a noticias sobre policía
+
+**Mediciones anuales (extensas)**
+- Batería completa de legitimidad
+- Justicia procedimental
+- Actitudes hacia autoridad
+- Variables sociodemográficas
+
+### Incentivos
+- Compensación monetaria por participación
+- Bonos por retención a largo plazo
+- Sorteos entre participantes activos
+
+## Estado Actual
+
+### Progreso del Estudio
+- **Ola 1-4 (2022)**: Completadas ✓
+- **Ola 5-8 (2023)**: Completadas ✓
+- **Ola 9-12 (2024)**: En curso
+
+### Retención
+- Ola 4: 89% de la muestra original
+- Ola 8: 76% de la muestra original
+- Meta final: >70%
+
+## Resultados Preliminares
+
+### Estabilidad de Actitudes
+- Coeficiente de estabilidad (r) = 0.72 entre olas consecutivas
+- Mayor estabilidad en adultos mayores que en jóvenes
+- Experiencias de contacto generan cambios significativos
+
+### Efectos de Eventos
+1. **Contacto directo positivo**: +0.8 puntos en legitimidad (efecto duradero)
+2. **Contacto directo negativo**: -1.2 puntos (efecto persistente)
+3. **Exposición a noticias negativas**: -0.3 puntos (efecto temporal)
+4. **Eventos sociales (protestas)**: Efectos variables según posición política
+
+### Trayectorias Identificadas
+- **Estables altos**: 35% de la muestra
+- **Estables bajos**: 25% de la muestra
+- **Declinantes**: 20% de la muestra
+- **Recuperadores**: 12% de la muestra
+- **Volátiles**: 8% de la muestra
+
+## Publicaciones en Preparación
+
+- "Within-person changes in police legitimacy: A panel study"
+- "The effect of police contact on legitimacy perceptions"
+- "Socialización política y actitudes hacia la policía"
+
+## Equipo
+
+- **Investigador Principal**: Joaquín Bahamondes
+- **Co-investigadora**: Mónica Gerber
+- **Coordinación de campo**: Luciano Sáez
+- **Análisis de datos**: Cristóbal Moya
+
+## Financiamiento
+
+Proyecto financiado por FONDECYT Regular N° 1221805.
 
 ---
 

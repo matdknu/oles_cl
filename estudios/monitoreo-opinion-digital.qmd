@@ -1,28 +1,128 @@
 ---
 title: "Monitoreo de Opinión Pública Digital"
-description: "Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales."
+description: "Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales."
 categoria: "prensa-redes"
 estado: "en-curso"
 fecha-inicio: "2024"
 fecha-fin: "Presente"
+image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop"
 investigadores:
   - "Bruno Rojas"
   - "Nicolás Tobar"
+  - "Matías Deneken"
 tags:
   - "Monitoreo"
   - "Opinión Pública"
   - "Digital"
+  - "Dashboard"
 ---
 
 ## Descripción
 
-Sistema de seguimiento continuo de la opinión pública sobre instituciones en medios digitales y redes sociales.
+El Sistema de Monitoreo de Opinión Pública Digital es una iniciativa del OLES que permite el seguimiento en tiempo real de las percepciones ciudadanas sobre instituciones públicas en el espacio digital. Mediante herramientas automatizadas de recolección y análisis de datos, generamos indicadores continuos sobre legitimidad institucional basados en lo que los ciudadanos expresan en redes sociales y medios digitales.
+
+Este sistema representa un complemento innovador a las encuestas tradicionales, permitiendo capturar cambios en la opinión pública de manera más ágil y con mayor granularidad temporal.
 
 ## Objetivos
 
-- Monitorear opinión pública en tiempo real
-- Identificar cambios en percepciones ciudadanas
-- Generar alertas sobre crisis de legitimidad
+### Objetivo General
+Desarrollar y mantener un sistema de monitoreo continuo de la opinión pública digital sobre instituciones en Chile.
+
+### Objetivos Específicos
+- Crear indicadores en tiempo real de percepción institucional
+- Detectar tempranamente crisis de legitimidad
+- Identificar temas emergentes en la discusión pública
+- Generar reportes periódicos para tomadores de decisiones
+- Validar indicadores digitales con datos de encuestas tradicionales
+
+## Componentes del Sistema
+
+### 1. Recolección Automatizada
+- **Fuentes monitoreadas**: Twitter/X, Facebook, Instagram, medios digitales
+- **Frecuencia**: Actualización diaria
+- **Volumen**: ~50.000 menciones diarias procesadas
+- **Instituciones**: Carabineros, PDI, Fiscalía, Poder Judicial, Gobierno
+
+### 2. Procesamiento de Datos
+- Limpieza y preprocesamiento de textos
+- Clasificación automática por tema e institución
+- Análisis de sentimiento (positivo, negativo, neutral)
+- Detección de anomalías y picos de actividad
+
+### 3. Indicadores Generados
+- **Índice de Sentimiento Institucional (ISI)**: Promedio ponderado de sentimiento
+- **Volumen de Menciones**: Cantidad de referencias por institución
+- **Índice de Polarización**: Dispersión de opiniones
+- **Alertas de Crisis**: Detección de eventos críticos
+
+### 4. Visualización y Reportes
+- Dashboard interactivo en tiempo real
+- Reportes semanales automáticos
+- Alertas por correo ante eventos significativos
+- API para integración con otros sistemas
+
+## Metodología
+
+### Arquitectura Técnica
+```
+Fuentes → Recolección → Procesamiento → Análisis → Visualización
+   ↓           ↓              ↓            ↓            ↓
+Twitter    Scrapers      NLP/ML      Indicadores   Dashboard
+Facebook   APIs          Sentiment    Alertas       Reportes
+Medios     Crawlers      Topics       Series        API
+```
+
+### Stack Tecnológico
+- **Backend**: Python, FastAPI, PostgreSQL
+- **ML/NLP**: Transformers, spaCy, scikit-learn
+- **Visualización**: Plotly, Dash
+- **Infraestructura**: Docker, AWS
+
+### Validación
+- Correlación con encuestas CEP y CADEM
+- Validación manual de clasificaciones
+- Testeo continuo de modelos de ML
+
+## Resultados y Productos
+
+### Dashboard de Monitoreo
+El sistema genera un dashboard actualizado diariamente que incluye:
+- Gráficos de tendencia de sentimiento
+- Mapas de calor de actividad por región
+- Wordclouds de términos frecuentes
+- Rankings de temas más discutidos
+
+### Reportes Periódicos
+- **Reporte semanal**: Resumen de tendencias y eventos destacados
+- **Reporte mensual**: Análisis profundo con contexto histórico
+- **Alertas especiales**: Notificaciones ante eventos críticos
+
+### Casos de Uso
+- Seguimiento de reacciones a operativos policiales
+- Monitoreo de cobertura mediática de casos judiciales
+- Detección de campañas de desinformación
+- Análisis de impacto de declaraciones públicas
+
+## Limitaciones y Consideraciones
+
+- Los datos de redes sociales no son representativos de toda la población
+- Sesgo hacia usuarios más activos y conectados
+- Dificultad para detectar ironía y sarcasmo
+- Presencia de bots puede distorsionar resultados
+
+## Equipo de Investigación
+
+- **Coordinador técnico**: Bruno Rojas
+- **Desarrollo de software**: Nicolás Tobar
+- **Análisis de datos**: Matías Deneken
+- **Supervisión académica**: Cristóbal Moya
+
+## Próximos Pasos
+
+- Incorporar análisis de TikTok y YouTube
+- Mejorar modelos de detección de ironía
+- Desarrollar versión pública del dashboard
+- Publicar metodología en revista especializada
 
 ---
 

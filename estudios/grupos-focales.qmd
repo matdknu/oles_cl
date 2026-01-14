@@ -1,27 +1,137 @@
 ---
 title: "Grupos Focales: Confianza Institucional"
-description: "Investigación con grupos focales que explora las dinámicas sociales que influyen en la confianza."
+description: "Investigación con grupos focales que explora las dinámicas sociales que influyen en la confianza y desconfianza institucional."
 categoria: "cualitativos"
 estado: "en-curso"
 fecha-inicio: "2024"
 fecha-fin: "Presente"
+image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=400&fit=crop"
 investigadores:
-  - "Ana Figueiredo"
+  - "Luciano Sáez"
+  - "Macarena Orchard"
 tags:
   - "Grupos Focales"
   - "Dinámicas Sociales"
   - "Confianza"
+  - "Deliberación"
 ---
 
 ## Descripción
 
-Investigación que utiliza grupos focales para explorar las dinámicas sociales que influyen en la confianza hacia las instituciones públicas.
+Este estudio utiliza la técnica de grupos focales para explorar cómo se construye colectivamente la confianza y desconfianza en las instituciones públicas. A diferencia de las entrevistas individuales, los grupos focales permiten observar las dinámicas de interacción, negociación y construcción compartida de significados sobre legitimidad institucional.
+
+El estudio busca comprender cómo las personas discuten, argumentan y eventualmente forman opiniones sobre las instituciones en contextos de interacción social.
 
 ## Objetivos
 
-- Explorar discursos colectivos sobre confianza institucional
-- Identificar dinámicas grupales en la formación de actitudes
-- Comprender procesos de socialización de percepciones
+### Objetivo General
+Explorar las dinámicas sociales de construcción de confianza y desconfianza institucional mediante grupos focales.
+
+### Objetivos Específicos
+- Observar procesos de deliberación sobre instituciones
+- Identificar argumentos y contra-argumentos utilizados
+- Analizar rol de experiencias compartidas en formación de opiniones
+- Estudiar dinámicas de consenso y disenso grupal
+- Examinar influencia del contexto social en las percepciones
+
+## Metodología
+
+### Diseño
+Estudio cualitativo con grupos focales temáticos.
+
+### Grupos Realizados y Proyectados
+
+| Grupo | Perfil | Estado |
+|-------|--------|--------|
+| G1 | Jóvenes universitarios | Completado ✓ |
+| G2 | Trabajadores sindicalizados | Completado ✓ |
+| G3 | Madres de sectores populares | Completado ✓ |
+| G4 | Profesionales clase media | En planificación |
+| G5 | Adultos mayores | En planificación |
+| G6 | Residentes rurales | En planificación |
+
+### Características de los Grupos
+- **Participantes por grupo**: 6-8 personas
+- **Duración**: 90-120 minutos
+- **Modalidad**: Presencial
+- **Moderación**: Investigador principal + observador
+
+### Guía de Discusión
+
+**Bloque 1: Apertura (15 min)**
+- Presentaciones
+- Asociaciones libres con "instituciones"
+
+**Bloque 2: Experiencias (30 min)**
+- Experiencias personales con instituciones
+- Historias de familiares/conocidos
+- Discusión de casos hipotéticos
+
+**Bloque 3: Evaluaciones (30 min)**
+- ¿En qué instituciones confían? ¿Por qué?
+- ¿Cuáles generan desconfianza?
+- Comparación entre instituciones
+
+**Bloque 4: Proyecciones (20 min)**
+- ¿Qué debería cambiar?
+- ¿Es posible recuperar la confianza?
+- Propuestas y expectativas
+
+**Bloque 5: Cierre (15 min)**
+- Reflexiones finales
+- Síntesis de la discusión
+
+## Avances Preliminares
+
+### Dinámicas Observadas
+
+**1. Efecto Cascada**
+Cuando un participante comparte una experiencia negativa, otros tienden a recordar y compartir experiencias similares, generando una escalada de relatos críticos.
+
+**2. Moderación Interna**
+En algunos grupos, participantes con visiones más positivas moderan las críticas extremas, generando debates internos productivos.
+
+**3. Diferenciación Institucional**
+Los grupos distinguen claramente entre tipos de instituciones, siendo más críticos con políticas que con técnicas (ej. más críticos de Congreso que de hospitales).
+
+**4. Apelación a Experiencias**
+Los argumentos basados en experiencias personales tienen mayor peso persuasivo que los basados en información mediática.
+
+### Temas Recurrentes
+- Corrupción como factor central de desconfianza
+- Demandas de trato igualitario
+- Nostalgia por instituciones "de antes"
+- Escepticismo sobre posibilidad de cambio
+
+## Consideraciones Metodológicas
+
+### Ventajas de la Técnica
+- Observación de dinámicas grupales
+- Emergencia de temas no previstos
+- Riqueza de la interacción
+
+### Limitaciones
+- Posible inhibición de opiniones minoritarias
+- Dificultad de generalización
+- Influencia del moderador
+
+### Estrategias de Validez
+- Triangulación con entrevistas individuales
+- Múltiples grupos por perfil
+- Análisis por dos investigadores independientes
+
+## Equipo
+
+- **Investigador Principal**: Luciano Sáez
+- **Co-investigadora**: Macarena Orchard
+- **Observadora**: Amparo Feller
+- **Logística**: Equipo OLES
+
+## Productos Esperados
+
+- Artículo sobre dinámicas de construcción de confianza
+- Informe metodológico sobre grupos focales en temas sensibles
+- Material para docencia en metodología cualitativa
 
 ---
 

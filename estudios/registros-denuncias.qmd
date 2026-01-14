@@ -1,28 +1,143 @@
 ---
 title: "Análisis de Registros de Denuncias"
-description: "Estudio de registros administrativos de denuncias a la policía."
+description: "Estudio de registros administrativos de denuncias ciudadanas a instituciones policiales."
 categoria: "datos-administrativos"
 estado: "en-curso"
 fecha-inicio: "2023"
 fecha-fin: "Presente"
+image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=400&fit=crop"
 investigadores:
-  - "Ismael Puga"
-  - "Luciano Sáez"
+  - "Cristóbal Moya"
+  - "Bruno Rojas"
 tags:
-  - "Denuncias"
   - "Registros"
-  - "Patrones"
+  - "Denuncias"
+  - "Datos Administrativos"
+  - "Análisis Cuantitativo"
 ---
 
 ## Descripción
 
-Este estudio analiza registros administrativos de denuncias a la policía para identificar patrones de interacción ciudadana con las instituciones de seguridad.
+Este estudio analiza los registros administrativos de denuncias ciudadanas realizadas a instituciones policiales en Chile. Mediante convenios de acceso a datos con instituciones públicas, el proyecto examina patrones de denuncia, características de los denunciantes, y la respuesta institucional a las denuncias, buscando identificar factores que influyen en la disposición ciudadana a reportar delitos y conductas indebidas.
 
 ## Objetivos
 
-- Analizar patrones de denuncias ciudadanas
-- Identificar factores territoriales y demográficos
-- Estudiar evolución temporal de denuncias
+### Objetivo General
+Analizar patrones de denuncia ciudadana a instituciones policiales y su relación con percepciones de legitimidad.
+
+### Objetivos Específicos
+- Caracterizar el volumen y tipos de denuncias a nivel nacional
+- Identificar patrones territoriales y temporales
+- Analizar factores asociados a la subdenuncia
+- Examinar respuesta institucional a las denuncias
+- Relacionar tasas de denuncia con indicadores de legitimidad
+
+## Fuentes de Datos
+
+### Bases de Datos Utilizadas
+
+**1. Sistema de Análisis de Información Territorial (SAIT)**
+- Denuncias por delitos ingresadas a Carabineros
+- Período: 2018-2024
+- Cobertura: Nacional
+- Variables: Tipo de delito, comuna, fecha, resultado
+
+**2. Fiscalía Nacional**
+- Causas ingresadas al sistema de justicia
+- Período: 2018-2024
+- Variables: Tipo de delito, estado de la causa, tiempos de resolución
+
+**3. Contraloría General**
+- Denuncias administrativas contra funcionarios policiales
+- Período: 2019-2024
+- Variables: Tipo de denuncia, institución, resolución
+
+### Convenios de Acceso
+- Subsecretaría de Prevención del Delito
+- Fiscalía Nacional
+- Contraloría General de la República
+
+## Metodología
+
+### Análisis Descriptivo
+- Series de tiempo de denuncias
+- Distribución geográfica
+- Tipología de delitos denunciados
+
+### Análisis Inferencial
+- Modelos de regresión para determinantes de denuncia
+- Análisis multinivel (comunal, regional)
+- Correlación con encuestas de victimización
+
+### Variables de Interés
+
+**Variables Dependientes**
+- Tasa de denuncia por cada 100.000 habitantes
+- Proporción de delitos denunciados (vs. victimización)
+- Denuncias contra funcionarios policiales
+
+**Variables Independientes**
+- Características sociodemográficas del territorio
+- Indicadores de legitimidad policial (ESEP)
+- Presencia policial
+- Niveles de victimización
+
+## Resultados Preliminares
+
+### Patrones de Denuncia
+
+**Evolución Temporal**
+```
+2018: ████████████████ 1.2M denuncias
+2019: ███████████████░ 1.1M (oct: caída abrupta)
+2020: ███████████░░░░░ 0.9M (pandemia)
+2021: ████████████░░░░ 1.0M (recuperación)
+2022: █████████████░░░ 1.1M (estabilización)
+2023: █████████████░░░ 1.1M
+```
+
+**Distribución por Tipo de Delito (2023)**
+| Tipo | % del Total |
+|------|-------------|
+| Hurtos | 28% |
+| Robos | 22% |
+| Lesiones | 15% |
+| Amenazas | 12% |
+| Otros | 23% |
+
+### Subdenuncia
+
+Comparando con Encuesta Nacional de Victimización:
+- Tasa de denuncia general: 38%
+- Robos con violencia: 52%
+- Hurtos: 25%
+- Delitos sexuales: 15%
+
+**Razones de no denuncia (según ENV)**
+1. "No sirve de nada" (42%)
+2. "Delito menor" (28%)
+3. "Desconfianza en la policía" (15%)
+4. "Miedo a represalias" (8%)
+5. "Otros" (7%)
+
+### Relación Legitimidad-Denuncia
+
+Análisis preliminar muestra correlación positiva (r=0.34) entre índice de legitimidad policial (ESEP) y tasa de denuncia a nivel comunal.
+
+## Publicaciones en Preparación
+
+- "Crime reporting and police legitimacy in Chile: A territorial analysis"
+- "Underreporting of crime: Evidence from administrative data"
+
+## Equipo
+
+- **Investigador Principal**: Cristóbal Moya
+- **Asistente de Investigación**: Bruno Rojas
+- **Apoyo estadístico**: Nicolás Tobar
+
+## Financiamiento
+
+FONDECYT Regular N° 1221805.
 
 ---
 

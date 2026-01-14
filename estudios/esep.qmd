@@ -5,54 +5,112 @@ categoria: "encuestas"
 estado: "en-curso"
 fecha-inicio: "2020"
 fecha-fin: "Presente"
+image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop"
 investigadores:
   - "Mónica Gerber"
   - "Ana Figueiredo"
-  - "Luciano Sáez"
+  - "Joaquín Bahamondes"
 tags:
   - "Encuesta"
-  - "Longitudinal"
-  - "Carabineros"
-  - "Seguridad"
+  - "Legitimidad Policial"
+  - "Panel Longitudinal"
+  - "FONDECYT"
 ---
 
 ## Descripción
 
-La Encuesta sobre Seguridad y Experiencias Personales (ESEP) es un estudio longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile, con énfasis en las experiencias personales con Carabineros y otras instituciones.
+La Encuesta sobre Seguridad y Experiencias Personales (ESEP) es el estudio insignia del Observatorio de Legitimidad. Se trata de una encuesta longitudinal de panel que mide las percepciones ciudadanas sobre legitimidad institucional, con especial énfasis en las instituciones de seguridad como Carabineros de Chile y la Policía de Investigaciones.
 
-Este proyecto busca comprender cómo las experiencias directas e indirectas con las fuerzas de seguridad afectan las percepciones de legitimidad institucional a lo largo del tiempo.
+El estudio permite analizar cómo evolucionan las percepciones de legitimidad a lo largo del tiempo, y cómo las experiencias personales con las instituciones afectan estas percepciones.
 
 ## Objetivos
 
-- Medir la evolución de las percepciones de legitimidad policial en Chile
-- Identificar factores que influyen en la confianza institucional
-- Analizar el impacto de las experiencias personales con Carabineros
-- Comparar resultados entre diferentes grupos sociodemográficos
+### Objetivo General
+Medir y analizar la evolución de las percepciones de legitimidad institucional en Chile mediante un estudio longitudinal de panel.
 
-## Metodología
+### Objetivos Específicos
+- Evaluar niveles de confianza en instituciones de seguridad
+- Medir percepciones de justicia procedimental
+- Analizar efectos de experiencias de contacto con la policía
+- Estudiar determinantes de la disposición a cooperar con la policía
+- Comparar legitimidad percibida entre diferentes grupos sociales
 
-El estudio utiliza un diseño longitudinal de panel, con encuestas aplicadas anualmente a una muestra representativa de la población chilena. Se recopilan datos sobre:
+## Diseño Metodológico
 
-- Experiencias de contacto con la policía
-- Percepciones de justicia procedimental
-- Niveles de confianza en instituciones
-- Actitudes hacia la obediencia a la ley
+### Tipo de Estudio
+Encuesta de panel longitudinal con tres olas de medición.
 
-## Resultados Preliminares
+### Población y Muestra
+- **Población objetivo**: Adultos mayores de 18 años residentes en Chile
+- **Tamaño muestral**: 2.500 personas por ola
+- **Muestreo**: Probabilístico estratificado por región y zona (urbano/rural)
+- **Modo de aplicación**: CAPI (Computer Assisted Personal Interview)
 
-Los resultados iniciales muestran variaciones significativas en las percepciones de legitimidad según:
+### Olas de Medición
+| Ola | Período | N efectivo | Retención |
+|-----|---------|------------|-----------|
+| Ola 1 | 2020 | 2.543 | - |
+| Ola 2 | 2022 | 2.187 | 86% |
+| Ola 3 | 2024 | En curso | - |
 
-1. **Experiencias previas**: Quienes han tenido contacto negativo con la policía muestran menores niveles de legitimidad percibida
-2. **Factores territoriales**: Se observan diferencias entre zonas urbanas y rurales
-3. **Variables sociodemográficas**: La edad y nivel educacional influyen en las percepciones
+### Instrumentos
+La encuesta incluye módulos sobre:
+1. **Legitimidad policial**: Confianza, deber de obedecer, alineamiento moral
+2. **Justicia procedimental**: Trato justo, respeto, imparcialidad
+3. **Experiencias de contacto**: Frecuencia, tipo, calidad del contacto
+4. **Efectividad percibida**: Capacidad de la policía para combatir el crimen
+5. **Cooperación**: Disposición a denunciar delitos y ayudar a la policía
+6. **Victimización**: Experiencias como víctima de delitos
+7. **Sociodemográficos**: Edad, género, educación, ingresos, territorio
 
-## Publicaciones Relacionadas
+## Resultados Principales
 
-- Gerber, M.M., et al. (2025). "How do individuals interact with the police?" *Peace and Conflict: Journal of Peace Psychology*
+### Ola 1 (2020)
+- 42% de los encuestados confía "mucho" o "bastante" en Carabineros
+- Diferencias significativas por nivel socioeconómico
+- Experiencias negativas de contacto reducen legitimidad percibida
+- Alta correlación entre justicia procedimental y disposición a cooperar
+
+### Ola 2 (2022)
+- Recuperación parcial de niveles de confianza post-estallido
+- Persistencia de diferencias por NSE y territorio
+- Experiencias previas predicen percepciones actuales
+- Jóvenes mantienen menores niveles de legitimidad percibida
+
+### Análisis Longitudinal
+- Cambios individuales significativos entre olas
+- Efecto duradero de experiencias de contacto
+- Variabilidad territorial en evolución de percepciones
+
+## Publicaciones Asociadas
+
+### Artículos en Revistas Indexadas
+- Gerber, M. et al. (2024). "Police legitimacy in Chile: A panel study". *Journal of Research in Crime and Delinquency*.
+- Figueiredo, A. et al. (2023). "Procedural justice and cooperation with the police". *Policing and Society*.
+
+### Libros y Capítulos
+- Gerber, M. & Bahamondes, J. (2023). "Legitimidad policial en América Latina". En: *Handbook of Police Research*.
+
+### Presentaciones
+- American Society of Criminology Annual Meeting 2023
+- European Society of Criminology Conference 2022
+- ISPP Annual Meeting 2024
+
+## Acceso a Datos
+
+Los datos de la ESEP estarán disponibles para la comunidad científica a través del repositorio de datos del OLES, una vez concluidas las publicaciones principales del equipo investigador.
+
+## Equipo de Investigación
+
+- **Directora del estudio**: Mónica Gerber
+- **Co-investigadores**: Ana Figueiredo, Joaquín Bahamondes, Macarena Orchard
+- **Investigadores asociados**: Cristóbal Moya, Ismael Puga
+- **Coordinación de campo**: Luciano Sáez
+- **Asistentes**: Bruno Rojas, Nicolás Tobar, Matías Deneken
 
 ## Financiamiento
 
-Este proyecto es financiado por ANID a través del proyecto FONDECYT Regular N° 1221805.
+Este proyecto es financiado por ANID a través del proyecto FONDECYT Regular N° 1221805 "Legitimidad de las instituciones de seguridad en Chile: Un estudio longitudinal de panel".
 
 ---
 

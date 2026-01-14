@@ -1,26 +1,169 @@
 ---
 title: "Indicadores de Desempeño Institucional"
-description: "Construcción y análisis de indicadores de desempeño para evaluar la legitimidad institucional."
+description: "Construcción y análisis de indicadores de desempeño para evaluar la legitimidad y efectividad institucional."
 categoria: "datos-administrativos"
 estado: "finalizado"
 fecha-inicio: "2021"
 fecha-fin: "2023"
+image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop"
 investigadores:
-  - "Mónica Gerber"
   - "Ismael Puga"
+  - "Ana Figueiredo"
 tags:
   - "Indicadores"
   - "Desempeño"
   - "Evaluación"
+  - "Políticas Públicas"
 ---
 
 ## Descripción
 
-Este proyecto desarrolló indicadores de desempeño para evaluar la legitimidad institucional de la policía en Chile.
+Este proyecto desarrolló un sistema de indicadores para evaluar el desempeño de las instituciones de seguridad y justicia en Chile, integrando medidas de efectividad, eficiencia, legitimidad y equidad. El objetivo fue crear herramientas que permitan a tomadores de decisiones y ciudadanos evaluar el funcionamiento de las instituciones más allá de las métricas tradicionales centradas exclusivamente en criminalidad.
 
-## Principales Resultados
+## Contexto
 
-Se desarrolló un conjunto de indicadores validados para medir legitimidad institucional, que ahora son utilizados en otros estudios del observatorio.
+Las evaluaciones tradicionales de instituciones policiales se centran en indicadores de criminalidad (delitos, detenciones, etc.), ignorando dimensiones críticas como la legitimidad percibida, la equidad en el trato, y la satisfacción ciudadana. Este proyecto buscó desarrollar indicadores comprehensivos que capturen múltiples dimensiones del desempeño institucional.
+
+## Objetivos
+
+### Objetivo General
+Desarrollar un sistema de indicadores de desempeño institucional que integre efectividad, legitimidad y equidad.
+
+### Objetivos Específicos
+- Revisar literatura sobre evaluación de instituciones de seguridad
+- Identificar dimensiones relevantes de desempeño
+- Construir indicadores válidos y confiables
+- Aplicar indicadores a datos chilenos
+- Proponer estándares de referencia
+
+## Metodología
+
+### Fase 1: Revisión Conceptual
+- Revisión sistemática de literatura
+- Análisis de experiencias internacionales (UK, EE.UU., Europa)
+- Consulta con expertos nacionales e internacionales
+
+### Fase 2: Diseño de Indicadores
+- Definición de dimensiones
+- Operacionalización de indicadores
+- Validación con panel de expertos
+
+### Fase 3: Aplicación Piloto
+- Recolección de datos
+- Cálculo de indicadores
+- Validación estadística
+
+### Fase 4: Refinamiento
+- Ajuste de indicadores
+- Desarrollo de herramientas de medición
+- Documentación metodológica
+
+## Sistema de Indicadores
+
+### Dimensión 1: Efectividad
+
+| Indicador | Descripción | Fuente |
+|-----------|-------------|--------|
+| Tasa de esclarecimiento | % de delitos con autor identificado | Fiscalía |
+| Tiempo de respuesta | Minutos promedio a llamados de emergencia | Carabineros |
+| Tasa de condenas | % de causas que terminan en condena | Fiscalía |
+| Reducción de victimización | Cambio anual en tasa de victimización | ENUSC |
+
+### Dimensión 2: Legitimidad
+
+| Indicador | Descripción | Fuente |
+|-----------|-------------|--------|
+| Confianza ciudadana | % que confía mucho/bastante | ESEP/ENUSC |
+| Justicia procedimental | Índice de trato justo percibido | ESEP |
+| Disposición a cooperar | % dispuesto a denunciar | ESEP |
+| Deber de obedecer | Índice de obligación percibida | ESEP |
+
+### Dimensión 3: Equidad
+
+| Indicador | Descripción | Fuente |
+|-----------|-------------|--------|
+| Brecha NSE | Diferencia en trato por nivel socioeconómico | ESEP |
+| Brecha territorial | Diferencia en cobertura por comuna | SAIT |
+| Brecha étnica | Diferencia en percepciones por etnicidad | ESEP |
+| Uso diferencial de fuerza | Variación en uso de fuerza por contexto | Registros |
+
+### Dimensión 4: Eficiencia
+
+| Indicador | Descripción | Fuente |
+|-----------|-------------|--------|
+| Costo por intervención | Gasto/número de intervenciones | Presupuesto |
+| Productividad | Procedimientos per cápita policial | SAIT |
+| Rendimiento judicial | Causas terminadas/causas ingresadas | Fiscalía |
+
+## Resultados
+
+### Índice Compuesto de Desempeño (ICD)
+
+Se construyó un índice que integra las cuatro dimensiones:
+
+**ICD Nacional 2023**: 5.2/10
+
+| Dimensión | Puntaje | Peso |
+|-----------|---------|------|
+| Efectividad | 4.8/10 | 25% |
+| Legitimidad | 5.1/10 | 30% |
+| Equidad | 4.5/10 | 25% |
+| Eficiencia | 6.2/10 | 20% |
+
+### Comparación Internacional
+
+| País | ICD | Ranking |
+|------|-----|---------|
+| Dinamarca | 8.1 | 1 |
+| Alemania | 7.4 | 2 |
+| España | 6.2 | 3 |
+| Chile | 5.2 | 4 |
+| México | 4.1 | 5 |
+| Brasil | 3.8 | 6 |
+
+### Evolución en Chile
+
+```
+2019: █████░░░░░ 4.9
+2020: ████░░░░░░ 4.5 (crisis)
+2021: █████░░░░░ 4.8
+2022: █████░░░░░ 5.0
+2023: █████░░░░░ 5.2
+```
+
+## Productos
+
+### Manual de Indicadores
+Documento técnico con definiciones, fórmulas y protocolos de medición.
+
+### Herramienta de Cálculo
+Planilla Excel y script R para cálculo automatizado de indicadores.
+
+### Informes Anuales
+- Informe de Desempeño Institucional 2022
+- Informe de Desempeño Institucional 2023
+
+## Publicaciones
+
+- Puga, I. & Figueiredo, A. (2023). "Measuring police performance beyond crime". *Policing: An International Journal*, 46(3), 445-462.
+- Figueiredo, A. et al. (2022). "Indicadores de legitimidad policial para América Latina". *Revista CIDOB d'Afers Internacionals*.
+
+## Impacto
+
+- Adoptado por Subsecretaría de Prevención del Delito para monitoreo
+- Citado en debates sobre reforma policial
+- Utilizado en evaluaciones de programas de seguridad
+- Referencia para diseño de políticas públicas
+
+## Equipo
+
+- **Investigador Principal**: Ismael Puga
+- **Co-investigadora**: Ana Figueiredo
+- **Consultor internacional**: Dr. Jonathan Jackson (LSE)
+
+## Financiamiento
+
+FONDECYT Regular N° 1221805 y Fundación Konrad Adenauer.
 
 ---
 

@@ -1,28 +1,120 @@
 ---
 title: "Análisis de Redes Sociales: Discursos sobre Instituciones"
-description: "Investigación sobre los discursos en Twitter/X respecto a la legitimidad de las instituciones."
+description: "Investigación sobre los discursos en Twitter/X y otras plataformas respecto a la legitimidad de las instituciones públicas."
 categoria: "prensa-redes"
 estado: "en-curso"
 fecha-inicio: "2023"
 fecha-fin: "Presente"
+image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=400&fit=crop"
 investigadores:
   - "Matías Deneken"
   - "Nicolás Tobar"
+  - "Bruno Rojas"
 tags:
   - "Twitter/X"
   - "Redes Sociales"
   - "Discursos"
+  - "Opinión Pública Digital"
 ---
 
 ## Descripción
 
-Investigación que analiza los discursos en Twitter/X y otras redes sociales respecto a la legitimidad de las instituciones públicas en Chile.
+Este estudio analiza los discursos sobre legitimidad institucional en redes sociales, con foco en Twitter/X, Instagram y TikTok. Utilizamos técnicas de minería de datos y análisis computacional para comprender cómo los ciudadanos discuten, evalúan y construyen opiniones sobre las instituciones públicas chilenas en el espacio digital.
+
+La investigación busca capturar la "voz ciudadana" en su expresión más espontánea, identificando narrativas, hashtags virales, influencers de opinión y patrones de polarización en las discusiones sobre seguridad, policía y justicia.
 
 ## Objetivos
 
-- Mapear discursos sobre instituciones en redes sociales
-- Identificar tendencias y narrativas dominantes
-- Analizar polarización y formación de opinión
+### Objetivo General
+Mapear y analizar los discursos ciudadanos sobre legitimidad institucional en redes sociales chilenas.
+
+### Objetivos Específicos
+- Identificar narrativas predominantes sobre instituciones de seguridad
+- Detectar comunidades de opinión y sus características
+- Analizar eventos virales y su impacto en la opinión pública
+- Estudiar la polarización discursiva en temas de seguridad
+- Comparar discursos en distintas plataformas (Twitter, Instagram, TikTok)
+
+## Metodología
+
+### Fuentes de Datos
+- **Twitter/X**: API académica para recolección de tweets
+- **Instagram**: Análisis de publicaciones y comentarios en cuentas relevantes
+- **TikTok**: Estudio de videos virales sobre policía y seguridad
+- **Período**: Enero 2023 - actualidad
+
+### Volumen de Datos
+- Más de 2 millones de tweets recolectados
+- 50.000+ publicaciones de Instagram analizadas
+- 10.000+ videos de TikTok categorizados
+
+### Técnicas de Análisis
+1. **Análisis de redes**: Identificación de comunidades y líderes de opinión
+2. **Topic modeling**: Detección automática de temas discutidos
+3. **Sentiment analysis**: Clasificación de polaridad de los mensajes
+4. **Análisis de hashtags**: Mapeo de campañas y tendencias
+5. **Detección de bots**: Identificación de cuentas automatizadas
+
+### Herramientas Utilizadas
+- Python (Tweepy, PRAW, selenium)
+- Gephi para visualización de redes
+- BERT para clasificación de sentimiento
+- LDA para topic modeling
+
+## Resultados Preliminares
+
+### Narrativas Identificadas
+
+**1. Narrativa de Desconfianza Institucional**
+- Alta frecuencia de críticas a Carabineros
+- Asociación con violaciones de DDHH
+- Demandas de reforma estructural
+
+**2. Narrativa de Seguridad Ciudadana**
+- Preocupación por aumento de delincuencia
+- Llamados a mayor presencia policial
+- Críticas a "puerta giratoria"
+
+**3. Narrativa de Defensa Institucional**
+- Apoyo a las fuerzas de orden
+- Críticas a movimientos sociales
+- Énfasis en condiciones laborales de policías
+
+### Patrones de Polarización
+- Clara división entre comunidades pro y anti-institucionales
+- Escasa interacción entre grupos opuestos
+- Eventos críticos amplifican la polarización
+
+### Influencers de Opinión
+- Periodistas y comunicadores como nodos centrales
+- Políticos con alto engagement en temas de seguridad
+- Cuentas activistas con gran alcance
+
+## Visualizaciones
+
+El estudio incluye dashboards interactivos que muestran:
+- Evolución temporal de menciones a instituciones
+- Mapas de comunidades en redes sociales
+- Wordclouds de términos más frecuentes
+- Análisis de sentimiento por período
+
+## Publicaciones y Presentaciones
+
+- **2024**: Presentación en LASA 2024 (Latin American Studies Association)
+- **2024**: Seminario interno OLES "Opinión pública digital en Chile"
+- **En preparación**: Artículo "Polarización digital y legitimidad policial"
+
+## Equipo de Investigación
+
+- **Investigador Principal**: Matías Deneken
+- **Co-investigadores**: Nicolás Tobar, Bruno Rojas
+- **Supervisión académica**: Mónica Gerber
+
+## Consideraciones Éticas
+
+- Anonimización de datos personales
+- Cumplimiento de términos de servicio de plataformas
+- Aprobación de comité de ética institucional
 
 ---
 
