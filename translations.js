@@ -328,9 +328,8 @@ function changeLanguage(lang) {
 
 // Inicializar idioma al cargar la página
 document.addEventListener('DOMContentLoaded', () => {
-    // Por defecto siempre español, solo cambia si el usuario lo elige
-    const savedLang = localStorage.getItem('language') || 'es';
-    changeLanguage(savedLang);
+    // Siempre iniciar en español por defecto
+    changeLanguage('es');
     
     // Agregar event listeners a los botones de idioma
     document.querySelectorAll('.language-btn').forEach(btn => {
@@ -340,8 +339,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-
-// Asegurar que por defecto sea español en primera visita
-if (!localStorage.getItem('language')) {
-    localStorage.setItem('language', 'es');
-}
