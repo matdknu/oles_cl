@@ -1,16 +1,14 @@
 project:
   type: website
   output-dir: docs
-  resources:
-    - "images/**"
-    - "translations.js"
 
 website:
-  title: "OLES - Observatorio de Legitimidad"
-  favicon: "images/logos/favicon.png"
+  title: ""
+  favicon: images/logos/icon.png
   navbar:
-    background: white
-    foreground: "#453958"
+    logo: images/logos/logo.png
+    title: false
+    background: dark
     left:
       - text: "Inicio"
         href: index.qmd
@@ -39,19 +37,22 @@ website:
       - text: "Contacto"
         href: contacto.qmd
 
+execute:
+  echo: false
+  warning: false
+  message: false
+
 format:
   html:
-    theme:
-      light: flatly
+    theme: cosmo
     css: styles.css
-    toc: false
-    page-layout: full
+    lang: es
     include-in-header:
       - text: |
-          <script src="/translations.js" defer></script>
+          <script src="translations.js" defer></script>
     include-after-body:
       - text: |
-          <div class="language-selector" id="lang-selector">
+          <div id="lang-selector" class="language-selector">
             <button class="language-btn active" data-lang="es">
               <span class="flag">🇨🇱</span>
               <span class="lang-code">ESP</span>
@@ -61,18 +62,3 @@ format:
               <span class="lang-code">ENG</span>
             </button>
           </div>
-          <script>
-            // Mover selector de idioma al navbar
-            document.addEventListener('DOMContentLoaded', function() {
-              const langSelector = document.getElementById('lang-selector');
-              const navbar = document.querySelector('.navbar-nav');
-              if (langSelector && navbar) {
-                navbar.parentNode.insertBefore(langSelector, navbar.nextSibling);
-              }
-            });
-          </script>
-
-execute:
-  echo: false
-  warning: false
-  message: false

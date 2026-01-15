@@ -1,10 +1,11 @@
 ---
 title: "Macarena Orchard"
-cargo: "Subdirectora"
-categoria: "Dirección"
+cargo: "Profesora Asistente, Escuela de Sociología"
+categoria: "Subdirectores"
 orden: 4
-email: "macarena.orchard@udp.cl"
-image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop"
+email: "macarenaorchard@gmail.com"
+organizacion: "Universidad Diego Portales"
+image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop"
 about:
   template: trestles
   image-shape: round
@@ -12,62 +13,45 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:macarena.orchard@udp.cl
-areas-interes: 
+      href: mailto:macarenaorchard@gmail.com
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/MacarenaOrchard
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=tu2UQaYAAAAJ&hl=es
+areas-interes:
   - "Sociología de la desigualdad"
   - "Sociología del Respeto"
   - "Sociología moral"
-  - "Métodos de investigación mixtos"
+  - "Métodos de Investigación mixtos"
+educacion:
+  - titulo: "PhD en Sociology"
+    institucion: "Universidad de Nottingham, Reino Unido"
+    año: "2019"
+  - titulo: "Master in Sociology"
+    institucion: "Universidad de Warwick, Reino Unido"
+    año: "2010"
+  - titulo: "Licenciada en Sociología"
+    institucion: "Universidad de Chile"
+    año: "2008"
 ---
 
 ## Descripción
 
-Subdirectora del Observatorio de Legitimidad. Profesora Asistente de la Escuela de Sociología y Directora del Diplomado en Métodos Cualitativos para la Investigación Social de la Universidad Diego Portales.
+Profesora Asistente de la Escuela de Sociología y Directora del Diplomado en Métodos Cualitativos para la Investigación Social de la Universidad Diego Portales. Es Doctora en Sociología por la Universidad de Nottingham, Reino Unido, Master en Sociología por la Universidad de Warwick y Licenciada en Sociología por la Universidad de Chile. Actualmente es Investigadora Adjunta de la línea de Conflicto Político y Social de COES, y se desempeñó como Investigadora Adjunta del Núcleo Milenio en Autoridad y Asimetrías de Poder (NUMAAP), afiliada al Área de Teoría y Política. Ha sido investigadora del Programa de Naciones Unidas para el Desarrollo en Chile y Consultora para la Oficina Regional de FAO para América Latina y el Caribe. Sus líneas de interés se centran en la sociología del respeto, sociología de la desigualdad, sociología moral y métodos de investigación mixtos.
 
-Es Doctora en Sociología por la Universidad de Nottingham, Reino Unido, Master en Sociología por la Universidad de Warwick y Licenciada en Sociología por la Universidad de Chile. Actualmente es Investigadora Adjunta de la línea de Conflicto Político y Social de COES.
+## Áreas de Interés
 
-Ha sido investigadora del Programa de Naciones Unidas para el Desarrollo en Chile y Consultora para la Oficina Regional de FAO para América Latina y el Caribe.
-
-## Formación
-
-- **PhD en Sociology**: Universidad de Nottingham, Reino Unido, 2019
-- **Master in Sociology**: Universidad de Warwick, Reino Unido, 2010
-- **Licenciada en Sociología**: Universidad de Chile, 2008
-
-## Líneas de Investigación
-
-- Sociología del respeto
 - Sociología de la desigualdad
+- Sociología del Respeto
 - Sociología moral
-- Métodos de investigación mixtos
+- Métodos de Investigación mixtos
 
-## Proyectos en Curso
+## Educación
 
-### Observatorio de Violencia y Legitimidad Social (OLES)
+- **PhD en Sociology** - Universidad de Nottingham, Reino Unido (2019)
+- **Master in Sociology** - Universidad de Warwick, Reino Unido (2010)
+- **Licenciada en Sociología** - Universidad de Chile (2008)
 
-**Rol**: Subdirectora  
-**Período**: 2023 - Presente
-
-### Centro de Estudios de Conflicto y Cohesión Social (COES)
-
-**Rol**: Investigadora Adjunta  
-**Período**: Presente
-
-## Otras Actividades
-
-- **Universidad Diego Portales**: Directora del Diplomado en Métodos Cualitativos
-- **COES**: Investigadora Adjunta, línea de Conflicto Político y Social
-
-## Publicaciones Recientes
-
-### Gerber, M. M., Orchard, M., et al. (2025).
-
-How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish.
-
-*Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.
-
-### Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023).
-
-Legitimidad, Justicia y la Justificación de la Violencia Intergrupal entre Carabineros y Manifestantes en Chile.
-
-*Revista Psykhe, 32*(1), 1-15.
+[← Volver al Equipo](index.qmd)

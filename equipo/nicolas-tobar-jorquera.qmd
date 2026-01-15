@@ -1,10 +1,11 @@
 ---
 title: "Nicolás Tobar Jorquera"
-cargo: "Asistente de Investigación"
-categoria: "Asistentes"
-orden: 11
-email: "nicolas.tobar@udp.cl"
-image: "https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop"
+cargo: "Asistente de Investigación Cuantitativa"
+categoria: "Asistentes de investigación"
+orden: 31
+email: "nicolas.tobar@ug.uchile.cl"
+organizacion: "Universidad de Chile"
+image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=400&fit=crop"
 about:
   template: trestles
   image-shape: round
@@ -12,38 +13,36 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:nicolas.tobar@udp.cl
-areas-interes: 
-  - "Legitimidad institucional"
-  - "Metodologías de investigación"
-  - "Gestión de proyectos"
+      href: mailto:nicolas.tobar@ug.uchile.cl
+    - icon: github
+      text: GitHub
+      href: https://github.com/nicolastobarj
+areas-interes:
+  - "Teoría social"
+  - "Teoría Crítica"
+  - "Métodos mixtos"
+  - "Aceleración social"
+  - "Ciencia Abierta"
+educacion:
+  - titulo: "Licenciatura en Sociología"
+    institucion: "Universidad de Chile"
+    año: "2023"
 ---
 
 ## Descripción
 
-Asistente de Investigación del Observatorio de Legitimidad. Colabora activamente en proyectos de investigación sobre legitimidad institucional, apoyando en la recolección de datos, análisis y procesamiento de información.
+Asistente cuantitativo de investigación en OLES. Sociólogo titulado de la Universidad de Chile. Sus principales líneas de investigación se enmarcan la teorías críticas, la aceleración social y la legitimidad de las instituciones políticas. También trabaja temas vinculados a las desigualdades digitales y teorías constitucionales.
 
-Ha participado en investigaciones sobre legitimidad y justicia procedimental, contribuyendo al trabajo del Observatorio en múltiples proyectos.
+## Áreas de Interés
 
-## Líneas de Trabajo
+- Teoría social
+- Teoría Crítica
+- Métodos mixtos
+- Aceleración social
+- Ciencia Abierta
 
-- Revisión bibliográfica
-- Gestión documental
-- Apoyo en recolección de datos
+## Educación
 
-## Proyectos en los que Participa
+- **Licenciatura en Sociología** - Universidad de Chile (2023)
 
-### Observatorio de Violencia y Legitimidad Social (OLES)
-
-**Rol**: Asistente de Investigación  
-**Período**: 2024 - Presente
-
-Colabora en proyectos de revisión bibliográfica y gestión documental.
-
-## Publicaciones
-
-### Gerber, M. M., Tobar Jorquera, N., et al. (2025).
-
-How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish.
-
-*Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.
+[← Volver al Equipo](index.qmd)

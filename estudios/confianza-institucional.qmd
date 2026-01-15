@@ -1,114 +1,20 @@
 ---
 title: "Encuesta de Confianza Institucional"
-description: "Estudio sobre los niveles de confianza en diferentes instituciones del Estado chileno."
+description: "Estudio sobre los niveles de confianza en diferentes instituciones del Estado."
 categoria: "encuestas"
 estado: "en-curso"
 fecha-inicio: "2023"
 fecha-fin: "Presente"
-image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop"
-investigadores:
-  - "Ana Figueiredo"
-  - "Ismael Puga"
-tags:
-  - "Confianza"
-  - "Instituciones"
-  - "Estado"
-  - "Encuesta"
 ---
 
 ## Descripción
 
-La Encuesta de Confianza Institucional es un estudio que mide los niveles de confianza de la ciudadanía en diversas instituciones del Estado chileno. A diferencia de la ESEP que se focaliza en instituciones de seguridad, este estudio abarca un espectro más amplio de instituciones, incluyendo el Poder Judicial, el Congreso, el Gobierno, instituciones de salud y educación.
-
-El estudio busca comprender los determinantes de la confianza institucional y su relación con la legitimidad democrática en Chile.
+Estudio que analiza los niveles de confianza ciudadana en diversas instituciones del Estado chileno.
 
 ## Objetivos
 
-### Objetivo General
-Medir y analizar los niveles de confianza ciudadana en instituciones del Estado chileno.
-
-### Objetivos Específicos
-- Evaluar confianza en distintos tipos de instituciones
-- Identificar factores que influyen en la confianza institucional
-- Comparar confianza entre sectores (seguridad, justicia, político, servicios)
-- Analizar diferencias por grupos sociodemográficos
-- Estudiar relación entre confianza y participación ciudadana
-
-## Metodología
-
-### Diseño
-Encuesta transversal anual con módulo de seguimiento longitudinal.
-
-### Muestra
-- **N**: 1.500 casos por aplicación
-- **Cobertura**: Nacional urbana
-- **Muestreo**: Probabilístico multietápico
-
-### Instituciones Evaluadas
-
-**Sector Seguridad y Justicia**
-- Carabineros de Chile
-- Policía de Investigaciones
-- Fiscalía Nacional
-- Poder Judicial
-- Defensoría Penal Pública
-
-**Sector Político**
-- Gobierno (Ejecutivo)
-- Congreso Nacional
-- Partidos políticos
-- Municipalidades
-
-**Sector Servicios**
-- Hospitales públicos
-- Consultorios de salud
-- Establecimientos educacionales
-- Registro Civil
-
-**Otras Instituciones**
-- Contraloría General
-- Banco Central
-- Fuerzas Armadas
-- Iglesias
-
-### Variables Medidas
-1. Confianza general en cada institución (escala 1-7)
-2. Percepciones de eficiencia
-3. Percepciones de integridad/corrupción
-4. Percepciones de equidad en el trato
-5. Experiencias personales con la institución
-
-## Resultados Preliminares (2023)
-
-### Ranking de Confianza Institucional
-
-| Institución | Confianza (1-7) |
-|-------------|-----------------|
-| Bomberos | 6.2 |
-| Universidades | 5.1 |
-| Carabineros | 4.3 |
-| Hospitales | 4.1 |
-| Fiscalía | 3.8 |
-| Gobierno | 3.2 |
-| Congreso | 2.4 |
-| Partidos políticos | 1.9 |
-
-### Principales Hallazgos
-- Brecha significativa entre instituciones técnicas y políticas
-- Confianza en policía mayor que en instituciones políticas
-- Experiencias personales son mejor predictor que factores sociodemográficos
-- Percepción de corrupción como principal factor de desconfianza
-
-## Equipo
-
-- **Investigadora Principal**: Ana Figueiredo
-- **Co-investigador**: Ismael Puga
-- **Asistentes**: Equipo OLES
-
-## Financiamiento
-
-Proyecto interno del Observatorio de Legitimidad con apoyo del Centro de Estudios de Conflicto y Cohesión Social (COES).
-
----
+- Medir niveles de confianza en instituciones públicas
+- Identificar determinantes de la confianza institucional
+- Comparar confianza entre diferentes instituciones
 
 [← Volver a Estudios](index.qmd)

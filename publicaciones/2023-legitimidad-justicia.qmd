@@ -1,34 +1,17 @@
 ---
-title: "Legitimidad, Justicia y la Justificación de la Violencia Intergrupal entre Carabineros y Manifestantes en Chile"
-date: "2023-05-01"
-year: 2023
-authors:
-  - "Gerber, M.M."
-  - "Figueiredo, A."
-  - "Sáez, L."
-  - "Orchard, M."
-revista: "Revista Psykhe"
-volume: "32"
-issue: "1"
-pages: "1-15"
-doi: "10.7764/psykhe.2021.31721"
-type: "Artículo"
-categories:
-  - "Legitimidad"
-  - "Violencia"
-  - "Policía"
-image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=300&fit=crop"
-abstract: "Estudio sobre la relación entre legitimidad, justicia procedimental y justificación de violencia intergrupal."
+title: "Legitimidad, Justicia y la Justificación de la Violencia Intergrupal"
+description: "Análisis de la legitimidad, justicia y justificación de la violencia entre Carabineros y manifestantes."
+date: "2023-01-01"
+author: "Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M."
+image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=250&fit=crop"
 ---
 
-## Resumen
+## Referencia completa
 
-Este estudio examina la relación entre las percepciones de legitimidad, justicia procedimental y la justificación de la violencia intergrupal entre Carabineros de Chile y manifestantes. Los resultados muestran que la percepción de injusticia está asociada con mayor justificación de la violencia.
+Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023). Legitimidad, Justicia y la Justificación de la Violencia Intergrupal entre Carabineros y Manifestantes en Chile. *Revista Psykhe, 32*(1), 1-15.
 
-## Cita
+## DOI
 
-> Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023). Legitimidad, Justicia y la Justificación de la Violencia Intergrupal entre Carabineros y Manifestantes en Chile. *Revista Psykhe, 32*(1), 1-15.
+[10.7764/psykhe.2021.31721](http://dx.doi.org/10.7764/psykhe.2021.31721)
 
-## Enlaces
-
-- [Acceso al artículo](http://dx.doi.org/10.7764/psykhe.2021.31721)
+[← Volver a Publicaciones](index.qmd)

@@ -1,9 +1,10 @@
 ---
 title: "Luciano Sáez Fuentealba"
-cargo: "Investigador Doctoral"
-categoria: "Investigadores"
-orden: 7
-email: "luciano.saez@udp.cl"
+cargo: "Asistente coordinador e investigador doctoral"
+categoria: "Asistente coordinador"
+orden: 20
+email: "luciano.saez.fuentealba@gmail.com"
+organizacion: "Universidad de Buenos Aires"
 image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop"
 about:
   template: trestles
@@ -12,49 +13,43 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:luciano.saez@udp.cl
-areas-interes: 
-  - "Legitimidad institucional"
-  - "Metodologías de investigación"
-  - "Justicia procedimental"
+      href: mailto:luciano.saez.fuentealba@gmail.com
+areas-interes:
+  - "Violencia Policial"
+  - "Memoria e historia reciente"
+  - "Representaciones sociales de justicia y reparación"
+  - "Construcción de verdades oficiales y alternativas en Derechos Humanos"
+  - "Movimientos Sociales y Acción colectiva"
+educacion:
+  - titulo: "Doctor en Ciencias Sociales (en curso)"
+    institucion: "Universidad de Buenos Aires"
+  - titulo: "Magíster en Psicología, mención Psicología Social"
+    institucion: "Universidad Diego Portales"
+  - titulo: "Magíster en Ciencias Sociales"
+    institucion: "Instituto de Estudios Avanzados Universidad de Santiago"
+    año: "2018"
+  - titulo: "Historiador"
+    institucion: "Universidad Alberto Hurtado"
+    año: "2013"
 ---
 
 ## Descripción
 
-Investigador Doctoral del Observatorio de Legitimidad. Actualmente desarrolla su investigación doctoral sobre legitimidad institucional, contribuyendo activamente a los proyectos del Observatorio.
+Asistente de Investigación, profesor de la escuela de Sociología y Trabajo Social de la Universidad Academia de Humanismo Cristiano y de la Escuela de Psicología de la Universidad de Santiago. Historiador, Magíster en Ciencias Sociales del Instituto de Estudios Avanzados de la Universidad de Santiago, Magíster en Psicología mención Psicología Social de la Universidad Diego Portales, estudiante del Doctorado en Ciencias Sociales de la Universidad de Buenos Aires. Sus intereses se centran en violencia policial y represión, estudios sobre memoria e historia reciente, representaciones sociales de justicia y reparación, construcción de verdades oficiales y alternativas en derechos humanos y movimientos sociales acción colectiva.
 
-Ha participado en investigaciones sobre legitimidad y justicia, desarrollando habilidades en metodologías cuantitativas y cualitativas. Su trabajo se enfoca en comprender los factores que influyen en las percepciones de legitimidad institucional.
+## Áreas de Interés
 
-## Formación
+- Violencia Policial
+- Memoria e historia reciente
+- Representaciones sociales de justicia y reparación
+- Construcción de verdades oficiales y alternativas en Derechos Humanos
+- Movimientos Sociales y Acción colectiva
 
-- **Doctorado**: En curso
-- **Magíster**: Universidad Diego Portales
+## Educación
 
-## Líneas de Investigación
+- **Doctor en Ciencias Sociales (en curso)** - Universidad de Buenos Aires
+- **Magíster en Psicología, mención Psicología Social** - Universidad Diego Portales
+- **Magíster en Ciencias Sociales** - Instituto de Estudios Avanzados Universidad de Santiago (2018)
+- **Historiador** - Universidad Alberto Hurtado (2013)
 
-- Legitimidad institucional
-- Justicia procedimental
-- Metodologías de investigación cuantitativa
-
-## Proyectos en Curso
-
-### Observatorio de Violencia y Legitimidad Social (OLES)
-
-**Rol**: Investigador Doctoral  
-**Período**: 2023 - Presente
-
-Colabora en proyectos del Observatorio sobre legitimidad institucional y justicia procedimental.
-
-## Publicaciones Recientes
-
-### Gerber, M. M., Sáez-Fuentealba, L., et al. (2025).
-
-How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish.
-
-*Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.
-
-### Gerber, M.M., Figueiredo, A., Sáez, L. & Orchard, M. (2023).
-
-Legitimidad, Justicia y la Justificación de la Violencia Intergrupal entre Carabineros y Manifestantes en Chile.
-
-*Revista Psykhe, 32*(1), 1-15.
+[← Volver al Equipo](index.qmd)

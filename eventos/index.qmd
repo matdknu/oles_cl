@@ -1,15 +1,10 @@
 ---
 title: "Eventos"
-pagetitle: "Eventos - OLES"
 listing:
   contents: "*.qmd"
-  type: default
+  type: grid
   sort: "date desc"
-  fields: [date, title, lugar]
-  date-format: "DD MMMM YYYY"
-format:
-  html:
-    toc: false
+  fields: [image, date, title, description]
 ---
 
 Próximos eventos y actividades del Observatorio de Legitimidad.

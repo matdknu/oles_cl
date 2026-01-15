@@ -1,39 +1,26 @@
 ---
-title: "OLES en el Congreso Chileno de Sociología 2025"
-description: "Investigadores del Observatorio presentaron sus trabajos en el XII Congreso Chileno de Sociología."
-author: "Equipo OLES"
+title: "Participación en Congreso de Sociología"
+description: "Investigadores de OLES presentan hallazgos en congreso nacional de sociología."
+author: "OLES"
 date: "2025-10-05"
-categories: [Congresos, Presentaciones]
-image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=800&h=400&fit=crop"
+categories: [Evento, Congreso]
+image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&h=400&fit=crop"
 ---
 
-El equipo del Observatorio de Legitimidad participó activamente en el XII Congreso Chileno de Sociología, realizado en octubre de 2025.
+## Participación destacada
 
-## Presentaciones del equipo
+Investigadores del Observatorio de Legitimidad participaron activamente en el Congreso Nacional de Sociología, presentando diversos trabajos sobre legitimidad institucional.
 
-Los investigadores del OLES presentaron diversos trabajos relacionados con legitimidad institucional:
+## Presentaciones
 
-### Mónica Gerber
-**"Legitimidad policial y justicia procedimental en Chile post-estallido"**
+Los investigadores presentaron trabajos sobre:
 
-Análisis de los cambios en las percepciones de legitimidad policial después del estallido social de 2019.
+- Legitimidad policial post-estallido social
+- Confianza institucional en perspectiva comparada
+- Análisis de medios y percepción institucional
 
-### Cristóbal Moya
-**"Confianza institucional y redes sociales: un análisis multinivel"**
+## Conclusiones
 
-Estudio sobre cómo las redes sociales de los individuos influyen en sus percepciones de confianza institucional.
-
-### Luciano Sáez
-**"Metodologías longitudinales para el estudio de la legitimidad"**
-
-Presentación de avances metodológicos del proyecto ESEP.
-
-## Reconocimientos
-
-El trabajo presentado por la Dra. Gerber fue destacado como una de las mejores ponencias de la mesa de Sociología Política.
-
-> "Fue una excelente oportunidad para compartir nuestros avances con la comunidad sociológica chilena", comenta Cristóbal Moya.
-
----
+El congreso permitió intercambiar conocimientos con otros investigadores del área y fortalecer redes de colaboración académica.
 
 [← Volver a Noticias](index.qmd)

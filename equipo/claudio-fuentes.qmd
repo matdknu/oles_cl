@@ -1,0 +1,48 @@
+---
+title: "Claudio Fuentes"
+cargo: "Profesor Titular, Escuela de Ciencia Política"
+categoria: "Investigadores asociados"
+orden: 13
+email: "claudio.fuentessaa@udp.cl"
+organizacion: "Universidad Diego Portales"
+image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:claudio.fuentessaa@udp.cl
+areas-interes:
+  - "Multiculturalismo"
+  - "Plurinacionalidad"
+  - "Procesos políticos en Chile y América Latina"
+  - "Cambio institucional"
+educacion:
+  - titulo: "Ph.D. Ciencia Política"
+    institucion: "Universidad de Carolina del Norte"
+  - titulo: "MA. Ciencia Política"
+    institucion: "Universidad de Carolina del Norte"
+  - titulo: "Licenciatura en Historia"
+    institucion: "Pontificia Universidad Católica de Chile"
+---
+
+## Descripción
+
+Es profesor titular de la Escuela de Ciencia Política de la Universidad Diego Portales. Doctor en Ciencia Política de la Universidad de Carolina del Norte (Chapel Hill). Sus intereses académicos se han orientado al estudio de los procesos políticos en Chile y América Latina, focalizándose en los últimos años en el estudio de las dinámicas del cambio institucional. Entre otros reconocimientos, obtuvo el premio a la mejor tesis de doctorado otorgado por la Asociación Americana de Ciencia Política (APSA) y es Luksic Fellow de la Universidad de Harvard (2011). Integró el Consejo Asesor Presidencial anti-corrupción (2015). Es investigador asociado del Centro de Estudios Interculturales e Indígenas (CIIR) y coordina el Laboratorio Constitucional en la UDP.
+
+## Áreas de Interés
+
+- Multiculturalismo
+- Plurinacionalidad
+- Procesos políticos en Chile y América Latina
+- Cambio institucional
+
+## Educación
+
+- **Ph.D. Ciencia Política** - Universidad de Carolina del Norte
+- **MA. Ciencia Política** - Universidad de Carolina del Norte
+- **Licenciatura en Historia** - Pontificia Universidad Católica de Chile
+
+[← Volver al Equipo](index.qmd)

@@ -1,40 +1,22 @@
 ---
-title: "Nueva publicación internacional del equipo OLES"
-description: "El equipo del Observatorio publica un nuevo artículo en una prestigiosa revista internacional sobre legitimidad policial."
-author: "Equipo OLES"
+title: "Publicación Internacional"
+description: "Artículo publicado en revista internacional de alto impacto sobre legitimidad policial."
+author: "OLES"
 date: "2025-11-20"
-categories: [Publicaciones, Internacional]
-image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&h=400&fit=crop"
-destacado: true
+categories: [Publicación, Internacional]
+image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=800&h=400&fit=crop"
 ---
 
-El equipo del Observatorio de Legitimidad ha publicado un nuevo artículo en la prestigiosa revista **Peace and Conflict: Journal of Peace Psychology**.
+## Nueva publicación
 
-## Sobre la publicación
+El equipo de OLES ha publicado un nuevo artículo en una revista internacional de alto impacto. El trabajo analiza las interacciones entre ciudadanos y la policía en el contexto chileno.
 
-El artículo titulado "How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish" presenta la validación de una escala para medir las posturas motivacionales de los ciudadanos hacia la policía.
+## Referencia
 
-### Autores
+Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N. (2025). How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish. *Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.
 
-- Mónica Gerber
-- Luciano Sáez-Fuentealba
-- Joaquín Bahamondes
-- Ana Figueiredo
-- Cristóbal Moya
-- Bruno Rojas
-- Macarena Orchard
-- Nicolás Tobar Jorquera
+## Resumen
 
-## Principales aportes
-
-Este trabajo representa un avance significativo en la medición de actitudes hacia la policía en contextos hispanohablantes, permitiendo:
-
-- Comparaciones internacionales más precisas
-- Mejor comprensión de las dinámicas de legitimidad policial
-- Herramientas para investigadores en América Latina
-
-> "Esta publicación representa un importante paso para consolidar la investigación sobre legitimidad institucional en Chile y la región", señala la Dra. Mónica Gerber.
-
----
+El artículo presenta la validación de una escala para medir las posturas motivacionales hacia la policía en español, contribuyendo a la investigación sobre legitimidad policial en contextos latinoamericanos.
 
 [← Volver a Noticias](index.qmd)

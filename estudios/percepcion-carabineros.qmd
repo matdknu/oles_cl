@@ -1,133 +1,18 @@
 ---
 title: "Encuesta de Percepción de Carabineros"
-description: "Análisis de la percepción ciudadana sobre la legitimidad de Carabineros de Chile (2020-2023)."
+description: "Análisis de la percepción ciudadana sobre la legitimidad de Carabineros de Chile."
 categoria: "encuestas"
 estado: "finalizado"
 fecha-inicio: "2020"
 fecha-fin: "2023"
-image: "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?w=800&h=400&fit=crop"
-investigadores:
-  - "Mónica Gerber"
-  - "Ana Figueiredo"
-tags:
-  - "Carabineros"
-  - "Percepción"
-  - "Legitimidad"
-  - "Post-estallido"
 ---
 
 ## Descripción
 
-La Encuesta de Percepción de Carabineros fue un estudio desarrollado entre 2020 y 2023 que buscó medir y comprender la evolución de las percepciones ciudadanas sobre Carabineros de Chile en el período posterior al estallido social de 2019. El estudio documentó los niveles de confianza, las percepciones de legitimidad y los factores asociados a estas evaluaciones.
+Análisis comprehensivo de la percepción ciudadana sobre la legitimidad de Carabineros de Chile.
 
-## Contexto del Estudio
+## Resultados principales
 
-El estallido social de octubre 2019 generó una crisis de legitimidad sin precedentes para Carabineros de Chile. Las denuncias de violaciones a los derechos humanos, documentadas por organismos nacionales e internacionales, impactaron significativamente las percepciones ciudadanas sobre la institución. Este estudio buscó documentar empíricamente esta transformación.
-
-## Objetivos
-
-### Objetivo General
-Medir y analizar la evolución de las percepciones ciudadanas sobre Carabineros en el período 2020-2023.
-
-### Objetivos Específicos
-- Documentar niveles de confianza en Carabineros post-estallido
-- Identificar factores asociados a percepciones positivas/negativas
-- Analizar diferencias por grupos sociodemográficos
-- Comparar con percepciones de otras instituciones
-- Evaluar impacto de reformas anunciadas
-
-## Metodología
-
-### Diseño
-Serie de encuestas transversales anuales (2020, 2021, 2022, 2023).
-
-### Muestras
-| Año | N | Cobertura |
-|-----|---|-----------|
-| 2020 | 1.200 | Nacional urbana |
-| 2021 | 1.500 | Nacional |
-| 2022 | 1.500 | Nacional |
-| 2023 | 1.200 | Nacional urbana |
-
-### Variables Principales
-1. Confianza en Carabineros (escala 1-7)
-2. Legitimidad percibida (batería de 8 ítems)
-3. Percepciones de justicia procedimental
-4. Percepciones de efectividad
-5. Disposición a cooperar
-6. Experiencias de contacto
-7. Exposición a información sobre Carabineros
-
-## Resultados Principales
-
-### Evolución de la Confianza
-
-```
-2020: ████████░░░░░░░░ 3.2/7 (post-estallido)
-2021: ████████░░░░░░░░ 3.4/7 (recuperación leve)
-2022: █████████░░░░░░░ 3.8/7 (recuperación)
-2023: █████████░░░░░░░ 4.0/7 (estabilización)
-```
-
-### Hallazgos Clave
-
-**1. Caída y Recuperación**
-- Mínimo histórico de confianza en 2020 (3.2/7)
-- Recuperación gradual 2021-2023
-- No se alcanzaron niveles pre-estallido
-
-**2. Brechas Sociodemográficas**
-- Jóvenes (18-29): Menor confianza (-1.2 puntos vs. mayores de 60)
-- NSE bajo: Menor confianza (-0.8 puntos vs. NSE alto)
-- Región Metropolitana: Menor confianza que regiones
-
-**3. Factores Asociados**
-- Experiencias de contacto negativo: Principal predictor de baja confianza
-- Posición política: Izquierda con menor confianza
-- Victimización: Relación ambivalente (demanda de protección vs. crítica)
-
-**4. Comparación Institucional**
-- Carabineros: 4.0/7
-- PDI: 4.5/7
-- Fiscalía: 3.8/7
-- Gobierno: 3.2/7
-
-## Publicaciones
-
-### Artículos
-- Gerber, M. & Figueiredo, A. (2023). "Police legitimacy after social unrest: The Chilean case". *Policing and Society*, 33(4), 412-430.
-- Figueiredo, A. et al. (2022). "Trust in police after the 2019 protests". *Journal of Latin American Studies*.
-
-### Informes
-- "Informe de Percepción de Carabineros 2020" - OLES
-- "Informe de Percepción de Carabineros 2022" - OLES
-
-### Presentaciones
-- Congreso ALAS 2022
-- Seminario COES 2023
-- European Society of Criminology 2023
-
-## Impacto
-
-- Citado en debates parlamentarios sobre reforma policial
-- Referenciado en informes de INDH
-- Utilizado por organizaciones de sociedad civil
-- Base para proyectos de investigación posteriores
-
-## Equipo
-
-- **Investigadora Principal**: Mónica Gerber
-- **Co-investigadora**: Ana Figueiredo
-- **Asistentes de investigación**: Equipo OLES (2020-2023)
-
-## Financiamiento
-
-Proyecto financiado por FONDECYT Regular N° 1221805 y Centro de Estudios de Conflicto y Cohesión Social (COES).
-
-## Acceso a Datos
-
-Los datos de las cuatro olas están disponibles en el repositorio de datos del OLES para investigadores acreditados.
-
----
+Este estudio finalizó en 2023 y contribuyó a comprender las percepciones ciudadanas sobre Carabineros en el período post-estallido social.
 
 [← Volver a Estudios](index.qmd)

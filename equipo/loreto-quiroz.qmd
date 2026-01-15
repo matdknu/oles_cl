@@ -1,0 +1,48 @@
+---
+title: "Loreto Quiroz"
+cargo: "Profesora e Investigadora adjunta COES"
+categoria: "Investigadores asociados"
+orden: 12
+email: "loretoqr@gmail.com"
+organizacion: "Universidad Alberto Hurtado"
+image: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:loretoqr@gmail.com
+areas-interes:
+  - "Legitimidad del derecho"
+  - "Sociología del derecho"
+  - "Vigilantismo"
+  - "Violencia"
+educacion:
+  - titulo: "Doctora en Estudios Americanos"
+    institucion: "Universidad de Santiago de Chile"
+  - titulo: "Magíster en Ciencias Sociales"
+    institucion: "Universidad de Chile"
+  - titulo: "Abogada"
+    institucion: "Universidad de Chile"
+---
+
+## Descripción
+
+Doctora en Estudios Americanos por la Universidad de Santiago de Chile, Magíster en Ciencias Sociales por la Universidad de Chile y Abogada por la misma universidad. Su tesis doctoral corresponde a un estudio comparativo orientado por el caso, en la investigación analizó la relación entre los linchamientos y el derecho en Chile y Argentina, con el objetivo de contribuir a una comprensión de estas acciones desde una perspectiva sociojurídica. Sus intereses de investigación se relacionan con la sociología jurídica, la legitimidad del derecho y la violencia colectiva de carácter vigilantista, entre otros. Es parte de la coordinación del Grupo de Trabajo de CLACSO sobre vigilantismo y violencia colectiva en América Latina. Entre sus temas de investigación se encuentra la sociología del derecho, legitimidad del derecho, violencia, vigilantismo.
+
+## Áreas de Interés
+
+- Legitimidad del derecho
+- Sociología del derecho
+- Vigilantismo
+- Violencia
+
+## Educación
+
+- **Doctora en Estudios Americanos** - Universidad de Santiago de Chile
+- **Magíster en Ciencias Sociales** - Universidad de Chile
+- **Abogada** - Universidad de Chile
+
+[← Volver al Equipo](index.qmd)

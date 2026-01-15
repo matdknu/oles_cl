@@ -1,0 +1,50 @@
+---
+title: "Paz Irarrázabal González"
+cargo: "Profesora asistente, Facultad de Derecho"
+categoria: "Investigadores asociados"
+orden: 14
+email: "pirarrazabal@derecho.uchile.cl"
+organizacion: "Universidad de Chile"
+image: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&h=400&fit=crop"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:pirarrazabal@derecho.uchile.cl
+areas-interes:
+  - "Poder punitivo del Estado"
+  - "Control Policial"
+  - "Estudios socio-legales"
+  - "Igualitismo relacional"
+  - "Teoría crítica del derecho"
+educacion:
+  - titulo: "Ph.D"
+    institucion: "King's College London"
+  - titulo: "LLM"
+    institucion: "The London School and Economics"
+  - titulo: "Licenciada en Ciencias Jurídicas y Sociales"
+    institucion: "Universidad de Chile"
+---
+
+## Descripción
+
+Es abogada y se desempeñó como académica e investigadora en la Universidad de Valparaiso y la UOH antes de integrarse a la Universidad de Chile el 2021. Actualmente se encuentra desarrollando su Fondecyt posdoctoral sobre Igualdad y control policial de trabajadores callejeros en Chile.
+
+## Áreas de Interés
+
+- Poder punitivo del Estado
+- Control Policial
+- Estudios socio-legales
+- Igualitismo relacional
+- Teoría crítica del derecho
+
+## Educación
+
+- **Ph.D** - King's College London
+- **LLM** - The London School and Economics
+- **Licenciada en Ciencias Jurídicas y Sociales** - Universidad de Chile
+
+[← Volver al Equipo](index.qmd)

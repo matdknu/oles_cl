@@ -1,31 +1,16 @@
 ---
-title: "Escuela de Formación: Crisis climática y legitimidad institucional"
+title: "Escuela de Formación en Metodologías de Investigación"
+description: "Escuela de formación en metodologías cuantitativas y cualitativas."
 date: "2026-02-15"
-hora: "9:00 hrs"
-lugar: "Universidad Diego Portales"
-image: "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?w=800&h=400&fit=crop"
-destacado: false
-categories:
-  - "Escuela"
-  - "Formación"
+image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=400&fit=crop"
 ---
 
 ## Descripción
 
-Escuela de formación dirigida a estudiantes de pregrado y postgrado interesados en la investigación sobre legitimidad institucional y su relación con la crisis climática.
+Escuela de formación en metodologías de investigación social, con énfasis en métodos cuantitativos y cualitativos.
 
-## Contenidos
+## Fecha
 
-1. Introducción a la legitimidad institucional
-2. Crisis climática y confianza pública
-3. Metodologías de investigación
-4. Taller práctico
+15-17 de febrero de 2026
 
-## Requisitos
-
-- Estudiantes de ciencias sociales
-- Interés en investigación empírica
-
-## Inscripción
-
-Cupos limitados. Postular en observatorio@universidad.cl
+[← Volver a Eventos](index.qmd)

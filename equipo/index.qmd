@@ -1,121 +1,253 @@
 ---
-title: "Nuestro Equipo"
-pagetitle: "Equipo - OLES"
-format:
-  html:
-    toc: false
+title: "Equipo - OLES"
+page-layout: full
+toc: false
 ---
 
 ```{=html}
-<div class="equipo-intro">
-  <p class="equipo-descripcion">Conoce a los investigadores e investigadoras que hacen posible el trabajo del Observatorio.</p>
-</div>
+<style>
+.equipo-seccion {
+  margin-bottom: 3rem;
+}
 
-<!-- Dirección -->
-<section class="equipo-categoria">
-  <h2 class="equipo-categoria-titulo">Dirección</h2>
+.equipo-seccion-titulo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--bs-primary, #2c3e50);
+  border-bottom: 3px solid var(--bs-primary, #2c3e50);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.equipo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.equipo-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.equipo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  text-decoration: none;
+  color: inherit;
+}
+
+.equipo-card-content {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.equipo-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  border: 4px solid #f0f0f0;
+}
+
+.equipo-nombre {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.3rem;
+}
+
+.equipo-cargo {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.equipo-organizacion {
+  font-size: 0.8rem;
+  color: #95a5a6;
+}
+
+.ver-tesistas-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ver-tesistas-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+.tesistas-section {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+</style>
+
+<!-- DIRECCIÓN -->
+<div class="equipo-seccion">
+  <h2 class="equipo-seccion-titulo" data-i18n="equipo.direccion">🎓 Dirección</h2>
   <div class="equipo-grid">
     <a href="monica-gerber.html" class="equipo-card">
-      <div class="equipo-avatar">
-        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop" alt="Mónica Gerber">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop" alt="Monica M. Gerber" class="equipo-avatar">
+        <div class="equipo-nombre">Monica M. Gerber</div>
+        <div class="equipo-cargo">Profesora, Escuela de Gobierno</div>
+        <div class="equipo-organizacion">Pontificia Universidad Católica de Chile</div>
       </div>
-      <h4>Mónica Gerber</h4>
-      <p>Directora</p>
     </a>
   </div>
-</section>
+</div>
 
-<!-- Subdirección -->
-<section class="equipo-categoria">
-  <h2 class="equipo-categoria-titulo">Subdirección</h2>
+<!-- SUBDIRECTORES -->
+<div class="equipo-seccion">
+  <h2 class="equipo-seccion-titulo" data-i18n="equipo.subdirectores">👥 Subdirectores</h2>
   <div class="equipo-grid">
     <a href="ana-figueiredo.html" class="equipo-card">
-      <div class="equipo-avatar">
-        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop" alt="Ana Figueiredo">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop" alt="Ana Figueiredo" class="equipo-avatar">
+        <div class="equipo-nombre">Ana Figueiredo</div>
+        <div class="equipo-cargo">Profesora Asociada, Instituto de Ciencias Sociales</div>
+        <div class="equipo-organizacion">Universidad de O'Higgins</div>
       </div>
-      <h4>Ana Figueiredo</h4>
-      <p>Subdirectora</p>
     </a>
     <a href="joaquin-bahamondes.html" class="equipo-card">
-      <div class="equipo-avatar">
-        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Joaquín Bahamondes">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Joaquín Bahamondes" class="equipo-avatar">
+        <div class="equipo-nombre">Joaquín Bahamondes</div>
+        <div class="equipo-cargo">Académico, Escuela de Psicología</div>
+        <div class="equipo-organizacion">Universidad Católica del Norte</div>
       </div>
-      <h4>Joaquín Bahamondes</h4>
-      <p>Subdirector</p>
     </a>
     <a href="macarena-orchard.html" class="equipo-card">
-      <div class="equipo-avatar">
-        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop" alt="Macarena Orchard">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop" alt="Macarena Orchard" class="equipo-avatar">
+        <div class="equipo-nombre">Macarena Orchard</div>
+        <div class="equipo-cargo">Profesora Asistente, Escuela de Sociología</div>
+        <div class="equipo-organizacion">Universidad Diego Portales</div>
       </div>
-      <h4>Macarena Orchard</h4>
-      <p>Subdirectora</p>
     </a>
   </div>
-</section>
+</div>
 
-<!-- Investigadores -->
-<section class="equipo-categoria">
-  <h2 class="equipo-categoria-titulo">Investigadores</h2>
+<!-- INVESTIGADORES ASOCIADOS -->
+<div class="equipo-seccion">
+  <h2 class="equipo-seccion-titulo" data-i18n="equipo.investigadores">🔬 Investigadores Asociados</h2>
   <div class="equipo-grid">
-    <a href="cristobal-moya.html" class="equipo-card">
-      <div class="equipo-avatar">
-        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop" alt="Cristóbal Moya">
-      </div>
-      <h4>Cristóbal Moya</h4>
-      <p>Investigador Principal</p>
-    </a>
     <a href="ismael-puga.html" class="equipo-card">
-      <div class="equipo-avatar">
-        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop" alt="Ismael Puga">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop" alt="Ismael Puga" class="equipo-avatar">
+        <div class="equipo-nombre">Ismael Puga</div>
+        <div class="equipo-cargo">Profesor Asociado</div>
+        <div class="equipo-organizacion">Universidad Central</div>
       </div>
-      <h4>Ismael Puga</h4>
-      <p>Investigador Principal</p>
     </a>
-    <a href="luciano-saez-fuentealba.html" class="equipo-card">
-      <div class="equipo-avatar">
-        <img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop" alt="Luciano Sáez">
+    <a href="cristobal-moya.html" class="equipo-card">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop" alt="Cristóbal Moya" class="equipo-avatar">
+        <div class="equipo-nombre">Cristóbal Moya</div>
+        <div class="equipo-cargo">Research Fellow, Facultad de Sociología</div>
+        <div class="equipo-organizacion">Universität Bielefeld</div>
       </div>
-      <h4>Luciano Sáez</h4>
-      <p>Investigador Doctoral</p>
+    </a>
+    <a href="loreto-quiroz.html" class="equipo-card">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=400&h=400&fit=crop" alt="Loreto Quiroz" class="equipo-avatar">
+        <div class="equipo-nombre">Loreto Quiroz</div>
+        <div class="equipo-cargo">Profesora e Investigadora adjunta COES</div>
+        <div class="equipo-organizacion">Universidad Alberto Hurtado</div>
+      </div>
+    </a>
+    <a href="claudio-fuentes.html" class="equipo-card">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop" alt="Claudio Fuentes" class="equipo-avatar">
+        <div class="equipo-nombre">Claudio Fuentes</div>
+        <div class="equipo-cargo">Profesor Titular, Escuela de Ciencia Política</div>
+        <div class="equipo-organizacion">Universidad Diego Portales</div>
+      </div>
+    </a>
+    <a href="paz-irarrazabal.html" class="equipo-card">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&h=400&fit=crop" alt="Paz Irarrázabal González" class="equipo-avatar">
+        <div class="equipo-nombre">Paz Irarrázabal González</div>
+        <div class="equipo-cargo">Profesora asistente, Facultad de Derecho</div>
+        <div class="equipo-organizacion">Universidad de Chile</div>
+      </div>
     </a>
   </div>
-</section>
+</div>
 
-<!-- Asistentes de Investigación -->
-<section class="equipo-categoria">
-  <h2 class="equipo-categoria-titulo">Asistentes de Investigación</h2>
+<!-- ASISTENTE COORDINADOR -->
+<div class="equipo-seccion">
+  <h2 class="equipo-seccion-titulo" data-i18n="equipo.coordinador">📋 Asistente Coordinador e Investigador Doctoral</h2>
   <div class="equipo-grid">
-    <a href="bruno-rojas.html" class="equipo-card">
-      <div class="equipo-avatar">
-        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop" alt="Bruno Rojas">
+    <a href="luciano-saez-fuentealba.html" class="equipo-card">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop" alt="Luciano Sáez Fuentealba" class="equipo-avatar">
+        <div class="equipo-nombre">Luciano Sáez Fuentealba</div>
+        <div class="equipo-cargo">Asistente coordinador e investigador doctoral</div>
+        <div class="equipo-organizacion">Universidad de Buenos Aires</div>
       </div>
-      <h4>Bruno Rojas</h4>
-      <p>Asistente de Investigación</p>
+    </a>
+  </div>
+</div>
+
+<!-- ASISTENTES DE INVESTIGACIÓN -->
+<div class="equipo-seccion">
+  <h2 class="equipo-seccion-titulo" data-i18n="equipo.asistentes">💼 Asistentes de Investigación</h2>
+  <div class="equipo-grid">
+    <a href="matias-deneken.html" class="equipo-card">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop" alt="Matías Deneken" class="equipo-avatar">
+        <div class="equipo-nombre">Matías Deneken</div>
+        <div class="equipo-cargo">Asistente de Investigación Cuantitativa</div>
+        <div class="equipo-organizacion">Centro CIIR y OLES</div>
+      </div>
     </a>
     <a href="nicolas-tobar-jorquera.html" class="equipo-card">
-      <div class="equipo-avatar">
-        <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?w=400&h=400&fit=crop" alt="Nicolás Tobar">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=400&fit=crop" alt="Nicolás Tobar Jorquera" class="equipo-avatar">
+        <div class="equipo-nombre">Nicolás Tobar Jorquera</div>
+        <div class="equipo-cargo">Asistente de Investigación Cuantitativa</div>
+        <div class="equipo-organizacion">Universidad de Chile</div>
       </div>
-      <h4>Nicolás Tobar</h4>
-      <p>Asistente de Investigación</p>
     </a>
-    <a href="matias-deneken.html" class="equipo-card">
-      <div class="equipo-avatar">
-        <img src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=400&h=400&fit=crop" alt="Matías Deneken">
+    <a href="bruno-rojas.html" class="equipo-card">
+      <div class="equipo-card-content">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Bruno Rojas" class="equipo-avatar">
+        <div class="equipo-nombre">Bruno Rojas</div>
+        <div class="equipo-cargo">Asistente de Investigación</div>
+        <div class="equipo-organizacion">OLES</div>
       </div>
-      <h4>Matías Deneken</h4>
-      <p>Asistente de Investigación</p>
     </a>
   </div>
-</section>
+</div>
 
-<!-- Tesistas y Pasantes -->
-<section class="equipo-categoria">
-  <h2 class="equipo-categoria-titulo">Tesistas y Pasantes</h2>
-  <div class="tesistas-boton-container">
-    <a href="tesistas/index.html" class="btn-ver-tesistas">
-      Ver Tesistas y Pasantes →
-    </a>
-  </div>
-</section>
+<!-- VER TESISTAS -->
+<div class="tesistas-section">
+  <h3 data-i18n="equipo.verTesistas">📚 Tesistas y Pasantes</h3>
+  <p data-i18n="equipo.tesistasDescripcion">Estudiantes que desarrollan sus tesis e investigaciones en el marco del Observatorio.</p>
+  <a href="tesistas/index.html" class="ver-tesistas-btn" data-i18n="equipo.verTesistasBtn">Ver Tesistas y Pasantes →</a>
+</div>
 ```
+
+[← Volver al Inicio](../index.qmd)

@@ -1,17 +1,11 @@
 ---
 title: "Noticias"
-pagetitle: "Noticias - OLES"
 listing:
   contents: "*.qmd"
   type: grid
-  grid-columns: 3
   sort: "date desc"
-  fields: [image, date, title]
-  date-format: "DD MMMM YYYY"
-  image-height: "200px"
-format:
-  html:
-    toc: false
+  categories: true
+  fields: [image, date, title, description, categories]
 ---
 
-Conoce las últimas novedades del Observatorio de Legitimidad.
+Últimas noticias y novedades del Observatorio de Legitimidad.

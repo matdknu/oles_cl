@@ -1,9 +1,10 @@
 ---
 title: "Cristóbal Moya"
-cargo: "Investigador Principal"
-categoria: "Investigadores"
-orden: 5
-email: "cristobal.moya@uni-bielefeld.de"
+cargo: "Research Fellow, Facultad de Sociología"
+categoria: "Investigadores asociados"
+orden: 11
+email: "cristobalmoya@gmail.com"
+organizacion: "Universität Bielefeld"
 image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop"
 about:
   template: trestles
@@ -12,55 +13,30 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:cristobal.moya@uni-bielefeld.de
-areas-interes: 
+      href: mailto:cristobalmoya@gmail.com
+areas-interes:
   - "Desigualdades sociales"
   - "Justicia social"
   - "Mercados laborales"
   - "Conflictos políticos"
+educacion:
+  - titulo: "Sociólogo"
+    institucion: "Universidad de Chile"
 ---
 
 ## Descripción
 
-Investigador Principal del Observatorio de Legitimidad. Research Fellow de la Facultad de Sociología de Universität Bielefeld. Sociólogo de la Universidad de Chile.
+Research Fellow de la Facultad de Sociología de Universität Bielefeld. Sociólogo de la Universidad de Chile. Sus líneas de interés están enfocadas en temas de desigualdades sociales, justicia social, mercados laborales y conflictos políticos. Tiene un fuerte interés en la investigación social cuantitativa, la inferencia causal y la sociología analítica.
 
-Sus líneas de interés están enfocadas en temas de desigualdades sociales, justicia social, mercados laborales y conflictos políticos. Tiene un fuerte interés en la investigación social cuantitativa, la inferencia causal y la sociología analítica.
+## Áreas de Interés
 
-## Formación
-
-- **Doctorado**: Sociología, Universität Bielefeld, Alemania
-- **Pregrado**: Sociología, Universidad de Chile
-
-## Líneas de Investigación
-
-- Desigualdades sociales y legitimidad
+- Desigualdades sociales
 - Justicia social
 - Mercados laborales
 - Conflictos políticos
 
-## Proyectos en Curso
+## Educación
 
-### Observatorio de Violencia y Legitimidad Social (OLES)
+- **Sociólogo** - Universidad de Chile
 
-**Rol**: Investigador Principal  
-**Período**: 2021 - Presente
-
-Investigación sobre confianza institucional y legitimidad.
-
-## Publicaciones Recientes
-
-### Gerber, M. M., Moya, C., et al. (2025).
-
-How do individuals interact with the police? Validation of a scale of motivational postures toward the police in Spanish.
-
-*Peace and Conflict: Journal of Peace Psychology, 31*(3), 285–298.
-
-### Frei, R., Castillo, A., Gerber, M., Puga, I., & Moya, C. (2025).
-
-El Trabajo por Cuenta Propia como Repertorio de Acción: Recuperando el Tiempo Propio en Santiago de Chile.
-
-*Revista Austral de Ciencias Sociales,* (48), 179-199.
-
-## Otras Actividades
-
-- **Universität Bielefeld**: Research Fellow, Facultad de Sociología
+[← Volver al Equipo](index.qmd)

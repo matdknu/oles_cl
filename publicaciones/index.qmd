@@ -1,17 +1,10 @@
 ---
 title: "Publicaciones Académicas"
-pagetitle: "Publicaciones Académicas - OLES"
 listing:
   contents: "*.qmd"
-  type: default
+  type: grid
   sort: "date desc"
-  fields: [date, title, authors]
-  date-format: "YYYY"
-  sort-ui: [date, title]
-  filter-ui: [categories]
-format:
-  html:
-    toc: false
+  fields: [image, date, title, description]
 ---
 
-Artículos, capítulos de libro y otras publicaciones del equipo del Observatorio de Legitimidad.
+Publicaciones académicas del equipo del Observatorio de Legitimidad.

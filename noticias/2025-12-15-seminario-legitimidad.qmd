@@ -1,39 +1,24 @@
 ---
-title: "Seminario: Legitimidad, redes personales y actitudes políticas"
-description: "El Observatorio organiza un seminario sobre la relación entre legitimidad institucional, redes personales y actitudes políticas."
-author: "Equipo OLES"
+title: "Seminario de Legitimidad Institucional"
+description: "Exitosa jornada de discusión sobre legitimidad de las instituciones públicas en Chile."
+author: "OLES"
 date: "2025-12-15"
-categories: [Eventos, Seminarios]
+categories: [Evento, Seminario]
 image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=400&fit=crop"
 ---
 
-El Observatorio de Legitimidad (OLES) invita a participar del seminario "Legitimidad, redes personales y actitudes políticas", que se realizará el próximo 20 de enero de 2026.
+## Resumen del evento
 
-## Detalles del evento
+El pasado 15 de diciembre se realizó el Seminario de Legitimidad Institucional organizado por el Observatorio de Legitimidad (OLES). El evento contó con la participación de destacados investigadores nacionales e internacionales.
 
-- **Fecha**: 20 de enero de 2026
-- **Hora**: 10:00 - 13:00 hrs
-- **Lugar**: Sala Taller T202, Facultad de Ciencias Sociales, Universidad Diego Portales
-- **Modalidad**: Presencial con transmisión online
+## Presentaciones
 
-## Programa
+- **Mónica Gerber**: "Legitimidad policial en Chile: una perspectiva longitudinal"
+- **Ana Figueiredo**: "Representaciones de la historia y legitimidad institucional"
+- **Joaquín Bahamondes**: "Ideología y percepciones de legitimidad"
 
-El seminario contará con presentaciones de investigadores del OLES y académicos invitados, abordando temas como:
+## Asistencia
 
-1. Legitimidad institucional en contextos de crisis
-2. El rol de las redes personales en la formación de actitudes políticas
-3. Metodologías para el estudio de la legitimidad
-
-## Expositores confirmados
-
-- **Dra. Mónica Gerber** - Directora OLES
-- **Dr. Ismael Puga** - Investigador Principal
-- **Dra. Ana Figueiredo** - Subdirectora OLES
-
-## Inscripciones
-
-El evento es gratuito pero requiere inscripción previa. Los cupos son limitados.
-
----
+El seminario contó con más de 100 asistentes entre académicos, estudiantes y profesionales del área.
 
 [← Volver a Noticias](index.qmd)
