@@ -1,22 +1,225 @@
 ---
-title: "Estudios"
+title: "Estudios de Investigación"
 pagetitle: "Estudios - OLES"
-listing:
-  contents: 
-    - "*.qmd"
-    - "!index.qmd"
-  type: grid
-  grid-columns: 3
-  sort: 
-    - "estado"
-    - "fecha-inicio desc"
-  fields: [image, title, description, estado, fecha-inicio]
-  image-height: "180px"
-  categories: false
 format:
   html:
     toc: false
 ---
 
-Explora nuestras líneas de investigación sobre legitimidad institucional en Chile.
+```{=html}
+<div class="estudios-intro-modern">
+  <p>Explora nuestras investigaciones sobre legitimidad institucional en Chile. Actualmente desarrollamos <strong>16 estudios</strong> activos y finalizados.</p>
+</div>
 
+<div class="estudios-mosaico">
+
+  <!-- ESEP -->
+  <a href="esep.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop" alt="ESEP">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Encuesta ESEP</h3>
+      <p>Encuesta longitudinal de legitimidad policial en Chile.</p>
+      <span class="estudio-fecha">2020 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Confianza Institucional -->
+  <a href="confianza-institucional.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&h=400&fit=crop" alt="Confianza Institucional">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Confianza Institucional</h3>
+      <p>Niveles de confianza en instituciones del Estado.</p>
+      <span class="estudio-fecha">2023 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Panel Legitimidad -->
+  <a href="panel-legitimidad-policial.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&h=400&fit=crop" alt="Panel Legitimidad">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Panel de Legitimidad Policial</h3>
+      <p>Cambios en legitimidad a nivel individual.</p>
+      <span class="estudio-fecha">2022 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Percepción Carabineros -->
+  <a href="percepcion-carabineros.html" class="estudio-mosaico-card finalizado">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1589578527966-fdac0f44566c?w=600&h=400&fit=crop" alt="Percepción Carabineros">
+      <span class="estudio-badge finalizado">Finalizado</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Percepción de Carabineros</h3>
+      <p>Evolución de percepciones post-estallido social.</p>
+      <span class="estudio-fecha">2020 - 2023</span>
+    </div>
+  </a>
+
+  <!-- Entrevistas -->
+  <a href="entrevistas-legitimidad.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=400&fit=crop" alt="Entrevistas">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Entrevistas en Profundidad</h3>
+      <p>Percepciones ciudadanas de legitimidad.</p>
+      <span class="estudio-fecha">2023 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Grupos Focales -->
+  <a href="grupos-focales.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=400&fit=crop" alt="Grupos Focales">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Grupos Focales</h3>
+      <p>Dinámicas de construcción de confianza.</p>
+      <span class="estudio-fecha">2024 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Etnografía -->
+  <a href="etnografia-policia.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&h=400&fit=crop" alt="Etnografía">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Etnografía Policial</h3>
+      <p>Interacciones policía-ciudadanía en terreno.</p>
+      <span class="estudio-fecha">2023 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Narrativas Estallido -->
+  <a href="narrativas-estallido.html" class="estudio-mosaico-card finalizado">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=600&h=400&fit=crop" alt="Narrativas Estallido">
+      <span class="estudio-badge finalizado">Finalizado</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Narrativas del Estallido</h3>
+      <p>Testimonios de legitimidad post-2019.</p>
+      <span class="estudio-fecha">2020 - 2022</span>
+    </div>
+  </a>
+
+  <!-- Análisis Prensa -->
+  <a href="analisis-prensa.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&h=400&fit=crop" alt="Análisis Prensa">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Análisis de Prensa</h3>
+      <p>Cobertura mediática de legitimidad institucional.</p>
+      <span class="estudio-fecha">2022 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Redes Sociales -->
+  <a href="analisis-redes-sociales.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop" alt="Redes Sociales">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Análisis de Redes Sociales</h3>
+      <p>Discursos sobre instituciones en Twitter/X.</p>
+      <span class="estudio-fecha">2023 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Monitoreo Digital -->
+  <a href="monitoreo-opinion-digital.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Monitoreo Digital">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Monitoreo Digital</h3>
+      <p>Sistema de seguimiento de opinión pública.</p>
+      <span class="estudio-fecha">2024 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Medios Post-Estallido -->
+  <a href="medios-post-estallido.html" class="estudio-mosaico-card finalizado">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=600&h=400&fit=crop" alt="Medios Post-Estallido">
+      <span class="estudio-badge finalizado">Finalizado</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Medios Post-Estallido</h3>
+      <p>Narrativas digitales sobre legitimidad.</p>
+      <span class="estudio-fecha">2020 - 2022</span>
+    </div>
+  </a>
+
+  <!-- Registros Denuncias -->
+  <a href="registros-denuncias.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop" alt="Registros Denuncias">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Registros de Denuncias</h3>
+      <p>Análisis de denuncias ciudadanas.</p>
+      <span class="estudio-fecha">2023 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Estadísticas Delitos -->
+  <a href="estadisticas-delitos.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop" alt="Estadísticas Delitos">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Estadísticas de Delitos</h3>
+      <p>Criminalidad y victimización en Chile.</p>
+      <span class="estudio-fecha">2022 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Georreferenciado -->
+  <a href="analisis-georreferenciado.html" class="estudio-mosaico-card">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&h=400&fit=crop" alt="Georreferenciado">
+      <span class="estudio-badge en-curso">En curso</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Análisis Georreferenciado</h3>
+      <p>Mapeo territorial de interacciones.</p>
+      <span class="estudio-fecha">2024 - Presente</span>
+    </div>
+  </a>
+
+  <!-- Indicadores Desempeño -->
+  <a href="indicadores-desempeno.html" class="estudio-mosaico-card finalizado">
+    <div class="estudio-mosaico-img">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Indicadores">
+      <span class="estudio-badge finalizado">Finalizado</span>
+    </div>
+    <div class="estudio-mosaico-content">
+      <h3>Indicadores de Desempeño</h3>
+      <p>Sistema de evaluación institucional.</p>
+      <span class="estudio-fecha">2021 - 2023</span>
+    </div>
+  </a>
+
+</div>
+```
