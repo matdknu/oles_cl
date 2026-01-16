@@ -5,7 +5,7 @@ categories: [Dirección]
 orden: 1
 email: "mgerber@uc.cl"
 organizacion: "Pontificia Universidad Católica de Chile"
-image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop"
+image: "image/monica-gerber.jpg"
 about:
   template: trestles
   image-shape: round
