@@ -1,6 +1,6 @@
 ---
 title: "Luciano Sáez Fuentealba"
-cargo: "Asistente coordinador e investigador doctoral"
+cargo: "Asistente Coordinador"
 categories: [Coordinador]
 orden: 20
 email: "luciano.saez.fuentealba@gmail.com"

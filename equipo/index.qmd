@@ -167,7 +167,7 @@ listing:
 
 <div class="equipo-section">
 
-## 📋 Asistente Coordinador e Investigador Doctoral
+## 📋 Asistente Coordinador
 
 ::: {#coordinador}
 :::
