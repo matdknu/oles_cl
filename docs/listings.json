@@ -15,10 +15,8 @@
     ]
   },
   {
-    "listing": "/equipo/asistentes-anteriores/index.html",
-    "items": [
-      "/equipo/asistentes-anteriores/nicolas-tobar-jorquera.html"
-    ]
+    "listing": "/equipo/tesistas/index.html",
+    "items": []
   },
   {
     "listing": "/equipo/index.html",
@@ -39,8 +37,10 @@
     ]
   },
   {
-    "listing": "/equipo/tesistas/index.html",
-    "items": []
+    "listing": "/equipo/asistentes-anteriores/index.html",
+    "items": [
+      "/equipo/asistentes-anteriores/nicolas-tobar-jorquera.html"
+    ]
   },
   {
     "listing": "/noticias/index.html",

@@ -218,6 +218,7 @@ const translations = {
 const navbarTranslations = {
     es: {
         'Inicio': 'Inicio',
+        'Somos': 'Somos',
         'Noticias': 'Noticias',
         'Investigación': 'Investigación',
         '📋 Todos los Estudios': '📋 Todos los Estudios',
@@ -232,6 +233,7 @@ const navbarTranslations = {
     },
     en: {
         'Inicio': 'Home',
+        'Somos': 'About Us',
         'Noticias': 'News',
         'Investigación': 'Research',
         '📋 Todos los Estudios': '📋 All Studies',

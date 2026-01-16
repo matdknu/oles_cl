@@ -1,0 +1,133 @@
+---
+title: "¿Quiénes Somos?"
+pagetitle: "Quiénes Somos - OLES"
+format:
+  html:
+    toc: true
+---
+
+```{=html}
+<style>
+.somos-intro {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.somos-section {
+  margin-bottom: 3rem;
+}
+
+.somos-section h2 {
+  color: var(--primary-color, #4E4976);
+  border-bottom: 3px solid var(--primary-color, #4E4976);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.estudios-list {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  margin: 1.5rem 0;
+}
+
+.estudios-list li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.fondos-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+}
+
+.fondo-item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.fondo-item strong {
+  display: block;
+  color: var(--primary-color, #4E4976);
+  font-size: 1.1rem;
+}
+
+.highlight-box {
+  background: linear-gradient(135deg, #4E4976, #453958);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.highlight-box p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+</style>
+```
+
+<div class="somos-intro">
+
+Desde una mirada **multidisciplinar**, OLES agrupa a investigadores/as de diferentes disciplinas en un esfuerzo por comprender los mecanismos de construcción de **legitimidad social** y problematizar el rol de la **violencia y la justicia** en diferentes contextos, aportando a la construcción teórica de marcos interpretativos sobre su desenvolvimiento en el escenario actual.
+
+Para ello promueve el **diálogo y colaboración** con actores sociales mediante la difusión y trabajo colaborativo que permita la socialización en espacios de relevancia.
+
+</div>
+
+<div class="highlight-box">
+<p><strong>Objetivo Principal:</strong> Contribuir a la comprensión de los mecanismos de legitimidad social y justificación de la violencia mediante el desarrollo de investigaciones bajo criterios de <strong>Ciencia Abierta</strong> y en diálogo con actores sociales.</p>
+</div>
+
+Actualmente cuenta con el apoyo del **Centro de Estudios de Conflicto y Cohesión Social (COES)**, la **Universidad Diego Portales (UDP)**, la **Universidad de O'Higgins (UOH)** y la **Universidad Católica del Norte (UCN)**.
+
+## Estudios en Desarrollo
+
+OLES se encuentra desarrollando los siguientes estudios:
+
+<div class="estudios-list">
+
+- **From compliance to resistance: How do citizens in Chile relate to and position themselves towards the police?**  
+  *Fondecyt Regular Nº 1221805*
+
+- **Encuesta Longitudinal sobre legitimidad hacia carabineros: violencia, derechos humanos y control social (2020-2022)**
+
+- **Evaluación de los aprendizajes en investigación en estudiantes de las Facultades de Psicología y Ciencias Sociales e Historia**  
+  *La experiencia del proyecto "Legitimidad de Carabineros: violencia, derechos humanos y control social"*
+
+</div>
+
+## Fondos y Apoyo Institucional
+
+OLES cuenta con el reconocimiento y apoyo financiero de:
+
+<div class="fondos-logos">
+  <div class="fondo-item">
+    <strong>COES</strong>
+    Centro de Estudios en Conflicto y Cohesión Social
+  </div>
+  <div class="fondo-item">
+    <strong>UDP</strong>
+    Universidad Diego Portales
+  </div>
+  <div class="fondo-item">
+    <strong>EASP</strong>
+    European Association of Social Psychology
+  </div>
+  <div class="fondo-item">
+    <strong>ANID</strong>
+    Fondecyt Regular
+  </div>
+</div>
+
+[← Volver al Inicio](index.qmd)

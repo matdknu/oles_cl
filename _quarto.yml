@@ -12,6 +12,8 @@ website:
     left:
       - text: "Inicio"
         href: index.qmd
+      - text: "Somos"
+        href: somos.qmd
       - text: "Noticias"
         href: noticias/index.qmd
       - text: "Investigación"
