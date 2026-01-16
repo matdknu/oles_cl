@@ -6,7 +6,7 @@ website:
   title: ""
   favicon: images/logos/icon.png
   navbar:
-    logo: images/logos/logo2.png
+    logo: images/logos/icon.png
     title: false
     background: dark
     left:
