@@ -742,8 +742,8 @@ body {
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow-medium);
   border-bottom: 1px solid #e0e0e0;
-  padding: 1rem 0 !important;
-  min-height: 90px;
+  padding: 0.5rem 0 !important;
+  min-height: 150px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -758,7 +758,7 @@ body {
 }
 
 .navbar .navbar-brand img {
-  height: 95px;
+  height: 143px;
   width: auto;
   object-fit: contain;
 }
@@ -817,7 +817,7 @@ body {
 
 #lang-selector {
   position: fixed;
-  top: 22px;
+  top: 55px;
   right: 80px;
   z-index: 1100;
   display: flex;
