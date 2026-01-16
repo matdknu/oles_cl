@@ -1,7 +1,7 @@
 ---
 title: "Nicolás Tobar Jorquera"
 cargo: "Asistente de Investigación Cuantitativa"
-categoria: "Asistentes de investigación"
+categories: [Asistentes]
 orden: 31
 email: "nicolas.tobar@ug.uchile.cl"
 organizacion: "Universidad de Chile"

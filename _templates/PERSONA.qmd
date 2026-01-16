@@ -1,0 +1,58 @@
+---
+# ============================================
+# PLANTILLA PARA AÑADIR NUEVA PERSONA AL EQUIPO
+# ============================================
+# 
+# INSTRUCCIONES:
+# 1. Copia este archivo a /equipo/nombre-apellido.qmd
+# 2. Completa los campos abajo
+# 3. Ejecuta: quarto render
+# 4. ¡Listo! La persona aparecerá automáticamente en su categoría
+#
+# CATEGORÍAS DISPONIBLES:
+# - [Dirección]
+# - [Subdirección]
+# - [Investigadores]
+# - [Coordinador]
+# - [Asistentes]
+# ============================================
+
+title: "Nombre Apellido"
+cargo: "Cargo o Posición"
+categories: [Asistentes]  # Cambia según la categoría
+orden: 50                  # Número para ordenar (menor = primero)
+email: "correo@ejemplo.com"
+organizacion: "Universidad o Institución"
+image: "https://url-de-foto.jpg"   # O ruta local: ../images/equipo/foto.jpg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:correo@ejemplo.com
+areas-interes:
+  - "Área de interés 1"
+  - "Área de interés 2"
+  - "Área de interés 3"
+educacion:
+  - titulo: "Título académico"
+    institucion: "Universidad"
+---
+
+## Descripción
+
+Escribe aquí una breve descripción de la persona, su trayectoria y trabajo actual.
+
+## Áreas de Interés
+
+- Área de interés 1
+- Área de interés 2
+- Área de interés 3
+
+## Educación
+
+- **Título académico** - Universidad
+
+[← Volver al Equipo](index.qmd)

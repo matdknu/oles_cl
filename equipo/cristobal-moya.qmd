@@ -1,7 +1,7 @@
 ---
 title: "Cristóbal Moya"
 cargo: "Research Fellow, Facultad de Sociología"
-categoria: "Investigadores asociados"
+categories: [Investigadores]
 orden: 11
 email: "cristobalmoya@gmail.com"
 organizacion: "Universität Bielefeld"

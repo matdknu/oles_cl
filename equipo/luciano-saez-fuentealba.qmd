@@ -1,7 +1,7 @@
 ---
 title: "Luciano Sáez Fuentealba"
 cargo: "Asistente coordinador e investigador doctoral"
-categoria: "Asistente coordinador"
+categories: [Coordinador]
 orden: 20
 email: "luciano.saez.fuentealba@gmail.com"
 organizacion: "Universidad de Buenos Aires"

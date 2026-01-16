@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Equipo - OLES</title>
+<title>Equipo OLES</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/logos/icon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -67,8 +69,178 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-direccion .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-cargo','listing-organizacion',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-direccion'] = new List('listing-direccion', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-subdireccion .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-cargo','listing-organizacion',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-subdireccion'] = new List('listing-subdireccion', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-investigadores .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-cargo','listing-organizacion',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-investigadores'] = new List('listing-investigadores', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-coordinador .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-cargo','listing-organizacion',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-coordinador'] = new List('listing-coordinador', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-asistentes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-cargo','listing-organizacion',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-asistentes'] = new List('listing-asistentes', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script src="translations.js" defer=""></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -160,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Equipo - OLES</h1>
+<h1 class="title">Equipo OLES</h1>
 </div>
 
 
@@ -178,78 +350,48 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-.equipo-seccion {
+.equipo-section {
   margin-bottom: 3rem;
 }
 
-.equipo-seccion-titulo {
+.equipo-section h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--bs-primary, #2c3e50);
-  border-bottom: 3px solid var(--bs-primary, #2c3e50);
+  color: var(--primary-color, #4E4976);
+  border-bottom: 3px solid var(--primary-color, #4E4976);
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
 }
 
-.equipo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
-}
-
-.equipo-card {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  text-decoration: none;
-  color: inherit;
-  display: block;
-}
-
-.equipo-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-  text-decoration: none;
-  color: inherit;
-}
-
-.equipo-card-content {
-  padding: 1.5rem;
-  text-align: center;
-}
-
-.equipo-avatar {
+.quarto-listing-default .listing-image {
+  border-radius: 50%;
   width: 120px;
   height: 120px;
-  border-radius: 50%;
   object-fit: cover;
   margin: 0 auto 1rem;
-  border: 4px solid #f0f0f0;
 }
 
-.equipo-nombre {
+.quarto-listing-default .card {
+  text-align: center;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quarto-listing-default .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.quarto-listing-default .card-title {
   font-size: 1.1rem;
   font-weight: 600;
   color: #2c3e50;
-  margin-bottom: 0.3rem;
 }
 
-.equipo-cargo {
-  font-size: 0.85rem;
-  color: #6c757d;
-  margin-bottom: 0.5rem;
-}
-
-.equipo-organizacion {
-  font-size: 0.8rem;
-  color: #95a5a6;
-}
-
-.ver-tesistas-btn {
+.tesistas-link {
   display: inline-block;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #4E4976, #453958);
   color: white;
   padding: 0.8rem 2rem;
   border-radius: 30px;
@@ -259,9 +401,9 @@ ul.task-list li input[type="checkbox"] {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.ver-tesistas-btn:hover {
+.tesistas-link:hover {
   transform: scale(1.05);
-  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 5px 20px rgba(78, 73, 118, 0.4);
   color: white;
   text-decoration: none;
 }
@@ -274,161 +416,487 @@ ul.task-list li input[type="checkbox"] {
   margin-top: 2rem;
 }
 </style>
-
-<!-- DIRECCIÓN -->
-<div class="equipo-seccion">
-  <h2 class="equipo-seccion-titulo anchored" data-i18n="equipo.direccion">🎓 Dirección</h2>
-  <div class="equipo-grid">
-    <a href="monica-gerber.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&amp;h=400&amp;fit=crop" alt="Monica M. Gerber" class="equipo-avatar">
-        <div class="equipo-nombre">Monica M. Gerber</div>
-        <div class="equipo-cargo">Profesora, Escuela de Gobierno</div>
-        <div class="equipo-organizacion">Pontificia Universidad Católica de Chile</div>
-      </div>
-    </a>
-  </div>
+<section id="dirección" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="dirección">🎓 Dirección</h2>
+<div id="listing-direccion" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Dirección" data-listing-file-modified-sort="1768567876727" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
+<a href="../equipo/monica-gerber.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Monica M. Gerber
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Profesora, Escuela de Gobierno
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Pontificia Universidad Católica de Chile
+</td>
+</tr>
+</tbody></table>
 </div>
-
-<!-- SUBDIRECTORES -->
-<div class="equipo-seccion">
-  <h2 class="equipo-seccion-titulo anchored" data-i18n="equipo.subdirectores">👥 Subdirectores</h2>
-  <div class="equipo-grid">
-    <a href="ana-figueiredo.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&amp;h=400&amp;fit=crop" alt="Ana Figueiredo" class="equipo-avatar">
-        <div class="equipo-nombre">Ana Figueiredo</div>
-        <div class="equipo-cargo">Profesora Asociada, Instituto de Ciencias Sociales</div>
-        <div class="equipo-organizacion">Universidad de O'Higgins</div>
-      </div>
-    </a>
-    <a href="joaquin-bahamondes.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&amp;h=400&amp;fit=crop" alt="Joaquín Bahamondes" class="equipo-avatar">
-        <div class="equipo-nombre">Joaquín Bahamondes</div>
-        <div class="equipo-cargo">Académico, Escuela de Psicología</div>
-        <div class="equipo-organizacion">Universidad Católica del Norte</div>
-      </div>
-    </a>
-    <a href="macarena-orchard.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&amp;h=400&amp;fit=crop" alt="Macarena Orchard" class="equipo-avatar">
-        <div class="equipo-nombre">Macarena Orchard</div>
-        <div class="equipo-cargo">Profesora Asistente, Escuela de Sociología</div>
-        <div class="equipo-organizacion">Universidad Diego Portales</div>
-      </div>
-    </a>
-  </div>
 </div>
-
-<!-- INVESTIGADORES ASOCIADOS -->
-<div class="equipo-seccion">
-  <h2 class="equipo-seccion-titulo anchored" data-i18n="equipo.investigadores">🔬 Investigadores Asociados</h2>
-  <div class="equipo-grid">
-    <a href="ismael-puga.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&amp;h=400&amp;fit=crop" alt="Ismael Puga" class="equipo-avatar">
-        <div class="equipo-nombre">Ismael Puga</div>
-        <div class="equipo-cargo">Profesor Asociado</div>
-        <div class="equipo-organizacion">Universidad Central</div>
-      </div>
-    </a>
-    <a href="cristobal-moya.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&amp;h=400&amp;fit=crop" alt="Cristóbal Moya" class="equipo-avatar">
-        <div class="equipo-nombre">Cristóbal Moya</div>
-        <div class="equipo-cargo">Research Fellow, Facultad de Sociología</div>
-        <div class="equipo-organizacion">Universität Bielefeld</div>
-      </div>
-    </a>
-    <a href="loreto-quiroz.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=400&amp;h=400&amp;fit=crop" alt="Loreto Quiroz" class="equipo-avatar">
-        <div class="equipo-nombre">Loreto Quiroz</div>
-        <div class="equipo-cargo">Profesora e Investigadora adjunta COES</div>
-        <div class="equipo-organizacion">Universidad Alberto Hurtado</div>
-      </div>
-    </a>
-    <a href="claudio-fuentes.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&amp;h=400&amp;fit=crop" alt="Claudio Fuentes" class="equipo-avatar">
-        <div class="equipo-nombre">Claudio Fuentes</div>
-        <div class="equipo-cargo">Profesor Titular, Escuela de Ciencia Política</div>
-        <div class="equipo-organizacion">Universidad Diego Portales</div>
-      </div>
-    </a>
-    <a href="paz-irarrazabal.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&amp;h=400&amp;fit=crop" alt="Paz Irarrázabal González" class="equipo-avatar">
-        <div class="equipo-nombre">Paz Irarrázabal González</div>
-        <div class="equipo-cargo">Profesora asistente, Facultad de Derecho</div>
-        <div class="equipo-organizacion">Universidad de Chile</div>
-      </div>
-    </a>
-  </div>
+</a>
 </div>
-
-<!-- ASISTENTE COORDINADOR -->
-<div class="equipo-seccion">
-  <h2 class="equipo-seccion-titulo anchored" data-i18n="equipo.coordinador">📋 Asistente Coordinador e Investigador Doctoral</h2>
-  <div class="equipo-grid">
-    <a href="luciano-saez-fuentealba.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&amp;h=400&amp;fit=crop" alt="Luciano Sáez Fuentealba" class="equipo-avatar">
-        <div class="equipo-nombre">Luciano Sáez Fuentealba</div>
-        <div class="equipo-cargo">Asistente coordinador e investigador doctoral</div>
-        <div class="equipo-organizacion">Universidad de Buenos Aires</div>
-      </div>
-    </a>
-  </div>
 </div>
-
-<!-- ASISTENTES DE INVESTIGACIÓN -->
-<div class="equipo-seccion">
-  <h2 class="equipo-seccion-titulo anchored" data-i18n="equipo.asistentes">💼 Asistentes de Investigación</h2>
-  <div class="equipo-grid">
-    <a href="matias-deneken.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&amp;h=400&amp;fit=crop" alt="Matías Deneken" class="equipo-avatar">
-        <div class="equipo-nombre">Matías Deneken</div>
-        <div class="equipo-cargo">Asistente de Investigación Cuantitativa</div>
-        <div class="equipo-organizacion">Centro CIIR y OLES</div>
-      </div>
-    </a>
-    <a href="nicolas-tobar-jorquera.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&amp;h=400&amp;fit=crop" alt="Nicolás Tobar Jorquera" class="equipo-avatar">
-        <div class="equipo-nombre">Nicolás Tobar Jorquera</div>
-        <div class="equipo-cargo">Asistente de Investigación Cuantitativa</div>
-        <div class="equipo-organizacion">Universidad de Chile</div>
-      </div>
-    </a>
-    <a href="bruno-rojas.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&amp;h=400&amp;fit=crop" alt="Bruno Rojas" class="equipo-avatar">
-        <div class="equipo-nombre">Bruno Rojas</div>
-        <div class="equipo-cargo">Asistente de Investigación</div>
-        <div class="equipo-organizacion">OLES</div>
-      </div>
-    </a>
-    <a href="amparo-feller.html" class="equipo-card">
-      <div class="equipo-card-content">
-        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&amp;h=400&amp;fit=crop" alt="Amparo Feller" class="equipo-avatar">
-        <div class="equipo-nombre">Amparo Feller</div>
-        <div class="equipo-cargo">Asistente de Investigación</div>
-        <div class="equipo-organizacion">Universidad Diego Portales</div>
-      </div>
-    </a>
-  </div>
+<div class="listing-no-matching d-none">
+No hay resultados
 </div>
-
-<!-- VER TESISTAS -->
+</div>
+</section>
+<section id="subdirección" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="subdirección">👥 Subdirección</h2>
+<div id="listing-subdireccion" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Subdirección" data-listing-file-modified-sort="1768567877491" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
+<a href="../equipo/ana-figueiredo.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ana Figueiredo
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Profesora Asociada, Instituto de Ciencias Sociales
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Universidad de O’Higgins
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Subdirección" data-listing-file-modified-sort="1768567878318" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
+<a href="../equipo/joaquin-bahamondes.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Joaquín Bahamondes
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Académico, Escuela de Psicología
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Universidad Católica del Norte
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Subdirección" data-listing-file-modified-sort="1768567879145" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
+<a href="../equipo/macarena-orchard.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Macarena Orchard
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Profesora Asistente, Escuela de Sociología
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Universidad Diego Portales
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
+</section>
+<section id="investigadores-asociados" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="investigadores-asociados">🔬 Investigadores Asociados</h2>
+<div id="listing-investigadores" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Investigadores" data-listing-file-modified-sort="1768567880042" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<a href="../equipo/ismael-puga.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ismael Puga
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Profesor Asociado
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Universidad Central
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Investigadores" data-listing-file-modified-sort="1768567880871" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<a href="../equipo/cristobal-moya.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cristóbal Moya
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Research Fellow, Facultad de Sociología
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Universität Bielefeld
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Investigadores" data-listing-file-modified-sort="1768567882789" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+<a href="../equipo/loreto-quiroz.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Loreto Quiroz
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Profesora e Investigadora adjunta COES
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Universidad Alberto Hurtado
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Investigadores" data-listing-file-modified-sort="1768567883352" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
+<a href="../equipo/claudio-fuentes.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Claudio Fuentes
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Profesor Titular, Escuela de Ciencia Política
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Universidad Diego Portales
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Investigadores" data-listing-file-modified-sort="1768567883956" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<a href="../equipo/paz-irarrazabal.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Paz Irarrázabal González
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Profesora asistente, Facultad de Derecho
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Universidad de Chile
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
+</section>
+<section id="asistente-coordinador-e-investigador-doctoral" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="asistente-coordinador-e-investigador-doctoral">📋 Asistente Coordinador e Investigador Doctoral</h2>
+<div id="listing-coordinador" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Coordinador" data-listing-file-modified-sort="1768567884506" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
+<a href="../equipo/luciano-saez-fuentealba.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Luciano Sáez Fuentealba
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Asistente coordinador e investigador doctoral
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Universidad de Buenos Aires
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
+</section>
+<section id="asistentes-de-investigación" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="asistentes-de-investigación">💼 Asistentes de Investigación</h2>
+<div id="listing-asistentes" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Asistentes" data-listing-file-modified-sort="1768567885129" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
+<a href="../equipo/matias-deneken.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Matías Deneken
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Asistente de Investigación Cuantitativa
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Centro CIIR y OLES
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Asistentes" data-listing-file-modified-sort="1768567886001" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
+<a href="../equipo/nicolas-tobar-jorquera.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Nicolás Tobar Jorquera
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Asistente de Investigación Cuantitativa
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Universidad de Chile
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Asistentes" data-listing-file-modified-sort="1768567886833" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<a href="../equipo/bruno-rojas.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bruno Rojas
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Asistente de Investigación
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+OLES
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Asistentes" data-listing-file-modified-sort="1768567887758" data-listing-reading-time-sort="1" data-listing-word-count-sort="115">
+<a href="../equipo/amparo-feller.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Amparo Feller
+</h5>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+</td>
+<td class="cargo">
+Asistente de Investigación
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td class="organizacion">
+Universidad Diego Portales
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
+</section>
 <div class="tesistas-section">
-  <h3 data-i18n="equipo.verTesistas" class="anchored">📚 Tesistas y Pasantes</h3>
-  <p data-i18n="equipo.tesistasDescripcion">Estudiantes que desarrollan sus tesis e investigaciones en el marco del Observatorio.</p>
-  <a href="tesistas/index.html" class="ver-tesistas-btn" data-i18n="equipo.verTesistasBtn">Ver Tesistas y Pasantes →</a>
+<h3 class="anchored">
+📚 Tesistas y Pasantes
+</h3>
+<p>
+Estudiantes que desarrollan sus tesis e investigaciones en el marco del Observatorio.
+</p>
+<p><a href="tesistas/" class="tesistas-link">Ver Tesistas y Pasantes →</a></p>
 </div>
 <p><a href="../index.html">← Volver al Inicio</a></p>
+
 
 
 

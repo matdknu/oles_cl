@@ -1,7 +1,7 @@
 ---
 title: "Matías Deneken"
 cargo: "Asistente de Investigación Cuantitativa"
-categoria: "Asistentes de investigación"
+categories: [Asistentes]
 orden: 30
 email: "matdknu@gmail.com"
 organizacion: "Centro CIIR y OLES"
