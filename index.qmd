@@ -1,7 +1,9 @@
 ---
-title: "OLES"
+pagetitle: "OLES - Observatorio de Legitimidad"
+title: ""
 page-layout: custom
 toc: false
+title-block: none
 ---
 
 ```{=html}
