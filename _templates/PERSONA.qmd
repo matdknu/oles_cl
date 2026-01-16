@@ -9,12 +9,17 @@
 # 3. Ejecuta: quarto render
 # 4. ¡Listo! La persona aparecerá automáticamente en su categoría
 #
-# CATEGORÍAS DISPONIBLES:
+# CATEGORÍAS DISPONIBLES (en carpeta equipo/):
 # - [Dirección]
 # - [Subdirección]
 # - [Investigadores]
 # - [Coordinador]
 # - [Asistentes]
+#
+# CATEGORÍAS EN SUBCARPETAS:
+# - [Asistentes Anteriores] → guardar en equipo/asistentes-anteriores/
+# - [Tesistas] → guardar en equipo/tesistas/
+# - [Pasantes] → guardar en equipo/tesistas/
 # ============================================
 
 title: "Nombre Apellido"

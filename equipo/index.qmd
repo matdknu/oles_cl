@@ -176,6 +176,12 @@ listing:
 </div>
 
 <div class="tesistas-section">
+<h3>🕰️ Asistentes de Investigación Anteriores</h3>
+<p>Personas que colaboraron como asistentes de investigación en el Observatorio.</p>
+<a href="asistentes-anteriores/" class="tesistas-link">Ver Asistentes Anteriores →</a>
+</div>
+
+<div class="tesistas-section">
 <h3>📚 Tesistas y Pasantes</h3>
 <p>Estudiantes que desarrollan sus tesis e investigaciones en el marco del Observatorio.</p>
 <a href="tesistas/" class="tesistas-link">Ver Tesistas y Pasantes →</a>

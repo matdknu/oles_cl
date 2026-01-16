@@ -15,8 +15,10 @@
     ]
   },
   {
-    "listing": "/equipo/tesistas/index.html",
-    "items": []
+    "listing": "/equipo/asistentes-anteriores/index.html",
+    "items": [
+      "/equipo/asistentes-anteriores/nicolas-tobar-jorquera.html"
+    ]
   },
   {
     "listing": "/equipo/index.html",
@@ -32,10 +34,13 @@
       "/equipo/paz-irarrazabal.html",
       "/equipo/luciano-saez-fuentealba.html",
       "/equipo/matias-deneken.html",
-      "/equipo/nicolas-tobar-jorquera.html",
       "/equipo/bruno-rojas.html",
       "/equipo/amparo-feller.html"
     ]
+  },
+  {
+    "listing": "/equipo/tesistas/index.html",
+    "items": []
   },
   {
     "listing": "/noticias/index.html",

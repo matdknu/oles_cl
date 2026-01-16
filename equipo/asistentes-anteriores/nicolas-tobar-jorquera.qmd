@@ -1,8 +1,8 @@
 ---
 title: "Nicolás Tobar Jorquera"
-cargo: "Asistente de Investigación Cuantitativa"
-categories: [Asistentes]
-orden: 31
+cargo: "Ex Asistente de Investigación Cuantitativa"
+categories: [Asistentes Anteriores]
+orden: 1
 email: "nicolas.tobar@ug.uchile.cl"
 organizacion: "Universidad de Chile"
 image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&h=400&fit=crop"
@@ -45,4 +45,4 @@ Asistente cuantitativo de investigación en OLES. Sociólogo titulado de la Univ
 
 - **Licenciatura en Sociología** - Universidad de Chile (2023)
 
-[← Volver al Equipo](index.qmd)
+[← Volver a Asistentes Anteriores](index.qmd)

@@ -1,0 +1,85 @@
+---
+title: "Asistentes de Investigación Anteriores"
+page-layout: full
+toc: false
+listing:
+  - id: asistentes-anteriores
+    contents: "*.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "orden"
+    fields: [image, title, cargo, organizacion]
+    field-display-names:
+      cargo: " "
+      organizacion: " "
+---
+
+```{=html}
+<style>
+.volver-btn {
+  display: inline-block;
+  color: var(--primary-color, #4E4976);
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  transition: color 0.3s ease;
+}
+
+.volver-btn:hover {
+  color: var(--primary-dark, #453958);
+}
+
+.equipo-section {
+  margin-bottom: 3rem;
+}
+
+.equipo-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color, #4E4976);
+  border-bottom: 3px solid var(--primary-color, #4E4976);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.quarto-listing-default .listing-image {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+}
+
+.quarto-listing-default .card {
+  text-align: center;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quarto-listing-default .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.intro-text {
+  text-align: center;
+  color: #6c757d;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+</style>
+```
+
+<a href="../index.qmd" class="volver-btn">← Volver al Equipo</a>
+
+<p class="intro-text">Personas que colaboraron como asistentes de investigación en el Observatorio.</p>
+
+<div class="equipo-section">
+
+## 👥 Asistentes de Investigación Anteriores
+
+::: {#asistentes-anteriores}
+:::
+
+</div>

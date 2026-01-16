@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Equipo OLES</title>
+<title>Asistentes de Investigación Anteriores</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/logos/icon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/logos/icon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-direccion .list');
+    const listingTargetEl = window.document.querySelector('#listing-asistentes-anteriores .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -85,119 +85,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-direccion'] = new List('listing-direccion', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-subdireccion .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-cargo','listing-organizacion',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-subdireccion'] = new List('listing-subdireccion', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-investigadores .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-cargo','listing-organizacion',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-investigadores'] = new List('listing-investigadores', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-coordinador .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-cargo','listing-organizacion',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-coordinador'] = new List('listing-coordinador', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-asistentes .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-cargo','listing-organizacion',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-asistentes'] = new List('listing-asistentes', options);
+    window['quarto-listings']['listing-asistentes-anteriores'] = new List('listing-asistentes-anteriores', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -242,7 +130,7 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -252,8 +140,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/logos/logo.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/logos/logo.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Buscar"></div>
@@ -263,11 +151,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../noticias/index.html"> 
+    <a class="nav-link" href="../../noticias/index.html"> 
 <span class="menu-text">Noticias</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -276,43 +164,43 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-investigación">    
         <li>
-    <a class="dropdown-item" href="../estudios/index.html">
+    <a class="dropdown-item" href="../../estudios/index.html">
  <span class="dropdown-text">📋 Todos los Estudios</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="../estudios/index.html#encuestas">
+    <a class="dropdown-item" href="../../estudios/index.html#encuestas">
  <span class="dropdown-text">📊 Encuestas</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../estudios/index.html#cualitativos">
+    <a class="dropdown-item" href="../../estudios/index.html#cualitativos">
  <span class="dropdown-text">🎙️ Cualitativos</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../estudios/index.html#prensa-redes">
+    <a class="dropdown-item" href="../../estudios/index.html#prensa-redes">
  <span class="dropdown-text">📰 Prensa y Redes</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../estudios/index.html#datos-administrativos">
+    <a class="dropdown-item" href="../../estudios/index.html#datos-administrativos">
  <span class="dropdown-text">📈 Datos Administrativos</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
-    <a class="dropdown-item" href="../publicaciones/index.html">
+    <a class="dropdown-item" href="../../publicaciones/index.html">
  <span class="dropdown-text">📚 Publicaciones Académicas</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../eventos/index.html"> 
+    <a class="nav-link" href="../../eventos/index.html"> 
 <span class="menu-text">Eventos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../equipo/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../equipo/index.html"> 
 <span class="menu-text">Equipo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contacto.html"> 
+    <a class="nav-link" href="../../contacto.html"> 
 <span class="menu-text">Contacto</span></a>
   </li>  
 </ul>
@@ -332,7 +220,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Equipo OLES</h1>
+<h1 class="title">Asistentes de Investigación Anteriores</h1>
 </div>
 
 
@@ -350,6 +238,19 @@ window.Quarto = {
 
 
 <style>
+.volver-btn {
+  display: inline-block;
+  color: var(--primary-color, #4E4976);
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  transition: color 0.3s ease;
+}
+
+.volver-btn:hover {
+  color: var(--primary-dark, #453958);
+}
+
 .equipo-section {
   margin-bottom: 3rem;
 }
@@ -383,319 +284,37 @@ window.Quarto = {
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
-.quarto-listing-default .card-title {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #2c3e50;
-}
-
-.tesistas-link {
-  display: inline-block;
-  background: linear-gradient(135deg, #4E4976, #453958);
-  color: white;
-  padding: 0.8rem 2rem;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 500;
-  margin-top: 1rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.tesistas-link:hover {
-  transform: scale(1.05);
-  box-shadow: 0 5px 20px rgba(78, 73, 118, 0.4);
-  color: white;
-  text-decoration: none;
-}
-
-.tesistas-section {
+.intro-text {
   text-align: center;
-  padding: 2rem;
-  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-  border-radius: 12px;
-  margin-top: 2rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
 }
 </style>
-<section id="dirección" class="level2 equipo-section">
-<h2 class="anchored" data-anchor-id="dirección">🎓 Dirección</h2>
-<div id="listing-direccion" class="quarto-listing quarto-listing-container-grid">
+<p><a href="../../equipo/index.html" class="volver-btn">← Volver al Equipo</a></p>
+<p class="intro-text">
+Personas que colaboraron como asistentes de investigación en el Observatorio.
+</p>
+<section id="asistentes-de-investigación-anteriores" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="asistentes-de-investigación-anteriores">👥 Asistentes de Investigación Anteriores</h2>
+<div id="listing-asistentes-anteriores" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Dirección" data-listing-file-modified-sort="1768568046462" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
-<a href="../equipo/monica-gerber.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="Asistentes Anteriores" data-listing-file-modified-sort="1768568098034" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<a href="../../equipo/asistentes-anteriores/nicolas-tobar-jorquera.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Monica M. Gerber
+Nicolás Tobar Jorquera
 </h5>
 <table class="card-other-values">
 <tbody><tr>
 <td>
 </td>
 <td class="cargo">
-Profesora, Escuela de Gobierno
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-Pontificia Universidad Católica de Chile
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div>
-</section>
-<section id="subdirección" class="level2 equipo-section">
-<h2 class="anchored" data-anchor-id="subdirección">👥 Subdirección</h2>
-<div id="listing-subdireccion" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Subdirección" data-listing-file-modified-sort="1768568046462" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
-<a href="../equipo/ana-figueiredo.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ana Figueiredo
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Profesora Asociada, Instituto de Ciencias Sociales
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-Universidad de O’Higgins
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Subdirección" data-listing-file-modified-sort="1768568046462" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
-<a href="../equipo/joaquin-bahamondes.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Joaquín Bahamondes
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Académico, Escuela de Psicología
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-Universidad Católica del Norte
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Subdirección" data-listing-file-modified-sort="1768568046462" data-listing-reading-time-sort="1" data-listing-word-count-sort="185">
-<a href="../equipo/macarena-orchard.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Macarena Orchard
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Profesora Asistente, Escuela de Sociología
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-Universidad Diego Portales
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div>
-</section>
-<section id="investigadores-asociados" class="level2 equipo-section">
-<h2 class="anchored" data-anchor-id="investigadores-asociados">🔬 Investigadores Asociados</h2>
-<div id="listing-investigadores" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Investigadores" data-listing-file-modified-sort="1768568046462" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
-<a href="../equipo/ismael-puga.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ismael Puga
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Profesor Asociado
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-Universidad Central
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Investigadores" data-listing-file-modified-sort="1768568046462" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<a href="../equipo/cristobal-moya.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cristóbal Moya
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Research Fellow, Facultad de Sociología
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-Universität Bielefeld
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Investigadores" data-listing-file-modified-sort="1768568046463" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
-<a href="../equipo/loreto-quiroz.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Loreto Quiroz
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Profesora e Investigadora adjunta COES
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-Universidad Alberto Hurtado
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Investigadores" data-listing-file-modified-sort="1768568046463" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
-<a href="../equipo/claudio-fuentes.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Claudio Fuentes
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Profesor Titular, Escuela de Ciencia Política
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-Universidad Diego Portales
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="Investigadores" data-listing-file-modified-sort="1768568046463" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
-<a href="../equipo/paz-irarrazabal.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Paz Irarrázabal González
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Profesora asistente, Facultad de Derecho
+Ex Asistente de Investigación Cuantitativa
 </td>
 </tr>
 <tr>
@@ -716,165 +335,6 @@ No hay resultados
 </div>
 </div>
 </section>
-<section id="asistente-coordinador-e-investigador-doctoral" class="level2 equipo-section">
-<h2 class="anchored" data-anchor-id="asistente-coordinador-e-investigador-doctoral">📋 Asistente Coordinador e Investigador Doctoral</h2>
-<div id="listing-coordinador" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Coordinador" data-listing-file-modified-sort="1768568046481" data-listing-reading-time-sort="1" data-listing-word-count-sort="176">
-<a href="../equipo/luciano-saez-fuentealba.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Luciano Sáez Fuentealba
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Asistente coordinador e investigador doctoral
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-Universidad de Buenos Aires
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div>
-</section>
-<section id="asistentes-de-investigación" class="level2 equipo-section">
-<h2 class="anchored" data-anchor-id="asistentes-de-investigación">💼 Asistentes de Investigación</h2>
-<div id="listing-asistentes" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Asistentes" data-listing-file-modified-sort="1768568046474" data-listing-reading-time-sort="1" data-listing-word-count-sort="103">
-<a href="../equipo/matias-deneken.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Matías Deneken
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Asistente de Investigación Cuantitativa
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-Centro CIIR y OLES
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Asistentes" data-listing-file-modified-sort="1768568046489" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
-<a href="../equipo/bruno-rojas.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bruno Rojas
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Asistente de Investigación
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-OLES
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Asistentes" data-listing-file-modified-sort="1768568046481" data-listing-reading-time-sort="1" data-listing-word-count-sort="115">
-<a href="../equipo/amparo-feller.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&amp;h=400&amp;fit=crop" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Amparo Feller
-</h5>
-<table class="card-other-values">
-<tbody><tr>
-<td>
-</td>
-<td class="cargo">
-Asistente de Investigación
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td class="organizacion">
-Universidad Diego Portales
-</td>
-</tr>
-</tbody></table>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div>
-</section>
-<div class="tesistas-section">
-<h3 class="anchored">
-🕰️ Asistentes de Investigación Anteriores
-</h3>
-<p>
-Personas que colaboraron como asistentes de investigación en el Observatorio.
-</p>
-<p><a href="asistentes-anteriores/" class="tesistas-link">Ver Asistentes Anteriores →</a></p>
-</div>
-<div class="tesistas-section">
-<h3 class="anchored">
-📚 Tesistas y Pasantes
-</h3>
-<p>
-Estudiantes que desarrollan sus tesis e investigaciones en el marco del Observatorio.
-</p>
-<p><a href="tesistas/" class="tesistas-link">Ver Tesistas y Pasantes →</a></p>
-</div>
-<p><a href="../index.html">← Volver al Inicio</a></p>
 
 
 
