@@ -79,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-cargo','listing-organizacion',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: [],
     };
@@ -107,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-cargo','listing-organizacion',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: [],
     };
@@ -294,10 +294,11 @@ window.Quarto = {
 
 .quarto-listing-default .listing-image {
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 80%;
+  aspect-ratio: 1;
+  max-width: 180px;
   object-fit: cover;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0.8rem;
 }
 
 .quarto-listing-default .card {
@@ -305,11 +306,24 @@ window.Quarto = {
   border: none;
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem 0.5rem;
 }
 
 .quarto-listing-default .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.quarto-listing-default .card-body {
+  padding: 0.5rem;
+}
+
+.quarto-listing-default .card-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+  line-height: 1.3;
 }
 
 .empty-message {
@@ -323,28 +337,28 @@ window.Quarto = {
 <section id="tesistas" class="level2 equipo-section">
 <h2 class="anchored" data-anchor-id="tesistas">📖 Tesistas</h2>
 <div id="listing-tesistas" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<div class="list grid quarto-listing-cols-4">
 
 </div>
 <div class="listing-no-matching d-none">
 No hay resultados
 </div>
 </div>
-<p class="empty-message" id="tesistas-empty">
+<p class="empty-message">
 Próximamente se añadirán los tesistas del Observatorio.
 </p>
 </section>
 <section id="pasantes" class="level2 equipo-section">
 <h2 class="anchored" data-anchor-id="pasantes">🌐 Pasantes</h2>
 <div id="listing-pasantes" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
+<div class="list grid quarto-listing-cols-4">
 
 </div>
 <div class="listing-no-matching d-none">
 No hay resultados
 </div>
 </div>
-<p class="empty-message" id="pasantes-empty">
+<p class="empty-message">
 Próximamente se añadirán los pasantes del Observatorio.
 </p>
 </section>

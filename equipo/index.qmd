@@ -6,58 +6,43 @@ listing:
   - id: direccion
     contents: "*.qmd"
     type: grid
-    grid-columns: 3
+    grid-columns: 4
     sort: "orden"
-    fields: [image, title, cargo, organizacion]
+    fields: [image, title]
     include:
       categories: "Dirección"
-    field-display-names:
-      cargo: " "
-      organizacion: " "
   - id: subdireccion
     contents: "*.qmd"
     type: grid
-    grid-columns: 3
+    grid-columns: 4
     sort: "orden"
-    fields: [image, title, cargo, organizacion]
+    fields: [image, title]
     include:
       categories: "Subdirección"
-    field-display-names:
-      cargo: " "
-      organizacion: " "
   - id: investigadores
     contents: "*.qmd"
     type: grid
-    grid-columns: 3
+    grid-columns: 4
     sort: "orden"
-    fields: [image, title, cargo, organizacion]
+    fields: [image, title]
     include:
       categories: "Investigadores"
-    field-display-names:
-      cargo: " "
-      organizacion: " "
   - id: coordinador
     contents: "*.qmd"
     type: grid
-    grid-columns: 3
+    grid-columns: 4
     sort: "orden"
-    fields: [image, title, cargo, organizacion]
+    fields: [image, title]
     include:
       categories: "Coordinador"
-    field-display-names:
-      cargo: " "
-      organizacion: " "
   - id: asistentes
     contents: "*.qmd"
     type: grid
-    grid-columns: 3
+    grid-columns: 4
     sort: "orden"
-    fields: [image, title, cargo, organizacion]
+    fields: [image, title]
     include:
       categories: "Asistentes"
-    field-display-names:
-      cargo: " "
-      organizacion: " "
 ---
 
 ```{=html}
@@ -77,10 +62,11 @@ listing:
 
 .quarto-listing-default .listing-image {
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 80%;
+  aspect-ratio: 1;
+  max-width: 180px;
   object-fit: cover;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0.8rem;
 }
 
 .quarto-listing-default .card {
@@ -88,6 +74,7 @@ listing:
   border: none;
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem 0.5rem;
 }
 
 .quarto-listing-default .card:hover {
@@ -95,10 +82,16 @@ listing:
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
+.quarto-listing-default .card-body {
+  padding: 0.5rem;
+}
+
 .quarto-listing-default .card-title {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: #2c3e50;
+  margin: 0;
+  line-height: 1.3;
 }
 
 .tesistas-link {
