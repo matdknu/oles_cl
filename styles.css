@@ -2233,11 +2233,15 @@ h1.title {
   border: none !important;
 }
 
-/* Container de los links - sin fondo */
+/* Container de los links - lista vertical */
 .quarto-about-trestles .about-links {
   background: transparent !important;
   padding: 0;
   border-radius: 0;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 0.25rem;
 }
 
 /* Links de contacto (Email, Twitter, Google Scholar, GitHub) */
@@ -2251,6 +2255,9 @@ h1.title {
   align-items: center;
   gap: 0.5rem;
   padding: 0.35rem 0;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
 }
 
 .quarto-about-trestles .about-links a.about-link:hover,
