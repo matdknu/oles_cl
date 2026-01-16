@@ -758,10 +758,9 @@ body {
 }
 
 .navbar .navbar-brand img {
-  height: 90px;
+  height: 55px;
   width: auto;
   object-fit: contain;
-  margin: -15px 0;
 }
 
 /* Espacio entre logo y menú */
