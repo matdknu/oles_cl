@@ -758,9 +758,18 @@ body {
 }
 
 .navbar .navbar-brand img {
-  height: 65px;
+  height: 75px;
   width: auto;
   object-fit: contain;
+}
+
+/* Espacio entre logo y menú */
+.navbar .navbar-brand-container {
+  margin-right: 2rem;
+}
+
+.navbar-nav {
+  margin-left: 1.5rem;
 }
 
 .navbar .nav-link {
@@ -809,7 +818,7 @@ body {
 #lang-selector {
   position: fixed;
   top: 22px;
-  right: 30px;
+  right: 80px;
   z-index: 1100;
   display: flex;
   gap: 0.6rem;
