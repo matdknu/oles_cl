@@ -60,21 +60,16 @@ listing:
   margin-bottom: 1.5rem;
 }
 
-.quarto-listing-default .listing-image {
-  border-radius: 50%;
-  width: 80%;
-  aspect-ratio: 1;
-  max-width: 180px;
-  object-fit: cover;
-  margin: 0 auto 0.8rem;
-}
-
+/* Tarjeta */
 .quarto-listing-default .card {
   text-align: center;
   border: none;
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  padding: 1rem 0.5rem;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .quarto-listing-default .card:hover {
@@ -82,8 +77,27 @@ listing:
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
+/* Imagen grande y centrada */
+.quarto-listing-default .card-img-top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.quarto-listing-default .card-img-top img,
+.quarto-listing-default .thumbnail-image {
+  border-radius: 50% !important;
+  width: 160px !important;
+  height: 160px !important;
+  object-fit: cover !important;
+  margin: 0 auto !important;
+}
+
 .quarto-listing-default .card-body {
-  padding: 0.5rem;
+  padding: 0.8rem 0.5rem 0;
+  width: 100%;
 }
 
 .quarto-listing-default .card-title {
@@ -92,6 +106,7 @@ listing:
   color: #2c3e50;
   margin: 0;
   line-height: 1.3;
+  text-align: center;
 }
 
 .tesistas-link {
