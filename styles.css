@@ -743,7 +743,7 @@ body {
   box-shadow: var(--shadow-medium);
   border-bottom: 1px solid #e0e0e0;
   padding: 0.5rem 0 !important;
-  min-height: 150px;
+  min-height: 80px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -758,7 +758,7 @@ body {
 }
 
 .navbar .navbar-brand img {
-  height: 143px;
+  height: 60px;
   width: auto;
   object-fit: contain;
 }
@@ -817,7 +817,7 @@ body {
 
 #lang-selector {
   position: fixed;
-  top: 55px;
+  top: 20px;
   right: 80px;
   z-index: 1100;
   display: flex;
