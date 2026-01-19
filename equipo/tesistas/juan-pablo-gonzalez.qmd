@@ -1,0 +1,12 @@
+---
+title: "Juan Pablo González"
+grado: "Magíster"
+universidad: "Universidad Diego Portales"
+titulo_tesis: "Trayectorias migrantes latinoamericanas y estrategias de relacionamiento con las instituciones policiales chilenas"
+anio: "2024"
+estado: "finalizada"
+pdf_link: "https://example.com/tesis/juan-pablo-gonzalez.pdf"
+categories: [Tesistas]
+---
+
+[← Volver a Tesistas](index.html)

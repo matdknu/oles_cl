@@ -2,27 +2,11 @@
 title: "Tesistas y Pasantes"
 page-layout: full
 toc: false
-listing:
-  - id: tesistas
-    contents: "*.qmd"
-    type: grid
-    grid-columns: 4
-    sort: "orden"
-    fields: [image, title]
-    include:
-      categories: "Tesistas"
-  - id: pasantes
-    contents: "*.qmd"
-    type: grid
-    grid-columns: 4
-    sort: "orden"
-    fields: [image, title]
-    include:
-      categories: "Pasantes"
 ---
 
 ```{=html}
 <style>
+/* Estilos para la sección de tesistas */
 .volver-btn {
   display: inline-block;
   color: var(--primary-color, #4E4976);
@@ -36,101 +20,471 @@ listing:
   color: var(--primary-dark, #453958);
 }
 
-.equipo-section {
-  margin-bottom: 3rem;
+.tesistas-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
-.equipo-section h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--primary-color, #4E4976);
-  border-bottom: 3px solid var(--primary-color, #4E4976);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
+.grado-section {
+  margin-bottom: 3.5rem;
 }
 
-/* Tarjeta */
-.quarto-listing-default .card {
-  text-align: center;
-  border: none;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  padding: 1.5rem 1rem;
+.grado-header {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #6B5B95 0%, #4E4976 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(78, 73, 118, 0.2);
 }
 
-.quarto-listing-default .card:hover {
+.grado-header.doctorado {
+  background: linear-gradient(135deg, #8B6F9E 0%, #6B5B95 100%);
+}
+
+.grado-header.magister {
+  background: linear-gradient(135deg, #7A8B9E 0%, #5B6B7A 100%);
+}
+
+.grado-header.licenciatura {
+  background: linear-gradient(135deg, #9E8B6F 0%, #7A6B5B 100%);
+}
+
+.grado-icon {
+  font-size: 2.5rem;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.grado-titulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tesistas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.tesista-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(78, 73, 118, 0.1);
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.tesista-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #C3B8D3, #998AAF);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tesista-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 24px rgba(78, 73, 118, 0.2);
+  border-left-color: #4E4976;
 }
 
-/* Imagen grande y centrada */
-.quarto-listing-default .card-img-top {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.tesista-card:hover::before {
+  opacity: 1;
 }
 
-.quarto-listing-default .card-img-top img,
-.quarto-listing-default .thumbnail-image {
-  border-radius: 50% !important;
-  width: 160px !important;
-  height: 160px !important;
-  object-fit: cover !important;
-  margin: 0 auto !important;
+.tesista-card.doctorado {
+  border-left-color: #8B6F9E;
 }
 
-.quarto-listing-default .card-body {
-  padding: 0.8rem 0.5rem 0;
-  width: 100%;
+.tesista-card.magister {
+  border-left-color: #7A8B9E;
 }
 
-.quarto-listing-default .card-title {
-  font-size: 0.95rem;
-  font-weight: 600;
+.tesista-card.licenciatura {
+  border-left-color: #9E8B6F;
+}
+
+.tesista-nombre {
+  font-size: 1.3rem;
+  font-weight: 700;
   color: #4E4976;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
   line-height: 1.3;
-  text-align: center;
+}
+
+.tesista-info {
+  margin-bottom: 1rem;
+}
+
+.tesista-info-item {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
+}
+
+.tesista-info-item strong {
+  color: #4E4976;
+  font-weight: 600;
+}
+
+.tesista-titulo {
+  font-size: 1rem;
+  color: #220223;
+  margin: 1rem 0;
+  font-style: italic;
+  line-height: 1.5;
+  padding-left: 1rem;
+  border-left: 3px solid #C3B8D3;
+}
+
+.tesista-estado {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.tesista-estado.en-curso {
+  background: linear-gradient(135deg, #C3B8D3, #998AAF);
+  color: #4E4976;
+}
+
+.tesista-estado.finalizada {
+  background: linear-gradient(135deg, #9E8B6F, #7A6B5B);
+  color: white;
+}
+
+.tesista-pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  background: linear-gradient(135deg, #4E4976, #453958);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.tesista-pdf:hover {
+  background: linear-gradient(135deg, #453958, #4E4976);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(78, 73, 118, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.tesista-pdf::before {
+  content: '📄';
+  font-size: 1.1rem;
 }
 
 .empty-message {
   text-align: center;
-  padding: 2rem;
+  padding: 3rem 2rem;
   color: #6c757d;
   font-style: italic;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 2px dashed #e5e7eb;
+}
+
+@media (max-width: 768px) {
+  .tesistas-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .grado-header {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 </style>
 ```
 
-<a href="../index.qmd" class="volver-btn">← Volver al Equipo</a>
+<a href="../index.html" class="volver-btn">← Volver al Equipo</a>
 
-<div class="equipo-section">
+```{r}
+#| echo: false
+#| results: 'asis'
+#| output: asis
 
-## 📖 Tesistas
+# Función auxiliar para obtener valor o default
+`%||%` <- function(x, y) if (is.null(x) || length(x) == 0 || x == "") y else x
 
-::: {#tesistas}
-:::
+# Función para leer metadatos YAML de un archivo .qmd
+leer_metadatos <- function(archivo) {
+  contenido <- readLines(archivo, warn = FALSE)
+  
+  # Encontrar el bloque YAML (entre ---)
+  inicio_yaml <- grep("^---$", contenido)[1]
+  if (is.na(inicio_yaml)) return(NULL)
+  
+  fin_yaml <- grep("^---$", contenido)[2]
+  if (is.na(fin_yaml)) return(NULL)
+  
+  yaml_lineas <- contenido[(inicio_yaml + 1):(fin_yaml - 1)]
+  
+  # Parsear YAML manualmente
+  metadatos <- list()
+  
+  # Extraer title
+  title_line <- grep("^title:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(title_line) > 0) {
+    metadatos$title <- gsub('^title:\\s*["\']([^"\']+)["\']', '\\1', title_line)
+    if (metadatos$title == title_line) {
+      metadatos$title <- gsub('^title:\\s*([^"\']+)', '\\1', title_line)
+      metadatos$title <- trimws(metadatos$title)
+    }
+  }
+  
+  # Extraer grado
+  grado_line <- grep("^grado:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(grado_line) > 0) {
+    metadatos$grado <- gsub('^grado:\\s*["\']([^"\']+)["\']', '\\1', grado_line)
+    if (metadatos$grado == grado_line) {
+      metadatos$grado <- gsub('^grado:\\s*([^"\']+)', '\\1', grado_line)
+      metadatos$grado <- trimws(metadatos$grado)
+    }
+  }
+  
+  # Extraer universidad
+  universidad_line <- grep("^universidad:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(universidad_line) > 0) {
+    metadatos$universidad <- gsub('^universidad:\\s*["\']([^"\']+)["\']', '\\1', universidad_line)
+    if (metadatos$universidad == universidad_line) {
+      metadatos$universidad <- gsub('^universidad:\\s*([^"\']+)', '\\1', universidad_line)
+      metadatos$universidad <- trimws(metadatos$universidad)
+    }
+  }
+  
+  # Extraer titulo_tesis
+  titulo_line <- grep("^titulo_tesis:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(titulo_line) > 0) {
+    metadatos$titulo_tesis <- gsub('^titulo_tesis:\\s*["\']([^"\']+)["\']', '\\1', titulo_line)
+    if (metadatos$titulo_tesis == titulo_line) {
+      metadatos$titulo_tesis <- gsub('^titulo_tesis:\\s*([^"\']+)', '\\1', titulo_line)
+      metadatos$titulo_tesis <- trimws(metadatos$titulo_tesis)
+    }
+  }
+  
+  # Extraer año
+  anio_line <- grep("^anio:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(anio_line) > 0) {
+    metadatos$anio <- gsub('^anio:\\s*["\']?([^"\']+)["\']?', '\\1', anio_line)
+    if (metadatos$anio == anio_line) {
+      metadatos$anio <- gsub('^anio:\\s*([^"\']+)', '\\1', anio_line)
+      metadatos$anio <- trimws(metadatos$anio)
+    }
+  }
+  
+  # Extraer estado
+  estado_line <- grep("^estado:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(estado_line) > 0) {
+    metadatos$estado <- gsub('^estado:\\s*["\']([^"\']+)["\']', '\\1', estado_line)
+    if (metadatos$estado == estado_line) {
+      metadatos$estado <- gsub('^estado:\\s*([^"\']+)', '\\1', estado_line)
+      metadatos$estado <- trimws(metadatos$estado)
+    }
+  }
+  
+  # Extraer pdf_link
+  pdf_line <- grep("^pdf_link:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(pdf_line) > 0) {
+    metadatos$pdf_link <- gsub('^pdf_link:\\s*["\']([^"\']+)["\']', '\\1', pdf_line)
+    if (metadatos$pdf_link == pdf_line) {
+      metadatos$pdf_link <- gsub('^pdf_link:\\s*([^"\']+)', '\\1', pdf_line)
+      metadatos$pdf_link <- trimws(metadatos$pdf_link)
+    }
+  }
+  
+  return(metadatos)
+}
 
-Juan Pablo González, Magíster Métodos para la Investigación Social. Universidad Diego Portales. Título de tesis: Trayectorias migrantes latinoamericanas y estrategias de relacionamiento con las instituciones policiales chilenas
+# Función para obtener orden de prioridad del grado
+orden_grado <- function(grado) {
+  grados_orden <- c("Doctorado" = 1, "Magíster" = 2, "Magister" = 2, "Licenciatura" = 3)
+  grado_normalizado <- gsub("\\s+", "", tolower(grado))
+  for (g in names(grados_orden)) {
+    if (gsub("\\s+", "", tolower(g)) == grado_normalizado) {
+      return(grados_orden[g])
+    }
+  }
+  return(99) # Grado desconocido al final
+}
 
-Pedro Carvallo, Magíster en Sociología. Pontificia Universidad Católica de Chile. Título de tesis: Convirtiéndose en policía: la aprehensión de un orden institucional
+# Obtener todos los archivos .qmd de tesistas (excepto index.qmd)
+# Cuando Quarto renderiza, el directorio de trabajo es el del archivo actual
+archivos_tesistas <- list.files(".", pattern = "\\.qmd$", full.names = TRUE)
+archivos_tesistas <- archivos_tesistas[!grepl("index\\.qmd$", basename(archivos_tesistas))]
 
-<p class="empty-message">Próximamente se añadirán los tesistas del Observatorio.</p>
+# Leer metadatos de todos los tesistas
+tesistas <- lapply(archivos_tesistas, leer_metadatos)
+tesistas <- tesistas[!sapply(tesistas, is.null)]
 
+# Generar el div contenedor
+cat(knitr::raw_html('<div class="tesistas-container">\n\n'))
+
+# Convertir a data.frame
+if (length(tesistas) > 0) {
+  df_tesistas <- data.frame(
+    nombre = sapply(tesistas, function(x) x$title %||% ""),
+    grado = sapply(tesistas, function(x) x$grado %||% ""),
+    universidad = sapply(tesistas, function(x) x$universidad %||% ""),
+    titulo_tesis = sapply(tesistas, function(x) x$titulo_tesis %||% ""),
+    anio = sapply(tesistas, function(x) x$anio %||% ""),
+    estado = sapply(tesistas, function(x) x$estado %||% "en curso"),
+    pdf_link = sapply(tesistas, function(x) x$pdf_link %||% ""),
+    stringsAsFactors = FALSE
+  )
+  
+  # Filtrar tesistas con grado válido
+  df_tesistas <- df_tesistas[df_tesistas$grado != "", ]
+  
+  if (nrow(df_tesistas) > 0) {
+    # Normalizar grados
+    df_tesistas$grado_normalizado <- ifelse(
+      grepl("doctorado|phd|doctor", tolower(df_tesistas$grado), ignore.case = TRUE),
+      "Doctorado",
+      ifelse(
+        grepl("mag[ií]ster|master|maestr", tolower(df_tesistas$grado), ignore.case = TRUE),
+        "Magíster",
+        ifelse(
+          grepl("licenciatura|licenciado", tolower(df_tesistas$grado), ignore.case = TRUE),
+          "Licenciatura",
+          df_tesistas$grado
+        )
+      )
+    )
+    
+    # Agregar orden de prioridad
+    df_tesistas$orden_grado <- sapply(df_tesistas$grado_normalizado, orden_grado)
+    
+    # Convertir año a numérico para ordenar
+    df_tesistas$anio_num <- suppressWarnings(as.numeric(df_tesistas$anio))
+    df_tesistas$anio_num[is.na(df_tesistas$anio_num)] <- 0
+    
+    # Ordenar por grado (prioridad) y luego por año descendente
+    df_tesistas <- df_tesistas[order(df_tesistas$orden_grado, -df_tesistas$anio_num), ]
+    
+    # Normalizar estado
+    df_tesistas$estado_normalizado <- ifelse(
+      grepl("finalizada|finalizado|completada|completado", tolower(df_tesistas$estado), ignore.case = TRUE),
+      "finalizada",
+      "en curso"
+    )
+    
+    # Agrupar por grado
+    grados_unicos <- unique(df_tesistas$grado_normalizado)
+    grados_ordenados <- c("Doctorado", "Magíster", "Licenciatura")
+    grados_unicos <- c(intersect(grados_ordenados, grados_unicos), 
+                       setdiff(grados_unicos, grados_ordenados))
+    
+    # Generar HTML para cada grado
+    for (grado_actual in grados_unicos) {
+      tesistas_grado <- df_tesistas[df_tesistas$grado_normalizado == grado_actual, ]
+      
+      if (nrow(tesistas_grado) > 0) {
+        # Icono y clase según grado
+        icono <- switch(grado_actual,
+          "Doctorado" = "🎓",
+          "Magíster" = "📚",
+          "Licenciatura" = "📖",
+          "🎓"
+        )
+        
+        clase_grado <- switch(grado_actual,
+          "Doctorado" = "doctorado",
+          "Magíster" = "magister",
+          "Licenciatura" = "licenciatura",
+          ""
+        )
+        
+        cat(knitr::raw_html(sprintf('
+<div class="grado-section">
+  <div class="grado-header %s">
+    <span class="grado-icon">%s</span>
+    <h2 class="grado-titulo">%s</h2>
+  </div>
+  <div class="tesistas-grid">
+', clase_grado, icono, grado_actual)))
+        
+        # Generar tarjeta para cada tesista
+        for (i in 1:nrow(tesistas_grado)) {
+          tesista <- tesistas_grado[i, ]
+          
+          nombre_escaped <- gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", tesista$nombre)))
+          universidad_escaped <- gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", tesista$universidad)))
+          titulo_escaped <- gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", tesista$titulo_tesis)))
+          
+          estado_texto <- ifelse(tesista$estado_normalizado == "finalizada", "[Finalizada]", "[En curso]")
+          estado_clase <- tesista$estado_normalizado
+          
+          pdf_html <- ""
+          if (tesista$pdf_link != "" && !is.na(tesista$pdf_link) && nchar(trimws(tesista$pdf_link)) > 0) {
+            pdf_link_clean <- trimws(tesista$pdf_link)
+            pdf_html <- sprintf('
+    <a href="%s" target="_blank" class="tesista-pdf">Ver PDF</a>', pdf_link_clean)
+          }
+          
+          cat(knitr::raw_html(sprintf('
+    <div class="tesista-card %s">
+      <h3 class="tesista-nombre">%s</h3>
+      <div class="tesista-info">
+        <div class="tesista-info-item"><strong>Grado:</strong> %s</div>
+        <div class="tesista-info-item"><strong>Universidad:</strong> %s</div>
+        <div class="tesista-info-item"><strong>Año:</strong> %s</div>
+      </div>
+      <span class="tesista-estado %s">%s</span>
+      <div class="tesista-titulo">%s</div>
+      %s
+    </div>
+', clase_grado, nombre_escaped, tesista$grado, universidad_escaped, 
+   tesista$anio, estado_clase, estado_texto, titulo_escaped, pdf_html)))
+        }
+        
+        cat(knitr::raw_html('
+  </div>
 </div>
+'))
+      }
+    }
+  } else {
+    cat(knitr::raw_html('<p class="empty-message">Próximamente se añadirán los tesistas del Observatorio.</p>'))
+  }
+} else {
+  cat(knitr::raw_html('<p class="empty-message">Próximamente se añadirán los tesistas del Observatorio.</p>'))
+}
 
-<div class="equipo-section">
-
+# Sección de Pasantes
+cat(knitr::raw_html('
 ## 🌐 Pasantes
-
-::: {#pasantes}
-:::
 
 <p class="empty-message">Próximamente se añadirán los pasantes del Observatorio.</p>
 
 </div>
+'))
+```
+

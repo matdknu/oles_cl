@@ -195,4 +195,4 @@ listing:
 <a href="tesistas/" class="tesistas-link">Ver Tesistas y Pasantes →</a>
 </div>
 
-[← Volver al Inicio](../index.qmd)
+[← Volver al Inicio](../index.html)

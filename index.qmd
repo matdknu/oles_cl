@@ -61,36 +61,152 @@ title-block: none
       <a href="noticias/index.html" class="ver-mas-link" data-i18n="nav.verTodas">Ver todas →</a>
     </div>
     <div class="noticias-grid">
+```{r}
+#| echo: false
+#| results: 'asis'
+
+# Función auxiliar para obtener valor o default
+`%||%` <- function(x, y) if (is.null(x) || length(x) == 0 || x == "") y else x
+
+# Función para leer metadatos YAML de un archivo .qmd
+leer_metadatos <- function(archivo) {
+  contenido <- readLines(archivo, warn = FALSE)
+  
+  # Encontrar el bloque YAML (entre ---)
+  inicio_yaml <- grep("^---$", contenido)[1]
+  if (is.na(inicio_yaml)) return(NULL)
+  
+  fin_yaml <- grep("^---$", contenido)[2]
+  if (is.na(fin_yaml)) return(NULL)
+  
+  yaml_lineas <- contenido[(inicio_yaml + 1):(fin_yaml - 1)]
+  
+  # Parsear YAML manualmente (campos básicos)
+  metadatos <- list()
+  
+  # Extraer title
+  title_line <- grep("^title:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(title_line) > 0) {
+    metadatos$title <- gsub('^title:\\s*["\']([^"\']+)["\']', '\\1', title_line)
+    if (metadatos$title == title_line) {
+      metadatos$title <- gsub('^title:\\s*([^"\']+)', '\\1', title_line)
+      metadatos$title <- trimws(metadatos$title)
+    }
+  }
+  
+  # Extraer description
+  desc_line <- grep("^description:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(desc_line) > 0) {
+    metadatos$description <- gsub('^description:\\s*["\']([^"\']+)["\']', '\\1', desc_line)
+    if (metadatos$description == desc_line) {
+      metadatos$description <- gsub('^description:\\s*([^"\']+)', '\\1', desc_line)
+      metadatos$description <- trimws(metadatos$description)
+    }
+  }
+  
+  # Extraer date
+  date_line <- grep("^date:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(date_line) > 0) {
+    metadatos$date <- gsub('^date:\\s*["\']([^"\']+)["\']', '\\1', date_line)
+    if (metadatos$date == date_line) {
+      metadatos$date <- gsub('^date:\\s*([^"\']+)', '\\1', date_line)
+      metadatos$date <- trimws(metadatos$date)
+    }
+  }
+  
+  # Extraer image
+  image_line <- grep("^image:", yaml_lineas, value = TRUE, ignore.case = TRUE)
+  if (length(image_line) > 0) {
+    metadatos$image <- gsub('^image:\\s*["\']([^"\']+)["\']', '\\1', image_line)
+    if (metadatos$image == image_line) {
+      metadatos$image <- gsub('^image:\\s*([^"\']+)', '\\1', image_line)
+      metadatos$image <- trimws(metadatos$image)
+    }
+  }
+  
+  # Obtener nombre del archivo sin extensión
+  nombre_archivo <- tools::file_path_sans_ext(basename(archivo))
+  
+  metadatos$archivo <- nombre_archivo
+  metadatos$ruta_html <- paste0("noticias/", nombre_archivo, ".html")
+  
+  return(metadatos)
+}
+
+# Función para formatear fecha en español
+formatear_fecha <- function(fecha_str) {
+  if (is.null(fecha_str) || fecha_str == "" || is.na(fecha_str)) return("")
+  
+  # Convertir a Date
+  fecha <- tryCatch(as.Date(fecha_str), error = function(e) NA)
+  if (is.na(fecha)) return(fecha_str)
+  
+  # Meses en español
+  meses <- c("enero", "febrero", "marzo", "abril", "mayo", "junio",
+             "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre")
+  
+  dia <- as.numeric(format(fecha, "%d"))
+  mes <- meses[as.numeric(format(fecha, "%m"))]
+  anio <- format(fecha, "%Y")
+  
+  return(paste(dia, mes, anio))
+}
+
+# Obtener todos los archivos .qmd de noticias (excepto index.qmd)
+archivos_noticias <- list.files("noticias", pattern = "\\.qmd$", full.names = TRUE)
+archivos_noticias <- archivos_noticias[!grepl("index\\.qmd$", archivos_noticias)]
+
+# Leer metadatos de todas las noticias
+noticias <- lapply(archivos_noticias, leer_metadatos)
+noticias <- noticias[!sapply(noticias, is.null)]
+
+# Convertir a data.frame y ordenar por fecha descendente
+if (length(noticias) > 0) {
+  df_noticias <- data.frame(
+    title = sapply(noticias, function(x) x$title %||% ""),
+    description = sapply(noticias, function(x) x$description %||% ""),
+    date = sapply(noticias, function(x) x$date %||% ""),
+    image = sapply(noticias, function(x) x$image %||% "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=250&fit=crop"),
+    ruta_html = sapply(noticias, function(x) x$ruta_html %||% ""),
+    archivo = sapply(noticias, function(x) x$archivo %||% ""),
+    stringsAsFactors = FALSE
+  )
+  
+  # Filtrar noticias con fecha válida y ordenar
+  df_noticias$date_parsed <- as.Date(df_noticias$date)
+  df_noticias <- df_noticias[!is.na(df_noticias$date_parsed), ]
+  
+  if (nrow(df_noticias) > 0) {
+    df_noticias <- df_noticias[order(df_noticias$date_parsed, decreasing = TRUE), ]
+    
+    # Tomar las 3 más recientes
+    df_noticias <- head(df_noticias, 3)
+    
+    # Generar HTML para cada noticia
+    for (i in 1:nrow(df_noticias)) {
+      noticia <- df_noticias[i, ]
+      fecha_formateada <- formatear_fecha(noticia$date)
+      titulo <- gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", noticia$title)))
+      descripcion <- gsub("&", "&amp;", gsub("<", "&lt;", gsub(">", "&gt;", noticia$description)))
+      imagen <- noticia$image
+      ruta <- noticia$ruta_html
+      
+      cat(sprintf('
       <article class="noticia-card">
         <div class="noticia-imagen">
-          <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&h=250&fit=crop" alt="Noticia">
+          <img src="%s" alt="%s">
         </div>
         <div class="noticia-content">
-          <span class="noticia-fecha">10 enero 2026</span>
-          <h3><a href="noticias/2026-01-10-ejemplo-noticia.html">Nueva publicación sobre legitimidad policial</a></h3>
-          <p>El equipo de OLES publica nuevos hallazgos sobre la legitimidad de las instituciones policiales.</p>
+          <span class="noticia-fecha">%s</span>
+          <h3><a href="%s">%s</a></h3>
+          <p>%s</p>
         </div>
       </article>
-      <article class="noticia-card">
-        <div class="noticia-imagen">
-          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=250&fit=crop" alt="Seminario">
-        </div>
-        <div class="noticia-content">
-          <span class="noticia-fecha">15 diciembre 2025</span>
-          <h3><a href="noticias/2025-12-15-seminario-legitimidad.html">Seminario de Legitimidad Institucional</a></h3>
-          <p>Exitosa jornada de discusión sobre legitimidad de las instituciones públicas.</p>
-        </div>
-      </article>
-      <article class="noticia-card">
-        <div class="noticia-imagen">
-          <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=250&fit=crop" alt="Publicación">
-        </div>
-        <div class="noticia-content">
-          <span class="noticia-fecha">20 noviembre 2025</span>
-          <h3><a href="noticias/2025-11-20-publicacion-internacional.html">Publicación Internacional</a></h3>
-          <p>Artículo publicado en revista internacional de alto impacto.</p>
-        </div>
-      </article>
+', imagen, titulo, fecha_formateada, ruta, titulo, descripcion))
+    }
+  }
+}
+```
     </div>
   </div>
 </section>

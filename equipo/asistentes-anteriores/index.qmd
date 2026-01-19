@@ -97,7 +97,7 @@ listing:
 </style>
 ```
 
-<a href="../index.qmd" class="volver-btn">← Volver al Equipo</a>
+<a href="../index.html" class="volver-btn">← Volver al Equipo</a>
 
 <p class="intro-text">Personas que colaboraron como asistentes de investigación en el Observatorio.</p>
 
