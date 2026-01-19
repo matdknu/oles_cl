@@ -116,6 +116,8 @@ listing:
 ::: {#tesistas}
 :::
 
+Juan Pablo González, Magíster Métodos para la Investigación Social. Universidad Diego Portales. Título de tesis: Trayectorias migrantes latinoamericanas y estrategias de relacionamiento con las instituciones policiales chilenas
+
 <p class="empty-message">Próximamente se añadirán los tesistas del Observatorio.</p>
 
 </div>
