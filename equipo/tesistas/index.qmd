@@ -118,6 +118,8 @@ listing:
 
 Juan Pablo González, Magíster Métodos para la Investigación Social. Universidad Diego Portales. Título de tesis: Trayectorias migrantes latinoamericanas y estrategias de relacionamiento con las instituciones policiales chilenas
 
+Pedro Carvallo, Magíster en Sociología. Pontificia Universidad Católica de Chile. Título de tesis: Convirtiéndose en policía: la aprehensión de un orden institucional
+
 <p class="empty-message">Próximamente se añadirán los tesistas del Observatorio.</p>
 
 </div>
