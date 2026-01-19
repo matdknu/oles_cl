@@ -15,8 +15,22 @@
     ]
   },
   {
-    "listing": "/equipo/tesistas/index.html",
-    "items": []
+    "listing": "/noticias/index.html",
+    "items": [
+      "/noticias/2026-01-20.html",
+      "/noticias/2026-01-19.html",
+      "/noticias/2026-01-15-oles_asor.html",
+      "/noticias/2026-01-10-ejemplo-noticia.html",
+      "/noticias/2025-12-15-seminario-legitimidad.html",
+      "/noticias/2025-11-20-publicacion-internacional.html",
+      "/noticias/2025-10-05-congreso-sociologia.html"
+    ]
+  },
+  {
+    "listing": "/equipo/asistentes-anteriores/index.html",
+    "items": [
+      "/equipo/asistentes-anteriores/nicolas-tobar-jorquera.html"
+    ]
   },
   {
     "listing": "/equipo/index.html",
@@ -34,22 +48,6 @@
       "/equipo/matias-deneken.html",
       "/equipo/bruno-rojas.html",
       "/equipo/amparo-feller.html"
-    ]
-  },
-  {
-    "listing": "/equipo/asistentes-anteriores/index.html",
-    "items": [
-      "/equipo/asistentes-anteriores/nicolas-tobar-jorquera.html"
-    ]
-  },
-  {
-    "listing": "/noticias/index.html",
-    "items": [
-      "/noticias/2026-01-15-oles_asor.html",
-      "/noticias/2026-01-10-ejemplo-noticia.html",
-      "/noticias/2025-12-15-seminario-legitimidad.html",
-      "/noticias/2025-11-20-publicacion-internacional.html",
-      "/noticias/2025-10-05-congreso-sociologia.html"
     ]
   }
 ]
