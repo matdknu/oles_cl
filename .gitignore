@@ -1,2 +1,13 @@
 /.quarto/
 .Rproj.user
+
+# R temporary files
+.RData
+.Rhistory
+
+# System files
+.DS_Store
+*.DS_Store
+
+# Temporary scripts
+*_temp.R
