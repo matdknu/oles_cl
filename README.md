@@ -154,4 +154,4 @@ Puedes copiar estas plantillas como punto de partida.
 
 ## Soporte
 
-Para dudas o problemas, contactar al equipo técnico de OLES.
+Para dudas o problemas, contactar a Matías Deneken
