@@ -1,0 +1,32 @@
+---
+title: "Autolegitimidad Policial"
+description: "Estudio sobre cómo la policía percibe su propia legitimidad y autoridad."
+categoria: "cualitativos"
+estado: "en-curso"
+fecha-inicio: "2023"
+fecha-fin: "Presente"
+investigadores:
+  - "Ana Figueiredo"
+  - "Joaquín Bahamondes"
+tags:
+  - "Estudios Cualitativos"
+  - "Legitimidad Policial"
+image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=400&fit=crop"
+---
+
+## Descripción
+
+Este estudio investiga cómo los propios miembros de Carabineros de Chile perciben y construyen su legitimidad institucional, explorando las narrativas y prácticas que sustentan su autoridad.
+
+## Objetivos
+
+- Comprender las percepciones de legitimidad desde la perspectiva policial
+- Analizar cómo los carabineros justifican y legitiman su autoridad
+- Identificar tensiones entre autolegitimidad y legitimidad externa
+- Explorar el impacto de crisis institucionales en la autolegitimidad
+
+## Metodología
+
+Estudio cualitativo basado en entrevistas en profundidad y grupos focales con personal de Carabineros de distintos rangos y regiones del país.
+
+[← Volver a Estudios](index.html)

@@ -371,6 +371,31 @@ body:not(.quarto-listing-page) #quarto-content .quarto-title h1,
   z-index: 2;
 }
 
+.proyecto-cuadrante-content .estudio-estado-badge {
+  position: absolute;
+  top: -18rem;
+  right: 1.5rem;
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  z-index: 3;
+}
+
+.proyecto-cuadrante-content .estudio-estado-badge.en-curso {
+  background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+  color: var(--white);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+}
+
+.proyecto-cuadrante-content .estudio-estado-badge.finalizado {
+  background: linear-gradient(135deg, #78909C 0%, #546E7A 100%);
+  color: var(--white);
+  box-shadow: 0 4px 12px rgba(120, 144, 156, 0.4);
+}
+
 .proyecto-cuadrante-content h3 {
   font-size: 1.35rem;
   font-weight: 700;

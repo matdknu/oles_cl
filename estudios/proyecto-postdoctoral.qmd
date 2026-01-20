@@ -1,0 +1,36 @@
+---
+title: "Proyecto Postdoctoral: Posturas Motivacionales hacia la Policía"
+description: "Investigación postdoctoral sobre las diferentes posturas que adopta la ciudadanía frente a la policía."
+categoria: "cualitativos"
+estado: "finalizado"
+fecha-inicio: "2021"
+fecha-fin: "2024"
+investigadores:
+  - "Luciano Sáez"
+  - "Mónica Gerber"
+tags:
+  - "Estudios Cualitativos"
+  - "Legitimidad Policial"
+image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=400&fit=crop"
+---
+
+## Descripción
+
+Proyecto postdoctoral que investiga las posturas motivacionales de la ciudadanía hacia Carabineros de Chile, explorando las dinámicas de compromiso, resistencia y evitación en la relación policía-ciudadanía.
+
+## Objetivos
+
+- Caracterizar las posturas motivacionales hacia la policía en Chile
+- Identificar factores que determinan diferentes posturas ciudadanas
+- Analizar cómo varían las posturas según grupos sociales
+- Contribuir a la teoría sobre legitimidad policial
+
+## Metodología
+
+Estudio cualitativo basado en grupos focales con diferentes segmentos de la población chilena, incluyendo jóvenes, mapuche, inmigrantes y manifestantes.
+
+## Resultados
+
+El estudio identificó tres posturas principales: compromiso, resistencia y evitación, mostrando la complejidad de las relaciones entre policía y ciudadanía en el contexto chileno post-estallido social.
+
+[← Volver a Estudios](index.html)

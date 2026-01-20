@@ -247,51 +247,55 @@ if (length(noticias) > 0) {
 <!-- Proyectos Section -->
 <section class="proyectos-section">
   <div class="container">
-    <h2 class="section-title" data-i18n="secciones.estudios">Nuestras Líneas de Investigación</h2>
+    <h2 class="section-title" data-i18n="secciones.estudios">Proyectos de Investigación</h2>
     <div class="proyectos-cuadrantes">
-      <a href="estudios/index.html#encuestas" class="proyecto-cuadrante">
+      <a href="estudios/esep.html" class="proyecto-cuadrante">
         <div class="proyecto-imagen">
-          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop" alt="Estudios de Encuesta">
+          <img src="https://images.unsplash.com/photo-1523875194681-bedd468c58bf?w=600&h=400&fit=crop" alt="ESEP">
         </div>
         <div class="proyecto-cuadrante-content">
-          <h3 data-i18n="estudios.encuestas.titulo">📊 Estudios de Encuesta</h3>
-          <p data-i18n="estudios.encuestas.descripcion">Investigaciones basadas en encuestas representativas que analizan percepciones y actitudes sobre legitimidad institucional.</p>
-          <span class="proyecto-link" data-i18n="nav.verMas">Ver proyectos →</span>
+          <span class="estudio-estado-badge en-curso">En Curso</span>
+          <h3>📊 Estudio Panel de Percepciones y Seguridad</h3>
+          <p>Encuesta longitudinal que mide la percepción de legitimidad de las instituciones de seguridad en Chile.</p>
+          <span class="proyecto-link">Ver proyecto →</span>
         </div>
       </a>
-      <a href="estudios/index.html#cualitativos" class="proyecto-cuadrante">
+      <a href="estudios/registro-gestion-datos.html" class="proyecto-cuadrante">
         <div class="proyecto-imagen">
-          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop" alt="Estudios Cualitativos">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Registro y Gestión">
         </div>
         <div class="proyecto-cuadrante-content">
-          <h3 data-i18n="estudios.cualitativos.titulo">🎙️ Estudios Cualitativos</h3>
-          <p data-i18n="estudios.cualitativos.descripcion">Investigaciones cualitativas que profundizan en las experiencias y narrativas sobre legitimidad institucional.</p>
-          <span class="proyecto-link" data-i18n="nav.verMas">Ver proyectos →</span>
+          <span class="estudio-estado-badge en-curso">En Curso</span>
+          <h3>📈 Registro y Gestión de Datos en la Policía Chilena</h3>
+          <p>Análisis de sistemas de registro y gestión de información policial.</p>
+          <span class="proyecto-link">Ver proyecto →</span>
         </div>
       </a>
-      <a href="estudios/index.html#prensa-redes" class="proyecto-cuadrante">
+      <a href="estudios/analisis-prensa.html" class="proyecto-cuadrante">
         <div class="proyecto-imagen">
-          <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop" alt="Prensa y Redes">
+          <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop" alt="Estudio de Prensa">
         </div>
         <div class="proyecto-cuadrante-content">
-          <h3 data-i18n="estudios.prensa.titulo">📰 Prensa y Redes Sociales</h3>
-          <p data-i18n="estudios.prensa.descripcion">Análisis de contenido de medios de comunicación y redes sociales sobre legitimidad y confianza institucional.</p>
-          <span class="proyecto-link" data-i18n="nav.verMas">Ver proyectos →</span>
+          <span class="estudio-estado-badge en-curso">En Curso</span>
+          <h3>📰 Estudio de Prensa</h3>
+          <p>Análisis del tratamiento mediático de temas relacionados con legitimidad institucional.</p>
+          <span class="proyecto-link">Ver proyecto →</span>
         </div>
       </a>
-      <a href="estudios/index.html#datos-administrativos" class="proyecto-cuadrante">
+      <a href="estudios/autolegitimidad-policial.html" class="proyecto-cuadrante">
         <div class="proyecto-imagen">
-          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Datos Administrativos">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&h=400&fit=crop" alt="Autolegitimidad">
         </div>
         <div class="proyecto-cuadrante-content">
-          <h3 data-i18n="estudios.datos.titulo">📈 Datos Administrativos</h3>
-          <p data-i18n="estudios.datos.descripcion">Análisis de datos administrativos y estadísticos para comprender patrones de legitimidad institucional.</p>
-          <span class="proyecto-link" data-i18n="nav.verMas">Ver proyectos →</span>
+          <span class="estudio-estado-badge en-curso">En Curso</span>
+          <h3>🎙️ Autolegitimidad Policial</h3>
+          <p>Estudio sobre cómo la policía percibe su propia legitimidad y autoridad.</p>
+          <span class="proyecto-link">Ver proyecto →</span>
         </div>
       </a>
     </div>
     <div style="text-align: center; margin-top: 2rem;">
-      <a href="estudios/index.html" class="btn-primary" data-i18n="nav.verEstudios">Todos los estudios →</a>
+      <a href="estudios/index.html" class="btn-primary" data-i18n="nav.verEstudios">Ver todos los proyectos →</a>
     </div>
   </div>
 </section>

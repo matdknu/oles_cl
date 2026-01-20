@@ -1,0 +1,32 @@
+---
+title: "Registro y Gestión de Datos en la Policía Chilena"
+description: "Análisis de sistemas de registro y gestión de información policial."
+categoria: "datos-administrativos"
+estado: "en-curso"
+fecha-inicio: "2022"
+fecha-fin: "Presente"
+investigadores:
+  - "Claudio Fuentes"
+  - "Mónica Gerber"
+tags:
+  - "Datos Administrativos"
+  - "Gestión Policial"
+image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop"
+---
+
+## Descripción
+
+Este proyecto analiza los sistemas de registro y gestión de datos en Carabineros de Chile, evaluando su efectividad, transparencia y uso para la toma de decisiones institucionales.
+
+## Objetivos
+
+- Mapear los sistemas de registro de datos policiales
+- Evaluar la calidad y completitud de los datos institucionales
+- Analizar prácticas de gestión de información
+- Identificar oportunidades de mejora en transparencia y accountability
+
+## Metodología
+
+Análisis de documentos institucionales, entrevistas con personal policial y análisis de bases de datos administrativas.
+
+[← Volver a Estudios](index.html)
