@@ -1,0 +1,21 @@
+---
+title: "Título de la Noticia"
+description: "Breve descripción que aparece en las cards"
+date: "YYYY-MM-DD"
+author: "Matías Deneken"
+categories: [Categoría1, Categoría2]
+image: "featured.jpg"
+title-block-banner: false
+---
+
+::: {.featured-image}
+![](featured.jpg)
+:::
+
+Contenido principal de la noticia...
+
+::: {.gallery}
+![](foto1.jpg) ![](foto2.jpg) ![](foto3.jpg)
+:::
+
+[← Volver a Noticias](../index.html)

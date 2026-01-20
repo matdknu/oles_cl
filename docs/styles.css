@@ -52,6 +52,13 @@ body {
   padding: 0 2rem;
 }
 
+/* Títulos de páginas principales - pequeño margen superior */
+body:not(.quarto-listing-page) #quarto-content .quarto-title h1,
+.quarto-listing-page #quarto-content h1.title {
+  margin-top: 0.1rem !important;
+  padding-top: 0.1rem !important;
+}
+
 /* Section Title */
 .section-title {
   font-size: 2.5rem;
@@ -217,7 +224,7 @@ body {
    NOTICIAS SECTION
    ===================================================== */
 .noticias-section {
-  padding: 5rem 0;
+  padding: 2.5rem 0;
   background: var(--white);
 }
 
@@ -225,6 +232,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+  margin-top: 1rem;
 }
 
 .noticia-card {
@@ -2303,6 +2311,299 @@ h1.title {
 /* Imagen circular del perfil */
 .quarto-about-trestles .about-image {
   border: 4px solid var(--primary-light) !important;
+}
+
+/* =====================================================
+   Estilos para Listing de Noticias
+   ===================================================== */
+
+/* Grid de noticias */
+.quarto-listing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+/* Cards de noticias */
+.quarto-grid-item {
+  background: white;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.quarto-grid-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+/* Imágenes en cards del listado */
+.quarto-grid-item .card-img-top {
+  cursor: pointer;
+}
+
+.quarto-grid-item .card-img-top img,
+.quarto-grid-item .thumbnail-image {
+  transition: transform 0.3s ease;
+}
+
+.quarto-grid-item:hover .card-img-top img,
+.quarto-grid-item:hover .thumbnail-image {
+  transform: scale(1.05);
+}
+
+/* Contenido de la card - simplificado */
+
+/* =====================================================
+   Estilos para imágenes DENTRO de las noticias individuales
+   ===================================================== */
+
+/* =====================================================
+   Galería de imágenes tipo álbum moderno
+   ===================================================== */
+
+/* Imagen destacada principal - debajo del título */
+.featured-image {
+  width: 100%;
+  margin: 2rem 0 3rem 0;
+  text-align: center;
+}
+
+.featured-image p {
+  margin: 0;
+  padding: 0;
+}
+
+.featured-image img,
+.featured-image p img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 500px !important;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(62, 51, 81, 0.15);
+  display: block;
+  margin: 0 auto !important;
+}
+
+/* Galería de imágenes secundarias */
+.gallery {
+  margin: 3rem 0;
+  padding: 0;
+}
+
+.gallery p {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery img,
+.gallery p img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 350px !important;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(62, 51, 81, 0.12);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.gallery img:hover,
+.gallery p img:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(62, 51, 81, 0.2);
+  z-index: 10;
+}
+
+/* Imágenes sueltas en el contenido (si las hay) */
+#quarto-content article p:has(img):not(.featured-image):not(.gallery) {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+#quarto-content article p:has(img):not(.featured-image):not(.gallery) img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(62, 51, 81, 0.1);
+}
+
+/* Responsive para galería de imágenes */
+@media (max-width: 768px) {
+  .featured-image img,
+  .featured-image p img {
+    height: 300px !important;
+  }
+  
+  .gallery p {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .gallery img,
+  .gallery p img {
+    height: 250px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .featured-image img,
+  .featured-image p img {
+    height: 400px !important;
+  }
+  
+  .gallery p {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .gallery img,
+  .gallery p img {
+    height: 280px !important;
+  }
+}
+
+/* Contenedor principal SOLO para noticias individuales */
+body:not(.quarto-listing-page) #quarto-content article {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Ajuste para figuras de Quarto */
+.quarto-figure-center,
+.quarto-figure-left,
+.quarto-figure-right {
+  margin: 2rem 0;
+}
+
+.quarto-figure-center > p,
+.quarto-figure-left > p,
+.quarto-figure-right > p {
+  margin: 0;
+}
+
+/* Paginación mejorada */
+.listing-pagination {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listing-pagination .pagination {
+  display: flex;
+  gap: 0.75rem;
+  list-style: none;
+  padding: 0;
+  align-items: center;
+}
+
+.listing-pagination .page-item {
+  margin: 0;
+}
+
+.listing-pagination .page-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 45px;
+  height: 45px;
+  padding: 0.75rem 1.25rem;
+  background: white;
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(62, 51, 81, 0.05);
+}
+
+.listing-pagination .page-link:hover {
+  background: var(--accent-color);
+  border-color: var(--primary-color);
+  color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(62, 51, 81, 0.15);
+}
+
+.listing-pagination .active .page-link {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 4px 12px rgba(78, 73, 118, 0.3);
+}
+
+.listing-pagination .disabled .page-link {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* Botones siguiente/anterior */
+.listing-pagination .page-item:first-child .page-link,
+.listing-pagination .page-item:last-child .page-link {
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  background: var(--primary-light);
+  color: white;
+  border-color: var(--primary-light);
+}
+
+.listing-pagination .page-item:first-child .page-link:hover,
+.listing-pagination .page-item:last-child .page-link:hover {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+/* Filtros de categorías */
+.quarto-listing-category {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.quarto-listing-category .category {
+  background: white;
+  border: 2px solid var(--border-color);
+  color: var(--text-color);
+  padding: 0.5rem 1.25rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.quarto-listing-category .category:hover,
+.quarto-listing-category .category.active {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .quarto-listing-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .quarto-grid-item .listing-image {
+    height: 200px;
+  }
 }
 
 /* =====================================================

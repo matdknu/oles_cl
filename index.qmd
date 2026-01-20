@@ -56,10 +56,7 @@ title-block: none
 <!-- Noticias Recientes Section -->
 <section class="noticias-section">
   <div class="container">
-    <div class="section-header">
-      <h2 class="section-title" data-i18n="secciones.noticiasRecientes">Noticias Recientes</h2>
-      <a href="noticias/index.html" class="ver-mas-link" data-i18n="nav.verTodas">Ver todas →</a>
-    </div>
+    <h2 class="section-title" data-i18n="secciones.noticiasRecientes">Noticias Recientes</h2>
     <div class="noticias-grid">
 ```{r}
 #| echo: false
@@ -124,11 +121,23 @@ leer_metadatos <- function(archivo) {
     }
   }
   
-  # Obtener nombre del archivo sin extensión
+  # Obtener nombre del archivo y carpeta
+  carpeta_padre <- basename(dirname(archivo))
   nombre_archivo <- tools::file_path_sans_ext(basename(archivo))
   
   metadatos$archivo <- nombre_archivo
-  metadatos$ruta_html <- paste0("noticias/", nombre_archivo, ".html")
+  metadatos$carpeta <- carpeta_padre
+  
+  # Si está en una carpeta con fecha, usar esa ruta
+  if (grepl("^\\d{4}-\\d{2}-\\d{2}$", carpeta_padre)) {
+    metadatos$ruta_html <- paste0("noticias/", carpeta_padre, "/index.html")
+    # Construir ruta completa de la imagen
+    if (!is.null(metadatos$image) && metadatos$image != "" && !grepl("^https?://", metadatos$image)) {
+      metadatos$image <- paste0("noticias/", carpeta_padre, "/", metadatos$image)
+    }
+  } else {
+    metadatos$ruta_html <- paste0("noticias/", nombre_archivo, ".html")
+  }
   
   return(metadatos)
 }
@@ -152,9 +161,17 @@ formatear_fecha <- function(fecha_str) {
   return(paste(dia, mes, anio))
 }
 
-# Obtener todos los archivos .qmd de noticias (excepto index.qmd)
-archivos_noticias <- list.files("noticias", pattern = "\\.qmd$", full.names = TRUE)
-archivos_noticias <- archivos_noticias[!grepl("index\\.qmd$", archivos_noticias)]
+# Obtener todos los archivos index.qmd de carpetas de noticias
+carpetas_noticias <- list.dirs("noticias", recursive = FALSE, full.names = TRUE)
+carpetas_noticias <- carpetas_noticias[grepl("^noticias/\\d{4}-\\d{2}-\\d{2}", carpetas_noticias)]
+
+archivos_noticias <- character()
+for (carpeta in carpetas_noticias) {
+  index_file <- file.path(carpeta, "index.qmd")
+  if (file.exists(index_file)) {
+    archivos_noticias <- c(archivos_noticias, index_file)
+  }
+}
 
 # Leer metadatos de todas las noticias
 noticias <- lapply(archivos_noticias, leer_metadatos)
@@ -173,7 +190,20 @@ if (length(noticias) > 0) {
   )
   
   # Filtrar noticias con fecha válida y ordenar
-  df_noticias$date_parsed <- as.Date(df_noticias$date)
+  # Limpiar fechas vacías o inválidas
+  df_noticias <- df_noticias[df_noticias$date != "" & !is.na(df_noticias$date), ]
+  
+  # Convertir fechas con manejo de errores individualizado
+  df_noticias$date_parsed <- NA
+  for (i in 1:nrow(df_noticias)) {
+    fecha_str <- as.character(df_noticias$date[i])
+    fecha_parseada <- tryCatch(
+      as.Date(fecha_str),
+      error = function(e) NA
+    )
+    df_noticias$date_parsed[i] <- as.Date(fecha_parseada)
+  }
+  
   df_noticias <- df_noticias[!is.na(df_noticias$date_parsed), ]
   
   if (nrow(df_noticias) > 0) {
@@ -207,6 +237,9 @@ if (length(noticias) > 0) {
   }
 }
 ```
+    </div>
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="noticias/index.html" class="btn-primary" data-i18n="nav.verTodas">Ver todas las noticias →</a>
     </div>
   </div>
 </section>

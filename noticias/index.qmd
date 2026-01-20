@@ -1,11 +1,17 @@
 ---
 title: "Noticias"
 listing:
-  contents: "*.qmd"
+  id: listing-noticias
+  contents: "*/index.qmd"
   type: grid
   sort: "date desc"
   categories: true
   fields: [image, date, title, description, categories]
+  page-size: 15
+  filter-ui: true
+include-after-body:
+  - text: |
+      <script src="noticias-click.js"></script>
 ---
 
 Últimas noticias y novedades del Observatorio de Legitimidad.

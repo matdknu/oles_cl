@@ -8,25 +8,6 @@
     ]
   },
   {
-    "listing": "/eventos/index.html",
-    "items": [
-      "/eventos/2026-02-15-escuela-formacion.html",
-      "/eventos/2026-01-20-seminario-legitimidad.html"
-    ]
-  },
-  {
-    "listing": "/noticias/index.html",
-    "items": [
-      "/noticias/2026-01-20.html",
-      "/noticias/2026-01-19.html",
-      "/noticias/2026-01-15-oles_asor.html",
-      "/noticias/2026-01-10-ejemplo-noticia.html",
-      "/noticias/2025-12-15-seminario-legitimidad.html",
-      "/noticias/2025-11-20-publicacion-internacional.html",
-      "/noticias/2025-10-05-congreso-sociologia.html"
-    ]
-  },
-  {
     "listing": "/equipo/asistentes-anteriores/index.html",
     "items": [
       "/equipo/asistentes-anteriores/nicolas-tobar-jorquera.html"
@@ -48,6 +29,53 @@
       "/equipo/matias-deneken.html",
       "/equipo/bruno-rojas.html",
       "/equipo/amparo-feller.html"
+    ]
+  },
+  {
+    "listing": "/noticias/index.html",
+    "items": [
+      "/noticias/2026-01-20/index.html",
+      "/noticias/2026-01-19/index.html",
+      "/noticias/2026-01-15/index.html",
+      "/noticias/2025-11-06/index.html",
+      "/noticias/2025-10-10/index.html",
+      "/noticias/2025-09-02/index.html",
+      "/noticias/2025-07-10/index.html",
+      "/noticias/2025-07-07/index.html",
+      "/noticias/2025-06-16/index.html",
+      "/noticias/2025-05-26/index.html",
+      "/noticias/2025-04-09/index.html",
+      "/noticias/2025-01-28/index.html",
+      "/noticias/2025-01-22/index.html",
+      "/noticias/2024-12-04/index.html",
+      "/noticias/2024-08-29/index.html",
+      "/noticias/2024-08-27/index.html",
+      "/noticias/2024-07-22/index.html",
+      "/noticias/2024-07-11/index.html",
+      "/noticias/2024-05-13/index.html",
+      "/noticias/2024-05-06/index.html",
+      "/noticias/2023-12-18/index.html",
+      "/noticias/2023-11-20/index.html",
+      "/noticias/2023-08-28/index.html",
+      "/noticias/2023-08-01/index.html",
+      "/noticias/2023-03-13/index.html",
+      "/noticias/2022-11-03/index.html",
+      "/noticias/2022-10-13/index.html",
+      "/noticias/2022-09-12/index.html",
+      "/noticias/2022-09-06/index.html",
+      "/noticias/2022-06-03/index.html",
+      "/noticias/2022-03-22/index.html",
+      "/noticias/2022-01-17/index.html",
+      "/noticias/2021-03-31/index.html",
+      "/noticias/2021-03-30/index.html",
+      "/noticias/2021-03-26/index.html",
+      "/noticias/2020-09-22/index.html"
+    ]
+  },
+  {
+    "listing": "/eventos/index.html",
+    "items": [
+      "/eventos/2026-01-20-seminario-legitimidad.html"
     ]
   }
 ]

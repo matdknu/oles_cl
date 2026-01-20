@@ -1,0 +1,17 @@
+---
+title: "Jornada de cierre en OLES"
+description: "Equipo OLES finaliza actividades del año 2025"
+date: "2026-01-20"
+author: "Matías Deneken"
+categories: [Noticias]
+image: "featured.jpg"
+title-block-banner: false
+---
+
+::: {.featured-image}
+![](featured.jpg)
+:::
+
+Jornada de cierre de actividades del Observatorio de Legitimidad Social.
+
+[← Volver a Noticias](../index.html)

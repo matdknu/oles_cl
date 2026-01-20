@@ -1,0 +1,17 @@
+---
+title: "Investigadores OLES adjudican Instituto Milenio"
+description: "El Instituto sobre Autoridad"
+date: "2026-01-15"
+author: "Matías Deneken"
+categories: [Noticias]
+image: "featured.jpg"
+title-block-banner: false
+---
+
+::: {.featured-image}
+![](featured.jpg)
+:::
+
+Investigadores del Observatorio de Legitimidad se adjudican Instituto Milenio sobre Autoridad.
+
+[← Volver a Noticias](../index.html)

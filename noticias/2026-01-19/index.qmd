@@ -1,0 +1,17 @@
+---
+title: "Investigadora Loreto Quiroz se adjudica Fondecyt Iniciación"
+description: "Loreto Quiroz obtiene financiamiento para investigación sobre legitimidad institucional"
+date: "2026-01-19"
+author: "Matías Deneken"
+categories: [Noticias]
+image: "featured.png"
+title-block-banner: false
+---
+
+::: {.featured-image}
+![](featured.png)
+:::
+
+La investigadora Loreto Quiroz se adjudica Fondecyt de Iniciación para desarrollar investigación sobre legitimidad institucional.
+
+[← Volver a Noticias](../index.html)

@@ -1,0 +1,16 @@
+---
+title: "La Dra. Gerber es nombrada como parte del comité de expertos de la Comisión Nacional de Respuesta Pandémica"
+description: ""
+date: "2022-03-22"
+author: "Matías Deneken"
+categories: [Noticias]
+image: "featured.jpg"
+title-block-banner: false
+---
+
+::: {.featured-image}
+![](featured.jpg)
+:::
+
+[← Volver a Noticias](../index.html)
+
