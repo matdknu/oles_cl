@@ -4,8 +4,13 @@ description: "El evento convocó a representantes de la sociedad civil, academia
 date: "2026-04-01"
 author: "[Matías Deneken](../../equipo/matias-deneken.html) y [Amparo Feller](../../equipo/amparo-feller.html)"
 categories: [Actividades, Mesa redonda]
+image: "featured.jpg"
 title-block-banner: false
 ---
+
+::: {.featured-image}
+![](featured.jpg)
+:::
 
 El pasado 30 de marzo, el Observatorio de Violencia y Legitimidad Social (OLES) realizó en la Universidad Católica la mesa redonda **"¿El precio de la seguridad? Punitivismo, empoderamiento policial y libertades ciudadanas en el Chile actual"**, un espacio de reflexión en torno a los desafíos de las políticas de seguridad en el contexto actual.
 

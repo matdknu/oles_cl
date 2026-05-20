@@ -74,6 +74,7 @@ const translations = {
         // Estudios
         estudios: {
             titulo: "Nuestros Estudios de Investigación",
+            resena: "Proyectos de investigadoras/es de OLES, en curso y finalizado.",
             intro: "Listado completo de todas nuestras investigaciones activas y finalizadas.",
             encuestas: {
                 titulo: "📊 Estudios de Encuesta",
@@ -180,6 +181,7 @@ const translations = {
         // Studies
         estudios: {
             titulo: "Our Research Studies",
+            resena: "Research projects by OLES researchers, ongoing and completed.",
             intro: "Complete list of all our active and completed research.",
             encuestas: {
                 titulo: "📊 Survey Studies",

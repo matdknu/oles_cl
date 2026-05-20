@@ -6,6 +6,12 @@ toc: false
 
 <div class="estudio-linea-institucional">
 
+## Introducción
+
+Esta línea estudia movilización social, generaciones y los modos en que se justifican o cuestionan repertorios de acción colectiva —incluida la violencia— en contextos democráticos.
+
+<p class="linea-proximamente"><em>Próximamente más información.</em></p>
+
 ## Investigadoras/es
 
 - [Ismael Puga](../../equipo/ismael-puga.html)

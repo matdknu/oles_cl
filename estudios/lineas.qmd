@@ -15,11 +15,13 @@ toc: false
     <a href="lineas/linea-2.html" class="linea-index-card">
       <h3>Línea 2 — Movimientos sociales, generaciones y violencia</h3>
       <p>Movilización, repertorios de acción colectiva y justificación de la violencia en contextos democráticos.</p>
+      <p class="linea-index-proximamente"><em>Próximamente más información.</em></p>
       <span class="linea-index-link">Ver línea →</span>
     </a>
     <a href="lineas/linea-3.html" class="linea-index-card">
       <h3>Línea 3 — Violencia, género y salud</h3>
       <p>Desigualdad de género, salud y experiencias de violencia en instituciones y trayectorias vitales.</p>
+      <p class="linea-index-proximamente"><em>Próximamente más información.</em></p>
       <span class="linea-index-link">Ver línea →</span>
     </a>
     <a href="lineas/linea-4.html" class="linea-index-card">

@@ -3138,6 +3138,16 @@ body:not(.quarto-listing-page) #quarto-content article:not(.publicacion-card) {
   align-items: center;
 }
 
+.listing-pagination.d-none {
+  display: none !important;
+}
+
+#listing-listing-noticias + p,
+#listing-listing-noticias ~ p:empty,
+.quarto-listing-container-grid > p {
+  display: none;
+}
+
 .listing-pagination .pagination {
   display: flex;
   gap: 0.75rem;
@@ -3827,6 +3837,12 @@ a.linea-index-card p,
   margin: 0 0 1rem 0;
 }
 
+.linea-index-proximamente {
+  font-size: 0.88rem !important;
+  color: var(--text-light) !important;
+  margin: 0 0 1rem 0 !important;
+}
+
 .linea-index-link {
   display: inline-block;
   padding: 0.4rem 1rem;
@@ -3881,6 +3897,12 @@ a.linea-index-card:hover .linea-index-link {
   padding-bottom: 0.35rem;
   border-bottom: 2px solid #e8e6f0;
   letter-spacing: -0.02em;
+}
+
+.estudio-linea-institucional .linea-proximamente {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  margin: 0 0 1.5rem 0;
 }
 
 .estudio-linea-institucional section#introducción p {
@@ -4619,7 +4641,15 @@ h1.title {
 }
 
 /* Asegurar que los títulos de estudios, líneas, datos, publicaciones, noticias queden centrados */
-#quarto-content .estudios-proyectos-page h2[data-i18n="estudios.titulo"],
+#quarto-content .estudios-proyectos-page p[data-i18n="estudios.resena"] {
+  text-align: center;
+  max-width: 36rem;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #6c757d;
+}
+
 .epsep-page h1,
 .lineas-page h1,
 main h1.title {

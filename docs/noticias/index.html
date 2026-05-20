@@ -80,8 +80,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 20,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      page: 12,
+    pagination: { inner: "#listing-noticias-pagination .pagination", item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -100,6 +100,23 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 <script src="translations.js" defer=""></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var container = document.getElementById("listing-listing-noticias");
+  var grid = container && container.querySelector(".list.grid");
+  var nav = document.getElementById("listing-noticias-pagination");
+  var nomatch = container && container.querySelector(".listing-no-matching");
+  if (container && grid && nav && nav.parentElement === grid) {
+    container.appendChild(nav);
+  }
+  if (container && grid && nomatch && nomatch.parentElement === grid) {
+    container.appendChild(nomatch);
+  }
+  if (grid) {
+    window.__NOTICIAS_ITEMS = Array.from(grid.querySelectorAll(".g-col-1"));
+  }
+}, true);
+</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -231,7 +248,7 @@ window.Quarto = {
 </header>
 
 
-<p>Últimas noticias y novedades del Observatorio de Violencia y Legitimidad Social.</p>
+<p>Últimas noticias y novedades del Observatorio de Violencia y Legitimidad Social. Hay <strong>41 noticias</strong> publicadas; navega por páginas al final del listado.</p>
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing-noticias">
@@ -332,10 +349,12 @@ El equipo OLES se reunió para revisar y organizar aspectos sobre esta nueva eta
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Actividades,Mesa redonda" data-listing-date-sort="1774998000000" data-listing-file-modified-sort="1779214856896" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="311">
+<div class="g-col-1" data-index="3" data-categories="Actividades,Mesa redonda" data-listing-date-sort="1774998000000" data-listing-file-modified-sort="1779314236804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="312">
 <a href="../noticias/2026-04-01/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img loading="lazy" src="../noticias/2026-04-01/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 OLES realizó mesa redonda sobre seguridad, punitivismo y libertades ciudadanas
@@ -799,7 +818,7 @@ El viernes pasado, nuestro Investigador de la UDP, Luciano Saez, compartió su i
 <a href="../noticias/2024-08-27/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2024-08-27/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2024-08-27/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -826,7 +845,7 @@ Felicitamos a Mónica Gerber, Macarena Orchard, Ana Figueiredo, Claudio Fuentes,
 <a href="../noticias/2024-07-22/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2024-07-22/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2024-07-22/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -853,7 +872,7 @@ En el marco del doctorado en Ciencias sociales de la Universidad de Playa Ancha,
 <a href="../noticias/2024-07-11/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2024-07-11/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2024-07-11/featured.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -880,7 +899,7 @@ Del 4 al 6 de julio tuvo lugar en Santiago el Annual Scientific Meeting realizad
 <a href="../noticias/2024-05-13/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2024-05-13/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2024-05-13/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -907,7 +926,7 @@ La enseñanza de métodos de investigación en la educación superior ha sido un
 <a href="../noticias/2024-05-06/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2024-05-06/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2024-05-06/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -934,7 +953,7 @@ Investigadoras e investigadores de OLES participaron en el XII Congreso chileno 
 <a href="../noticias/2023-12-18/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2023-12-18/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2023-12-18/featured.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -961,7 +980,7 @@ SIMPOSIO| El pasado 1 de diciembre Ana Figueiredo, investigadora de OLES, partic
 <a href="../noticias/2023-11-20/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2023-11-20/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2023-11-20/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -988,7 +1007,7 @@ CONFERENCIA| Durante los días 8, 9 y 10 de noviembre se realizó la X Conferenc
 <a href="../noticias/2023-08-28/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2023-08-28/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2023-08-28/featured.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1015,7 +1034,7 @@ El pasado jueves 17 de agosto se realizó de manera hibrida en la Facultad de Ps
 <a href="../noticias/2023-08-01/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2023-08-01/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2023-08-01/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1042,7 +1061,7 @@ Durante el mes de julio, investigadoras e investigadores de OLES participaron de
 <a href="../noticias/2023-03-13/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2023-03-13/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2023-03-13/featured.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1069,7 +1088,7 @@ Investigadoras e investigadores del Observatorio de Violencia y Legitimidad Soci
 <a href="../noticias/2022-11-03/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2022-11-03/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2022-11-03/featured.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1096,7 +1115,7 @@ Puedes escuchar este y otros episodios del podcast en el siguiente .
 <a href="../noticias/2022-10-13/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2022-10-13/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2022-10-13/featured.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1123,7 +1142,7 @@ Puedes revisar el vídeo de su participación en el siguiente .
 <a href="../noticias/2022-09-12/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2022-09-12/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2022-09-12/featured.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1150,7 +1169,7 @@ Todos los años el Centro de Estudios de Conflicto y Cohesión Social (COES) abr
 <a href="../noticias/2022-09-06/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2022-09-06/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2022-09-06/featured.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1177,7 +1196,7 @@ El estudio revela que el 88% de los chilenos les han perdido el respeto a las au
 <a href="../noticias/2022-06-03/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2022-06-03/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2022-06-03/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1204,7 +1223,7 @@ Noticia
 <a href="../noticias/2022-03-22/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2022-03-22/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2022-03-22/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1231,7 +1250,7 @@ Noticia
 <a href="../noticias/2022-01-17/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2022-01-17/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2022-01-17/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1259,7 +1278,7 @@ Noticia
 <a href="../noticias/2021-03-31/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2021-03-31/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2021-03-31/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1287,7 +1306,7 @@ Noticia
 <a href="../noticias/2021-03-30/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2021-03-30/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2021-03-30/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1315,7 +1334,7 @@ Noticia
 <a href="../noticias/2021-03-26/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2021-03-26/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2021-03-26/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1343,7 +1362,7 @@ Noticia
 <a href="../noticias/2020-09-22/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" data-src="../noticias/2020-09-22/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="../noticias/2020-09-22/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1366,16 +1385,23 @@ Noticia
 </div>
 </div>
 </a>
-</div>
-<p>:::</p>
+</div></div></div></div></div></div></div></div></div></div></div>
+
+
+
+
+
+
+
+
+
+
 <div class="listing-no-matching d-none">
 No hay resultados
 </div>
 <nav id="listing-noticias-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
-<p>:::</p>
-<p>:::</p>
 
 </div>
 </div></main></div>
@@ -1862,7 +1888,8 @@ document.addEventListener('DOMContentLoaded', function() {
   if (v) v.playbackRate = 0.6;
 });
 </script>
-<script src="noticias-click.js"></script>
+<script src="noticias-click.js" defer=""></script>
+<script src="noticias-listing-fix.js" defer=""></script>
 
 
 

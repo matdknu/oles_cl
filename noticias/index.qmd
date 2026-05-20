@@ -7,11 +7,33 @@ listing:
   sort: "date desc"
   categories: true
   fields: [image, date, title, description, categories]
-  page-size: 20
+  page-size: 12
   filter-ui: true
-include-after-body:
-  - text: |
-      <script src="noticias-click.js"></script>
+format:
+  html:
+    include-in-header:
+      - text: |
+          <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            var container = document.getElementById("listing-listing-noticias");
+            var grid = container && container.querySelector(".list.grid");
+            var nav = document.getElementById("listing-noticias-pagination");
+            var nomatch = container && container.querySelector(".listing-no-matching");
+            if (container && grid && nav && nav.parentElement === grid) {
+              container.appendChild(nav);
+            }
+            if (container && grid && nomatch && nomatch.parentElement === grid) {
+              container.appendChild(nomatch);
+            }
+            if (grid) {
+              window.__NOTICIAS_ITEMS = Array.from(grid.querySelectorAll(".g-col-1"));
+            }
+          }, true);
+          </script>
+    include-after-body:
+      - text: |
+          <script src="noticias-click.js" defer></script>
+          <script src="noticias-listing-fix.js" defer></script>
 ---
 
-Últimas noticias y novedades del Observatorio de Violencia y Legitimidad Social.
+Últimas noticias y novedades del Observatorio de Violencia y Legitimidad Social. Hay **41 noticias** publicadas; navega por páginas al final del listado.

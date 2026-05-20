@@ -186,7 +186,7 @@ toc: false
 
 <div class="estudios-proyectos-page">
 <div class="estudios-intro">
-  <h2 data-i18n="estudios.titulo">Proyectos de Investigación</h2>
+  <p data-i18n="estudios.resena">Proyectos de investigadoras/es de OLES, en curso y finalizado.</p>
 </div>
 
 <div class="estudios-grid" id="estudios-proyectos-grid">
@@ -256,18 +256,32 @@ ruta_fm_estudio <- function(slug) {
 
 cards <- list(
   list(slug = "fondecyt-rethinking", picsum = "olesproj-longitudinal", lineas = "1",
+       imagen = "../images/estudios/proyecto-fondecyt-miedo-crimen.jpg",
+       imagen_alt = "Carabinero dirigiendo el tránsito en una calle de Chile",
        titulo_tarjeta = "Repensando el empoderamiento policial: significados y consecuencias"),
   list(slug = "fondecyt-ana-grupos-minoritarios", picsum = "olesproj-ana-grupos", lineas = "1",
+       imagen = "../images/estudios/proyecto-grupos-minoritarios.jpg",
+       imagen_alt = "Persona sosteniendo un retrato en una manifestación",
        titulo_tarjeta = "¿Cómo se relacionan los grupos minoritarios en Chile en su interacción con la policía?"),
   list(slug = "esep", picsum = "olesproj-esep", lineas = "1",
+       imagen = "../images/estudios/proyecto-epsep-panel.jpg",
+       imagen_alt = "Gráfico de distribución de datos del estudio panel",
        titulo_tarjeta = "Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP, 2024-2028)"),
   list(slug = "fondecyt-loreto-seguridad-derecho", picsum = "olesproj-loreto-derecho", lineas = "1",
+       imagen = "../images/estudios/proyecto-seguridad-derecho.jpg",
+       imagen_alt = "Personal táctico en operativo de seguridad en vía pública",
        titulo_tarjeta = "La seguridad como derecho: la conciencia jurídica de la ciudadanía frente al delito"),
   list(slug = "exploracion", picsum = "olesproj-grupos-focales", lineas = "1",
+       imagen = "../images/estudios/proyecto-legitimidad-exploracion.jpg",
+       imagen_alt = "Mapa mundial con datos de percepciones de seguridad",
        titulo_tarjeta = "Legitimidad de las policías en Chile (Exploración)"),
   list(slug = "esep-transversal-2023-2024", picsum = "olesproj-esep-trans", lineas = "1",
+       imagen = "../images/estudios/proyecto-esep-transversal.jpg",
+       imagen_alt = "Gráfico de líneas con tendencias de datos de encuesta",
        titulo_tarjeta = "Estudio de Percepciones de Seguridad y Policías en Chile (ESEP, 2023-2024)"),
   list(slug = "encuesta-legitimidad-carabineros-2021-2022", picsum = "olesproj-carabineros", lineas = "1",
+       imagen = "../images/estudios/proyecto-encuesta-carabineros.jpg",
+       imagen_alt = "Carabinero dirigiendo el tránsito, visto desde atrás",
        titulo_tarjeta = "Encuesta de Legitimidad de Carabineros (2021–2022)")
 )
 
@@ -297,11 +311,19 @@ for (row in cards) {
 
   dados_lineas_attr <- if (nzchar(lineas_raw)) sprintf(' data-lineas="%s"', lineas_raw) else ""
 
+  img_local <- row$imagen %||% ""
+  img_src <- if (nzchar(img_local)) {
+    img_local
+  } else {
+    sprintf("https://picsum.photos/seed/%s/640/360", picsum)
+  }
+  img_alt <- esc_html(row$imagen_alt %||% "")
+
   out <- paste0(out, sprintf(
     paste0(
       '<a href="%s.html" class="estudio-card"%s>\n',
       '  <div class="estudio-card-img-wrap">\n',
-      '    <img src="https://picsum.photos/seed/%s/640/360" alt="" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async" referrerpolicy="no-referrer">\n',
+      '    <img src="%s" alt="%s" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async"%s>\n',
       "  </div>\n",
       '  <div class="estudio-card-body">\n',
       '    <span class="%s">%s</span>\n',
@@ -312,7 +334,9 @@ for (row in cards) {
     ),
     slug,
     dados_lineas_attr,
-    picsum,
+    img_src,
+    img_alt,
+    if (grepl("^https?://", img_src)) ' referrerpolicy="no-referrer"' else "",
     estado_class,
     estado_lab,
     esc_html(titulo_mostrar),

@@ -2,10 +2,13 @@ project:
   type: website
   output-dir: docs
   pre-render: compilar_publicaciones_perfiles.R
+  post-render: patch_noticias_listing.R
   resources:
     - images/logos/download.mp4
     # Asegura que todas las fotos del equipo lleguen a docs/ (evita rotas si un render no touchó cada perfil).
     - equipo/image/*
+    - noticias/noticias-click.js
+    - noticias/noticias-listing-fix.js
 
 website:
   # Sitio en producción hoy: Netlify. Cuando migres a www.oles.cl, cambia site-url y ver DOMINIO-OLES.md
