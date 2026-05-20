@@ -1,6 +1,6 @@
 ---
-title: "Acerca de OLES"
-pagetitle: "Acerca de OLES"
+title: "Sobre OLES"
+pagetitle: "Sobre OLES"
 format:
   html:
     toc: true

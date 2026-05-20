@@ -2948,6 +2948,56 @@ h1.title {
    Estilos para Listing de Noticias
    ===================================================== */
 
+/* Índice /noticias/ — ancho amplio, 4 columnas, sin filtros laterales */
+.noticias-index-page #quarto-content {
+  max-width: none !important;
+  width: 100%;
+}
+
+.noticias-index-page #quarto-margin-sidebar,
+.noticias-index-page .listing-actions-group,
+.noticias-index-page .quarto-listing-category-title,
+.noticias-index-page .quarto-listing-category {
+  display: none !important;
+}
+
+.noticias-index-page #quarto-document-content {
+  max-width: min(1440px, 96vw);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1rem, 3vw, 2.5rem);
+  padding-right: clamp(1rem, 3vw, 2.5rem);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.noticias-index-page #listing-listing-noticias {
+  width: 100%;
+  max-width: none;
+}
+
+.noticias-index-page #listing-listing-noticias .list.grid {
+  gap: 1.25rem;
+}
+
+@media (max-width: 1200px) {
+  .noticias-index-page #listing-listing-noticias .list.quarto-listing-cols-4 {
+    --quarto-listing-grid-columns: 3;
+  }
+}
+
+@media (max-width: 900px) {
+  .noticias-index-page #listing-listing-noticias .list.quarto-listing-cols-4 {
+    --quarto-listing-grid-columns: 2;
+  }
+}
+
+@media (max-width: 520px) {
+  .noticias-index-page #listing-listing-noticias .list.quarto-listing-cols-4 {
+    --quarto-listing-grid-columns: 1;
+  }
+}
+
 /* Grid de noticias */
 .quarto-listing-grid {
   display: grid;

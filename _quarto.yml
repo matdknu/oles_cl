@@ -22,7 +22,7 @@ website:
     left:
       - text: "Inicio"
         href: index.qmd
-      - text: "Acerca de OLES"
+      - text: "Sobre OLES"
         href: somos.qmd
       - text: "Noticias"
         href: noticias/index.qmd

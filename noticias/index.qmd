@@ -1,16 +1,20 @@
 ---
 title: "Noticias"
+page-layout: full
+toc: false
 listing:
   id: listing-noticias
   contents: "*/index.qmd"
   type: grid
+  grid-columns: 4
   sort: "date desc"
-  categories: true
-  fields: [image, date, title, description, categories]
+  categories: false
+  fields: [image, date, title, description]
   page-size: 12
-  filter-ui: true
+  filter-ui: false
 format:
   html:
+    body-classes: noticias-index-page
     include-in-header:
       - text: |
           <script>
@@ -35,5 +39,3 @@ format:
           <script src="noticias-click.js" defer></script>
           <script src="noticias-listing-fix.js" defer></script>
 ---
-
-Últimas noticias y novedades del Observatorio de Violencia y Legitimidad Social. Hay **41 noticias** publicadas; navega por páginas al final del listado.

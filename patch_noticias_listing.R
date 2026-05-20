@@ -16,7 +16,7 @@ if (!file.exists(f)) {
 
   # Cerrar .list.grid antes de no-matching y nav (List.js borra nodos que no son ítems)
   html <- gsub(
-    "(<div class=\"list grid quarto-listing-cols-3\">\\s*)([\\s\\S]*?)(\\s*<div class=\"listing-no-matching)",
+    "(<div class=\"list grid quarto-listing-cols-[34]\">\\s*)([\\s\\S]*?)(\\s*<div class=\"listing-no-matching)",
     "\\1\\2</div>\n\\3",
     html,
     perl = TRUE
