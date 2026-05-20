@@ -2595,5 +2595,40 @@
     "title": "Publicar en www.oles.cl (cuando quieras migrar)",
     "section": "",
     "text": "Mientras uses Netlify, _quarto.yml debe tener site-url: https://oles-cl.netlify.app (así sitemap/robots no apuntan a oles.cl antes de tiempo).\nSi el repo es privado, GitHub Pages en plan gratuito de cuenta personal puede tener límites; en organizaciones revisa el plan.\nTamaño actual de docs/: ~200 MB; compatible con GitHub Pages (límite orientativo ~1 GB por sitio)."
+  },
+  {
+    "objectID": "equipo/asistentes-anteriores/bruno-rojas.html",
+    "href": "equipo/asistentes-anteriores/bruno-rojas.html",
+    "title": "Bruno Rojas",
+    "section": "",
+    "text": "Licenciado en historia, Magister en Ciencias Sociales de la Universidad de Chile. Sus principales líneas de investigación se enmarcan tanto en la sociología moral y política como los estudios urbanos y migratorios. Sus intereses se centran en la relación entre sentimientos de injusticia y las percepciones sobre la política y las instituciones, la migración y las relaciones de convivencia en espacios urbanos, fronteras simbólicas y desigualdades sociales, sectores populares y su relación con la política. Actualmente es becario Fulbright, beneficio que le permitirá estudiar un PhD en Estados Unidos."
+  },
+  {
+    "objectID": "equipo/asistentes-anteriores/bruno-rojas.html#descripción",
+    "href": "equipo/asistentes-anteriores/bruno-rojas.html#descripción",
+    "title": "Bruno Rojas",
+    "section": "",
+    "text": "Licenciado en historia, Magister en Ciencias Sociales de la Universidad de Chile. Sus principales líneas de investigación se enmarcan tanto en la sociología moral y política como los estudios urbanos y migratorios. Sus intereses se centran en la relación entre sentimientos de injusticia y las percepciones sobre la política y las instituciones, la migración y las relaciones de convivencia en espacios urbanos, fronteras simbólicas y desigualdades sociales, sectores populares y su relación con la política. Actualmente es becario Fulbright, beneficio que le permitirá estudiar un PhD en Estados Unidos."
+  },
+  {
+    "objectID": "equipo/asistentes-anteriores/bruno-rojas.html#áreas-de-interés",
+    "href": "equipo/asistentes-anteriores/bruno-rojas.html#áreas-de-interés",
+    "title": "Bruno Rojas",
+    "section": "Áreas de Interés",
+    "text": "Áreas de Interés\n\nRelaciones Intergrupales\nLegitimación de la Violencia\nSociología moral y política\nEstudios urbanos y migratorios"
+  },
+  {
+    "objectID": "equipo/asistentes-anteriores/bruno-rojas.html#educación",
+    "href": "equipo/asistentes-anteriores/bruno-rojas.html#educación",
+    "title": "Bruno Rojas",
+    "section": "Educación",
+    "text": "Educación\n\nMagíster en Sociología - Universidad de Chile\nLicenciado en Historia - Universidad de Chile"
+  },
+  {
+    "objectID": "equipo/asistentes-anteriores/bruno-rojas.html#últimas-publicaciones",
+    "href": "equipo/asistentes-anteriores/bruno-rojas.html#últimas-publicaciones",
+    "title": "Bruno Rojas",
+    "section": "Últimas publicaciones",
+    "text": "Últimas publicaciones\n\nHow do people relate to the police? A qualitative study on motivational postures in Chile — Sáez, L., Gerber, M. M., Orchard, M., Rojas, B., & Figueiredo, A. (2025). How do people relate to the police? A qualitative study on motivational postures towards the police in Chile. Journal of Politics in Latin America, 18(1), 61–85. DOI\nHow do individuals interact with the police? — Gerber, M. M., Sáez-Fuentealba, L., Bahamondes, J., Figueiredo, A., Moya, C., Rojas, B., Orchard, M., & Tobar Jorquera, N. (2025). Peace and Conflict: Journal of Peace Psychology. DOI\n\n← Volver a Asistentes anteriores"
   }
 ]
