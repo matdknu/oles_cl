@@ -11,11 +11,6 @@ toc: false
 - [Ismael Puga](../../equipo/ismael-puga.html)
 - [Sofía Donoso](../../equipo/sofia-donoso.html)
 
-## Proyectos asociados
-
-- [Fondecyt Ismael Puga](../protesta-social-violencia.html)
-- [Fondecyt Sofía Donoso](../fondecyt-sofia-donoso.html)
-
 </div>
 
 <p class="lineas-index-back"><a href="../lineas.html">← Volver a Líneas de investigación</a></p>

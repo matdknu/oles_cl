@@ -181,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="reducir-peso-del-sitio-prioritario" class="level3">
 <h3 class="anchored" data-anchor-id="reducir-peso-del-sitio-prioritario">1. Reducir peso del sitio (prioritario)</h3>
 <ul>
-<li><strong>Videos en la portada:</strong> <code>video_entrada.mp4</code> y <code>video-entrada-nuevo.mov</code> suman ~10 MB. Si puedes:
+<li><strong>Video en la portada:</strong> solo <code>images/logos/download.mp4</code>. Si puedes:
 <ul>
 <li>Dejar solo <strong>una</strong> versión en MP4 (mejor compatibilidad y menor tamaño).</li>
 <li>Comprimir el video (resolución moderada, bitrate bajo) o subirlo a YouTube/Vimeo y embeber.</li>
@@ -353,7 +353,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/oles-cl\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

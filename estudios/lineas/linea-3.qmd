@@ -11,11 +11,6 @@ toc: false
 - [Macarena Orchard](../../equipo/macarena-orchard.html)
 - [Gloria Jiménez-Moya](../../equipo/gloria-jimenez-moya.html)
 
-## Proyectos asociados
-
-- [Fondecyt Macarena Orchard](../fondecyt-macarena-orchard.html)
-- [Fondecyt Gloria Jiménez-Moya](../fondecyt-gloria-jimenez-moya.html)
-
 </div>
 
 <p class="lineas-index-back"><a href="../lineas.html">← Volver a Líneas de investigación</a></p>

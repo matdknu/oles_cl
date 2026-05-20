@@ -122,6 +122,23 @@ format:
   filter: drop-shadow(0 4px 8px rgba(0,0,0,0.08));
 }
 
+.instituciones-logos-wrap {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  text-align: center;
+}
+
+.instituciones-logos-wrap img {
+  width: 100%;
+  max-width: 920px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .fondo-card h4 {
   color: #4E4976;
   margin: 0;
@@ -171,28 +188,8 @@ El Observatorio de Violencia y Legitimidad Social (OLES) es una plataforma de in
 <h2>Instituciones</h2>
 <p>OLES se encuentra asociado a las siguientes instituciones:</p>
 
-<div class="fondos-grid">
-  <div class="fondo-card">
-    <img src="images/logos/oles_udp.png" alt="UDP">
-  </div>
-  <div class="fondo-card">
-    <img src="images/logos/logo-uoh.png" alt="UOH">
-  </div>
-  <div class="fondo-card">
-    <img src="images/logos/Logo-UC-1.png" alt="UC">
-  </div>
-  <div class="fondo-card">
-    <img src="images/logos/ucn-logo.png" alt="UCN">
-  </div>
-  <div class="fondo-card">
-    <img src="images/logos/uchile-logo.svg" alt="UChile">
-  </div>
-  <div class="fondo-card">
-    <img src="images/logos/diw.png" alt="DIW">
-  </div>
-  <div class="fondo-card">
-    <img src="images/logos/ucentral-logo.png" alt="UCentral">
-  </div>
+<div class="instituciones-logos-wrap">
+  <img src="images/logos/instituciones-logos.png" alt="Instituciones asociadas a OLES: Escuela de Gobierno UC, Universidad de Chile, UDP, Universidad de O'Higgins, UCN, UCEN, DIW SOEP y COES" width="920" height="605">
 </div>
 </div>
 
