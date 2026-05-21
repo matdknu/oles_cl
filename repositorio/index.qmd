@@ -31,6 +31,7 @@ toc: false
   <p class="epsep-card-subtitle">
     Este estudio ha sido financiado por los proyectos ANID Fondecyt Regular N. 1221805, N. 1261483 y N. 1251411, así como por el proyecto ANID Exploración N. 13220187.
   </p>
+  <p class="epsep-proximamente" role="status">Próximamente acceso a datos y a manual de uso</p>
   <div class="epsep-buttons">
     <a class="epsep-btn epsep-btn-primary"
        href="https://olescl.quarto.pub/informe_w04/#/title-slide"

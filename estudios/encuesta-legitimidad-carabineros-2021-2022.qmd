@@ -1,7 +1,7 @@
 ---
 title: "Encuesta de Legitimidad de Carabineros. Violencia, Derechos Humanos y Control Social (2021–2022)"
 estado: "finalizado"
-etiqueta: "fondecyt"
+etiqueta: "Fondecyt Regular"
 linea: "1"
 investigador_responsable: "Monica Gerber, Ana Figueiredo, Macarena Orchard"
 format:

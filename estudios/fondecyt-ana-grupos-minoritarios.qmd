@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo se relacionan y se posicionan los grupos minoritarios en Chile en su interacción con la policía? Un análisis multiactor de la justicia procedimental y las posturas motivacionales"
 estado: "en-curso"
-etiqueta: "fondecyt"
+etiqueta: "Fondecyt Regular"
 linea: "1"
 investigador_responsable: "Ana Figueiredo"
 format:

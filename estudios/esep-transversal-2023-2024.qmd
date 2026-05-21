@@ -1,7 +1,7 @@
 ---
 title: "Estudio de Percepciones de Seguridad y Policías en Chile (ESEP, 2023-2024)"
 estado: "finalizado"
-etiqueta: "fondecyt"
+etiqueta: "Fondecyt Regular"
 linea: "1"
 investigador_responsable: "Monica Gerber"
 format:

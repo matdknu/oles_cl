@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../somos.html"> 
-<span class="menu-text">Acerca de OLES</span></a>
+<span class="menu-text">Sobre OLES</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../noticias/index.html"> 
@@ -191,6 +191,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="featured-image">
+<p><img src="featured.jpg" class="img-fluid"></p>
+</div>
 <p>El pasado 30 de marzo, el Observatorio de Violencia y Legitimidad Social (OLES) realizó en la Universidad Católica la mesa redonda <strong>“¿El precio de la seguridad? Punitivismo, empoderamiento policial y libertades ciudadanas en el Chile actual”</strong>, un espacio de reflexión en torno a los desafíos de las políticas de seguridad en el contexto actual.</p>
 <section id="un-diálogo-interdisciplinario" class="level2">
 <h2 class="anchored" data-anchor-id="un-diálogo-interdisciplinario">Un diálogo interdisciplinario</h2>
@@ -234,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="footer-col">
         <h4>Enlaces</h4>
         <a href="../../">Inicio</a>
-        <a href="../../somos.html">Acerca de OLES</a>
+        <a href="../../somos.html">Sobre OLES</a>
         <a href="../../noticias/">Noticias</a>
         <a href="../../equipo/">Equipo</a>
         <a href="../../contacto.html">Contacto</a>
@@ -343,7 +346,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/oles-cl\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

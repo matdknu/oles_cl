@@ -1,7 +1,7 @@
 ---
 title: "Estudio Panel de Percepciones de Seguridad y Policías en Chile (EPSEP, 2024-2028)"
 estado: "en-curso"
-etiqueta: "fondecyt"
+etiqueta: "Fondecyt Regular"
 linea: "1"
 investigador_responsable: "Monica Gerber"
 format:

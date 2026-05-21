@@ -1,7 +1,7 @@
 ---
 title: "Repensando el empoderamiento policial: significados y consecuencias"
 estado: "en-curso"
-etiqueta: "fondecyt"
+etiqueta: "Fondecyt Regular"
 linea: "1"
 investigador_responsable: "Monica Gerber"
 aliases:

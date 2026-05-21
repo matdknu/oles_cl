@@ -196,7 +196,7 @@ toc: false
 #| echo: false
 #| results: asis
 
-# Tarjetas de proyectos en /estudios/: estado y etiqueta (opcional) desde frontmatter;
+# Tarjetas de proyectos en /estudios/: estado y financiamiento (campo etiqueta en YAML) desde frontmatter;
 # orden, picsum/seed y algunos titulos públicos siguen definidos aquí por diseño editorial.
 `%||%` <- function(x, y) {
   if (is.null(x) || length(x) == 0) return(y)
@@ -274,7 +274,7 @@ cards <- list(
   list(slug = "exploracion", picsum = "olesproj-grupos-focales", lineas = "1",
        imagen = "../images/estudios/proyecto-legitimidad-exploracion.jpg",
        imagen_alt = "Mapa mundial con datos de percepciones de seguridad",
-       titulo_tarjeta = "Legitimidad de las policías en Chile (Exploración)"),
+       titulo_tarjeta = "Legitimidad de las policías en Chile"),
   list(slug = "esep-transversal-2023-2024", picsum = "olesproj-esep-trans", lineas = "1",
        imagen = "../images/estudios/proyecto-esep-transversal.jpg",
        imagen_alt = "Gráfico de líneas con tendencias de datos de encuesta",
@@ -305,7 +305,7 @@ for (row in cards) {
 
   etq_trim <- trimws(fm$etiqueta)
   etq_esc <- ""
-  tt <- trimws(gsub("^#+", "", etq_trim))
+  tt <- etq_trim
   if (nzchar(tt))
     etq_esc <- sprintf('<span class="estudio-etiqueta">%s</span>', esc_html(tt))
 

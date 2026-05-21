@@ -1,7 +1,7 @@
 ---
 title: "La seguridad como derecho: la conciencia jurídica de la ciudadanía frente al delito en Chile"
 estado: "en-curso"
-etiqueta: "fondecyt"
+etiqueta: "Fondecyt Iniciación"
 linea: "1"
 investigador_responsable: "Loreto Quiroz"
 format:

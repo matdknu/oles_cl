@@ -1,7 +1,7 @@
 ---
 title: "El derecho a la seguridad y la agencia ciudadana frente al delito en Chile"
 estado: "en-curso"
-etiqueta: "fondecyt"
+etiqueta: "Fondecyt Regular"
 investigador_responsable: "Loreto Quiroz"
 format:
   html:

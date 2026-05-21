@@ -1,13 +1,15 @@
 ---
 title: "Legitimidad de las policías en Chile: el efecto causal de la violencia y la corrupción desde una perspectiva multi-actor, longitudinal y multi-métodos"
-estado: "en-curso"
-etiqueta: "exploracion"
+estado: "finalizado"
+etiqueta: "Fondecyt Exploración"
 linea: "1"
 investigador_responsable: "Monica Gerber, Claudio Fuentes"
 format:
   html:
     body-classes: estudio-page
 ---
+
+<p class="estudio-estado-banner"><span class="estudio-estado finalizado-morado">Finalizado</span></p>
 
 :::{.estudio-layout}
 :::{.estudio-col-izq}
