@@ -11,8 +11,8 @@ project:
     - noticias/noticias-listing-fix.js
 
 website:
-  # Sitio en producción hoy: Netlify. Cuando migres a www.oles.cl, cambia site-url y ver DOMINIO-OLES.md
-  site-url: https://oles-cl.netlify.app
+  # Producción: Netlify + dominio www.oles.cl (DNS en NIC → nameservers Netlify)
+  site-url: https://www.oles.cl
   title: ""
   favicon: images/logos/icon.png
   navbar:
