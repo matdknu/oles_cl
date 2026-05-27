@@ -265,8 +265,8 @@ ruta_fm_estudio <- function(slug) {
 
 cards <- list(
   list(slug = "fondecyt-gloria-jimenez-moya", picsum = "olesproj-gloria-genero", lineas = "1",
-       imagen = "../images/estudios/proyecto-grupos-minoritarios.jpg",
-       imagen_alt = "Estudiantes en contexto escolar compartiendo en sala de clases",
+       imagen = "../images/estudios/proyecto-igualdad-genero-escolar.png",
+       imagen_alt = "Patio escolar con estudiantes en un colegio",
        titulo_tarjeta = "Promoviendo la igualdad de género en el contexto escolar: El rol de las normas sociales y la auto-eficacia.",
        etiqueta_tarjeta = "Fondecyt Regular"),
   list(slug = "nucleo-milenio-asor", picsum = "olesproj-asor", lineas = "1",
@@ -276,8 +276,8 @@ cards <- list(
        titulo_tarjeta = "Instituto Milenio para la Autoridad y Regulación Social",
        etiqueta_tarjeta = "Instituto Milenio Anid"),
   list(slug = "fondecyt-rethinking", picsum = "olesproj-longitudinal", lineas = "1",
-       imagen = "../images/estudios/proyecto-fondecyt-miedo-crimen.jpg",
-       imagen_alt = "Carabinero dirigiendo el tránsito en una calle de Chile",
+       imagen = "../images/estudios/proyecto-empoderamiento-policial.png",
+       imagen_alt = "Uniforme de Carabineros de Chile con chaleco táctico",
        titulo_tarjeta = "Repensando el empoderamiento policial: significados y consecuencias"),
   list(slug = "fondecyt-ana-grupos-minoritarios", picsum = "olesproj-ana-grupos", lineas = "1",
        imagen = "../images/estudios/proyecto-grupos-minoritarios.jpg",
