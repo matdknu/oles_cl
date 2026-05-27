@@ -21,7 +21,8 @@ format:
 
 ## Asistentes de investigación
 
-Nicolás Tobar
+- Nicolás Tobar
+- [Matías Deneken](../equipo/matias-deneken.html)
 
 ## Años
 
