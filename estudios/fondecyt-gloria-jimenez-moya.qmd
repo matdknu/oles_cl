@@ -1,8 +1,7 @@
 ---
-title: "Fondecyt — Gloria Jiménez-Moya"
+title: "Fondecyt Regular: Promoviendo la igualdad de género en el contexto escolar: El rol de las normas sociales y la auto-eficacia (1240064)"
 estado: "en-curso"
-etiqueta: "Fondecyt Regular"
-investigador_responsable: "Gloria Jiménez-Moya"
+etiqueta: "Investigadora principal: Gloria Jiménez"
 format:
   html:
     body-classes: estudio-page
@@ -10,19 +9,19 @@ format:
 
 :::{.estudio-layout}
 :::{.estudio-col-izq}
-## Investigador responsable
+## Investigadora principal
 
-[Gloria Jiménez-Moya](../equipo/gloria-jimenez-moya.html)
+[Gloria Jiménez](../equipo/gloria-jimenez-moya.html)
 :::
 
 :::{.estudio-col-der}
 ## Introducción
 
-Proyecto en curso del OLES. Información detallada próximamente.
+Más información pronto.
 
 ## Métodos
 
-Metodología y avances se publicarán cuando el estudio lo permita.
+Más información pronto.
 :::
 :::
 

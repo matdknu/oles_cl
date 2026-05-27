@@ -3501,20 +3501,19 @@ body:not(.quarto-listing-page) #quarto-content article:not(.publicacion-card) {
   }
 }
 
-/* Left column: team card - STICKY FIJO EN TODOS LOS PROYECTOS */
+/* Left column: fixed in normal flow (no sticky on scroll) */
 .estudio-page .estudio-col-izq {
-  position: -webkit-sticky !important;
-  position: sticky !important;
-  top: 1rem !important;
+  position: static !important;
+  top: auto !important;
   align-self: start;
-  max-height: calc(100vh - 2rem);
-  overflow-y: auto;
+  max-height: none;
+  overflow: visible;
   background: linear-gradient(180deg, #faf9fc 0%, #f3f1f8 100%);
   border: 1px solid #e8e6f0;
   border-radius: 16px;
   padding: 1.75rem;
   box-shadow: 0 4px 24px rgba(78, 73, 118, 0.08);
-  will-change: transform;
+  will-change: auto;
   z-index: 10;
 }
 

@@ -1,0 +1,36 @@
+---
+title: "Instituto Milenio para la Autoridad y Regulación Social (ASOR)"
+estado: "en-curso"
+etiqueta: "Instituto Milenio ASOR"
+format:
+  html:
+    body-classes: estudio-page
+---
+
+:::{.estudio-layout}
+:::{.estudio-col-izq}
+## Participantes OLES
+
+En este núcleo participan investigadoras/es de OLES:
+
+- [Joaquín Bahamondes](../equipo/joaquin-bahamondes.html)
+- [Ismael Puga](../equipo/ismael-puga.html)
+- [Macarena Orchard](../equipo/macarena-orchard.html)
+- [Amparo Feller](../equipo/amparo-feller.html)
+- [Ana Figueiredo](../equipo/ana-figueiredo.html)
+
+## Financiamiento
+
+Instituto Milenio para la Autoridad y Regulación Social (ASOR). Agencia Nacional de Investigación y Desarrollo (ANID); ANID-MILENIO-ICS2025_02.
+:::
+
+:::{.estudio-col-der}
+## Sobre ASOR
+
+El Instituto Milenio Autoridad y Regulación Social (ASOR) tiene por objetivo desarrollar investigación interdisciplinaria de frontera sobre la desestabilización y reconfiguración de la autoridad en la sociedad chilena y sus impactos en la regulación social. Las tensiones en la autoridad se manifiestan, por ejemplo, en el cuestionamiento de la autoridad escolar, el impacto de la autoridad digital en roles de autoridad, o el ascenso de liderazgos autoritarios.
+:::
+:::
+
+:::{.estudio-back-wrap}
+[← Volver a Proyectos de Investigación](index.html)
+:::

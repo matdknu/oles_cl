@@ -67,7 +67,7 @@ toc: false
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: none;
   text-decoration: none !important;
   color: #1a1224;
   display: flex;
@@ -79,8 +79,8 @@ toc: false
 }
 
 .estudio-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  transform: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   text-decoration: none !important;
   color: #1a1224;
 }
@@ -182,6 +182,15 @@ toc: false
   filter: brightness(1.08) saturate(0.88) contrast(0.96);
 }
 
+.estudio-card-img-wrap .estudio-card-img--logo {
+  object-fit: contain;
+  object-position: center center;
+  padding: 0.65rem 0.85rem;
+  transform: translateY(0);
+  filter: invert(1);
+  background: #ffffff;
+}
+
 </style>
 
 <div class="estudios-proyectos-page">
@@ -255,6 +264,17 @@ ruta_fm_estudio <- function(slug) {
 }
 
 cards <- list(
+  list(slug = "fondecyt-gloria-jimenez-moya", picsum = "olesproj-gloria-genero", lineas = "1",
+       imagen = "../images/estudios/proyecto-grupos-minoritarios.jpg",
+       imagen_alt = "Estudiantes en contexto escolar compartiendo en sala de clases",
+       titulo_tarjeta = "Promoviendo la igualdad de género en el contexto escolar: El rol de las normas sociales y la auto-eficacia.",
+       etiqueta_tarjeta = "Fondecyt Regular"),
+  list(slug = "nucleo-milenio-asor", picsum = "olesproj-asor", lineas = "1",
+       imagen = "../images/estudios/nucleo-milenio-asor.png",
+       imagen_alt = "Logo del Instituto Milenio Autoridad y Regulación Social (ASOR)",
+       imagen_class = "estudio-card-img--logo",
+       titulo_tarjeta = "Instituo Mileni",
+       etiqueta_tarjeta = "Instituto Milenio AID"),
   list(slug = "fondecyt-rethinking", picsum = "olesproj-longitudinal", lineas = "1",
        imagen = "../images/estudios/proyecto-fondecyt-miedo-crimen.jpg",
        imagen_alt = "Carabinero dirigiendo el tránsito en una calle de Chile",
@@ -303,7 +323,8 @@ for (row in cards) {
   }
   if (!nzchar(paste0("", titulo_mostrar))) titulo_mostrar <- slug
 
-  etq_trim <- trimws(fm$etiqueta)
+  etq_source <- row$etiqueta_tarjeta %||% fm$etiqueta
+  etq_trim <- trimws(etq_source)
   etq_esc <- ""
   tt <- etq_trim
   if (nzchar(tt))
@@ -318,12 +339,18 @@ for (row in cards) {
     sprintf("https://picsum.photos/seed/%s/640/360", picsum)
   }
   img_alt <- esc_html(row$imagen_alt %||% "")
+  img_extra_class <- trimws(row$imagen_class %||% "")
+  img_class <- if (nzchar(img_extra_class)) {
+    paste("estudio-card-img", img_extra_class)
+  } else {
+    "estudio-card-img"
+  }
 
   out <- paste0(out, sprintf(
     paste0(
       '<a href="%s.html" class="estudio-card"%s>\n',
       '  <div class="estudio-card-img-wrap">\n',
-      '    <img src="%s" alt="%s" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async"%s>\n',
+      '    <img src="%s" alt="%s" class="%s" width="640" height="360" loading="lazy" decoding="async"%s>\n',
       "  </div>\n",
       '  <div class="estudio-card-body">\n',
       '    <span class="%s">%s</span>\n',
@@ -336,6 +363,7 @@ for (row in cards) {
     dados_lineas_attr,
     img_src,
     img_alt,
+    img_class,
     if (grepl("^https?://", img_src)) ' referrerpolicy="no-referrer"' else "",
     estado_class,
     estado_lab,

@@ -230,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: none;
   text-decoration: none !important;
   color: #1a1224;
   display: flex;
@@ -242,8 +242,8 @@ ul.task-list li input[type="checkbox"] {
 }
 
 .estudio-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  transform: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   text-decoration: none !important;
   color: #1a1224;
 }
@@ -345,6 +345,15 @@ ul.task-list li input[type="checkbox"] {
   filter: brightness(1.08) saturate(0.88) contrast(0.96);
 }
 
+.estudio-card-img-wrap .estudio-card-img--logo {
+  object-fit: contain;
+  object-position: center center;
+  padding: 0.65rem 0.85rem;
+  transform: translateY(0);
+  filter: invert(1);
+  background: #ffffff;
+}
+
 </style>
 
 <div class="estudios-proyectos-page">
@@ -353,6 +362,26 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 <div class="estudios-grid" id="estudios-proyectos-grid">
+<a href="fondecyt-gloria-jimenez-moya.html" class="estudio-card" data-lineas="1">
+  <div class="estudio-card-img-wrap">
+    <img src="../images/estudios/proyecto-grupos-minoritarios.jpg" alt="Estudiantes en contexto escolar compartiendo en sala de clases" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async">
+  </div>
+  <div class="estudio-card-body">
+    <span class="estudio-estado en-curso">En curso</span>
+    <h3 class="estudio-titulo anchored">Promoviendo la igualdad de género en el contexto escolar: El rol de las normas sociales y la auto-eficacia.</h3>
+    <span class="estudio-etiqueta">Fondecyt Regular</span>
+  </div>
+</a>
+<a href="nucleo-milenio-asor.html" class="estudio-card" data-lineas="1">
+  <div class="estudio-card-img-wrap">
+    <img src="../images/estudios/nucleo-milenio-asor.png" alt="Logo del Instituto Milenio Autoridad y Regulación Social (ASOR)" class="estudio-card-img estudio-card-img--logo" width="640" height="360" loading="lazy" decoding="async">
+  </div>
+  <div class="estudio-card-body">
+    <span class="estudio-estado en-curso">En curso</span>
+    <h3 class="estudio-titulo anchored">Instituo Mileni</h3>
+    <span class="estudio-etiqueta">Instituto Milenio AID</span>
+  </div>
+</a>
 <a href="fondecyt-rethinking.html" class="estudio-card" data-lineas="1">
   <div class="estudio-card-img-wrap">
     <img src="../images/estudios/proyecto-fondecyt-miedo-crimen.jpg" alt="Carabinero dirigiendo el tránsito en una calle de Chile" class="estudio-card-img" width="640" height="360" loading="lazy" decoding="async">

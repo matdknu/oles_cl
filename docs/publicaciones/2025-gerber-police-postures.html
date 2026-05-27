@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../somos.html"> 
-<span class="menu-text">Acerca de OLES</span></a>
+<span class="menu-text">Sobre OLES</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../noticias/index.html"> 
@@ -116,26 +116,19 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="../estudios/lineas.html">
- <span class="dropdown-text">Líneas de investigación</span></a>
+ <span class="dropdown-text">Líneas de Investigación</span></a>
   </li>  
         <li><hr class="dropdown-divider"></li>
         <li>
     <a class="dropdown-item" href="../publicaciones/index.html">
- <span class="dropdown-text">Publicaciones Académicas</span></a>
+ <span class="dropdown-text">Publicaciones</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-repositorio-de-datos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Repositorio de datos</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-repositorio-de-datos">    
-        <li>
-    <a class="dropdown-item" href="../repositorio/epsep.html">
- <span class="dropdown-text">EPSEP</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../repositorio/index.html"> 
+<span class="menu-text">Datos</span></a>
   </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="../equipo/index.html"> 
 <span class="menu-text">Equipo</span></a>
@@ -208,7 +201,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="footer-col">
         <h4>Enlaces</h4>
         <a href="../">Inicio</a>
-        <a href="../somos.html">Acerca de OLES</a>
+        <a href="../somos.html">Sobre OLES</a>
         <a href="../noticias/">Noticias</a>
         <a href="../equipo/">Equipo</a>
         <a href="../contacto.html">Contacto</a>
@@ -317,7 +310,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/oles-cl\.netlify\.app");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

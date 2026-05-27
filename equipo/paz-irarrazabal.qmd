@@ -1,5 +1,5 @@
 ---
-title: "Paz Irarrázabal González"
+title: "Paz Irarrázaval"
 cargo: "Profesora asistente, Facultad de Derecho"
 categories: [Investigadores principales]
 orden: 30
@@ -17,38 +17,50 @@ about:
 areas-interes:
   - "Poder punitivo del Estado"
   - "Control Policial"
+  - "Espacio público"
   - "Estudios socio-legales"
-  - "Igualitismo relacional"
+  - "Igualitarismo relacional"
   - "Teoría crítica del derecho"
 educacion:
   - titulo: "Ph.D"
     institucion: "King's College London"
   - titulo: "LLM"
-    institucion: "The London School and Economics"
+    institucion: "The London School of Economics and Political Science"
   - titulo: "Licenciada en Ciencias Jurídicas y Sociales"
     institucion: "Universidad de Chile"
 ---
 
 ## Descripción
 
-Es abogada y se desempeñó como académica e investigadora en la Universidad de Valparaiso y la UOH antes de integrarse a la Universidad de Chile el 2021. Actualmente se encuentra desarrollando su Fondecyt posdoctoral sobre Igualdad y control policial de trabajadores callejeros en Chile.
+Abogada de la Facultad de Derecho, Universidad de Chile, LLM en The London School of Economics and Political Science, PhD en King's College London. Actualmente es profesora asistente del Departamento de Derecho Público de la Facultad de Derecho, Universidad de Chile, donde imparte la cátedra de Derecho Constitucional. También imparte cursos en teoría política y criminología.
+
+Sus líneas de investigación se enmarcan en el estudio del poder punitivo del Estado y el control del espacio público, en particular el ejercido por las policías y autoridades locales. Utiliza metodología socio-legal con orientación normativa y ha trabajado con distintas teorías de igualdad en el marco teórico de sus investigaciones y en el ejercicio de la docencia.
+
+Previamente fue profesora de teoría política en la Facultad de Derecho y de criminología en la Escuela de Sociología, ambos en la Universidad de Valparaíso. Fue becaria posdoctoral del Instituto de Ciencias Sociales de la UOH, donde impartió clases de derecho constitucional y criminología en la carrera de derecho. Ingresó en 2021 como investigadora posdoctoral Fondecyt a la Facultad de Derecho de la Universidad de Chile. Ha realizado estancias de investigación en The New School (Nueva York), Birkbeck University (Londres) y UNAM (Ciudad de México).
 
 ## Áreas de Interés
 
 - Poder punitivo del Estado
 - Control Policial
+- Espacio público
 - Estudios socio-legales
-- Igualitismo relacional
+- Igualitarismo relacional
 - Teoría crítica del derecho
 
 ## Educación
 
 - **Ph.D** - King's College London
-- **LLM** - The London School and Economics
+- **LLM** - The London School of Economics and Political Science
 - **Licenciada en Ciencias Jurídicas y Sociales** - Universidad de Chile
 
 ## Últimas publicaciones
 
-{{< include _pub-paz-irarrazabal.md >}}
+- Irarrázabal, P. (2025). About "another" urban order control tools: Guards, filling agents and displacement. *Oñati Socio-Legal Series, 15*(4), 1530-1551. DOI: [10.35295/osls.iisl.2230](https://doi.org/10.35295/osls.iisl.2230). [https://opo.iisj.net/index.php/osls/article/view/2230](https://opo.iisj.net/index.php/osls/article/view/2230). ISSN 2079-5971.
+- Irarrázabal, P. (2023). Criminalización del desorden urbano y desconfianza: la presunción de respetabilidad en la policía preventiva. En Beade, Bracaccini y Mollis (eds.), *Castigo, proceso y teoría política* (pp. 73-97). Marcial Pons. ISBN 9788413817156.
+- Irarrázabal, P. (2022). Vagos, trabajadores callejeros e individuos peligrosos: Hitos de la historia del marco legal de las calles. *Revista de Estudios Histórico-Jurídicos, 44*(2), 465-489. DOI: [10.4067/S0716-54552022000100465](http://dx.doi.org/10.4067/S0716-54552022000100465). ISSN 0716-5455.
+- Irarrázabal, P. (2022). El marco legal del trabajo callejero: la imposición de un orden sin los trabajadores. *Revista de Derecho (Valdivia), 35*(2), 163-182. [https://doi.org/10.4067/S0718-09502022000200163](https://doi.org/10.4067/S0718-09502022000200163). ISSN 0718-0950.
+- Irarrázabal, P. (2021). Emergencia y orden público. El orden policial y económico en el debate público. En Contreras, P. (ed.), *La Ley de Emergencia: Ensayos sobre Derecho, La Excepción y la Pandemia* (pp. 201-214). Der Ediciones. ISBN 978-956-9959-91-2.
+- Irarrázabal, P. (2021). Public Order Discourse and Policing. En Charney, J., Marshall, P., & Christodoulidis, E., *'It Is Not 30 Pesos, It Is 30 Years': Reflections on the Chilean Crisis: Introduction*. *Social & Legal Studies, 30*(4), 627-668. [https://doi.org/10.1177/0964663920986432](https://doi.org/10.1177/0964663920986432). ISSN 0964-6639.
+- Irarrázabal, P. (2020). Desorden urbano y geografías de exclusión: regulación del orden y vigilancia de incivilidades. En Mayer, L. y Vargas, T. (eds.), *Mujeres en las ciencias penales. Una mirada desde el contexto jurídico chileno en las primeras décadas del siglo XXI* (pp. 33-73). Legal Publishing Chile. ISBN 978-956-400-161-6.
 
 <a href="index.html" class="btn-volver">← Volver al Equipo</a>
