@@ -1,7 +1,7 @@
 ---
 title: "Carlos Martínez"
 grado: "Licenciatura"
-universidad: "Universidad de Santiago de Chile"
+universidad: "Universidad de Chile"
 titulo_tesis: "Percepciones sobre la legitimidad policial en jóvenes urbanos"
 anio: "2024"
 estado: "finalizada"
