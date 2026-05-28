@@ -184,6 +184,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-doctorantes .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-doctorantes'] = new List('listing-doctorantes', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-asistentes .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -669,6 +697,30 @@ No hay resultados
 </div>
 </div>
 </section>
+<section id="doctorantes" class="level2 equipo-section">
+<h2 class="anchored" data-anchor-id="doctorantes">Doctorantes</h2>
+<div id="listing-doctorantes" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="Doctorantes" data-listing-file-modified-sort="1779960286932" data-listing-reading-time-sort="2" data-listing-word-count-sort="328">
+<a href="../equipo/tesistas/maria-teresa-valeria.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../equipo/image/maria-teresa-valeria.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+María Teresa Valeria Zambrano
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
+</section>
 <section id="asistentes-de-investigación" class="level2 equipo-section">
 <h2 class="anchored" data-anchor-id="asistentes-de-investigación">Asistentes de investigación</h2>
 <div id="listing-asistentes" class="quarto-listing quarto-listing-container-grid">
@@ -745,9 +797,10 @@ No hay resultados
 </div>
 </div>
 </section>
-<section id="jóvenes-investigadorases-en-formación" class="level3 equipo-bloque-generico">
-<h3 class="anchored" data-anchor-id="jóvenes-investigadorases-en-formación">Jóvenes investigadoras/es en formación</h3>
-<p>Integran tesistas de pregrado y postgrado, prácticas y proyectos formativos vinculados a las líneas del Observatorio. Consulta el listado en <a href="tesistas/index.html">tesistas y pasantes</a>.</p>
+<section id="investigadores-jóvenes" class="level3 equipo-bloque-generico">
+<h3 class="anchored" data-anchor-id="investigadores-jóvenes">Investigadores jóvenes</h3>
+<p>Revisa tesistas de Magíster, Licenciatura y pasantes en:</p>
+<p><a href="jovenes.html" class="btn-volver">Investigadores jóvenes</a></p>
 </section>
 </div>
 <p><a href="../index.html" class="btn-volver">← Volver al Inicio</a></p>

@@ -187,7 +187,7 @@ toc: false
   object-position: center center;
   padding: 0.65rem 0.85rem;
   transform: translateY(0);
-  filter: invert(1);
+  filter: none;
   background: #ffffff;
 }
 
@@ -270,8 +270,8 @@ cards <- list(
        titulo_tarjeta = "Promoviendo la igualdad de género en el contexto escolar: El rol de las normas sociales y la auto-eficacia.",
        etiqueta_tarjeta = "Fondecyt Regular"),
   list(slug = "nucleo-milenio-asor", picsum = "olesproj-asor", lineas = "1",
-       imagen = "../images/estudios/nucleo-milenio-asor.png",
-       imagen_alt = "Logo del Instituto Milenio Autoridad y Regulación Social (ASOR)",
+       imagen = "../images/logos/anid-logo.png",
+       imagen_alt = "Logo de ANID",
        imagen_class = "estudio-card-img--logo",
        titulo_tarjeta = "Instituto Milenio para la Autoridad y Regulación Social",
        etiqueta_tarjeta = "Instituto Milenio Anid"),

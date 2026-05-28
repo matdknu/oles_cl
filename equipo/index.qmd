@@ -44,6 +44,13 @@ listing:
     grid-columns: 4
     sort: "orden"
     fields: [image, title]
+  - id: doctorantes
+    contents:
+      - tesistas/maria-teresa-valeria.qmd
+    type: grid
+    grid-columns: 4
+    sort: "orden"
+    fields: [image, title]
   - id: asistentes
     contents:
       - amparo-feller.qmd
@@ -104,6 +111,15 @@ listing:
 
 <div class="equipo-section">
 
+## Doctorantes
+
+::: {#doctorantes}
+:::
+
+</div>
+
+<div class="equipo-section">
+
 ## Asistentes de investigación
 
 ::: {#asistentes}
@@ -122,9 +138,11 @@ listing:
 
 <div class="equipo-bloque-generico">
 
-### Jóvenes investigadoras/es en formación
+### Investigadores jóvenes
 
-Integran tesistas de pregrado y postgrado, prácticas y proyectos formativos vinculados a las líneas del Observatorio. Consulta el listado en [tesistas y pasantes](tesistas/index.html).
+Revisa tesistas de Magíster, Licenciatura y pasantes en:
+
+<a href="jovenes.html" class="btn-volver">Investigadores jóvenes</a>
 
 </div>
 
