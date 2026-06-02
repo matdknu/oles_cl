@@ -1,5 +1,5 @@
 ---
-title: "Paz Irarrázaval"
+title: "Paz Irarrázabal"
 cargo: "Profesora asistente, Facultad de Derecho"
 categories: [Investigadores principales]
 orden: 30
