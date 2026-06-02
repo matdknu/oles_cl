@@ -30,6 +30,7 @@ format:
 
 ## Asistentes de investigación
 
+- [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html)
 - [Matías Deneken](../equipo/matias-deneken.html)
 - Nicolás Tobar
 

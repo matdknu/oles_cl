@@ -23,6 +23,7 @@ format:
 - [Ana Figueiredo](../equipo/ana-figueiredo.html)
 - [Macarena Orchard](../equipo/macarena-orchard.html)
 - [Paz Irarrázabal](../equipo/paz-irarrazabal.html)
+- [Luciano Sáez Fuentealba](../equipo/luciano-saez-fuentealba.html)
 
 ## Asistentes de investigación
 
