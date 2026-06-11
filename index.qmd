@@ -405,7 +405,7 @@ if (length(noticias) > 0) {
     <h2 class="section-title">Acerca del Observatorio</h2>
     <div style="max-width: 800px; margin: 0 auto; text-align: center;">
       <p style="font-size: 1.15rem; line-height: 1.8; color: #2c3e50; margin-bottom: 2rem;">
-        El <strong>Observatorio de Violencia y Legitimidad Social (OLES)</strong> es un centro de investigación multidisciplinario dedicado al estudio de la legitimidad institucional en Chile, con especial énfasis en las instituciones policiales.
+        El <strong>Observatorio de Violencia y Legitimidad Social (OLES)</strong> es una plataforma de investigación multidisciplinaria dedicada al estudio de las distintas formas de violencia, sus modos de justificación y cuestionamiento, y los procesos mediante los cuales se construye y disputa la legitimidad social. 
       </p>
       <a href="somos.html" class="btn-primary" style="display: inline-block; padding: 1rem 2.5rem; background: #4E4976; color: white; text-decoration: none; border-radius: 50px; font-weight: 600;">Conoce más sobre OLES →</a>
     </div>
